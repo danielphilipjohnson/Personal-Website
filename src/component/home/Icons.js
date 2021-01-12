@@ -1,25 +1,68 @@
 import React from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithubAlt,
+  faTwitter,
+  faLinkedinIn,
+  faStackOverflow,
+  faCodepen,
+} from "@fortawesome/free-brands-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+library.add(
+  fab,
+  faGithubAlt,
+  faTwitter,
+  faLinkedinIn,
+  faStackOverflow,
+  faCodepen
+);
 
 function Icons() {
+  const { site } = useStaticQuery(siteQuery);
   return (
     <div id="social-icons" className="social-icons">
-      <a href="https://twitter.com/danielp_johnson" target="_blank">
-        <i className="fab fa-twitter fa-2x"></i>
-      </a>
-      <a href="https://www.facebook.com/DanielPhilipJohnson" target="_blank">
-        <i className="fab fa-facebook fa-2x"></i>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/daniel-philip-johnson/"
-        target="_blank"
-      >
-        <i className="fab fa-linkedin fa-2x"></i>
-      </a>
-      <a href="https://github.com/danielphilipjohnson/" target="_blank">
-        <i className="fab fa-github fa-2x"></i>
-      </a>
+      {site.siteMetadata.socials.map((social) => {
+        return (
+          <a
+            key={social.FontAwesomeIcon.logo}
+            href={social.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={[
+                `${social.FontAwesomeIcon.type}`,
+                `${social.FontAwesomeIcon.logo}`,
+              ]}
+              size="2x"
+            />
+          </a>
+        );
+      })}
     </div>
   );
 }
 
 export default Icons;
+
+const siteQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+        profileImage
+        socials {
+          link
+          FontAwesomeIcon {
+            logo
+            type
+          }
+        }
+      }
+    }
+  }
+`;

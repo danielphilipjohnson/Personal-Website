@@ -1,6 +1,28 @@
 import React, { useState, useRef } from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import "./nav.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+import {
+  faGithubAlt,
+  faTwitter,
+  faLinkedinIn,
+  faStackOverflow,
+  faCodepen,
+} from "@fortawesome/free-brands-svg-icons";
+library.add(
+  fab,
+  faGithubAlt,
+  faTwitter,
+  faLinkedinIn,
+  faStackOverflow,
+  faCodepen
+);
 
 function Nav() {
+  const { site } = useStaticQuery(siteQuery);
   const [openNav, setOpenNav] = useState(false);
   const menuRef = useRef();
   const navRef = useRef();
@@ -8,21 +30,18 @@ function Nav() {
   const menuNavRef = useRef();
 
   const openMenu = () => {
-    const htmlMenuNodes = menuNavRef.current.children[1].children;
-
+    const htmlMenuNodes = menuNavRef.current.children[0].children;
     var menuItems = Array.from(htmlMenuNodes);
 
     if (!openNav) {
-      // Set Menu State
       setOpenNav(true);
       menuRef.current.classList.add("close");
       navRef.current.classList.add("show");
       menuBrandRef.current.classList.add("show");
       menuNavRef.current.classList.add("show");
 
-      menuItems.forEach((item) => console.log(item.classList.add("show")));
+      menuItems.forEach((item) => item.classList.add("show"));
     } else {
-      // Set Menu State
       setOpenNav(false);
       menuRef.current.classList.remove("close");
 
@@ -30,7 +49,7 @@ function Nav() {
       menuBrandRef.current.classList.remove("show");
       menuNavRef.current.classList.remove("show");
 
-      menuItems.forEach((item) => console.log(item.classList.remove("show")));
+      menuItems.forEach((item) => item.classList.remove("show"));
     }
   };
   return (
@@ -43,64 +62,54 @@ function Nav() {
 
       <nav className="menu" ref={navRef}>
         <div className="menu-branding" ref={menuBrandRef}>
-          <div className="portrait"></div>
+          <img
+            className="portrait"
+            src={site.siteMetadata.profileImage}
+            alt="Profile of daniel philip johnson"
+          />
         </div>
         <div className="menu-nav show" ref={menuNavRef}>
           <ul>
             <li className="nav-item current">
-              <a href="index.html" className="nav-link">
-                {" "}
-                Home{" "}
-              </a>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="about.html" className="nav-link">
-                {" "}
-                About Me{" "}
-              </a>
+              <Link to="/" className="nav-link">
+                About Me
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="work.html" className="nav-link">
-                {" "}
-                My Work{" "}
-              </a>
+              <Link to="/" className="nav-link">
+                My Work
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="contact.html" className="nav-link">
-                {" "}
-                How To Reach Me{" "}
-              </a>
+              <Link to="/" className="nav-link">
+                How To Reach Me
+              </Link>
             </li>
           </ul>
           <div className="icons">
-            <a
-              href="https://twitter.com/danielp_johnson"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-twitter fa-2x"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/DanielPhilipJohnson"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-facebook fa-2x"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/daniel-philip-johnson/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a
-              href="https://github.com/danielphilipjohnson/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-github fa-2x"></i>
-            </a>
+            {site.siteMetadata.socials.map((social) => {
+              return (
+                <a
+                  key={social.FontAwesomeIcon.logo}
+                  href={social.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={[
+                      `${social.FontAwesomeIcon.type}`,
+                      `${social.FontAwesomeIcon.logo}`,
+                    ]}
+                    size="2x"
+                  />
+                </a>
+              );
+            })}
           </div>
         </div>
       </nav>
@@ -109,3 +118,22 @@ function Nav() {
 }
 
 export default Nav;
+
+const siteQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+        profileImage
+        socials {
+          link
+          FontAwesomeIcon {
+            logo
+            type
+          }
+        }
+      }
+    }
+  }
+`;

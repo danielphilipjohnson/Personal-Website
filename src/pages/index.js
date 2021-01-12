@@ -3,7 +3,7 @@ import React from "react";
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import SocialIcons from "../component/home/Icons";
-
+import "./index.css";
 import "./main.css";
 import bg from "../images/showcase1.jpg";
 // styles
@@ -14,21 +14,6 @@ const IndexPage = () => {
     <>
       <Layout>
         <SEO />
-
-        {/* <div className="circle-container">
-          <ul className="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div> */}
 
         <section
           id="home"
