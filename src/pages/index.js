@@ -1,59 +1,60 @@
-import * as React from "react";
+import React from "react";
 
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-};
-const headingAccentStyles = {
-  color: "#663399",
-};
-const paragraphStyles = {
-  marginBottom: 48,
-};
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-};
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-};
-const listItemStyles = {
-  fontWeight: "300",
-  fontSize: "24px",
-  maxWidth: "560px",
-};
+import SocialIcons from "../component/home/Icons";
 
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: "16px",
-  verticalAlign: "5%",
-};
+import "./main.css";
+import bg from "../images/showcase1.jpg";
+// styles
 
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-
+    <>
       <Layout>
         <SEO />
-        <h1>HOME</h1>
+
+        {/* <div className="circle-container">
+          <ul className="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div> */}
+
+        <section
+          id="home"
+          style={{
+            backgroundImage: `url(${bg})`,
+          }}
+        >
+          <h1 className="lg-heading">
+            Daniel
+            <span id="secondary" className="text-secondary">
+              {" "}
+              Philip
+            </span>
+            <span> Johnson</span>
+          </h1>
+          <div id="icons" className="icons">
+            <h2 className="sm-heading">
+              Front End Engineer at CodeCareer.io who specialises with React |
+              Javascript ECMA 5-11| Tailwind | Bootstrap 4 | SASS | CSS | HTML
+            </h2>
+
+            <SocialIcons />
+          </div>
+        </section>
       </Layout>
-    </main>
+    </>
   );
 };
 
