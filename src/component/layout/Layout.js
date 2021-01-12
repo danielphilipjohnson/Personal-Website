@@ -1,12 +1,10 @@
 import React from "react";
-
+import Nav from "../nav/Nav";
 export default function Layout({ children }) {
   return (
     <>
-      <h1>Im layout</h1>
-      <main style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
-        {children}
-      </main>
+      <Nav />
+      <main>{children}</main>
     </>
   );
 }
