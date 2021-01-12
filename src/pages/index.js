@@ -3,10 +3,10 @@ import React from "react";
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import SocialIcons from "../component/home/Icons";
+import HomeTools from "../component/home/HomeTools";
 import "./index.css";
 import "./main.css";
 import bg from "../images/showcase1.jpg";
-// styles
 
 // markup
 const IndexPage = () => {
@@ -38,6 +38,7 @@ const IndexPage = () => {
             <SocialIcons />
           </div>
         </section>
+        <HomeTools />
       </Layout>
     </>
   );
