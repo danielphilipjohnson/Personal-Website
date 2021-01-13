@@ -15,7 +15,37 @@ module.exports = {
       "https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png",
     tagline: `Front End Engineer at CodeCareer.io who specialises with React |
       Javascript | Tailwind | Bootstrap 4 | SASS`,
-
+    specialities: [
+      {
+        src:
+          "https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/js.png",
+        heading: `JavaScript`,
+        description: ` I have been using JavaScript for over two years which I have built
+        numerous projects and web apps.`,
+      },
+      {
+        src:
+          "https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/react.svg",
+        heading: `React`,
+        description: ` I have built numerous projects with React which include a Markdown
+        Previewer, Drum Machine and a portfolio. Currently I'am finishing
+        of an amazon clone.`,
+      },
+      {
+        src:
+          "https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/Redux1.png",
+        heading: `Redux`,
+        description: ` I use this as my current state manager. I have over a years
+        experience.`,
+      },
+      {
+        src:
+          "https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/GraphQL.png",
+        heading: `GraphQL`,
+        description: `I use GraphQL as query language for my API's. I have been using
+        this for almost a year.`,
+      },
+    ],
     socials: [
       {
         link: "https://github.com/danielphilipjohnson",
