@@ -12,9 +12,9 @@ import udemy from "../images/course-logos/udemy.jpeg";
 
 function Education() {
   return (
-    <div id="education" className="bio-education tabcontent">
-      <h2 className="text-secondary">Education</h2>
-      <div className="container">
+    <div id="education" className="bio-education">
+      <div className="container education-container">
+        <h2 className="text-dark">Education</h2>
         <div className="education-grid">
           <div className="course">
             <img className="course-logo" src={uci} alt="uci" />
