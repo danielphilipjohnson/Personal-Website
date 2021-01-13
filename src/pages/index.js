@@ -5,6 +5,7 @@ import Layout from "../component/layout/Layout";
 import SocialIcons from "../component/home/Icons";
 import HomeTools from "../component/home/HomeTools";
 import Education from "../component/Education";
+import Biography from "../component/Biography";
 
 import "./defaults.css";
 import "./index.css";
@@ -41,6 +42,7 @@ const IndexPage = () => {
           </div>
         </section>
         <HomeTools />
+        <Biography />
         <Education />
       </Layout>
     </>

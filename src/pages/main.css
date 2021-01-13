@@ -212,41 +212,6 @@ address {
     grid-template-columns: 1fr 2fr;
   }
 }
-.bio {
-  background-color: #3a3c55;
-  padding: 2rem 3rem 1rem;
-  font-size: 1.25rem;
-}
-.bio-name {
-  margin-bottom: 1rem;
-}
-.bio-name h2 {
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-.bio-name h2,
-.bio-name h3 {
-  font-weight: bolder;
-  display: inline-block;
-}
-.bio-name h3 {
-  font-size: 1.5rem;
-  color: #94c85a;
-}
-.bio-content {
-  border-bottom: 2px solid #eee;
-  padding-bottom: 2rem;
-}
-.bio-content,
-.bio-content h3,
-.bio-content p {
-  margin-bottom: 1rem;
-}
-.bio-content .mission {
-  border-left: 3px solid #94c85a;
-  padding-left: 1rem;
-  margin-bottom: 1rem;
-}
 
 .job {
   background: #3a3c55;
