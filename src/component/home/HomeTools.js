@@ -1,7 +1,10 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import "./home-tools.css";
 
 function HomeTools() {
+  const { site } = useStaticQuery(siteQuery);
+
   return (
     <section id="home-tools">
       <div className="container">
@@ -68,3 +71,17 @@ function HomeTools() {
 }
 
 export default HomeTools;
+
+const siteQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        specialities {
+          src
+          heading
+          description
+        }
+      }
+    }
+  }
+`;
