@@ -9,10 +9,13 @@ module.exports = {
     description: `Front-End Engineer for CodeCareer who specialises in React developer, graphql, Node, express and MongoDB.`,
     keywords:
       "Front-End Engineer, Front-End Engineer, english, UK, London, web development, reactjs, nodejs, graphql",
-    twitterImage: "images/banner.png",
+    twitterImage: "images/bannertagline.png",
     facebookImage: "images/banner.png",
     profileImage:
       "https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png",
+    tagline: `Front End Engineer at CodeCareer.io who specialises with React |
+      Javascript | Tailwind | Bootstrap 4 | SASS`,
+
     socials: [
       {
         link: "https://github.com/danielphilipjohnson",

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useStaticQuery, graphql } from "gatsby";
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import SocialIcons from "../component/home/Icons";
@@ -11,6 +11,7 @@ import "./main.css";
 import bg from "../images/showcase1.jpg";
 
 const IndexPage = () => {
+  const { site } = useStaticQuery(siteQuery);
   return (
     <>
       <Layout>
@@ -32,10 +33,7 @@ const IndexPage = () => {
             <span> Johnson</span>
           </h1>
           <div id="icons" className="icons home-cta">
-            <h2 className="sm-heading">
-              Front End Engineer at CodeCareer.io who specialises with React |
-              Javascript | Tailwind | Bootstrap 4 | SASS
-            </h2>
+            <h2 className="sm-heading">{site.siteMetadata.tagline}</h2>
 
             <SocialIcons />
           </div>
@@ -47,3 +45,13 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+const siteQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        tagline
+      }
+    }
+  }
+`;
