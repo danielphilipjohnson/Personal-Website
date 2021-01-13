@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,7 +15,18 @@ import udemy from "../images/course-logos/udemy.jpeg";
 
 function Education() {
   const { site } = useStaticQuery(siteQuery);
-  // add see all
+  const [displayShowMore, setDisplayShowMore] = useState(true);
+
+  const [currentEducation, setCurrentEducation] = useState(
+    site.siteMetadata.education.slice(0, 3)
+  );
+  const seeAll = () => {
+    setDisplayShowMore(false);
+    setCurrentEducation(
+      site.siteMetadata.education.slice(0, site.siteMetadata.education.length)
+    );
+  };
+
   const choosePhoto = (imageType) => {
     if (imageType === "atlassian") {
       return <img className="course-logo" src={atlassian} alt="uci" />;
@@ -39,9 +50,12 @@ function Education() {
       <div className="container education-container">
         <h2 className="text-dark">Education</h2>
         <div className="education-grid">
-          {site.siteMetadata.education.map((course) => {
+          {currentEducation.map((course) => {
             return (
-              <div className="course">
+              <div
+                className="course"
+                key={course.certificateLink + course.issueDate}
+              >
                 {choosePhoto(course.imageType)}
                 <div className="course-content">
                   <h3>{course.title}</h3>
@@ -64,6 +78,11 @@ function Education() {
           })}
         </div>
       </div>
+      {displayShowMore && (
+        <p className="show-more" onClick={() => seeAll()}>
+          Show More
+        </p>
+      )}
     </div>
   );
 }
