@@ -89,6 +89,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-offline",
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: "gatsby-plugin-manifest",
       options: {
