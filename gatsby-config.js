@@ -61,6 +61,7 @@ module.exports = {
       pursue web development as a career because it is something I enjoy. I
       enrolled with coursera and completed courses, im currently updating my
       freecodecamp projects and improving my skills with Udemy courses.`,
+      focuses: ["Accessibility", `React`, `Performance`, `Responsibility`],
     },
     socials: [
       {

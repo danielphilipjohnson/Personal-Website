@@ -242,6 +242,9 @@ address {
 .bio-content p {
   margin-bottom: 1rem;
 }
+.bio-content p {
+  text-align: left;
+}
 .bio-content .mission {
   border-left: 3px solid #94c85a;
   padding-left: 1rem;
