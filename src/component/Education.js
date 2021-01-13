@@ -1,4 +1,5 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
@@ -13,6 +14,27 @@ import uci from "../images/course-logos/uci.webp";
 import udemy from "../images/course-logos/udemy.jpeg";
 
 function Education() {
+  const { site } = useStaticQuery(siteQuery);
+  console.log(site);
+
+  const choosePhoto = (imageType) => {
+    if (imageType === "atlassian") {
+      return <img className="course-logo" src={atlassian} alt="uci" />;
+    } else if (imageType === "google") {
+      return <img className="course-logo" src={google} alt="uci" />;
+    } else if (imageType === "hong") {
+      return <img className="course-logo" src={hong} alt="uci" />;
+    } else if (imageType === "michigan") {
+      return <img className="course-logo" src={michigan} alt="michigan" />;
+    } else if (imageType === "plymouth") {
+      return <img className="course-logo" src={plymouth} alt="plymouth" />;
+    } else if (imageType === "uci") {
+      return <img className="course-logo" src={uci} alt="uci" />;
+    } else if (imageType === "udemy") {
+      return <img className="course-logo" src={udemy} alt="udemy" />;
+    }
+    return <p>No image</p>;
+  };
   return (
     <div id="education" className="bio-education">
       <div className="container education-container">
@@ -238,3 +260,19 @@ function Education() {
 }
 
 export default Education;
+
+const siteQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        education {
+          imageType
+          title
+          school
+          issueDate
+          certificateLink
+        }
+      }
+    }
+  }
+`;

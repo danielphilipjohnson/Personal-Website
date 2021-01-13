@@ -57,7 +57,7 @@ const siteQuery = graphql`
       siteMetadata {
         title
         description
-        profileImage
+
         socials {
           link
           FontAwesomeIcon {
