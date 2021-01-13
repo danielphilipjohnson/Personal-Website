@@ -1,5 +1,13 @@
 import React from "react";
 
+import atlassian from "../images/course-logos/atlassian.webp";
+import google from "../images/course-logos/google.png";
+import hong from "../images/course-logos/hong.png";
+import michigan from "../images/course-logos/michigan.png";
+import plymouth from "../images/course-logos/plymouth.png";
+import uci from "../images/course-logos/uci.webp";
+import udemy from "../images/course-logos/udemy.jpeg";
+
 function Education() {
   return (
     <div id="education" className="bio-education tabcontent">
@@ -7,11 +15,7 @@ function Education() {
 
       <div className="education-grid">
         <div className="card course">
-          <img
-            className="course-logo"
-            src="./img/course-logos/uci.webp"
-            alt="uci"
-          />
+          <img className="course-logo" src={uci} alt="uci" />
           <div className="course-content">
             <h3>Project Management: The Basics for Success</h3>
             <p className="info">University of California</p>
@@ -29,11 +33,7 @@ function Education() {
         </div>
 
         <div className="card course">
-          <img
-            className="course-logo"
-            src="./img/course-logos/udemy.jpeg"
-            alt="udemy"
-          />
+          <img className="course-logo" src={udemy} alt="udemy" />
           <div className="course-content">
             <h3> Modern HTML & CSS From The Beginning</h3>
             <p className="info">Udemy</p>
@@ -51,11 +51,7 @@ function Education() {
         </div>
 
         <div className="card course">
-          <img
-            className="course-logo"
-            src="./img/course-logos/hong.png"
-            alt="hong kong University"
-          />
+          <img className="course-logo" src={hong} alt="hong kong University" />
           <div className="course-content">
             <h3>Full-Stack Web Development with React</h3>
             <p className="info">University of Hong Kong</p>
@@ -75,7 +71,7 @@ function Education() {
         <div className="course">
           <img
             className="course-logo"
-            src="./img/course-logos/michigan.png"
+            src={michigan}
             alt="michigan University"
           />
           <div className="course-content">
@@ -100,7 +96,7 @@ function Education() {
         <div className="course">
           <img
             className="course-logo"
-            src="./img/course-logos/michigan.png"
+            src={michigan}
             alt="michigan University"
           />
           <div className="course-content">
@@ -123,11 +119,7 @@ function Education() {
         </div>
 
         <div className="course">
-          <img
-            className="course-logo"
-            src="./img/course-logos/atlassian.webp"
-            alt="atlassian"
-          />
+          <img className="course-logo" src={atlassian} alt="atlassian" />
           <div className="course-content">
             <h3>Version Control with Git</h3>
             <p className="info">Atlassian</p>
@@ -145,11 +137,7 @@ function Education() {
         </div>
 
         <div className="course">
-          <img
-            className="course-logo"
-            src="./img/course-logos/google.png"
-            alt="google course"
-          />
+          <img className="course-logo" src={google} alt="google course" />
           <div className="course-content">
             <h3>Google IT Automation with Python Specialization</h3>
             <p className="info">Google</p>
@@ -169,7 +157,7 @@ function Education() {
         <div className="course">
           <img
             className="course-logo"
-            src="./img/course-logos/michigan.png"
+            src={michigan}
             alt="michigan university"
           />
           <div className="course-content">
@@ -194,7 +182,7 @@ function Education() {
         <div className="course">
           <img
             className="course-logo"
-            src="./img/course-logos/plymouth.png"
+            src={plymouth}
             alt="plymouth university"
           />
           <div className="course-content">
@@ -217,7 +205,7 @@ function Education() {
         <div className="course">
           <img
             className="course-logo"
-            src="./img/course-logos/plymouth.png"
+            src={plymouth}
             alt="plymouth university"
           />
           <div className="course-content">
