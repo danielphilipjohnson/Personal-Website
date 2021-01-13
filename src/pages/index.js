@@ -4,6 +4,8 @@ import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import SocialIcons from "../component/home/Icons";
 import HomeTools from "../component/home/HomeTools";
+import Education from "../component/Education";
+
 import "./defaults.css";
 import "./index.css";
 import "./main.css";
@@ -39,6 +41,7 @@ const IndexPage = () => {
           </div>
         </section>
         <HomeTools />
+        <Education />
       </Layout>
     </>
   );
