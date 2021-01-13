@@ -1,7 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { config } from "@fortawesome/fontawesome-svg-core";
 
 import {
   faGithubAlt,
@@ -10,6 +9,7 @@ import {
   faStackOverflow,
   faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
+
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -21,7 +21,6 @@ library.add(
   faStackOverflow,
   faCodepen
 );
-config.autoAddCss = true;
 function Icons() {
   const { site } = useStaticQuery(siteQuery);
   return (

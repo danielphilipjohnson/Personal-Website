@@ -1,5 +1,7 @@
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import "./education.css";
 
 import atlassian from "../images/course-logos/atlassian.webp";
@@ -28,7 +30,7 @@ function Education() {
                 className="btn-certificate"
                 href="https://www.coursera.org/account/accomplishments/specialization/certificate/WKJ9ETHJFF7S"
               >
-                <i className="fas fa-graduation-cap"></i>
+                <FontAwesomeIcon icon={faGraduationCap} />
                 View Certificate
               </a>
             </div>
