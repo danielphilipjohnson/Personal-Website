@@ -1,11 +1,14 @@
 import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
 function Biography() {
+  const { site } = useStaticQuery(siteQuery);
+  console.log(site);
   return (
-    <div class="bio">
-      <div class="bio-content">
-        <h3 class="text-secondary">Biography:</h3>
-        <h4 class="mission">
+    <div className="bio">
+      <div className="bio-content">
+        <h3 className="text-secondary">Biography:</h3>
+        <h4 className="mission">
           Mission driven react developer with a passion to create apps that
           allows you to express your ideas.
         </h4>
@@ -28,11 +31,11 @@ function Biography() {
         </p>
         <p>
           Current Focus:
-          <span class="text-secondary"> Accessibility </span>
+          <span className="text-secondary"> Accessibility </span>
           //
-          <span class="text-secondary"> React </span>
+          <span className="text-secondary"> React </span>
           //
-          <span class="text-secondary"> Python </span>
+          <span className="text-secondary"> Python </span>
         </p>
       </div>
     </div>
@@ -40,3 +43,13 @@ function Biography() {
 }
 
 export default Biography;
+
+const siteQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        tagline
+      }
+    }
+  }
+`;
