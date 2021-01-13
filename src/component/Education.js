@@ -169,7 +169,7 @@ function Education() {
               alt="michigan university"
             />
             <div className="course-content">
-              <h3> Web Design for Everybody</h3>
+              <h3>Web Design for Everybody</h3>
               <p className="info">University of Michigan</p>
               <p className="grade">
                 <span className="date">May 2020</span>
