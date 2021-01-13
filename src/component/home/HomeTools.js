@@ -19,11 +19,12 @@ function HomeTools() {
 
         <div className="specials">
           {site.siteMetadata.specialities.map((skill) => {
+            const { heading, src, description } = skill;
             return (
-              <div key={skill.heading}>
-                <img src={skill.src} alt={skill.heading} />
-                <h3>{skill.heading}</h3>
-                <p>{skill.description}</p>
+              <div key={heading}>
+                <img src={src} alt={heading} />
+                <h3>{heading}</h3>
+                <p>{description}</p>
               </div>
             );
           })}
