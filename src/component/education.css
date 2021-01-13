@@ -119,5 +119,8 @@
   color: rgb(10, 102, 194);
   font-weight: 700;
   padding-bottom: 1rem;
+}
+.show-more:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
