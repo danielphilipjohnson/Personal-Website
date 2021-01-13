@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
+import "./biography.css";
 function Biography() {
   const { site } = useStaticQuery(siteQuery);
   return (
@@ -13,12 +14,12 @@ function Biography() {
         <p>{site.siteMetadata.biography.subStatement}</p>
         <p>
           Current Focus:
-          {site.siteMetadata.biography.focuses.map((focus) => {
+          {site.siteMetadata.biography.focuses.map((focus, i) => {
             return (
-              <>
-                //
+              <span key={focus + i}>
+                <span> // </span>
                 <span className="text-secondary"> {focus} </span>
-              </>
+              </span>
             );
           })}
         </p>
