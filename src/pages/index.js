@@ -4,11 +4,12 @@ import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import SocialIcons from "../component/home/Icons";
 import HomeTools from "../component/home/HomeTools";
+import "./defaults.css";
 import "./index.css";
 import "./main.css";
+
 import bg from "../images/showcase1.jpg";
 
-// markup
 const IndexPage = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const IndexPage = () => {
 
         <section
           id="home"
+          className="home"
           style={{
             backgroundImage: `url(${bg})`,
           }}
@@ -29,10 +31,10 @@ const IndexPage = () => {
             </span>
             <span> Johnson</span>
           </h1>
-          <div id="icons" className="icons">
+          <div id="icons" className="icons home-cta">
             <h2 className="sm-heading">
               Front End Engineer at CodeCareer.io who specialises with React |
-              Javascript ECMA 5-11| Tailwind | Bootstrap 4 | SASS | CSS | HTML
+              Javascript | Tailwind | Bootstrap 4 | SASS
             </h2>
 
             <SocialIcons />

@@ -5,10 +5,12 @@ function HomeTools() {
   return (
     <section id="home-tools">
       <div className="container">
+        <h2 className="lg-heading">About Me</h2>
         <p className="lead">
-          A React Developer that makes web apps for mobiles, tablets and
-          desktops while focusing on accessbility and responsiveness.
+          A React Developer that focuses on performant, responsive and
+          accessible designs...
         </p>
+
         <h2 className="section-title">I build with</h2>
         <div className="bottom-line"></div>
 

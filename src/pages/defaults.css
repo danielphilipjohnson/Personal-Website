@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+*,
+body {
+  margin: 0;
+}
+body {
+  background: #303146;
+  color: #fff;
+  height: 100%;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 5rem;
+  }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+  }
+}
+
+h1.lg-heading,
+h2.lg-heading,
+h3.lg-heading {
+  margin-bottom: 1rem;
+  font-size: 3.25rem;
+}
+h1.sm-heading,
+h2.sm-heading,
+h3.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  font-size: 1.25rem;
+}
