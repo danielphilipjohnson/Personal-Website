@@ -27,7 +27,7 @@ function services() {
             <FontAwesomeIcon
               icon={faPencilAlt}
               size="4x"
-              className="process-icon my-2"
+              className="process-icon"
             />
             <h3>Technical Writing</h3>
             <p>
@@ -39,7 +39,7 @@ function services() {
             <FontAwesomeIcon
               icon={faFileAlt}
               size="4x"
-              className="process-icon my-2"
+              className="process-icon"
             />
             <h3>Writing Code</h3>
             <p>
@@ -48,11 +48,7 @@ function services() {
             </p>
           </div>
           <div>
-            <FontAwesomeIcon
-              icon={faCogs}
-              size="4x"
-              className="process-icon my-2"
-            />
+            <FontAwesomeIcon icon={faCogs} size="4x" className="process-icon" />
             <h3>API Development</h3>
             <p>
               REST APIs that are tailored to your needs and follow the best
@@ -61,11 +57,7 @@ function services() {
           </div>
 
           <div>
-            <FontAwesomeIcon
-              icon={faCode}
-              size="4x"
-              className="process-icon my-2"
-            />
+            <FontAwesomeIcon icon={faCode} size="4x" className="process-icon" />
             <h3>Web Applications</h3>
             <p>
               Building fast, responsive and engaging apps to bring your ideas to
@@ -76,7 +68,7 @@ function services() {
             <FontAwesomeIcon
               icon={faObjectUngroup}
               size="4x"
-              className="process-icon my-2"
+              className="process-icon"
             />
             <h3>Responsive Design</h3>
             <p>
@@ -88,7 +80,7 @@ function services() {
             <FontAwesomeIcon
               icon={faMobileAlt}
               size="4x"
-              className="process-icon my-2"
+              className="process-icon"
             />
             <h3>Mobile Applications</h3>
             <p>
