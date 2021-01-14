@@ -1,0 +1,89 @@
+.home-services {
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 2rem 0 4rem 0;
+}
+
+.home-services .process {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center;
+}
+
+.home-services .process h3 {
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.home-services .process p {
+  font-size: 0.95rem;
+  color: rgb(119, 119, 119);
+}
+
+/* .home-services .process-step {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 28px;
+  background: #9b3cab;
+  color: #fff;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  padding: 1rem;
+  transition: all 1s;
+} */
+
+.home-services .process .process-icon {
+  background: linear-gradient(90deg, #e947ea 0%, #8f3aa1 35%, #34aeb9 100%);
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+  padding: 2rem;
+  width: 5.95rem;
+  height: 5.95rem;
+  line-height: 70px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  transition: all 1s;
+}
+.home-services .process-icon:hover {
+  background: #9b3cab;
+  background: linear-gradient(to bottom left, #0000a3, #40b1df);
+  width: 6.75rem;
+  height: 6.75rem;
+  line-height: 90px;
+}
+.home-services .process-icon:hover .process-step {
+  background: #333;
+  color: #fff;
+}
+
+@media (min-width: 800px) {
+  .home-services .process {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-services .process {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}

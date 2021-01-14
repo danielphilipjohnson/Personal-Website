@@ -17,6 +17,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@mdx-js/mdx": "^1.6.22",
@@ -36,5 +37,6 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "sass": "^1.32.4"
-  }
+  },
+  "devDependencies": {}
 }
