@@ -76,7 +76,7 @@ address {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: url(/images/heart.png) no-repeat;
+  /* background: url(/images/heart.png) no-repeat; */
   background-position: 0 0;
   cursor: pointer;
   animation: animate-heart 1s steps(28);
@@ -487,7 +487,7 @@ main#contact section {
   left: 0;
   right: 0;
   transition: opacity 0.3s ease-in-out;
-  background: url(/images/overlay-bg.png) repeat;
+  /* background: url(/images/overlay-bg.png) repeat; */
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -588,7 +588,7 @@ main#contact section {
   padding: 1rem 2rem;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  background: url(/images/formbg.jpeg) no-repeat;
+  /* background: url(/images/formbg.jpeg) no-repeat; */
   background-size: auto;
   background-size: cover;
   color: #fff;
