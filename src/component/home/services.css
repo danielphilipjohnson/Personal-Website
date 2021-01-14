@@ -1,0 +1,47 @@
+#home-services {
+  background-color: #f7f7f7;
+  color: #333;
+}
+#home-services .process {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center;
+}
+#home-services .process-step {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 28px;
+  background: #9b3cab;
+  color: #fff;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  padding: 1rem;
+  transition: all 1s;
+}
+#home-services .process-icon {
+  background: linear-gradient(90deg, #e947ea 0%, #8f3aa1 35%, #34aeb9 100%);
+  border-radius: 50%;
+  color: #fff;
+  padding: 2rem;
+  width: 100px;
+  height: 100px;
+  line-height: 70px;
+  text-align: center;
+  position: relative;
+  transition: all 1s;
+}
+#home-services .process-icon:hover {
+  background: #9b3cab;
+  background: linear-gradient(to bottom left, #0000a3, #40b1df);
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+}
+#home-services .process-icon:hover .process-step {
+  background: #333;
+  color: #fff;
+}
