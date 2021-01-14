@@ -43,7 +43,7 @@
 
 @media (max-width: 1000px) {
   #home-tools .specials,
-  #home-services .process {
+  .home-services .process {
     grid-template-columns: repeat(2, 1fr);
   }
 }

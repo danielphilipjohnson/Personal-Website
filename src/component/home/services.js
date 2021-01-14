@@ -17,7 +17,7 @@ import "./services.css";
 
 function services() {
   return (
-    <section id="home-services" className="text-center py-2">
+    <section id="home-services" className="home-services">
       <div className="container">
         <h2 className="section-title">What I do</h2>
         <div className="bottom-line"></div>
