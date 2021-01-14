@@ -43,12 +43,11 @@ const IndexPage = () => {
           </div>
         </section>
 
-        <Services />
         <HomeTools />
-
         <Biography />
-        <Education />
+        <Services />
         <Clients />
+        <Education />
       </Layout>
     </>
   );
