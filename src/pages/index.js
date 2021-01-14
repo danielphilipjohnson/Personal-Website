@@ -7,7 +7,7 @@ import HomeTools from "../component/home/HomeTools";
 import Education from "../component/Education";
 import Biography from "../component/Biography";
 import Clients from "../component/home/clients";
-
+import Services from "../component/home/services";
 import "./defaults.css";
 import "./index.css";
 import "./main.css";
