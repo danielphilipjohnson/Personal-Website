@@ -1,4 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faFileAlt,
+  faObjectUngroup,
+} from "@fortawesome/free-regular-svg-icons";
+
+import { faMobileAlt, faDesktop } from "@fortawesome/free-solid-svg-icons";
 
 function services() {
   return (
