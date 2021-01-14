@@ -31,8 +31,8 @@ function services() {
             />
             <h3>Technical Writing</h3>
             <p>
-              Writing tutorials about my favorite technologies, APIs with nodejs
-              and contributing to open source.
+              Writing tutorials about my favourite technologies, APIs with
+              Node.js and contributing to open source.
             </p>
           </div>
           <div>
@@ -68,7 +68,8 @@ function services() {
             />
             <h3>Web Applications</h3>
             <p>
-              Fast, responsive and engaging apps that bring your ideas to life.
+              Building fast, responsive and engaging apps to bring your ideas to
+              life.
             </p>
           </div>
           <div>
