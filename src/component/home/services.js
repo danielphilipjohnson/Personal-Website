@@ -77,7 +77,7 @@ function services() {
               size="4x"
               className="process-icon my-2"
             />
-            <h3>Respnsive Design</h3>
+            <h3>Responsive Design</h3>
             <p>
               Making sure your designs work no matter what device a user views
               it.
