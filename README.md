@@ -7,6 +7,9 @@
   Gatsby minimal starter
 </h1>
 
+## todo
+resolves image issues and speed up with https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-image/
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**

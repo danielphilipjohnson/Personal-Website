@@ -12,7 +12,7 @@ import "./clients.css";
 
 function Clients() {
   return (
-    <section id="home-stats" className="text-center py-2">
+    <section id="home-stats" className="home-stats">
       <h3 className="text-secondary">Activities:</h3>
       <div className="stats">
         <div className="stat-item">

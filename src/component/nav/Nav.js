@@ -63,7 +63,7 @@ function Nav() {
       <nav className="menu" ref={navRef}>
         <div className="menu-branding" ref={menuBrandRef}>
           <img
-            className="portrait"
+            className="lazyload portrait"
             src={site.siteMetadata.profileImage}
             alt="Profile of daniel philip johnson"
           />
