@@ -6,6 +6,7 @@ import SocialIcons from "../component/home/Icons";
 import HomeTools from "../component/home/HomeTools";
 import Education from "../component/Education";
 import Biography from "../component/Biography";
+import Clients from "../component/home/clients";
 
 import "./defaults.css";
 import "./index.css";
@@ -41,9 +42,12 @@ const IndexPage = () => {
             <SocialIcons />
           </div>
         </section>
+
         <HomeTools />
+
         <Biography />
         <Education />
+        <Clients />
       </Layout>
     </>
   );

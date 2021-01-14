@@ -1,0 +1,102 @@
+#home-stats {
+  background-color: #3a3c55;
+  padding: 1rem 0 2rem 0;
+}
+
+#home-stats .text-secondary {
+  font-size: 1.55rem;
+  margin-bottom: 1.25rem;
+}
+#home-stats .stats {
+  /* background: url("https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/showcase1.jpg"); */
+  position: relative;
+  justify-items: center;
+  align-items: flex-end;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#home-stats .stats .stat-item {
+  display: flex;
+  z-index: 100;
+  width: 100%;
+}
+#home-stats .stats .stat-item ul {
+  width: 100%;
+  padding: 3rem 0;
+  list-style: none;
+  border-bottom: 2px solid #fff;
+}
+#home-stats .stats li {
+  /* line-height: 2; */
+  min-width: 250px;
+  color: #fff;
+}
+
+#home-stats .stats .stats-icon {
+  font-size: 2.25rem;
+}
+
+#home-stats .stats li.stats-title {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+#home-stats .stats li.stats-number {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+#home-stats .stats div {
+  /* padding: 3rem 0; */
+}
+#home-stats .stats::before {
+  /* content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0; */
+}
+
+@media (min-width: 768px) {
+  #home-stats .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #home-stats .stats .stat-item {
+    /* width: unset; */
+  }
+  #home-stats .stats .stat-item ul {
+    /* width: unset; */
+    border-bottom: 0;
+  }
+
+  #home-stats .stats li.stats-title {
+    font-size: 1.5rem;
+  }
+
+  #home-stats .stats li.stats-number {
+    font-size: 3.7rem;
+  }
+}
+@media (min-width: 1200px) {
+  .br {
+    border-right: 2px solid #fff;
+    transform: rotate(23deg);
+    margin-left: 3rem;
+  }
+  #home-stats .stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #home-stats .stats .stats-icon {
+    font-size: 2rem;
+  }
+
+  #home-stats .stats li.stats-title {
+    font-size: 1.15rem;
+  }
+  #home-stats .stats li.stats-number {
+    font-size: 2.25rem;
+  }
+}
