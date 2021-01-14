@@ -43,6 +43,7 @@ const IndexPage = () => {
           </div>
         </section>
 
+        <Services />
         <HomeTools />
 
         <Biography />
