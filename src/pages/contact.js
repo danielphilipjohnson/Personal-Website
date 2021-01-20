@@ -1,22 +1,44 @@
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronDown,
+  faChevronUp,
+  faHammer,
+  faWrench,
+  faTools,
+  faChalkboardTeacher,
+  faMobile,
+} from "@fortawesome/free-solid-svg-icons";
+
+import { faFirefoxBrowser } from "@fortawesome/free-brands-svg-icons";
+
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
+import Header from "../component/layout/Header";
+
+import ContactContainer from "../component/forms/contact/Contact-Container";
+
 import "./contact.css";
 import formbg from "../images/formbg.jpeg";
+
+const contactinfo = {
+  location: "Truro, Cornwall, United Kingdom",
+  mobile: "+44 555-5555",
+  email: "daniel-philip-johnson/gmail.com",
+};
+
 function contact() {
   return (
     <>
       <Layout>
         <SEO />
         <section className="contacts">
-          <header>
-            <h1 className="lg-heading">
-              Contact
-              <span className="text-secondary">Me</span>
-            </h1>
-            <h2 className="sm-heading">Got a question?</h2>
-          </header>
+          <Header
+            title={"Contact"}
+            secondary={"Me"}
+            subTitle={"Got a question?"}
+          />
 
           <section className="form-card container">
             <div
@@ -34,25 +56,25 @@ function contact() {
 
               <div className="boxes">
                 <div className="dev">
-                  <i className="fab fa-dev"></i>
+                  <FontAwesomeIcon icon={["fab", "dev"]} />
                 </div>
 
                 <div className="hackerrank">
-                  <i className="fab fa-hackerrank"></i>
+                  <FontAwesomeIcon icon={["fab", "hackerrank"]} />
                 </div>
 
                 <div className="codepen">
-                  <i className="fab fa-codepen"></i>
+                  <FontAwesomeIcon icon={["fab", "codepen"]} />
                 </div>
 
                 <div className="stack-overflow">
-                  <i className="fab fa-stack-overflow"></i>
+                  <FontAwesomeIcon icon={["fab", "stack-overflow"]} />
                 </div>
                 <div className="free-code-camp">
-                  <i className="fab fa-free-code-camp"></i>
+                  <FontAwesomeIcon icon={["fab", "free-code-camp"]} />
                 </div>
                 <div className="github">
-                  <i className="fab fa-github"></i>
+                  <FontAwesomeIcon icon={["fab", "github"]} />
                 </div>
               </div>
             </div>
@@ -121,6 +143,99 @@ function contact() {
                 </div>
 
                 <div className="row">
+                  <div class="col">
+                    <div class="labels">
+                      <label for="help">
+                        What can I help you with
+                        <span class="asterik">*</span>
+                      </label>
+                    </div>
+
+                    <div class="select-box top">
+                      <input type="checkbox" class="options-view-button" />
+                      <div class="select-button">
+                        <div class="selected-value">
+                          <span>Select a service</span>
+                        </div>
+                        <div class="chevrons">
+                          <FontAwesomeIcon icon={faChevronUp} />
+                          <FontAwesomeIcon icon={faChevronDown} />
+                        </div>
+                      </div>
+                      <div class="options">
+                        <div class="option">
+                          <input
+                            class="s-c top"
+                            type="radio"
+                            name="service"
+                            value="build"
+                          />
+                          <input
+                            class="s-c bottom"
+                            type="radio"
+                            name="service"
+                            value="build"
+                          />
+                          <FontAwesomeIcon icon={faHammer} />
+                          <span class="label">Build</span>
+                          <span class="opt-val">Build</span>
+                        </div>
+                        <div class="option">
+                          <input
+                            class="s-c top"
+                            type="radio"
+                            name="service"
+                            value="maintain"
+                          />
+                          <input
+                            class="s-c bottom"
+                            type="radio"
+                            name="service"
+                            value="maintain"
+                          />
+                          <FontAwesomeIcon icon={faWrench} />
+                          <span class="label">Maintain</span>
+                          <span class="opt-val">Maintain</span>
+                        </div>
+                        <div class="option">
+                          <input
+                            class="s-c top"
+                            type="radio"
+                            name="service"
+                            value="support"
+                          />
+                          <input
+                            class="s-c bottom"
+                            type="radio"
+                            name="service"
+                            value="support"
+                          />
+                          <FontAwesomeIcon icon={faTools} />
+                          <span class="label">Support</span>
+                          <span class="opt-val">Support</span>
+                        </div>
+                        <div class="option">
+                          <input
+                            class="s-c top"
+                            type="radio"
+                            name="service"
+                            value="training"
+                          />
+                          <input
+                            class="s-c bottom"
+                            type="radio"
+                            name="service"
+                            value="training"
+                          />
+                          <FontAwesomeIcon icon={faChalkboardTeacher} />
+                          <span class="label">Training</span>
+                          <span class="opt-val">Training</span>
+                        </div>
+                        <div class="option-bg"></div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="col">
                     <div className="labels">
                       <label for="help">
@@ -129,163 +244,75 @@ function contact() {
                       </label>
                     </div>
 
-                    <div className="select-box top">
-                      <input type="checkbox" className="options-view-button" />
-                      <div className="select-button" className="brd">
-                        <div className="selected-value">
-                          <span>Select a service</span>
-                        </div>
-                        <div className="chevrons">
-                          <i className="fas fa-chevron-up"></i>
-                          <i className="fas fa-chevron-down"></i>
-                        </div>
-                      </div>
-                      <div className="options">
-                        <div className="option">
-                          <input
-                            className="s-c top"
-                            type="radio"
-                            name="service"
-                            value="build"
-                          />
-                          <input
-                            className="s-c bottom"
-                            type="radio"
-                            name="service"
-                            value="build"
-                          />
-                          <i className="fas fa-hammer"></i>
-                          <span className="label">Build</span>
-                          <span className="opt-val">Build</span>
-                        </div>
-                        <div className="option">
-                          <input
-                            className="s-c top"
-                            type="radio"
-                            name="service"
-                            value="maintain"
-                          />
-                          <input
-                            className="s-c bottom"
-                            type="radio"
-                            name="service"
-                            value="maintain"
-                          />
-                          <i className="fas fa-wrench"></i>
-                          <span className="label">Maintain</span>
-                          <span className="opt-val">Maintain</span>
-                        </div>
-                        <div className="option">
-                          <input
-                            className="s-c top"
-                            type="radio"
-                            name="service"
-                            value="support"
-                          />
-                          <input
-                            className="s-c bottom"
-                            type="radio"
-                            name="service"
-                            value="support"
-                          />
-                          <i className="fas fa-tools"></i>
-                          <span className="label">Support</span>
-                          <span className="opt-val">Support</span>
-                        </div>
-                        <div className="option">
-                          <input
-                            className="s-c top"
-                            type="radio"
-                            name="service"
-                            value="training"
-                          />
-                          <input
-                            className="s-c bottom"
-                            type="radio"
-                            name="service"
-                            value="training"
-                          />
-                          <i className="fas fa-chalkboard-teacher"></i>
-                          <span className="label">Training</span>
-                          <span className="opt-val">Training</span>
-                        </div>
-                        <div className="option-bg"></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col">
-                    <div className="labels">
-                      <label for="help">
-                        Project type
-                        <span className="asterik">*</span>
-                      </label>
-                    </div>
-
-                    <div className="select-box">
-                      <input type="checkbox" className="options-view-button" />
-                      <div className="select-button" className="brd">
-                        <div className="selected-value">
+                    <div class="select-box">
+                      <input type="checkbox" class="options-view-button" />
+                      <div class="select-button">
+                        <div class="selected-value">
                           <span>Select a project</span>
                         </div>
-                        <div className="chevrons">
-                          <i className="fas fa-chevron-up"></i>
-                          <i className="fas fa-chevron-down"></i>
+                        <div class="chevrons">
+                          <FontAwesomeIcon icon={faChevronUp} />
+                          <FontAwesomeIcon icon={faChevronDown} />
                         </div>
                       </div>
-                      <div className="options">
-                        <div className="option">
+                      <div class="options">
+                        <div class="option">
                           <input
-                            className="s-c top"
+                            class="s-c top"
                             type="radio"
                             name="project"
                             value="web"
                           />
                           <input
-                            className="s-c bottom"
+                            class="s-c bottom"
                             type="radio"
                             name="project"
                             value="web"
                           />
-                          <i className="fab fa-firefox-browser"></i>
-                          <span className="label">Web</span>
-                          <span className="opt-val">Web</span>
+                          <FontAwesomeIcon icon={faFirefoxBrowser} />
+                          <i class="fab fa-firefox-browser"></i>
+                          <span class="label">Web</span>
+                          <span class="opt-val">Web</span>
                         </div>
-                        <div className="option">
+                        <div class="option">
                           <input
-                            className="s-c top"
+                            class="s-c top"
                             type="radio"
                             name="project"
                             value="desktop"
                           />
                           <input
-                            className="s-c bottom"
+                            class="s-c bottom"
                             type="radio"
                             name="project"
                             value="desktop"
                           />
-                          <i className="fas fa-tools"></i>
-                          <span className="label">Desktop</span>
-                          <span className="opt-val">Desktop</span>
+                          <i class="fas fa-tools"></i>
+                          <FontAwesomeIcon icon={faTools} />
+
+                          <span class="label">Desktop</span>
+                          <span class="opt-val">Desktop</span>
                         </div>
-                        <div className="option">
+                        <div class="option">
                           <input
-                            className="s-c top"
+                            class="s-c top"
                             type="radio"
                             name="project"
                             value="mobile"
                           />
                           <input
-                            className="s-c bottom"
+                            class="s-c bottom"
                             type="radio"
                             name="project"
                             value="mobile"
                           />
-                          <i className="fas fa-mobile"></i>
-                          <span className="label">Mobile</span>
-                          <span className="opt-val">Mobile</span>
+                          <i class="fas fa-mobile"></i>
+                          <FontAwesomeIcon icon={faMobile} />
+
+                          <span class="label">Mobile</span>
+                          <span class="opt-val">Mobile</span>
                         </div>
-                        <div className="option-bg"></div>
+                        <div class="option-bg"></div>
                       </div>
                     </div>
                   </div>
@@ -309,23 +336,7 @@ function contact() {
                   Send Message
                 </button>
               </form>
-
-              <div className="contact">
-                <p>Contact Information</p>
-                <div className="info" id="from">
-                  <i className="fas fa-map-marker-alt"></i>
-                  <address>Truro, Cornwall, United Kingdom</address>
-                </div>
-                <div className="info" id="phone">
-                  <i className="fas fa-phone"></i>
-                  <span>+44 555-5555</span>
-                </div>
-
-                <div className="info" id="email">
-                  <i className="fas fa-envelope"></i>
-                  <span>daniel-philip-johnson@gmail.com</span>
-                </div>
-              </div>
+              <ContactContainer info={contactinfo} />
             </div>
           </section>
         </section>
