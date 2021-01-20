@@ -1,3 +1,39 @@
+.contacts {
+  background-color: #3a3c55;
+  padding: 0 0 2rem 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .contacts {
+    background-color: #3a3c55;
+    /* padding: 0 4rem; */
+  }
+}
+.contacts header {
+  padding: 3.5rem 0 0 0;
+}
+@media screen and (min-width: 750px) {
+  .contacts .lg-heading,
+  .contacts .sm-heading {
+    text-align: left;
+  }
+}
+
+.contacts .lg-heading,
+.contacts .sm-heading {
+  text-align: center;
+  margin-bottom: 0.25rem;
+  padding: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .contacts .lg-heading,
+  .contacts .sm-heading {
+    text-align: left;
+    padding: 0;
+  }
+}
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -5,14 +41,52 @@
   align-items: center;
   margin-top: 1rem;
 }
-.boxes div {
-  font-size: 3rem;
-  border: 3px solid #fff;
-  padding: 1.75rem 3.25rem;
-  margin-bottom: 3rem;
-  transition: all 0.5s ease-out;
-  max-width: 150px;
+
+.codepen,
+.dev,
+.github {
+  background: #000;
 }
+.hackerrank {
+  background: #32c766;
+}
+.stack-overflow {
+  background: #f48024;
+}
+.free-code-camp {
+  background: #006400;
+}
+
+.boxes div {
+  font-size: 1.5rem;
+  border: 3px solid #fff;
+  padding: 1rem 1.5rem;
+  margin-right: 0.35rem;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease-out;
+  max-width: 75px;
+}
+
+@media screen and (min-width: 768px) {
+  .boxes div {
+    font-size: 2.5rem;
+    padding: 1.25rem 2rem;
+    margin-bottom: 3rem;
+    max-width: 125px;
+  }
+}
+
+/*
+
+.boxes div {
+    font-size: 3rem;
+    padding: 1.75rem 3.25rem;
+    margin-bottom: 3rem;
+    max-width: 125px;
+  }
+
+*/
+
 .boxes div:hover {
   background: #303146;
   color: #fff;
@@ -40,38 +114,14 @@
   color: #000;
 }
 
-.contacts {
-  background-color: #3a3c55;
-  padding: 0;
-}
-
-@media screen and (min-width: 2500px) {
-  .contacts {
-    background-color: #3a3c55;
-    padding: 0 4rem;
-  }
-}
-.contacts header {
-  padding: 3.5rem 1rem 0 1rem;
-}
-
-.contacts .lg-heading,
-.contacts .sm-heading {
-  text-align: center;
-  margin-bottom: 0.25rem;
-  padding: 0;
-}
-
 .form-card {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin: 1rem auto;
+  grid-template-columns: 1fr;
   text-align: left;
+  margin: 1rem auto;
 }
 
 .form-card.container {
   padding: 0;
-
   margin-right: auto;
   margin-left: auto;
 }
@@ -81,19 +131,35 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   padding: 1rem 2rem;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  /* background: url(/images/formbg.jpeg) no-repeat; */
   background-size: auto;
   background-size: cover;
   color: #fff;
 }
+.image-container::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.form-card .title {
+  font-size: 1.5rem;
+  z-index: 5;
+  text-align: center;
+}
+
 .form-card .form-container {
   background-color: #fff;
   padding: 1rem 3rem;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
   color: #000;
 }
 .form-card .form-container .description {
@@ -102,251 +168,26 @@
   margin-bottom: 2rem;
   color: #102a43;
 }
-.form-card .form-container form {
-  width: 100%;
-}
-.form-card .form-container form input,
-.form-card .form-container form textarea {
-  background: transparent;
-  padding: 0.75rem 1.15rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid #e1e2eb;
-  border-radius: 3px;
-  transition: border 0.75s;
-}
-/* .form-card .form-container form input:hover,
-.form-card .form-container form textarea:hover {
-  border: 1px solid #384bf7;
-} */
-.form-card .form-container form textarea,
-.form-card .form-container input[type="email"],
-.form-card .form-container input[type="number"],
-.form-card .form-container input[type="text"] {
-  width: 100%;
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .form-card {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .form-card .image-container {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
-  .form-card .image-container {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
   .form-card .form-container {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 2rem;
     grid-row: 1;
   }
-  .select-box .select-button .chevrons {
-    padding: 9px 16px;
-  }
-}
+  .form-card .title {
+    font-size: 1.5rem;
 
-.select-box.top {
-  z-index: 9999;
-}
-.select-box .options-view-button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  opacity: 0;
-  cursor: pointer;
-  z-index: 3;
-}
-
-.select-box .options-view-button:checked ~ .options {
-  border-color: #eaf1f1 #e4eded #dbe7e7;
-  border-style: solid;
-  border-width: 1px;
-}
-.select-box .options-view-button:checked ~ .options .option svg {
-  display: block;
-  padding: 12px 0;
-}
-.select-box .options-view-button:checked ~ .options .label {
-  display: block;
-  padding: 12px 14px;
-}
-.select-box
-  .options-view-button:not(:checked)
-  ~ .options
-  .option
-  input[type="radio"]:checked
-  ~ .opt-val {
-  top: -30px;
-}
-.select-box .options-view-button:checked + #select-button #chevrons svg {
-  color: #2d3667;
-}
-.select-box .options-view-button:checked ~ .options .option-bg {
-  display: block;
-}
-
-.select-box .select-button {
-  position: relative;
-  padding: 7px 14px;
-  background-color: #fff;
-  border-radius: 4px;
-  border-color: #eaf1f1 #e4eded #dbe7e7;
-  border-style: solid;
-  border-width: 1px;
-  cursor: pointer;
-}
-.select-box .select-button .chevrons {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 12px;
-  padding: 9px 14px;
-}
-.select-box .select-button .chevrons svg {
-  display: block;
-  height: 50%;
-  color: #d1dede;
-  font-size: 12px;
-  text-align: right;
-}
-.select-box .options {
-  position: absolute;
-  top: 42px;
-  right: 0;
-  left: 0;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 4px;
-  z-index: 1000;
-}
-.select-box .options .option {
-  position: relative;
-  line-height: 1;
-  transition: all 0.3s ease;
-  z-index: 2;
-}
-.select-box .options .option:hover .label {
-  color: #fff;
-}
-.select-box .options .option svg {
-  position: absolute;
-  left: 14px;
-  padding: 0;
-  display: none;
-  font-size: 2.25rem;
-  width: unset;
-}
-.select-box .options .option input[type="radio"]:checked ~ .opt-val {
-  opacity: 1;
-  transform: scale(1);
-}
-.select-box .options .option input[type="radio"]:checked ~ i {
-  top: 0;
-  bottom: auto;
-  opacity: 1;
-  animation: unset;
-}
-.select-box .options .option input[type="radio"]:checked ~ .label,
-.select-box .options .option input[type="radio"]:checked ~ i {
-  color: #fff;
-}
-.select-box .options .option input[type="radio"]:checked ~ .label:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-.select-box .options .option .label {
-  display: none;
-  padding: 0;
-  margin-left: 27px;
-  transition: all 0.3s ease;
-}
-.select-box .options .option .opt-val {
-  position: absolute;
-  left: 14px;
-  width: 217px;
-  height: 21px;
-  opacity: 0;
-  background-color: #fff;
-  transform: scale(0);
-}
-.select-box .options .label,
-.select-box .options .option {
-  font-size: 16px;
-}
-.select-box .option-bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 40px;
-  transition: all 0.3s ease;
-  z-index: 1;
-  display: none;
-}
-.select-box input[type="radio"] {
-  right: 0;
-  margin: 0;
-  opacity: 0;
-  cursor: pointer;
-}
-.s-c,
-.select-box input[type="radio"] {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 50%;
-}
-.s-c.top {
-  top: 0;
-}
-.s-c.top:hover ~ i {
-  top: -25px;
-  animation: movedown 0.3s ease 0.1s forwards;
-}
-.s-c.bottom {
-  bottom: 0;
-}
-.s-c.bottom:hover + i {
-  bottom: -25px;
-  animation: moveup 0.3s ease 0.1s forwards;
-}
-.s-c:hover {
-  height: 100%;
-  z-index: 1;
-}
-.s-c:hover ~ i {
-  color: #fff;
-  opacity: 0;
-}
-@keyframes moveup {
-  0% {
-    bottom: -25px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0;
-    opacity: 1;
-  }
-}
-@keyframes movedown {
-  0% {
-    top: -25px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
+    text-align: left;
   }
 }

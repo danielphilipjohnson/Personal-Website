@@ -2,7 +2,7 @@ import React from "react";
 
 function Header({ title, secondary, subTitle }) {
   return (
-    <header>
+    <header className="container">
       <h1 className="lg-heading">
         {title}
         <span className="text-secondary">{secondary}</span>

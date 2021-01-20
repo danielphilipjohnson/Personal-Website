@@ -1,12 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faMapMarkerAlt,
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
-function ContactInfo({ location, mobile, email }) {
+import "./contact-info.css";
+
+function ContactInfo({ info }) {
+  const { location, mobile, email } = info;
   return (
     <div className="contact">
       <p>Contact Information</p>
