@@ -9,9 +9,9 @@ function ContactContainer() {
   const contactinfo = {
     location: "Truro, Cornwall, United Kingdom",
     mobile: "+44 555-5555",
-    email: "daniel-philip-johnson/gmail.com",
+    email: "daniel-philip-johnson@gmail.com",
   };
-  // split up form container
+
   return (
     <div className="form-container">
       <p className="description">
