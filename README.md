@@ -7,6 +7,12 @@
   Gatsby minimal starter
 </h1>
 
+
+refactor: pages folder should have a folder called styling
+
+
+
+
 ## todo
 resolves image issues and speed up with https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-image/
 
