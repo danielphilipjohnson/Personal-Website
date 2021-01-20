@@ -2,6 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { Link } from "gatsby";
+
+import heartImage from "../../images/heart.png";
+import "./footer.css";
+
 function Footer({ location }) {
   const routesPathAndValues = {
     "/": "Home",
@@ -86,7 +90,12 @@ function Footer({ location }) {
             Designed and built with{" "}
           </p>
           <div class="heart-container">
-            <div class="heart"></div>
+            <div
+              class="heart"
+              style={{
+                backgroundImage: `url(${heartImage})`,
+              }}
+            ></div>
           </div>
           <p>
             by {"  "}
