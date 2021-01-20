@@ -14,11 +14,11 @@ import "./main.css";
 
 import bg from "../images/showcase1.jpg";
 
-const IndexPage = () => {
+const IndexPage = ({ location }) => {
   const { site } = useStaticQuery(siteQuery);
   return (
     <>
-      <Layout>
+      <Layout location={location.pathname}>
         <SEO />
 
         <section

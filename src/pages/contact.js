@@ -9,10 +9,10 @@ import ImageContainer from "../component/contact/image-container";
 
 import "./contact.css";
 
-function contact() {
+function contact({ location }) {
   return (
     <>
-      <Layout>
+      <Layout location={location.pathname}>
         <SEO />
         <section className="contacts">
           <Header

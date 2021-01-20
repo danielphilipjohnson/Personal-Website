@@ -44,10 +44,12 @@ main {
   transition: all 0.5s ease-out;
 }
 
-.social-icons a {
+/* .social-icons a {
   font-size: 1rem;
+} */
+.social-icons a {
+  font-size: 1.25rem;
 }
-
 @media screen and (min-width: 768px) {
   main .lg-heading {
     line-height: 1.2;
@@ -60,10 +62,6 @@ main {
 
   .home {
     padding: 4rem;
-  }
-
-  .social-icons a {
-    font-size: 1.25rem;
   }
 }
 
