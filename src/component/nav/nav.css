@@ -7,8 +7,8 @@ aside {
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 20px;
+  top: 8px;
   cursor: pointer;
   transition: all 0.5s ease-out;
   background-color: #3a3c55;
