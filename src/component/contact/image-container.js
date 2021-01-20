@@ -15,23 +15,38 @@ function ImageContainer() {
 
       <div className="boxes">
         <div className="dev">
-          <FontAwesomeIcon icon={["fab", "dev"]} />
+          <a href="https://dev.to/danielphilipjohnson">
+            <FontAwesomeIcon icon={["fab", "dev"]} />
+          </a>
         </div>
+
         <div className="hackerrank">
-          <FontAwesomeIcon icon={["fab", "hackerrank"]} />
+          <a href="https://www.hackerrank.com/daniel_p_johnson">
+            <FontAwesomeIcon icon={["fab", "hackerrank"]} />
+          </a>
         </div>
+
         <div className="codepen">
-          <FontAwesomeIcon icon={["fab", "codepen"]} />
+          <a href="https://codepen.io/danielphilipjohnson">
+            <FontAwesomeIcon icon={["fab", "codepen"]} />
+          </a>
         </div>
 
         <div className="stack-overflow">
-          <FontAwesomeIcon icon={["fab", "stack-overflow"]} />
+          <a href="https://stackoverflow.com/users/13921677/daniel-philip-johnson">
+            <FontAwesomeIcon icon={["fab", "stack-overflow"]} />
+          </a>
         </div>
+
         <div className="free-code-camp">
-          <FontAwesomeIcon icon={["fab", "free-code-camp"]} />
+          <a href="https://www.freecodecamp.org/daniel-philip-johnson">
+            <FontAwesomeIcon icon={["fab", "free-code-camp"]} />
+          </a>
         </div>
         <div className="github">
-          <FontAwesomeIcon icon={["fab", "github"]} />
+          <a href="https://github.com/danielphilipjohnson">
+            <FontAwesomeIcon icon={["fab", "github"]} />
+          </a>
         </div>
       </div>
     </div>
