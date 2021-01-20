@@ -1,7 +1,7 @@
 import React from "react";
 
-import Form from "./Form";
-import ContactInfo from "./Contact-Info";
+import Form from "./form/form";
+import ContactInfo from "./info/contact-info";
 
 function ContactContainer() {
   const contactinfo = {
@@ -9,6 +9,7 @@ function ContactContainer() {
     mobile: "+44 555-5555",
     email: "daniel-philip-johnson/gmail.com",
   };
+  // split up form container
   return (
     <div className="form-container">
       <p className="description">

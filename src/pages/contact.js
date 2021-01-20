@@ -3,7 +3,8 @@ import React from "react";
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import Header from "../component/layout/Header";
-import ContactContainer from "../component/forms/contact/Contact-Container";
+
+import ContactContainer from "../component/contact/contact-container";
 import ImageContainer from "../component/contact/image-container";
 
 import "./contact.css";
