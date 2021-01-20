@@ -118,7 +118,7 @@ aside {
 .menu .nav-item.show {
   transform: translateZ(0);
 }
-.menu .nav-item.current > a {
+.menu .nav-item a.current {
   color: #94c85a;
 }
 .menu .nav-link {

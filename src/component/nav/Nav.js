@@ -70,23 +70,27 @@ function Nav() {
         </div>
         <div className="menu-nav show" ref={menuNavRef}>
           <ul>
-            <li className="nav-item current">
-              <Link to="/" className="nav-link">
+            <li className="nav-item">
+              <Link to="/" className="nav-link" activeClassName="current">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link">
+              <Link to="/about/" className="nav-link" activeClassName="current">
                 About Me
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link">
+              <Link to="/work/" className="nav-link" activeClassName="current">
                 My Work
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link">
+              <Link
+                to="/contact/"
+                className="nav-link"
+                activeClassName="current"
+              >
                 How To Reach Me
               </Link>
             </li>
