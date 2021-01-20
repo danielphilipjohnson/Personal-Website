@@ -3,6 +3,8 @@ import React from "react";
 import Form from "./form/form";
 import ContactInfo from "./info/contact-info";
 
+import "./contact-container.css";
+
 function ContactContainer() {
   const contactinfo = {
     location: "Truro, Cornwall, United Kingdom",
