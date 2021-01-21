@@ -1,41 +1,36 @@
 import React from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFirefox,
+  faCodepen,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
+import bg from "../images/overlay-bg.png";
+
+import "./styles/work.css";
 
 function Work({ location }) {
   return (
     <Layout location={location.pathname}>
       <SEO />
 
-      <main id="work">
+      <main id="work" className="work">
         <h1 class="lg-heading">
           My
           <span class="text-secondary">Work</span>
         </h1>
         <h2 class="sm-heading">Check out some of my projects...</h2>
 
-        <div class="tab">
-          <p
-            class="tablinks"
-            onclick="openTab(event, 'responsive')"
-            id="defaultOpen"
-          >
-            <i class="far fa-dot-circle"></i>
-          </p>
-          <p class="tablinks" onclick="openTab(event, 'front-end')">
-            <i
-              class="far
-              fa-dot-circle"
-            ></i>
-          </p>
-        </div>
-
         <div id="responsive" class="tabcontent">
           <h2 class="section-header">Responsive Web Design</h2>
           <div class="projects">
             <div class="item">
               <div class="bar">
-                <i class="fab fa-firefox"></i>
+                <FontAwesomeIcon icon={faFirefox} />
                 <i class="window-buttons"></i>
                 <span class="title">Tribute Page</span>
               </div>
@@ -44,7 +39,12 @@ function Work({ location }) {
                 src="../../../images/responsive-img/tributepage.png"
                 alt="ddd page"
               />
-              <div class="overlay">
+              <div
+                class="overlay"
+                style={{
+                  backgroundImage: `url(${bg})`,
+                }}
+              >
                 <div class="content">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -58,15 +58,16 @@ function Work({ location }) {
                       view project
                     </a>
                   </div>
+                  <FontAwesomeIcon icon={faLongArrowAltRight} />
                   <i class="fas fa-long-arrow-alt-right"></i>
                 </div>
 
                 <div class="links">
                   <a href="https://codepen.io/danielphilipjohnson/full/VwaJrPg">
-                    <i class="fab fa-codepen"></i>
+                    <FontAwesomeIcon icon={faCodepen} />
                   </a>
                   <a href="https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/1.Tribute-Page">
-                    <i class="fab fa-github"></i>
+                    <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </div>
               </div>
