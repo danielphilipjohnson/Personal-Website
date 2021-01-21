@@ -289,5 +289,11 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-plugin-static-folders",
+      options: {
+        folders: ["/downloads", "/images"],
+      },
+    },
   ],
 };
