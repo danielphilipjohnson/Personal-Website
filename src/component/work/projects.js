@@ -7,7 +7,10 @@ import {
   faCodepen,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+
+import BtnGroup from "./btns";
 
 import bg from "../../images/overlay-bg.png";
 
@@ -34,24 +37,7 @@ function Projects() {
 
   return (
     <>
-      <div className="btn-group">
-        <button
-          className="btn-outline"
-          onClick={() => {
-            getTypeOfProjects("all");
-          }}
-        >
-          All
-        </button>
-        <button
-          className="btn-outline"
-          onClick={() => {
-            getTypeOfProjects("js");
-          }}
-        >
-          Js
-        </button>
-      </div>
+      <BtnGroup getTypeOfProjects={getTypeOfProjects} />
 
       <div class="projects">
         {filteredProjects.map((project) => {
