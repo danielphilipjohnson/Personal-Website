@@ -101,59 +101,6 @@ main#contact section {
     padding-top: 4rem;
   }
 }
-.btn,
-.btn-certificate,
-.btn-dark,
-.btn-download,
-.btn-light,
-.btn-outline {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: 0.5rem 1rem;
-  border: 0;
-  margin-bottom: 0.3rem;
-}
-.btn-certificate:hover,
-.btn-dark:hover,
-.btn-download:hover,
-.btn-light:hover,
-.btn-outline:hover,
-.btn:hover {
-  background: #94c85a;
-  color: #000;
-}
-.btn-dark {
-  background: #000;
-  color: #fff;
-}
-.btn-light {
-  background: #aeafc7;
-  color: #333;
-}
-.btn-outline {
-  border: 2px solid #000;
-  color: #000;
-  margin: 0 auto;
-  max-width: 250px;
-}
-.btn-certificate {
-  background: #303146;
-  color: #fff;
-}
-.btn-download {
-  background-color: #303146;
-  border-radius: 5px;
-  color: #fff;
-}
-.btn-download i {
-  color: #fff;
-  margin-right: 0.5rem;
-}
 
 .profile-card {
   position: relative;

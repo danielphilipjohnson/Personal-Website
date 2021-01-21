@@ -11,6 +11,7 @@ const WorkPage = ({ location }) => {
   return (
     <>
       <Layout location={location.pathname}>
+        <SEO />
         <section id="work" className="work">
           <Header
             title={"My"}

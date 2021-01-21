@@ -184,7 +184,7 @@ module.exports = {
       {
         title: "Tribute Page",
         imageSrc: "../../../images/responsive-img/tributepage.png",
-        types: "responsive",
+        type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eiu.`,
         codepenLink: "https://codepen.io/danielphilipjohnson/full/VwaJrPg",
@@ -195,7 +195,7 @@ module.exports = {
       {
         title: "Survey Form",
         imageSrc: "../../../images/responsive-img/surveryform.png",
-        types: "responsive",
+        type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius.`,
         codepenLink: "https://codepen.io/danielphilipjohnson/full/oNxabPN",
@@ -206,7 +206,7 @@ module.exports = {
       {
         title: "Product Landing",
         imageSrc: "../../../images/responsive-img/productlanding.png",
-        types: "responsive",
+        type: "responsive",
         description: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti.`,
         codepenLink: "https://codepen.io/danielphilipjohnson/full/LYNgrGV",
@@ -217,7 +217,7 @@ module.exports = {
       {
         title: "Technical Document",
         imageSrc: "../../../images/responsive-img/technicaldocument.png",
-        types: "responsive",
+        type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure.`,
         codepenLink: "https://codepen.io/danielphilipjohnson/full/PoNVJLW",
@@ -228,7 +228,7 @@ module.exports = {
       {
         title: "Portfolio",
         imageSrc: "../../../images/responsive-img/portfolio.jpg",
-        types: "responsive",
+        type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure.`,
         codepenLink: "https://codepen.io/danielphilipjohnson/full/JjXmZGj",
@@ -239,7 +239,7 @@ module.exports = {
       {
         title: "Random Quote Machine",
         imageSrc: "../../../images/front-end-lib/quotemachine.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius.`,
         codepenLink: "https://codepen.io/danielphilipjohnson/full/bGEgaoo",
@@ -250,7 +250,7 @@ module.exports = {
       {
         title: "Markdown Previewer",
         imageSrc: "../../../images/front-end-lib/markdown.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -262,7 +262,7 @@ module.exports = {
       {
         title: "Drum Machine",
         imageSrc: "../../../images/front-end-lib/drummachine.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure.`,
         codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
@@ -273,7 +273,7 @@ module.exports = {
       {
         title: "Javascript Calculator",
         imageSrc: "../../../images/front-end-lib/calculator.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -285,7 +285,7 @@ module.exports = {
       {
         title: "Pomodoro Clock",
         imageSrc: "../../../images/front-end-lib/pomodoro.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -297,7 +297,7 @@ module.exports = {
       {
         title: "Local Weather",
         imageSrc: "../../../images/front-end-lib/weatherapp.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -309,7 +309,7 @@ module.exports = {
       {
         title: "Recipe Box",
         imageSrc: "../../../images/front-end-lib/recipebox.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -321,7 +321,7 @@ module.exports = {
       {
         title: "Simon",
         imageSrc: "../../../images/front-end-lib/simon.jpg",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -333,7 +333,7 @@ module.exports = {
       {
         title: "Tic Tac Toe",
         imageSrc: "../../../images/front-end-lib/tictac.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -345,7 +345,7 @@ module.exports = {
       {
         title: "Twitch.tv JSON-API",
         imageSrc: "../../../images/front-end-lib/twitchviewer.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -357,7 +357,7 @@ module.exports = {
       {
         title: "Wiki Viewer",
         imageSrc: "../../../images/front-end-lib/wikiviewer.png",
-        types: "js",
+        type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
