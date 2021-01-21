@@ -19,8 +19,9 @@ function Projects() {
   const allProjects = site.siteMetadata.projects;
 
   const [filteredProjects, setFilteredProjects] = useState([]);
-
+  const [activeType, setActiveType] = useState("all");
   const getTypeOfProjects = (type) => {
+    setActiveType(type);
     if (type === "all") {
       setFilteredProjects(allProjects);
     } else {
@@ -37,7 +38,7 @@ function Projects() {
 
   return (
     <>
-      <BtnGroup getTypeOfProjects={getTypeOfProjects} />
+      <BtnGroup getTypeOfProjects={getTypeOfProjects} activeType={activeType} />
 
       <div class="projects">
         {filteredProjects.map((project) => {

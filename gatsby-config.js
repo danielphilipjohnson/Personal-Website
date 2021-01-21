@@ -180,7 +180,7 @@ module.exports = {
         certificateLink: "",
       },
     ],
-    projectTypes: ["all", "js", "responsive"],
+    projectTypes: ["All", "Js", "Responsive"],
     projects: [
       {
         title: "Tribute Page",

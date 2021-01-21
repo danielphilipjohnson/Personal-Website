@@ -1,13 +1,26 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
-function Btns({ getTypeOfProjects }) {
+function Btns({ getTypeOfProjects, activeType }) {
   const { site } = useStaticQuery(siteQuery);
   const allTypes = site.siteMetadata.projectTypes;
   return (
     <div className="btn-group">
       {allTypes.map((btn) => {
         const btnLowered = btn.toLowerCase();
+        console.log(btn);
+        if (btnLowered === activeType) {
+          return (
+            <button
+              className="btn-outline active"
+              onClick={() => {
+                getTypeOfProjects(btnLowered);
+              }}
+            >
+              {btn}
+            </button>
+          );
+        }
         return (
           <button
             className="btn-outline"
@@ -15,7 +28,7 @@ function Btns({ getTypeOfProjects }) {
               getTypeOfProjects(btnLowered);
             }}
           >
-            {btnLowered}
+            {btn}
           </button>
         );
       })}
