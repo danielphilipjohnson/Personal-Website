@@ -283,18 +283,6 @@ module.exports = {
         projectLink: "#",
       },
       {
-        title: "Javascript Calculator",
-        imageSrc: "../../../images/front-end-lib/calculator.png",
-        types: "js",
-        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Autem eligendi deleniti iure eius itaque mollitia veniam
-        vitae earum nesciunt voluptate.`,
-        codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
-        githubLink:
-          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
-        projectLink: "#",
-      },
-      {
         title: "Pomodoro Clock",
         imageSrc: "../../../images/front-end-lib/pomodoro.png",
         types: "js",
