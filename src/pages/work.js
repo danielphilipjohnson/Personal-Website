@@ -1,39 +1,31 @@
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFirefox,
-  faCodepen,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
+import Header from "../component/layout/Header";
 import Projects from "../component/work/projects";
-
-import bg from "../images/overlay-bg.png";
 
 import "./styles/work.css";
 
-function Work({ location }) {
+const WorkPage = ({ location }) => {
   return (
-    <Layout location={location.pathname}>
-      <SEO />
+    <>
+      <Layout location={location.pathname}>
+        <section id="work" className="work">
+          <Header
+            title={"My"}
+            secondary={"Work"}
+            subTitle={"Check out some of my projects..."}
+          />
 
-      <main id="work" className="work">
-        <h1 class="lg-heading">
-          My
-          <span class="text-secondary">Work</span>
-        </h1>
-        <h2 class="sm-heading">Check out some of my projects...</h2>
-
-        <div id="responsive" class="container">
-          <h2 class="section-header">Responsive Web Design</h2>
-          <Projects />
-        </div>
-      </main>
-    </Layout>
+          <div id="responsive" class="container">
+            <h2 class="section-header">Responsive Web Design</h2>
+            <Projects />
+          </div>
+        </section>
+      </Layout>
+    </>
   );
-}
+};
 
-export default Work;
+export default WorkPage;

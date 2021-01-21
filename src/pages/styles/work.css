@@ -2,52 +2,12 @@
   background-color: #3a3c55;
   padding: 0 0 2rem 0;
 }
-
-/* old remove */
-
-/* .tab {
-  position: fixed;
-  left: 1%;
-  top: 40%;
-  z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
-  margin-bottom: 0.6rem;
-} */
-/* .tab p {
-  color: #fff;
-  padding: 0.5rem 0.75rem;
-  width: 100%;
-  cursor: pointer;
-  transition: 0.3s;
-  font-size: 17px;
+.work header {
+  padding: 3.5rem 0 0 0;
 }
-.tab p:hover {
-  color: #ddd;
-}
-.tab p.active {
-  color: #5a5c85;
-}
-.tabcontent {
-  padding: 0 12px;
-}
-
-@media screen and (max-width: 500px) {
-  .tab {
-    display: flex;
-    top: unset;
-    left: 40%;
-    bottom: 0;
-  }
-} */
 
 /* projects */
 
-.projects {
-  display: grid;
-  grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr);
-}
 .projects .item {
   position: relative;
 }
@@ -73,27 +33,30 @@
   animation: fade-left 2.25s ease;
 }
 
-@media screen and (min-width: 2500px) {
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .overlay .content p {
+    display: block;
   }
 }
+
 @media screen and (min-width: 769px) and (max-width: 2499px) {
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 2500px) {
   .projects {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-@media screen and (max-width: 500px) {
-  .projects {
-    grid-template-columns: 1fr;
-  }
-  .overlay .content p {
-    display: none;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -113,7 +76,7 @@
 .bar .fa-firefox {
   position: absolute;
   z-index: 12;
-  top: 3px;
+  top: 1px;
   left: 10px;
   height: 23px;
   width: 16px;
@@ -177,7 +140,15 @@
 .overlay .content p {
   font-size: 0.75rem;
   color: #c6c7c7;
+  display: none;
 }
+
+@media screen and (min-width: 768px) {
+  .overlay .content p {
+    display: block;
+  }
+}
+
 .overlay .arrow-btn {
   display: flex;
   justify-content: center;

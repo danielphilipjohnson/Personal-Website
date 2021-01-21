@@ -18,7 +18,7 @@ function Projects() {
     <div class="projects">
       {site.siteMetadata.projects.map((project) => {
         return (
-          <div class="item">
+          <div class="item" key={project.imageSrc}>
             <div class="bar">
               <FontAwesomeIcon icon={faFirefox} />
               <i class="window-buttons"></i>
