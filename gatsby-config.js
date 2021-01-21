@@ -180,6 +180,205 @@ module.exports = {
         certificateLink: "",
       },
     ],
+    projects: [
+      {
+        title: "Tribute Page",
+        imageSrc: "../../../images/responsive-img/tributepage.png",
+        types: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eiu.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/VwaJrPg",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/1.Tribute-Page",
+        projectLink: "#",
+      },
+      {
+        title: "Survey Form",
+        imageSrc: "../../../images/responsive-img/surveryform.png",
+        types: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/oNxabPN",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/2.Survey_form",
+        projectLink: "#",
+      },
+      {
+        title: "Product Landing",
+        imageSrc: "../../../images/responsive-img/productlanding.png",
+        types: "responsive",
+        description: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/LYNgrGV",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/3.Product-Landing-Page",
+        projectLink: "#",
+      },
+      {
+        title: "Technical Document",
+        imageSrc: "../../../images/responsive-img/technicaldocument.png",
+        types: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/PoNVJLW",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/4.Technical-Documentation-Page",
+        projectLink: "#",
+      },
+      {
+        title: "Portfolio",
+        imageSrc: "../../../images/responsive-img/portfolio.jpg",
+        types: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/JjXmZGj",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage",
+        projectLink: "#",
+      },
+      {
+        title: "Random Quote Machine",
+        imageSrc: "../../../images/front-end-lib/quotemachine.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/bGEgaoo",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
+        projectLink: "#",
+      },
+      {
+        title: "Markdown Previewer",
+        imageSrc: "../../../images/front-end-lib/markdown.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
+        projectLink: "#",
+      },
+      {
+        title: "Drum Machine",
+        imageSrc: "../../../images/front-end-lib/drummachine.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
+        projectLink: "#",
+      },
+      {
+        title: "Javascript Calculator",
+        imageSrc: "../../../images/front-end-lib/calculator.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
+        projectLink: "#",
+      },
+      {
+        title: "Javascript Calculator",
+        imageSrc: "../../../images/front-end-lib/calculator.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
+        projectLink: "#",
+      },
+      {
+        title: "Pomodoro Clock",
+        imageSrc: "../../../images/front-end-lib/pomodoro.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
+        projectLink: "#",
+      },
+      {
+        title: "Local Weather",
+        imageSrc: "../../../images/front-end-lib/weatherapp.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEQB",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Local-Weather",
+        projectLink: "#",
+      },
+      {
+        title: "Recipe Box",
+        imageSrc: "../../../images/front-end-lib/recipebox.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
+        projectLink: "#",
+      },
+      {
+        title: "Simon",
+        imageSrc: "../../../images/front-end-lib/simon.jpg",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
+        projectLink: "#",
+      },
+      {
+        title: "Tic Tac Toe",
+        imageSrc: "../../../images/front-end-lib/tictac.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/gOPmYvK",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Tic%20Tac%20Toe",
+        projectLink: "#",
+      },
+      {
+        title: "Twitch.tv JSON-API",
+        imageSrc: "../../../images/front-end-lib/twitchviewer.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+        projectLink: "#",
+      },
+      {
+        title: "Wiki Viewer",
+        imageSrc: "../../../images/front-end-lib/wikiviewer.png",
+        types: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/LYGWYBg",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Wiki-Viewer",
+        projectLink: "#",
+      },
+    ],
   },
   plugins: [
     "gatsby-plugin-sass",
