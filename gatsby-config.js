@@ -192,6 +192,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/1.Tribute-Page",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
       },
       {
         title: "Survey Form",
@@ -203,6 +204,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/2.Survey_form",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
       },
       {
         title: "Product Landing",
@@ -214,6 +216,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/3.Product-Landing-Page",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
       },
       {
         title: "Technical Document",
@@ -225,6 +228,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/4.Technical-Documentation-Page",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
       },
       {
         title: "Portfolio",
@@ -236,6 +240,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
       },
       {
         title: "Edge Ledger",
@@ -246,6 +251,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
       },
       {
         title: "Vozsy News",
@@ -256,6 +262,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
       },
       {
         title: "Scenic Cornwall",
@@ -266,6 +273,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
       },
       {
         title: "Nexter",
@@ -276,6 +284,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
       },
       {
         title: "Trillo",
@@ -286,6 +295,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
       },
       {
         title: "Presentation",
@@ -296,6 +306,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
       },
       {
         title: "Basic Spotify Clone",
@@ -306,6 +317,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
       },
       {
         title: "Basic Messenger Clone",
@@ -316,6 +328,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
       },
       {
         title: "Basic Instagram Clone",
@@ -326,6 +339,7 @@ module.exports = {
         codepenLink: "#",
         githubLink: "#",
         projectLink: "#",
+        badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
       },
 
       {
@@ -338,6 +352,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
       },
       {
         title: "Markdown Previewer",
@@ -350,6 +365,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
       },
       {
         title: "Drum Machine",
@@ -361,6 +377,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
       },
       {
         title: "Javascript Calculator",
@@ -373,6 +390,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
       },
       {
         title: "Pomodoro Clock",
@@ -385,6 +403,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
       },
       {
         title: "Recipe Box",
@@ -397,6 +416,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
       },
       {
         title: "Simon",
@@ -409,6 +429,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
       },
       {
         title: "Twitch.tv JSON-API",
@@ -433,6 +454,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
       },
       {
         title: "Basic Spotify clone",
@@ -445,6 +467,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
       },
 
       {
@@ -458,6 +481,7 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Wiki-Viewer",
         projectLink: "#",
+        badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
       },
     ],
   },
@@ -534,7 +558,7 @@ module.exports = {
             sizes: "512x512",
           },
           {
-            src: `/favicons/favicon-32x32.png`,
+            src: `/favicmapons/favicon-32x32.png`,
             sizes: `32x32`,
             type: `image/png`,
           },

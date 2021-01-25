@@ -17,7 +17,9 @@ import "./projects.css";
 function Projects() {
   const { site } = useStaticQuery(siteQuery);
   const allProjects = site.siteMetadata.projects;
-
+  {
+    console.log(allProjects);
+  }
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [activeType, setActiveType] = useState("all");
 
@@ -32,6 +34,11 @@ function Projects() {
         })
       );
     }
+  };
+  const displayBadges = (badges) => {
+    badges.forEach((item) => {
+      console.log(item);
+    });
   };
 
   useEffect(() => {
@@ -66,7 +73,6 @@ function Projects() {
                 >
                   <div class="content">
                     {/* <p>{project.description}</p> */}
-
                     {/* <div class="links">
                       <a href={project.codepenLink}>
                         <FontAwesomeIcon icon={faCodepen} />
@@ -84,9 +90,13 @@ function Projects() {
                       <i class="fas fa-long-arrow-alt-right"></i>
                     </div>
                     <div className="badges">
-                      <span className="badge-tech">React</span>
+                      {project.badges &&
+                        project.badges.map((badge) => {
+                          return <span className="badge-tech">{badge}</span>;
+                        })}
+                      {/* <span className="badge- {console.log(project.badges)}tech">React</span>
                       <span className="badge-tech">HTML5</span>
-                      <span className="badge-tech">CSS</span>
+                      <span className="badge-tech">CSS</span> */}
                     </div>
                   </div>
                 </div>
@@ -113,6 +123,7 @@ const siteQuery = graphql`
           codepenLink
           githubLink
           projectLink
+          badges
         }
       }
     }

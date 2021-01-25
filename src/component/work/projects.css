@@ -141,7 +141,7 @@
 }
 
 .badges {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .badge-tech {
@@ -149,6 +149,7 @@
   font-size: 0.875rem;
   height: 28px;
   margin: 0 3px;
+  margin-bottom: 0.5rem;
   padding: 0 8px;
   line-height: 28px;
   display: inline-block;
