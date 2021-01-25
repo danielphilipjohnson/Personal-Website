@@ -6,6 +6,9 @@ import Header from "../component/layout/Header";
 
 function work({ location, data, pageContext }) {
   console.log(pageContext);
+
+  const { details } = pageContext.post;
+  console.log(details);
   return (
     <Layout location={location.pathname}>
       <SEO />
@@ -27,39 +30,18 @@ function work({ location, data, pageContext }) {
         <div>
           <div>
             <h2>Overview</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto explicabo cupiditate perferendis ad unde iure
-              necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-              deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-              assumenda accusamus minima excepturi laudantium nisi sapiente
-              perspiciatis doloribus fugit ratione ea delectus commodi
-              doloremque ullam aperiam eos mollitia pariatur molestiae,
-              veritatis illo iure nihil architecto. Ipsam, provident adipisci?
-            </p>
+            <p>{details.overview}</p>
 
             <h2>Goals</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-              architecto necessitatibus vitae inventore placeat magnam quia
-              impedit nesciunt. Iste dolor saepe accusantium tempore possimus
-              quam commodi exercitationem quidem blanditiis suscipit!Aliquam,
-              minus reprehenderit laboriosam assumenda, dicta similique facere
-              earum tempora nulla error quaerat odio autem possimus, dolore est
-              placeat facilis nostrum dignissimos tenetur adipisci cumque
-              repudiandae. Modi cumque molestias dolore!
-            </p>
+            <p>{details.goals}</p>
 
             <h2>Lessons Learned </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-              dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-              quaerat similique delectus aspernatur aut cum. Totam est modi
-              accusantium tempore! Sed, porro!
-            </p>
+            <p>{details.lessonsLearned}</p>
           </div>
 
-          <div>mobile view</div>
+          <div>
+            <img src={details.mobileView} alt="" srcset="" />
+          </div>
         </div>
       </section>
     </Layout>
@@ -84,6 +66,12 @@ export const query = graphql`
             projectLink
             title
             type
+            details {
+              overview
+              goals
+              lessonsLearned
+              mobileView
+            }
           }
         }
       }

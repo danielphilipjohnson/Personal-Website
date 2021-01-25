@@ -194,6 +194,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/1.Tribute-Page",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Survey Form",
@@ -207,6 +230,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/2.Survey_form",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Product Landing",
@@ -220,6 +266,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/3.Product-Landing-Page",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Technical Document",
@@ -233,6 +302,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/4.Technical-Documentation-Page",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Portfolio",
@@ -246,6 +338,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Edge Ledger",
@@ -258,6 +373,29 @@ module.exports = {
         githubLink: "#",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Vozsy News",
@@ -270,6 +408,29 @@ module.exports = {
         githubLink: "#",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Scenic Cornwall",
@@ -282,6 +443,29 @@ module.exports = {
         githubLink: "#",
         projectLink: "#",
         badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Nexter",
@@ -294,6 +478,29 @@ module.exports = {
         githubLink: "#",
         projectLink: "#",
         badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Trillo",
@@ -306,6 +513,29 @@ module.exports = {
         githubLink: "#",
         projectLink: "#",
         badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Presentation",
@@ -318,6 +548,29 @@ module.exports = {
         githubLink: "#",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Basic Spotify Clone",
@@ -330,6 +583,29 @@ module.exports = {
         githubLink: "#",
         projectLink: "#",
         badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Basic Messenger Clone",
@@ -342,6 +618,29 @@ module.exports = {
         githubLink: "#",
         projectLink: "#",
         badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Random Quote Machine",
@@ -355,6 +654,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Markdown Previewer",
@@ -369,6 +691,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Drum Machine",
@@ -382,6 +727,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Javascript Calculator",
@@ -396,6 +764,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Pomodoro Clock",
@@ -410,6 +801,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Recipe Box",
@@ -424,6 +838,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Simon",
@@ -438,6 +875,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Twitch.tv JSON-API",
@@ -451,6 +911,29 @@ module.exports = {
         githubLink:
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
         projectLink: "#",
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Basic Instagram clone",
@@ -465,6 +948,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
       {
         title: "Basic Spotify clone",
@@ -479,8 +985,30 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
-
       {
         title: "Wiki Viewer",
         path: "wikiviewer",
@@ -494,6 +1022,29 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Wiki-Viewer",
         projectLink: "#",
         badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+        details: {
+          overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto explicabo cupiditate perferendis ad unde iure
+          necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+          deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+          assumenda accusamus minima excepturi laudantium nisi sapiente
+          perspiciatis doloribus fugit ratione ea delectus commodi
+          doloremque ullam aperiam eos mollitia pariatur molestiae,
+          veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+          lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+          dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+          quaerat similique delectus aspernatur aut cum. Totam est modi
+          accusantium tempore! Sed, porro!`,
+          mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+        },
       },
     ],
   },

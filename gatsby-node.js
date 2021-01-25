@@ -19,6 +19,12 @@ exports.createPages = async ({ graphql, actions }) => {
               githubLink
               projectLink
               badges
+              details {
+                overview
+                goals
+                lessonsLearned
+                mobileView
+              }
             }
           }
         }
