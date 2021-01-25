@@ -72,31 +72,17 @@ function Projects() {
                   }}
                 >
                   <div class="content">
-                    {/* <p>{project.description}</p> */}
-                    {/* <div class="links">
-                      <a href={project.codepenLink}>
-                        <FontAwesomeIcon icon={faCodepen} />
-                      </a>
-                      <a href={project.githubLink}>
-                        <FontAwesomeIcon icon={faGithub} />
-                      </a>
-                    </div> */}
-
                     <div class="arrow-btn">
                       <div class="arrow-btn-text">
                         <a href={project.projectLink}>View Project</a>
                       </div>
                       <FontAwesomeIcon icon={faLongArrowAltRight} />
-                      <i class="fas fa-long-arrow-alt-right"></i>
                     </div>
                     <div className="badges">
                       {project.badges &&
                         project.badges.map((badge) => {
                           return <span className="badge-tech">{badge}</span>;
                         })}
-                      {/* <span className="badge- {console.log(project.badges)}tech">React</span>
-                      <span className="badge-tech">HTML5</span>
-                      <span className="badge-tech">CSS</span> */}
                     </div>
                   </div>
                 </div>

@@ -127,10 +127,10 @@
   transition: 0.5s ease;
 }
 .overlay .content {
-  padding: 1rem;
+  padding: 0.5rem;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   flex-direction: column;
 }
@@ -142,25 +142,29 @@
 
 .badges {
   padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .badge-tech {
   opacity: 1;
   font-size: 0.875rem;
-  height: 28px;
-  margin: 0 3px;
-  margin-bottom: 0.5rem;
+  /* height: 28px; */
+  margin: 0 0.25rem 0.5rem 0.25rem;
   padding: 0 8px;
-  line-height: 28px;
-  display: inline-block;
+  line-height: 1.5rem;
+  /* display: inline-block; */
   background: rgba(58, 60, 85, 0.4);
   color: #fff;
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
+  /* -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s; */
 }
 
 @media screen and (min-width: 768px) {
@@ -174,7 +178,7 @@
   justify-content: center;
   align-items: center;
   font-size: 0.8rem;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
   text-transform: uppercase;
 }
 .overlay .arrow-btn .arrow-btn-text {
