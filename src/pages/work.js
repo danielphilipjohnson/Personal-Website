@@ -1,6 +1,7 @@
 import React from "react";
 
 import SEO from "../component/Seo";
+
 import Layout from "../component/layout/Layout";
 import Header from "../component/layout/Header";
 import Projects from "../component/work/projects";
@@ -19,10 +20,7 @@ const WorkPage = ({ location }) => {
             subTitle={"Check out some of my projects..."}
           />
 
-          <div id="responsive" class="container">
-            <h2 class="section-header">Responsive Web Design</h2>
-            <Projects />
-          </div>
+          <Projects />
         </section>
       </Layout>
     </>

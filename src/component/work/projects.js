@@ -7,12 +7,12 @@ import {
   faCodepen,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 import BtnGroup from "./btns";
 
 import bg from "../../images/overlay-bg.png";
+import "./projects.css";
 
 function Projects() {
   const { site } = useStaticQuery(siteQuery);
@@ -20,6 +20,7 @@ function Projects() {
 
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [activeType, setActiveType] = useState("all");
+
   const getTypeOfProjects = (type) => {
     setActiveType(type);
     if (type === "all") {
@@ -32,54 +33,62 @@ function Projects() {
       );
     }
   };
+
   useEffect(() => {
     setFilteredProjects(allProjects);
   }, [allProjects]);
 
   return (
     <>
-      <BtnGroup getTypeOfProjects={getTypeOfProjects} activeType={activeType} />
+      <div id="responsive" class="container">
+        {/* <h2 class="section-header">Responsive Web Design</h2> */}
 
-      <div class="projects">
-        {filteredProjects.map((project) => {
-          return (
-            <div class="item" key={project.imageSrc}>
-              <div class="bar">
-                <FontAwesomeIcon icon={faFirefox} />
-                <i class="window-buttons"></i>
-                <span class="title">{project.title}</span>
-              </div>
-              <img class="item-img" src={project.imageSrc} alt="ddd page" />
-              <div
-                class="overlay"
-                style={{
-                  backgroundImage: `url(${bg})`,
-                }}
-              >
-                <div class="content">
-                  <p>{project.description}</p>
+        <BtnGroup
+          getTypeOfProjects={getTypeOfProjects}
+          activeType={activeType}
+        />
+
+        <div class="projects">
+          {filteredProjects.map((project) => {
+            return (
+              <div class="item" key={project.imageSrc}>
+                <div class="bar">
+                  <FontAwesomeIcon icon={faFirefox} />
+                  <i class="window-buttons"></i>
+                  <span class="title">{project.title}</span>
                 </div>
-
-                <div class="arrow-btn">
-                  <div class="arrow-btn-text">
-                    <a href={project.projectLink}>View Project</a>
+                <img class="item-img" src={project.imageSrc} alt="ddd page" />
+                <div
+                  class="overlay"
+                  style={{
+                    backgroundImage: `url(${bg})`,
+                  }}
+                >
+                  <div class="content">
+                    <p>{project.description}</p>
                   </div>
-                  <FontAwesomeIcon icon={faLongArrowAltRight} />
-                  <i class="fas fa-long-arrow-alt-right"></i>
-                </div>
 
-                <div class="links">
-                  <a href={project.codepenLink}>
-                    <FontAwesomeIcon icon={faCodepen} />
-                  </a>
-                  <a href={project.githubLink}>
-                    <FontAwesomeIcon icon={faGithub} />
-                  </a>
+                  <div class="arrow-btn">
+                    <div class="arrow-btn-text">
+                      <a href={project.projectLink}>View Project</a>
+                    </div>
+                    <FontAwesomeIcon icon={faLongArrowAltRight} />
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </div>
+
+                  <div class="links">
+                    <a href={project.codepenLink}>
+                      <FontAwesomeIcon icon={faCodepen} />
+                    </a>
+                    <a href={project.githubLink}>
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </>
   );

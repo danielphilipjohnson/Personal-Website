@@ -12,7 +12,7 @@ module.exports = {
     twitterImage: "images/bannertagline.png",
     facebookImage: "images/banner.png",
     profileImage:
-      "https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png",
+      "https://pbs.twprojectTypesimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png",
     tagline: `Front End Engineer at CodeCareer.io who specialises with React |
       Javascript | Tailwind | Bootstrap 4 | SASS`,
     specialities: [
@@ -180,7 +180,7 @@ module.exports = {
         certificateLink: "",
       },
     ],
-    projectTypes: ["All", "Js", "Responsive"],
+    projectTypes: ["All", "Js", "Responsive", "Angular", "Material"],
     projects: [
       {
         title: "Tribute Page",
@@ -195,7 +195,7 @@ module.exports = {
       },
       {
         title: "Survey Form",
-        imageSrc: "../../../images/responsive-img/surveryform.png",
+        imageSrc: "../../../images/responsive-img/surveyform.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius.`,
@@ -217,7 +217,7 @@ module.exports = {
       },
       {
         title: "Technical Document",
-        imageSrc: "../../../images/responsive-img/technicaldocument.png",
+        imageSrc: "../../../images/responsive-img/technicaldocumentation.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure.`,
@@ -238,6 +238,97 @@ module.exports = {
         projectLink: "#",
       },
       {
+        title: "Edge Ledger",
+        imageSrc: "../../../images/responsive-img/edgeledger.jpg",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+      {
+        title: "Vozsy News",
+        imageSrc: "../../../images/responsive-img/vozsynews.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+      {
+        title: "Scenic Cornwall",
+        imageSrc: "../../../images/responsive-img/sceniccornwall.jpg",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+      {
+        title: "Nexter",
+        imageSrc: "../../../images/responsive-img/nexter.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+      {
+        title: "Trillo",
+        imageSrc: "../../../images/responsive-img/trillo.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+      {
+        title: "Presentation",
+        imageSrc: "../../../images/responsive-img/presentation.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+      {
+        title: "Basic Spotify Clone",
+        imageSrc: "../../../images/material-projects/spotify-clone.png",
+        type: "material",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+      {
+        title: "Basic Messenger Clone",
+        imageSrc: "../../../images/material-projects/messenger-clone.png",
+        type: "material",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+      {
+        title: "Basic Instagram Clone",
+        imageSrc: "../../../images/material-projects/instagram-clone.png",
+        type: "material",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+      },
+
+      {
         title: "Random Quote Machine",
         imageSrc: "../../../images/front-end-lib/quotemachine.png",
         type: "js",
@@ -250,7 +341,7 @@ module.exports = {
       },
       {
         title: "Markdown Previewer",
-        imageSrc: "../../../images/front-end-lib/markdown.png",
+        imageSrc: "../../../images/front-end-lib/markdownpreviewer.png",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
@@ -296,20 +387,8 @@ module.exports = {
         projectLink: "#",
       },
       {
-        title: "Local Weather",
-        imageSrc: "../../../images/front-end-lib/weatherapp.png",
-        type: "js",
-        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Autem eligendi deleniti iure eius itaque mollitia veniam
-        vitae earum nesciunt voluptate.`,
-        codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEQB",
-        githubLink:
-          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Local-Weather",
-        projectLink: "#",
-      },
-      {
         title: "Recipe Box",
-        imageSrc: "../../../images/front-end-lib/recipebox.png",
+        imageSrc: "../../../images/front-end-lib/recipebox.jpg",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
@@ -332,21 +411,9 @@ module.exports = {
         projectLink: "#",
       },
       {
-        title: "Tic Tac Toe",
-        imageSrc: "../../../images/front-end-lib/tictac.png",
-        type: "js",
-        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Autem eligendi deleniti iure eius itaque mollitia veniam
-        vitae earum nesciunt voluptate.`,
-        codepenLink: "https://codepen.io/danielphilipjohnson/full/gOPmYvK",
-        githubLink:
-          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Tic%20Tac%20Toe",
-        projectLink: "#",
-      },
-      {
         title: "Twitch.tv JSON-API",
-        imageSrc: "../../../images/front-end-lib/twitchviewer.png",
-        type: "js",
+        imageSrc: "../../../images/front-end-lib/json-api-project.png",
+        type: "angular",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Autem eligendi deleniti iure eius itaque mollitia veniam
         vitae earum nesciunt voluptate.`,
@@ -355,6 +422,31 @@ module.exports = {
           "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
         projectLink: "#",
       },
+      {
+        title: "Basic Instagram clone",
+        imageSrc: "../../../images/front-end-lib/igclone.png",
+        type: "angular",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+        projectLink: "#",
+      },
+      {
+        title: "Basic Spotify clone",
+        imageSrc: "../../../images/front-end-lib/spotifyclone-angular.png",
+        type: "angular",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+        projectLink: "#",
+      },
+
       {
         title: "Wiki Viewer",
         imageSrc: "../../../images/front-end-lib/wikiviewer.png",
