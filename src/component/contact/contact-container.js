@@ -16,7 +16,10 @@ function ContactContainer() {
     <div className="form-container">
       <p className="description">
         I am here to help and answer any question you might have about your
-        project. I look forward to hearing from you 🙂
+        project. I look forward to hearing from you{" "}
+        <span role="img" aria-label="happy">
+          🙂
+        </span>
       </p>
 
       <Form />

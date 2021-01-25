@@ -46,7 +46,7 @@ function Footer({ location }) {
               <a
                 href="https://twitter.com/danielp_johnson"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "twitter"]} />
               </a>
@@ -56,7 +56,7 @@ function Footer({ location }) {
               <a
                 href="https://www.facebook.com/DanielPhilipJohnson"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "facebook"]} />
               </a>
@@ -66,7 +66,7 @@ function Footer({ location }) {
               <a
                 href="https://github.com/danielphilipjohnson/"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
@@ -76,7 +76,7 @@ function Footer({ location }) {
               <a
                 href="https://www.linkedin.com/in/daniel-philip-johnson/"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </a>
