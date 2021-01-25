@@ -128,11 +128,38 @@
 }
 .overlay .content {
   padding: 1rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 .overlay .content p {
   font-size: 0.75rem;
   color: #c6c7c7;
   display: none;
+}
+
+.badges {
+  padding: 1rem;
+}
+
+.badge-tech {
+  opacity: 1;
+  font-size: 0.875rem;
+  height: 28px;
+  margin: 0 3px;
+  padding: 0 8px;
+  line-height: 28px;
+  display: inline-block;
+  background: rgba(58, 60, 85, 0.4);
+  color: #fff;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
 }
 
 @media screen and (min-width: 768px) {
@@ -146,24 +173,24 @@
   justify-content: center;
   align-items: center;
   font-size: 0.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
 }
 .overlay .arrow-btn .arrow-btn-text {
-  margin-right: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
 }
 .overlay .links {
   padding: 1rem;
   display: flex;
   justify-content: center;
 }
-.overlay .links svg {
-  padding: 1rem;
-  background-color: #000;
-  margin-right: 0.5rem;
+.overlay svg {
+  padding: 0.05rem 0.35rem;
+  background-color: rgba(0, 0, 0, 0.4);
   transition: 0.5s ease;
-  border-radius: 4px;
-  font-size: 3rem;
+  font-size: 2rem;
+  height: 35px;
 }
 .overlay .links svg:hover {
   background-color: #444343;
