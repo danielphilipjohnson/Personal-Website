@@ -42,7 +42,7 @@ exports.createPages = async ({ graphql, actions }) => {
     // loop
 
     posts.forEach((post, index) => {
-      console.log(post);
+      console.log(post.path);
       // make correct path
       // send the data
       createPage({

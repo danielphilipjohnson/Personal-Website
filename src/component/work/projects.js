@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFirefox } from "@fortawesome/free-brands-svg-icons";
@@ -62,7 +62,7 @@ function Projects() {
                   <div class="content">
                     <div class="arrow-btn">
                       <div class="arrow-btn-text">
-                        <a href={project.projectLink}>View Project</a>
+                        <Link to={`${"/" + project.path}`}>View Project</Link>
                       </div>
                       <FontAwesomeIcon icon={faLongArrowAltRight} />
                     </div>
@@ -91,6 +91,7 @@ const siteQuery = graphql`
       siteMetadata {
         projects {
           title
+          path
           imageSrc
           type
           description

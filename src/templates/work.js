@@ -96,6 +96,7 @@ export const query = graphql`
         path
         context {
           post {
+            path
             badges
             codepenLink
             description
