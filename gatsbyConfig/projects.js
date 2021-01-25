@@ -32,7 +32,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -68,7 +108,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -104,7 +184,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -140,7 +260,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -176,7 +336,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -211,7 +411,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -246,7 +486,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -281,7 +561,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -316,7 +636,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -351,7 +711,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -386,7 +786,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -421,7 +861,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -456,7 +936,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -492,7 +1012,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -529,7 +1089,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -565,7 +1165,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -602,7 +1242,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -639,7 +1319,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -676,7 +1396,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -713,7 +1473,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -749,7 +1549,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -786,7 +1626,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -823,7 +1703,47 @@ module.exports = [
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
   {
@@ -856,11 +1776,50 @@ module.exports = [
       perspiciatis doloribus fugit ratione ea delectus commodi
       doloremque ullam aperiam eos mollitia pariatur molestiae,
       veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      lessonsLearned: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
       quaerat similique delectus aspernatur aut cum. Totam est modi
       accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolUsed: [
+        {
+          name: "JavaScript",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "React",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "Redux",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+        {
+          name: "GraphQL",
+          src: "https://source.unsplash.com/daily",
+          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+        quaerat similique delectus aspernatur aut cum. Totam est modi
+        accusantium tempore! Sed, porro!`,
+        },
+      ],
     },
   },
 ];

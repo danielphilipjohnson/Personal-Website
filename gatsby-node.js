@@ -24,6 +24,13 @@ exports.createPages = async ({ graphql, actions }) => {
                 goals
                 lessonsLearned
                 mobileView
+                toolUsed {
+                  name
+                  src
+                  about
+                }
+                process
+                tabletView
               }
             }
           }

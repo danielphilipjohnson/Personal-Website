@@ -8,7 +8,9 @@ function work({ location, data, pageContext }) {
   console.log(pageContext);
 
   const { details } = pageContext.post;
-  console.log(details);
+
+  const toolUsed = details.toolUsed;
+  console.log(toolUsed);
   return (
     <Layout location={location.pathname}>
       <SEO />
@@ -43,6 +45,32 @@ function work({ location, data, pageContext }) {
             <img src={details.mobileView} alt="" srcset="" />
           </div>
         </div>
+
+        <article>
+          <h3>What was used</h3>
+          {toolUsed.map((tool) => {
+            const { name, src, about } = tool;
+            return (
+              <>
+                <img src={src} alt={name} />
+                <h4>{name}</h4>
+                <p>{about}</p>
+              </>
+            );
+          })}
+        </article>
+
+        <article>
+          <div>
+            {" "}
+            <h3>Process</h3>
+            <p>{details.process}</p>
+          </div>
+
+          <div>
+            <img src={details.tabletView} alt="tablet view" />
+          </div>
+        </article>
       </section>
     </Layout>
   );
@@ -71,6 +99,13 @@ export const query = graphql`
               goals
               lessonsLearned
               mobileView
+              toolUsed {
+                name
+                src
+                about
+              }
+              process
+              tabletView
             }
           }
         }
