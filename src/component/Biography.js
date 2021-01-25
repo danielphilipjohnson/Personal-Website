@@ -18,7 +18,7 @@ function Biography() {
             {site.siteMetadata.biography.focuses.map((focus, i) => {
               return (
                 <span key={focus + i}>
-                  <span> // </span>
+                  <span> {"//"} </span>
                   <span className="text-secondary"> {focus} </span>
                 </span>
               );

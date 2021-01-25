@@ -12,7 +12,7 @@ module.exports = {
     twitterImage: "images/bannertagline.png",
     facebookImage: "images/banner.png",
     profileImage:
-      "https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png",
+      "https://pbs.twprojectTypesimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png",
     tagline: `Front End Engineer at CodeCareer.io who specialises with React |
       Javascript | Tailwind | Bootstrap 4 | SASS`,
     specialities: [
@@ -180,6 +180,310 @@ module.exports = {
         certificateLink: "",
       },
     ],
+    projectTypes: ["All", "Js", "Responsive", "Angular", "Material"],
+    projects: [
+      {
+        title: "Tribute Page",
+        imageSrc: "../../../images/responsive-img/tributepage.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eiu.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/VwaJrPg",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/1.Tribute-Page",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Survey Form",
+        imageSrc: "../../../images/responsive-img/surveyform.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/oNxabPN",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/2.Survey_form",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Product Landing",
+        imageSrc: "../../../images/responsive-img/productlanding.png",
+        type: "responsive",
+        description: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/LYNgrGV",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/3.Product-Landing-Page",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Technical Document",
+        imageSrc: "../../../images/responsive-img/technicaldocumentation.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/PoNVJLW",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/4.Technical-Documentation-Page",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Portfolio",
+        imageSrc: "../../../images/responsive-img/portfolio.jpg",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/JjXmZGj",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Edge Ledger",
+        imageSrc: "../../../images/responsive-img/edgeledger.jpg",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Vozsy News",
+        imageSrc: "../../../images/responsive-img/vozsynews.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Scenic Cornwall",
+        imageSrc: "../../../images/responsive-img/sceniccornwall.jpg",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Nexter",
+        imageSrc: "../../../images/responsive-img/nexter.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Trillo",
+        imageSrc: "../../../images/responsive-img/trillo.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Presentation",
+        imageSrc: "../../../images/responsive-img/presentation.png",
+        type: "responsive",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Basic Spotify Clone",
+        imageSrc: "../../../images/material-projects/spotify-clone.png",
+        type: "material",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Basic Messenger Clone",
+        imageSrc: "../../../images/material-projects/messenger-clone.png",
+        type: "material",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
+      },
+      {
+        title: "Basic Instagram Clone",
+        imageSrc: "../../../images/material-projects/instagram-clone.png",
+        type: "material",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "#",
+        githubLink: "#",
+        projectLink: "#",
+        badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
+      },
+
+      {
+        title: "Random Quote Machine",
+        imageSrc: "../../../images/front-end-lib/quotemachine.png",
+        type: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/bGEgaoo",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+      },
+      {
+        title: "Markdown Previewer",
+        imageSrc: "../../../images/front-end-lib/markdownpreviewer.png",
+        type: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+      },
+      {
+        title: "Drum Machine",
+        imageSrc: "../../../images/front-end-lib/drummachine.png",
+        type: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+      },
+      {
+        title: "Javascript Calculator",
+        imageSrc: "../../../images/front-end-lib/calculator.png",
+        type: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+      },
+      {
+        title: "Pomodoro Clock",
+        imageSrc: "../../../images/front-end-lib/pomodoro.png",
+        type: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+      },
+      {
+        title: "Recipe Box",
+        imageSrc: "../../../images/front-end-lib/recipebox.jpg",
+        type: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+      },
+      {
+        title: "Simon",
+        imageSrc: "../../../images/front-end-lib/simon.jpg",
+        type: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+      },
+      {
+        title: "Twitch.tv JSON-API",
+        imageSrc: "../../../images/front-end-lib/json-api-project.png",
+        type: "angular",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+        projectLink: "#",
+      },
+      {
+        title: "Basic Instagram clone",
+        imageSrc: "../../../images/front-end-lib/igclone.png",
+        type: "angular",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+      },
+      {
+        title: "Basic Spotify clone",
+        imageSrc: "../../../images/front-end-lib/spotifyclone-angular.png",
+        type: "angular",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+      },
+
+      {
+        title: "Wiki Viewer",
+        imageSrc: "../../../images/front-end-lib/wikiviewer.png",
+        type: "js",
+        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem eligendi deleniti iure eius itaque mollitia veniam
+        vitae earum nesciunt voluptate.`,
+        codepenLink: "https://codepen.io/danielphilipjohnson/full/LYGWYBg",
+        githubLink:
+          "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Wiki-Viewer",
+        projectLink: "#",
+        badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+      },
+    ],
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -254,7 +558,7 @@ module.exports = {
             sizes: "512x512",
           },
           {
-            src: `/favicons/favicon-32x32.png`,
+            src: `/favicmapons/favicon-32x32.png`,
             sizes: `32x32`,
             type: `image/png`,
           },
@@ -288,6 +592,12 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-plugin-static-folders",
+      options: {
+        folders: ["/downloads", "/images"],
+      },
     },
   ],
 };

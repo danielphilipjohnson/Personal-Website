@@ -79,9 +79,9 @@ function Education() {
         </div>
       </div>
       {displayShowMore && (
-        <p className="show-more" onClick={() => seeAll()}>
+        <button className="show-more" onClick={() => seeAll()}>
           Show More
-        </p>
+        </button>
       )}
     </div>
   );

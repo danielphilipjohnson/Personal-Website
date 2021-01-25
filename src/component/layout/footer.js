@@ -28,55 +28,55 @@ function Footer({ location }) {
   }
 
   return (
-    <footer class="main-footer">
-      <div class="container">
-        <div class="footer-top">
-          <div class="sitemap">
+    <footer className="main-footer">
+      <div className="container">
+        <div className="footer-top">
+          <div className="sitemap">
             {allFooterRoutes.map((item) => {
               return (
-                <p>
+                <p key={item.link}>
                   <Link to={item.link}>{item.text}</Link>
                 </p>
               );
             })}
           </div>
 
-          <ul class="social-icons">
-            <li class="nav-item twitter">
+          <ul className="social-icons">
+            <li className="nav-item twitter">
               <a
                 href="https://twitter.com/danielp_johnson"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "twitter"]} />
               </a>
             </li>
 
-            <li class="nav-item facebook">
+            <li className="nav-item facebook">
               <a
                 href="https://www.facebook.com/DanielPhilipJohnson"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "facebook"]} />
               </a>
             </li>
 
-            <li class="nav-item github">
+            <li className="nav-item github">
               <a
                 href="https://github.com/danielphilipjohnson/"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </li>
 
-            <li class="nav-item linkedin">
+            <li className="nav-item linkedin">
               <a
                 href="https://www.linkedin.com/in/daniel-philip-johnson/"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </a>
@@ -84,14 +84,14 @@ function Footer({ location }) {
           </ul>
         </div>
 
-        <div class="footer-bottom">
+        <div className="footer-bottom">
           <p>
             Copyright &copy; <span id="year"> 2020.</span> All Rights Reserved |
             Designed and built with{" "}
           </p>
-          <div class="heart-container">
+          <div className="heart-container">
             <div
-              class="heart"
+              className="heart"
               style={{
                 backgroundImage: `url(${heartImage})`,
               }}
@@ -99,7 +99,7 @@ function Footer({ location }) {
           </div>
           <p>
             by {"  "}
-            <a class="author" href="https://twitter.com/danielp_johnson">
+            <a className="author" href="https://twitter.com/danielp_johnson">
               Daniel Philip Johnson
             </a>
           </p>

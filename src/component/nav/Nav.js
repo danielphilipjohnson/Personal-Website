@@ -54,11 +54,11 @@ function Nav() {
   };
   return (
     <aside>
-      <div ref={menuRef} className="menu-btn" onClick={openMenu} role="menu">
+      <button ref={menuRef} className="menu-btn" onClick={openMenu} role="menu">
         <div className="btn-line"></div>
         <div className="btn-line"></div>
         <div className="btn-line"></div>
-      </div>
+      </button>
 
       <nav className="menu" ref={navRef}>
         <div className="menu-branding" ref={menuBrandRef}>
