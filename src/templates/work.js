@@ -4,6 +4,8 @@ import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import Header from "../component/layout/Header";
 
+import "./styles.css";
+
 function work({ location, data, pageContext }) {
   console.log(pageContext);
 
@@ -22,14 +24,18 @@ function work({ location, data, pageContext }) {
         />
 
         <div
+          className="cta"
           style={{
             backgroundImage: `url(${pageContext.post.imageSrc})`,
-            width: "500px",
-            height: "500px",
           }}
-        ></div>
+        >
+          <div className="btn-group cta__btn-group">
+            <button className="btn-outline">View project</button>
+            <button className="btn-outline">Github source</button>
+          </div>
+        </div>
 
-        <div>
+        {/* <div>
           <div>
             <h2>Overview</h2>
             <p>{details.overview}</p>
@@ -44,9 +50,9 @@ function work({ location, data, pageContext }) {
           <div>
             <img src={details.mobileView} alt="" srcset="" />
           </div>
-        </div>
+        </div> */}
 
-        <article>
+        {/* <article>
           <h3>What was used</h3>
           {toolUsed.map((tool) => {
             const { name, src, about } = tool;
@@ -71,6 +77,11 @@ function work({ location, data, pageContext }) {
             <img src={details.tabletView} alt="tablet view" />
           </div>
         </article>
+        {details.reusablecomponents && (
+          <article>
+            <h3>Reusable components if exists</h3>
+          </article>
+        )} */}
       </section>
     </Layout>
   );
