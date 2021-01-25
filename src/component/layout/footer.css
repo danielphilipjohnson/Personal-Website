@@ -21,6 +21,7 @@
 
 .footer-top .sitemap {
   display: flex;
+  flex-wrap: wrap;
 }
 .footer-top .sitemap > * {
   padding: 1rem;

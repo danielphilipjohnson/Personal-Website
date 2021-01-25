@@ -16,7 +16,7 @@ function work({ location, data, pageContext }) {
   return (
     <Layout location={location.pathname}>
       <SEO />
-      <section id="work" className="work">
+      <section id="work-temp" className="work-temp">
         <Header
           title={"Project: "}
           secondary={pageContext.post.title}
@@ -30,8 +30,18 @@ function work({ location, data, pageContext }) {
           }}
         >
           <div className="btn-group cta__btn-group">
-            <button className="btn-outline">View project</button>
-            <button className="btn-outline">Github source</button>
+            <a
+              className="btn-outline btn-outline-primary"
+              href={pageContext.post.codepenLink}
+            >
+              View project
+            </a>
+            <a
+              className="btn-outline btn-outline-primary"
+              href={pageContext.post.githubLink}
+            >
+              Github source
+            </a>
           </div>
         </div>
 
