@@ -184,6 +184,7 @@ module.exports = {
     projects: [
       {
         title: "Tribute Page",
+        path: "tributepage",
         imageSrc: "../../../images/responsive-img/tributepage.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -196,6 +197,7 @@ module.exports = {
       },
       {
         title: "Survey Form",
+        path: "surveyform",
         imageSrc: "../../../images/responsive-img/surveyform.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -208,6 +210,7 @@ module.exports = {
       },
       {
         title: "Product Landing",
+        path: "productlanding",
         imageSrc: "../../../images/responsive-img/productlanding.png",
         type: "responsive",
         description: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -220,6 +223,7 @@ module.exports = {
       },
       {
         title: "Technical Document",
+        path: "technicaldocument",
         imageSrc: "../../../images/responsive-img/technicaldocumentation.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -232,6 +236,7 @@ module.exports = {
       },
       {
         title: "Portfolio",
+        path: "portfolio",
         imageSrc: "../../../images/responsive-img/portfolio.jpg",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -244,6 +249,7 @@ module.exports = {
       },
       {
         title: "Edge Ledger",
+        path: "edgeledger",
         imageSrc: "../../../images/responsive-img/edgeledger.jpg",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -255,6 +261,7 @@ module.exports = {
       },
       {
         title: "Vozsy News",
+        path: "vozsynews",
         imageSrc: "../../../images/responsive-img/vozsynews.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -266,6 +273,7 @@ module.exports = {
       },
       {
         title: "Scenic Cornwall",
+        path: "sceniccornwall",
         imageSrc: "../../../images/responsive-img/sceniccornwall.jpg",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -277,6 +285,7 @@ module.exports = {
       },
       {
         title: "Nexter",
+        path: "nexter",
         imageSrc: "../../../images/responsive-img/nexter.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -288,6 +297,7 @@ module.exports = {
       },
       {
         title: "Trillo",
+        path: "trillo",
         imageSrc: "../../../images/responsive-img/trillo.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -299,6 +309,7 @@ module.exports = {
       },
       {
         title: "Presentation",
+        path: "presentation",
         imageSrc: "../../../images/responsive-img/presentation.png",
         type: "responsive",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -310,6 +321,7 @@ module.exports = {
       },
       {
         title: "Basic Spotify Clone",
+        path: "spotifyclone",
         imageSrc: "../../../images/material-projects/spotify-clone.png",
         type: "material",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -321,6 +333,7 @@ module.exports = {
       },
       {
         title: "Basic Messenger Clone",
+        path: "messengerclone",
         imageSrc: "../../../images/material-projects/messenger-clone.png",
         type: "material",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -331,19 +344,8 @@ module.exports = {
         badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
       },
       {
-        title: "Basic Instagram Clone",
-        imageSrc: "../../../images/material-projects/instagram-clone.png",
-        type: "material",
-        description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Autem eligendi deleniti iure.`,
-        codepenLink: "#",
-        githubLink: "#",
-        projectLink: "#",
-        badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
-      },
-
-      {
         title: "Random Quote Machine",
+        path: "quotemachine",
         imageSrc: "../../../images/front-end-lib/quotemachine.png",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -356,6 +358,7 @@ module.exports = {
       },
       {
         title: "Markdown Previewer",
+        path: "markdownpreviewer",
         imageSrc: "../../../images/front-end-lib/markdownpreviewer.png",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -369,6 +372,7 @@ module.exports = {
       },
       {
         title: "Drum Machine",
+        path: "drummachine",
         imageSrc: "../../../images/front-end-lib/drummachine.png",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -381,6 +385,7 @@ module.exports = {
       },
       {
         title: "Javascript Calculator",
+        path: "javascriptcalculator",
         imageSrc: "../../../images/front-end-lib/calculator.png",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -394,6 +399,7 @@ module.exports = {
       },
       {
         title: "Pomodoro Clock",
+        path: "pomodoroclock",
         imageSrc: "../../../images/front-end-lib/pomodoro.png",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -407,6 +413,7 @@ module.exports = {
       },
       {
         title: "Recipe Box",
+        path: "recipebox",
         imageSrc: "../../../images/front-end-lib/recipebox.jpg",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -420,6 +427,7 @@ module.exports = {
       },
       {
         title: "Simon",
+        path: "simon",
         imageSrc: "../../../images/front-end-lib/simon.jpg",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -433,6 +441,7 @@ module.exports = {
       },
       {
         title: "Twitch.tv JSON-API",
+        path: "twitchclone",
         imageSrc: "../../../images/front-end-lib/json-api-project.png",
         type: "angular",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -445,6 +454,7 @@ module.exports = {
       },
       {
         title: "Basic Instagram clone",
+        path: "instagramclone",
         imageSrc: "../../../images/front-end-lib/igclone.png",
         type: "angular",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -458,6 +468,7 @@ module.exports = {
       },
       {
         title: "Basic Spotify clone",
+        path: "spotifyclone",
         imageSrc: "../../../images/front-end-lib/spotifyclone-angular.png",
         type: "angular",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -472,6 +483,7 @@ module.exports = {
 
       {
         title: "Wiki Viewer",
+        path: "wikiviewer",
         imageSrc: "../../../images/front-end-lib/wikiviewer.png",
         type: "js",
         description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
