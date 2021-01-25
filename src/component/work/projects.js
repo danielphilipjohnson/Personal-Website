@@ -2,11 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFirefox,
-  faCodepen,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFirefox } from "@fortawesome/free-brands-svg-icons";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 import BtnGroup from "./btns";
@@ -17,9 +13,6 @@ import "./projects.css";
 function Projects() {
   const { site } = useStaticQuery(siteQuery);
   const allProjects = site.siteMetadata.projects;
-  {
-    console.log(allProjects);
-  }
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [activeType, setActiveType] = useState("all");
 
@@ -34,11 +27,6 @@ function Projects() {
         })
       );
     }
-  };
-  const displayBadges = (badges) => {
-    badges.forEach((item) => {
-      console.log(item);
-    });
   };
 
   useEffect(() => {

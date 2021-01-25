@@ -8,7 +8,7 @@ function Btns({ getTypeOfProjects, activeType }) {
     <div className="btn-group">
       {allTypes.map((btn) => {
         const btnLowered = btn.toLowerCase();
-        console.log(btn);
+
         if (btnLowered === activeType) {
           return (
             <button
