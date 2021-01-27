@@ -8,22 +8,17 @@
     background-color: #3a3c55;
   }
 }
-.contacts header {
-  padding: 3.5rem 0 0 0;
-}
 
 .contacts .lg-heading,
 .contacts .sm-heading {
   text-align: center;
   margin-bottom: 0.25rem;
-  padding: 0;
 }
 
 @media screen and (min-width: 750px) {
   .contacts .lg-heading,
   .contacts .sm-heading {
     text-align: left;
-    padding: 0;
   }
 }
 
@@ -37,6 +32,7 @@
   padding: 0;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 2rem;
 }
 
 .form-card .title {

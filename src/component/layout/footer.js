@@ -7,6 +7,7 @@ import heartImage from "../../images/heart.png";
 import "./footer.css";
 
 function Footer({ location }) {
+  console.log(location);
   const routesPathAndValues = {
     "/": "Home",
     "/about/": "About",
