@@ -1,86 +1,9 @@
-.cta {
-  background-color: #f7f7f7;
-  /* width: 100%;
-  background-size: contain;
-
-  background-repeat: no-repeat;
-  background-position: top;
-  min-height: 300px;
-
-  position: relative; */
-}
-
-/* .cta:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  /* z-index: -1;
-  background: rgba(48, 49, 70, 0.4);
-} */
-
 .work-temp header {
-  padding: 3rem 2rem;
-  margin-bottom: -3rem;
+  padding: 3rem 2rem 0 2rem;
+  /* #1b1c28 */
 }
 .work-temp header .lg-heading {
   font-size: 2rem;
-}
-.cta__btn-group {
-  /* position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  z-index: 10; */
-}
-
-@media screen and (min-width: 350px) {
-  /* .cta {
-    height: 80vh;
-  } */
-  .work-temp header {
-    margin-bottom: -4rem;
-  }
-}
-@media screen and (min-width: 350px) {
-  .cta__btn-group {
-    bottom: 30%;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  .cta__btn-group {
-    bottom: 20%;
-  }
-}
-@media screen and (min-width: 690px) {
-  .cta__btn-group {
-    bottom: 10%;
-  }
-}
-
-@media screen and (min-width: 850px) {
-  .cta {
-    background-size: cover;
-  }
-  .work-temp header {
-    margin-bottom: -3rem;
-  }
-}
-
-@media screen and (min-width: 1150px) {
-  .work-temp header {
-    margin-bottom: -1rem;
-  }
-}
-
-@media screen and (min-width: 850px) {
-  .cta__btn-group {
-    bottom: 15%;
-  }
 }
 
 .btn-outline-primary {
@@ -92,26 +15,31 @@
 
 /* project stats */
 .project-stat {
+  background-color: #1b1c28;
+}
+.project-stat .container {
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-@media screen and (min-width: 500px) {
-  .project-stat {
+@media screen and (min-width: 800px) {
+  .project-stat .container {
     grid-template-columns: 2fr 1fr;
+  }
+  .project-stat__information {
+    text-align: left;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .project-stat {
+  .project-stat .container {
     grid-template-columns: 3fr 1fr;
   }
 }
 
 .project-stat__information {
-  text-align: left;
   margin-right: 1rem;
 }
 .project-stat__block {
@@ -181,10 +109,12 @@
   .project-process {
     grid-template-columns: 2fr 1fr;
   }
+  .project-process--information {
+    text-align: left;
+  }
 }
 
 .project-process--information {
-  text-align: left;
   margin-bottom: 2rem;
   padding-right: 1rem;
 }

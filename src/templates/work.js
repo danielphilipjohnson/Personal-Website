@@ -23,52 +23,55 @@ function work({ location, data, pageContext }) {
           subTitle={"Daniel Philip Johnson"}
         />
 
-        <div className="cta">
-          <img className="img-fluid" src={pageContext.post.imageSrc} alt="" />
-
-          <div className="btn-group cta__btn-group">
-            <a
-              className="btn-outline btn-outline-primary"
-              href={pageContext.post.codepenLink}
-            >
-              View project
-            </a>
-            <a
-              className="btn-outline btn-outline-primary"
-              href={pageContext.post.githubLink}
-            >
-              Github source
-            </a>
+        <div className="">
+          <div className="container">
+            <img className="img-fluid" src={pageContext.post.imageSrc} alt="" />
+            <div className="btn-group ">
+              <a
+                className="btn-outline btn-outline-primary"
+                href={pageContext.post.codepenLink}
+              >
+                View project
+              </a>
+              <a
+                className="btn-outline btn-outline-primary"
+                href={pageContext.post.githubLink}
+              >
+                Github source
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="container project-stat">
-          <div className="project-stat__information">
-            <div className="project-stat__block">
-              <h2 className="text-secondary project-stat__block--header">
-                Overview
-              </h2>
-              <p>{details.overview}</p>
+        <div className="project-stat">
+          <div className="container">
+            <div className="project-stat__information">
+              <div className="project-stat__block">
+                <h2 className="text-secondary project-stat__block--header">
+                  Overview
+                </h2>
+                <p>{details.overview}</p>
+              </div>
+
+              <div className="project-stat__block">
+                <h2 className="text-secondary">Goals</h2>
+                <p>{details.goals}</p>
+              </div>
+              <div className="project-stat__block">
+                <h2 className="text-secondary">Lessons Learned </h2>
+                <p>{details.lessonsLearned}</p>
+              </div>
             </div>
 
-            <div className="project-stat__block">
-              <h2 className="text-secondary">Goals</h2>
-              <p>{details.goals}</p>
-            </div>
-            <div className="project-stat__block">
-              <h2 className="text-secondary">Lessons Learned </h2>
-              <p>{details.lessonsLearned}</p>
-            </div>
+            <figure className="tech-figure">
+              <img
+                className="img-fluid"
+                src={details.mobileView}
+                alt="mobile view"
+              />
+              <figcaption>Fig.1 - Mobile View of App</figcaption>
+            </figure>
           </div>
-
-          <figure className="tech-figure">
-            <img
-              className="img-fluid"
-              src={details.mobileView}
-              alt="mobile view"
-            />
-            <figcaption>Fig.1 - Mobile View of App</figcaption>
-          </figure>
         </div>
 
         <div className="project-tools">

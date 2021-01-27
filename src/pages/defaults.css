@@ -52,6 +52,11 @@ h3.sm-heading {
   font-size: 1.25rem;
 }
 
+header {
+  background-color: #1b1c28;
+  padding: 3.5rem 0 0.95rem 0;
+}
+
 .btn-group {
   text-align: center;
 }

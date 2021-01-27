@@ -8,9 +8,6 @@
     background-color: #3a3c55;
   }
 }
-.contacts header {
-  padding: 3.5rem 0 0 0;
-}
 
 .contacts .lg-heading,
 .contacts .sm-heading {
@@ -37,6 +34,7 @@
   padding: 0;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 2rem;
 }
 
 .form-card .title {
