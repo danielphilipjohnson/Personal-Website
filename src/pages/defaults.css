@@ -48,13 +48,13 @@ h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 1rem 1rem 0.2rem;
   font-size: 1.25rem;
 }
 
 header {
   background-color: #1b1c28;
-  padding: 3.5rem 0 0.95rem 0;
+  padding: 3.5rem 0 0 0;
 }
 
 .btn-group {
