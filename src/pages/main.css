@@ -239,3 +239,22 @@ main#contact section {
 .connect {
   padding: 2rem 0 1rem;
 }
+
+/* figure */
+.tech-figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 700px) {
+  .tech-figure {
+    padding: 1rem;
+  }
+}
+.tech-figure img {
+  margin-bottom: 1.5rem;
+}
+.tech-figure figcaption {
+  font-weight: bolder;
+}

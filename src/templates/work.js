@@ -64,7 +64,7 @@ function work({ location, data, pageContext }) {
             </div>
           </div>
 
-          <figure className="project-stat__figure">
+          <figure className="tech-figure">
             <img
               className="img-fluid"
               src={details.mobileView}
@@ -102,14 +102,7 @@ function work({ location, data, pageContext }) {
             <p>{details.process}</p>
           </div>
 
-          {/* <div>
-            <img
-              className="img-fluid"
-              src={details.tabletView}
-              alt="tablet view"
-            />
-          </div> */}
-          <figure className="project-stat__figure">
+          <figure className="tech-figure">
             <img
               className="img-fluid"
               src={details.tabletView}
@@ -118,24 +111,6 @@ function work({ location, data, pageContext }) {
             <figcaption>Fig.2 - Tablet View of App</figcaption>
           </figure>
         </div>
-        {/* 
-
-        <article>
-          <div>
-            {" "}
-            <h3>Process</h3>
-            <p>{details.process}</p>
-          </div>
-
-          <div>
-            <img src={details.tabletView} alt="tablet view" />
-          </div>
-        </article>
-        {details.reusablecomponents && (
-          <article>
-            <h3>Reusable components if exists</h3>
-          </article>
-        )} */}
       </section>
     </Layout>
   );
