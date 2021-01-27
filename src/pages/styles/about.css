@@ -1,0 +1,22 @@
+.about {
+  text-align: left;
+}
+.about p {
+  margin-bottom: 1rem;
+}
+.about-info img {
+  margin-bottom: 1rem;
+}
+.about-stats h3 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+.about-stats p {
+  margin-bottom: 1rem;
+}
+.about-stats p a {
+  margin-right: 0.75rem;
+}

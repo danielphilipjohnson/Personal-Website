@@ -6,6 +6,9 @@ import Header from "../component/layout/Header";
 import Layout from "../component/layout/Layout";
 
 import banner from "../images/profile.jpg";
+
+import "./styles/about.css";
+
 const About = ({ location }) => {
   const { site } = useStaticQuery(siteQuery);
 
@@ -41,10 +44,9 @@ const About = ({ location }) => {
           subTitle={"Let me tell you a few things..."}
         />
 
-        <div>
+        <div className="about-stats">
           <h3>{setToday()} by Daniel Johnson</h3>
-
-          <p align="center">
+          <p>
             <a
               class="header-badge"
               target="_blank"
@@ -66,11 +68,67 @@ const About = ({ location }) => {
           </p>
         </div>
 
-        <div className="container">
-          <img className="img-fluid" src={banner} alt="" srcset="" />
-        </div>
+        <div className="container about">
+          <div className="about-info">
+            <img className="img-fluid" src={banner} alt="" srcset="" />
 
-        <p align="center">
+            <p>
+              Hi, it's Daniel. I am an English front-end engineer from Truro
+              Cornwall who currently works remotely for codecareer.io. I'm
+              responsible for maintaining a hiring system and well as
+              contributing to a job board. In my spare time, I have a series of
+              react side projects and I also contribute to the community with
+              React and web resources.
+            </p>
+            <p>
+              My professional life is a summary: I graduated from the University
+              of Plymouth with a BSc in psychology in 2014. It was at university
+              I discovered my passion for development. I started with
+              programming my own project for a neuroscience experiment and then
+              onto helping others. During my neuroscience lessons, I loved the
+              topic of vision and memory. It was "vision" that took a lot of my
+              interest like how colours catch our eyes and how the placement of
+              items has importance. Around the same time, I developed an
+              interest in web development during my free time.{" "}
+            </p>
+            <p>
+              After, I finished my four years of studies. I started to travel
+              around the world. Deciding my next plan and my goals. It suddenly
+              hit me during this period while applying for graduate psychology
+              positions. I found myself spending more and more time programming
+              in my spare time. Developing a strong connection. So I decided to
+              start with freecodecamp. I successfully finished in 2017 and then
+              progressed onto Udacity in 2018 whilst working a full-time job. I
+              gained a lot of experience and confidence in web development and
+              setout my targetted path. Improving areas that required attention
+              and growing my connections. Recently, I successfully joined
+              codecareer.io as a react developer and future content creator.{" "}
+            </p>
+          </div>
+
+          <div className="used-technologies">get icons</div>
+
+          <div className="quick-bio">
+            <h3 className="text-secondary">📔 Quick Biography </h3>
+            <p>
+              <b>When did I discover programming:</b> Well, when I was a young
+              child, my mother, in her spare time would copy code from a manual
+              to make games run on the{" "}
+              <a href="https://en.wikipedia.org/wiki/Commodore_64">
+                Commodore 64 (CBM 64)
+              </a>
+              but putting them into memory. She kept this console for quite some
+              time it was the closest thing we had to a computer. The first game
+              I remember helping run was{" "}
+              <a href="https://www.retrogamer.net/retro_games80/blue-meanies-from-outer-space/">
+                Blue Meanies from Outer Space
+              </a>
+              . It was so exciting to see it running, however, not so for my
+              mom. She claimed all that time for a space invaders clone.
+            </p>
+          </div>
+        </div>
+        {/* <p align="center">
           <a href="https://codepen.io/danielphilipjohnson/">
             <img
               height="30"
@@ -93,10 +151,7 @@ const About = ({ location }) => {
           </a>
           &nbsp;&nbsp;
           <a href="/">
-            <img
-              height="30"
-              src="https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/social-icons/dev.webp"
-            />
+            <img src="https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/social-icons/dev.webp" />
           </a>
           <a href="https://www.linkedin.com/in/daniel-philip-johnson/">
             <img
@@ -104,7 +159,7 @@ const About = ({ location }) => {
               src="https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/social-icons/linkedin.png"
             />
           </a>
-        </p>
+        </p> */}
 
         <section
           id="home"
