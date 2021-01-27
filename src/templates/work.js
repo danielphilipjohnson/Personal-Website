@@ -95,6 +95,29 @@ function work({ location, data, pageContext }) {
             </div>
           </div>
         </div>
+
+        <div className="project-process container">
+          <div className="project-process--information">
+            <h2 className="text-secondary">Process</h2>
+            <p>{details.process}</p>
+          </div>
+
+          {/* <div>
+            <img
+              className="img-fluid"
+              src={details.tabletView}
+              alt="tablet view"
+            />
+          </div> */}
+          <figure className="project-stat__figure">
+            <img
+              className="img-fluid"
+              src={details.tabletView}
+              alt="tablet view"
+            />
+            <figcaption>Fig.2 - Tablet View of App</figcaption>
+          </figure>
+        </div>
         {/* 
 
         <article>
