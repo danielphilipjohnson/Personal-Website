@@ -45,36 +45,57 @@ function work({ location, data, pageContext }) {
           </div>
         </div>
 
-        {/* <div>
-          <div>
-            <h2>Overview</h2>
-            <p>{details.overview}</p>
+        <div className="container project-stat">
+          <div className="project-stat__information">
+            <div className="project-stat__block">
+              <h2 className="text-secondary project-stat__block--header">
+                Overview
+              </h2>
+              <p>{details.overview}</p>
+            </div>
 
-            <h2>Goals</h2>
-            <p>{details.goals}</p>
-
-            <h2>Lessons Learned </h2>
-            <p>{details.lessonsLearned}</p>
+            <div className="project-stat__block">
+              <h2 className="text-secondary">Goals</h2>
+              <p>{details.goals}</p>
+            </div>
+            <div className="project-stat__block">
+              <h2 className="text-secondary">Lessons Learned </h2>
+              <p>{details.lessonsLearned}</p>
+            </div>
           </div>
 
-          <div>
-            <img src={details.mobileView} alt="" srcset="" />
-          </div>
-        </div> */}
+          <figure className="project-stat__figure">
+            <img
+              className="img-fluid"
+              src={details.mobileView}
+              alt="mobile view"
+            />
+            <figcaption>Fig.1 - Mobile View of App</figcaption>
+          </figure>
+        </div>
 
-        {/* <article>
-          <h3>What was used</h3>
-          {toolUsed.map((tool) => {
-            const { name, src, about } = tool;
-            return (
-              <>
-                <img src={src} alt={name} />
-                <h4>{name}</h4>
-                <p>{about}</p>
-              </>
-            );
-          })}
-        </article>
+        <div className="project-tools">
+          <div className="container">
+            <div className="project-tools__heading">
+              <h3 className="lg-heading">Built With</h3>
+              <div class="bottom-line"></div>
+            </div>
+
+            <div className="project-tools__stats">
+              {toolUsed.map((tool) => {
+                const { name, src, about } = tool;
+                return (
+                  <div className="project-tool">
+                    <img src={src} alt={name} />
+                    <h4>{name}</h4>
+                    <p>{about}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+        {/* 
 
         <article>
           <div>
