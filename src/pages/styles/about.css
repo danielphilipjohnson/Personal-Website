@@ -3,6 +3,8 @@
 }
 .about p {
   margin-bottom: 1rem;
+  line-height: 1.58;
+  letter-spacing: -0.028px;
 }
 .about-info img {
   margin-bottom: 1rem;
@@ -19,4 +21,34 @@
 }
 .about-stats p a {
   margin-right: 0.75rem;
+}
+
+.values-missions,
+.quick-bio {
+  padding: 2rem 0;
+}
+
+.quick-bio {
+  background-color: #f7f7f7;
+  color: rgb(79, 79, 79);
+}
+.quick-bio h3 {
+  font-weight: bold;
+  color: rgb(16, 42, 67);
+}
+.quick-bio a {
+  color: #292929;
+  font-weight: bold;
+}
+
+.values-missions {
+}
+.values-missions h2,
+.quick-bio h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.quick-bio p {
+  margin-bottom: 1rem;
 }
