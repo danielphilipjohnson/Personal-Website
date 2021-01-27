@@ -23,12 +23,9 @@ function work({ location, data, pageContext }) {
           subTitle={"Daniel Philip Johnson"}
         />
 
-        <div
-          className="cta"
-          style={{
-            backgroundImage: `url(${pageContext.post.imageSrc})`,
-          }}
-        >
+        <div className="cta">
+          <img className="img-fluid" src={pageContext.post.imageSrc} alt="" />
+
           <div className="btn-group cta__btn-group">
             <a
               className="btn-outline btn-outline-primary"
