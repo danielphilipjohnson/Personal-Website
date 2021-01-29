@@ -275,7 +275,7 @@ const About = ({ location }) => {
                 reading right now.
               </p>
 
-              <ul>
+              <ul className="bio-list">
                 <li>
                   Habits for success Inspired Ideas to help you soar: Brian
                   Benson
