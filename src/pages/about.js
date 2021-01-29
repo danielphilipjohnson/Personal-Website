@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 import SEO from "../component/Seo";
 import Header from "../component/layout/Header";
 
@@ -10,6 +10,18 @@ import banner from "../images/profile.jpg";
 import "./styles/about.css";
 
 const About = ({ location }) => {
+  const {
+    site: {
+      siteMetadata: {
+        about: { aboutStats, aboutInfo },
+      },
+    },
+  } = useStaticQuery(siteQuery);
+
+  console.log(aboutInfo);
+  // const {siteMetaData} = aboutData
+  // console.log(siteMetaData);
+
   const setToday = () => {
     const monthNames = [
       "January",
@@ -45,24 +57,13 @@ const About = ({ location }) => {
         <div className="about-stats">
           <h3>{setToday()} by Daniel Johnson</h3>
           <p>
-            <a
-              class="header-badge"
-              target="_blank"
-              href="https://twitter.com/danielp_johnson"
-            >
-              <img
-                alt="Twitter Follow"
-                src="https://img.shields.io/twitter/follow/danielp_johnson?style=social"
-              />
-            </a>
-
-            <a
-              class="header-badge"
-              target="_blank"
-              href="https://www.linkedin.com/in/daniel-philip-johnson/"
-            >
-              <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social" />
-            </a>
+            {aboutStats.map((stat) => {
+              return (
+                <a class="header-badge" target="_blank" href={stat.link}>
+                  <img alt={stat.alt} src={stat.imageSrc} />
+                </a>
+              );
+            })}
           </p>
         </div>
 
@@ -359,13 +360,24 @@ const About = ({ location }) => {
 
 export default About;
 
-// export const query = graphql`
-//   query {
-//     allMarkdownRemark {
-//       nodes {
-//         html
-//         timeToRead
-//       }
-//     }
-//   }
-// `;
+const siteQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        about {
+          aboutStats {
+            imageSrc
+            link
+            alt
+          }
+          aboutInfo {
+            image {
+              src
+              alt
+            }
+          }
+        }
+      }
+    }
+  }
+`;
