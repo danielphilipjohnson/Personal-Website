@@ -121,7 +121,16 @@ main#contact section {
   margin-bottom: 1rem;
   border: 3px solid #94c85a;
   background: #fff;
+  left: 50%;
+  transform: translateX(-50%);
 }
+@media screen and (min-width: 770px) {
+  .profile-card-image {
+    left: unset;
+    transform: unset;
+  }
+}
+
 .profile-card-body {
   background: #fff;
   margin-top: -5.5rem;
