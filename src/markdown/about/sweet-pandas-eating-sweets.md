@@ -1,48 +1,10 @@
-import React from "react";
-import { graphql } from "gatsby";
-import SEO from "../component/Seo";
-import Header from "../component/layout/Header";
-
-import Layout from "../component/layout/Layout";
-
-import banner from "../images/profile.jpg";
-
-import "./styles/about.css";
-
-const About = ({ location }) => {
-  const setToday = () => {
-    const monthNames = [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December",
-    ];
-    const date = new Date(Date.now());
-    return `${
-      monthNames[date.getMonth()]
-    } ${date.getDate()}, ${date.getFullYear()}`;
-  };
-
-  return (
-    <>
-      <Layout location={location.pathname}>
-        <SEO />
-
-        <Header
-          title={" About "}
-          secondary={" Me"}
-          subTitle={"Let me tell you a few things..."}
-        />
-
-        <div className="about-stats">
+---
+order: 1
+title: "Sweet Pandas Eating Sweets"
+date: "2017-08-10"
+type: "about-data"
+---
+  <div className="about-stats">
           <h3>{setToday()} by Daniel Johnson</h3>
           <p>
             <a
@@ -352,20 +314,3 @@ const About = ({ location }) => {
             </div>
           </section>
         </div>
-      </Layout>
-    </>
-  );
-};
-
-export default About;
-
-// export const query = graphql`
-//   query {
-//     allMarkdownRemark {
-//       nodes {
-//         html
-//         timeToRead
-//       }
-//     }
-//   }
-// `;

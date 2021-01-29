@@ -4,6 +4,7 @@ module.exports = [
   "gatsby-plugin-react-helmet",
   "gatsby-plugin-offline",
   `gatsby-plugin-fontawesome-css`,
+  `gatsby-transformer-remark`,
   {
     resolve: "gatsby-plugin-manifest",
     options: {
@@ -88,8 +89,15 @@ module.exports = [
       ],
     },
   },
-  "gatsby-plugin-mdx",
-  "gatsby-transformer-sharp",
+
+  // {
+  //   resolve: `gatsby-source-filesystem`,
+  //   options: {
+  //     name: `src`,
+  //     path: `${__dirname}/src/`,
+  //   },
+  // },
+
   {
     resolve: "gatsby-source-filesystem",
     options: {
@@ -98,14 +106,25 @@ module.exports = [
     },
     __key: "images",
   },
+
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `markdown-pages`,
+      path: `./src/markdown/about`,
+    },
+  },
+  "gatsby-plugin-mdx",
+  "gatsby-transformer-sharp",
   {
     resolve: "gatsby-source-filesystem",
     options: {
       name: "pages",
-      path: "./src/pages/",
+      path: "src/pages/",
     },
     __key: "pages",
   },
+
   {
     resolve: "gatsby-plugin-static-folders",
     options: {
