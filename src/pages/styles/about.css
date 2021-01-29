@@ -28,6 +28,26 @@
   padding: 2rem 0;
 }
 
+.used-technologies h3 {
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding-bottom: 2rem;
+}
+.icons img {
+  max-width: 75px;
+  max-height: 75px;
+  padding: 0.75rem;
+}
+
 .quick-bio {
   background-color: #f7f7f7;
   color: rgb(79, 79, 79);
