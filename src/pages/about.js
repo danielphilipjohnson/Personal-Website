@@ -93,10 +93,10 @@ const About = ({ location }) => {
                     <h4>React Developer</h4>
                   </div>
 
-                  <div className="about-stats">
+                  {/* <div className="about-stats">
                     <h3>{setToday()} by Daniel Johnson</h3>
                     <p></p>
-                  </div>
+                  </div> */}
 
                   <div class="profile-card-body-item">
                     <h3>What I use</h3>
@@ -113,20 +113,20 @@ const About = ({ location }) => {
                   <div class="profile-card-body-item">
                     <h3>Location</h3>
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
-                    <address>Cornwall, United Kingdom</address>
+                    <address> Cornwall, United Kingdom</address>
                   </div>
 
                   <div class="profile-card-body-item">
                     <h3>Contact</h3>
                     <FontAwesomeIcon icon={faPhone} />
-                    <span>+44 555-5555</span>
+                    <span> +44 555-5555</span>
                   </div>
 
                   <div class="profile-card-body-item">
                     <h3>Email</h3>
                     <FontAwesomeIcon icon={faEnvelope} />
 
-                    <span>daniel-philip-johnson@gmail.com</span>
+                    <span> daniel-philip-johnson@gmail.com</span>
                   </div>
 
                   <div class="profile-card-body-item">
