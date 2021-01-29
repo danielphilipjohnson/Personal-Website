@@ -1,5 +1,13 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMapMarkerAlt,
+  faPhone,
+  faEnvelope,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
 import SEO from "../component/Seo";
 import Header from "../component/layout/Header";
 
@@ -18,10 +26,6 @@ const About = ({ location }) => {
       },
     },
   } = useStaticQuery(siteQuery);
-
-  console.log(valuesMissions);
-  // const {siteMetaData} = aboutData
-  // console.log(siteMetaData);
 
   const setToday = () => {
     const monthNames = [
@@ -108,19 +112,20 @@ const About = ({ location }) => {
 
                   <div class="profile-card-body-item">
                     <h3>Location</h3>
-                    <i class="fas fa-map-marker-alt"></i>
+                    <FontAwesomeIcon icon={faMapMarkerAlt} />
                     <address>Cornwall, United Kingdom</address>
                   </div>
 
                   <div class="profile-card-body-item">
                     <h3>Contact</h3>
-                    <i class="fas fa-phone"></i>
+                    <FontAwesomeIcon icon={faPhone} />
                     <span>+44 555-5555</span>
                   </div>
 
                   <div class="profile-card-body-item">
                     <h3>Email</h3>
-                    <i class="fas fa-envelope"></i>
+                    <FontAwesomeIcon icon={faEnvelope} />
+
                     <span>daniel-philip-johnson@gmail.com</span>
                   </div>
 
@@ -130,15 +135,16 @@ const About = ({ location }) => {
                   </div>
 
                   <div class="btn-group">
-                    <a class="btn-outline" href="./work.html">
+                    <Link className="btn-outline" to="/work">
                       View my work
-                    </a>
+                    </Link>
+
                     <a
                       class="btn-outline"
                       href="./assets/cv/Daniel_Johnson_Junior_Web_Developer.pdf"
                       download=""
                     >
-                      <i class="fas fa-graduation-cap"></i>
+                      <FontAwesomeIcon icon={faEnvelope} />
                       Resume
                     </a>
                   </div>
