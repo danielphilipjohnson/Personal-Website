@@ -68,10 +68,14 @@ const About = ({ location }) => {
           </p>
         </div>
 
-        <div className=" about">
+        <div className="about">
           <div className="container">
-            <div className="about-info">
-              <img className="img-fluid" src={banner} alt="" srcset="" />
+            <section className="about-info">
+              <img
+                className="img-fluid"
+                src={banner}
+                alt="profile of Daniel Philip Johnson"
+              />
 
               <p>
                 Hi, it's Daniel. I am an English front-end engineer from Truro
@@ -106,7 +110,7 @@ const About = ({ location }) => {
                 successfully joined codecareer.io as a react developer and
                 future content creator.
               </p>
-            </div>
+            </section>
 
             <div className="used-technologies">
               <h3>Technologies I use</h3>
@@ -175,9 +179,9 @@ const About = ({ location }) => {
             </div>
           </div>
 
-          <div className="quick-bio">
+          <section className="alt-bio bio-section" aria-label="quick bio">
             <div className="container">
-              <h3 className="text-secondary">📔 Quick Biography </h3>
+              <h2 className="text-secondary">📔 Quick Biography </h2>
               <p>
                 <b>When did I discover programming:</b> Well, when I was a young
                 child, my mother, in her spare time would copy code from a
@@ -228,9 +232,12 @@ const About = ({ location }) => {
                 react.js
               </p>
             </div>
-          </div>
+          </section>
 
-          <div className="values-missions">
+          <section
+            className="values-missions bio-section"
+            aria-label="my values and missions"
+          >
             <div className="container">
               <h2 className="text-secondary">My values and mission</h2>
               <p>
@@ -262,11 +269,14 @@ const About = ({ location }) => {
                 program can do it.
               </p>
             </div>
-          </div>
+          </section>
 
-          <div className="quick-bio">
+          <section
+            className="alt-bio bio-section"
+            aria-label="what I do outside of programming"
+          >
             <div className="container">
-              <h3>OUTSIDE OF PROGRAMMING </h3>
+              <h2>OUTSIDE OF PROGRAMMING </h2>
               <p>
                 Although it seems like my life is entirely ruled by programming
                 and computers. I do have spare time and things that I cherish. I
@@ -318,11 +328,14 @@ const About = ({ location }) => {
                 team.
               </p>
             </div>
-          </div>
+          </section>
 
-          <div className="values-missions">
+          <section
+            className="values-missions bio-section"
+            aria-label="my future plans"
+          >
             <div className="container">
-              <h3>The FUTURE </h3>
+              <h2 className="text-secondary">The FUTURE </h2>
               <p>
                 Ways to support my journey, values and mission Follow Me You can
                 encourage me on Twitter, Instagram and LinkedIn. Tell me what
@@ -339,60 +352,8 @@ const About = ({ location }) => {
                 off your skills.
               </p>
             </div>
-          </div>
+          </section>
         </div>
-        {/* <p align="center">
-          <a href="https://codepen.io/danielphilipjohnson/">
-            <img
-              height="30"
-              src="https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/social-icons/codepen.png"
-            />
-          </a>
-          &nbsp;&nbsp;
-          <a href="https://twitter.com/danielp_johnson">
-            <img
-              height="30"
-              src="https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/social-icons/twitter.png"
-            />
-          </a>
-          &nbsp;&nbsp;
-          <a href="https://www.instagram.com/danielphilipjohnson/">
-            <img
-              height="30"
-              src="https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/social-icons/instagram.jpg"
-            />
-          </a>
-          &nbsp;&nbsp;
-          <a href="/">
-            <img src="https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/social-icons/dev.webp" />
-          </a>
-          <a href="https://www.linkedin.com/in/daniel-philip-johnson/">
-            <img
-              height="30"
-              src="https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/social-icons/linkedin.png"
-            />
-          </a>
-        </p> */}
-
-        {/* <section
-          id="home"
-          className="home"
-          style={{
-            backgroundImage: `url(${banner})`,
-          }}
-        >
-          <h1 className="lg-heading">
-            Daniel
-            <span id="secondary" className="text-secondary">
-              {" "}
-              Philip
-            </span>
-            <span> Johnson</span>
-          </h1>
-          <div id="icons" className="icons home-cta">
-            <h2 className="sm-heading">{site.siteMetadata.tagline}</h2>
-          </div>
-        </section> */}
       </Layout>
     </>
   );
