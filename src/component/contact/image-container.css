@@ -50,7 +50,8 @@
 .boxes div:hover span {
   color: #000;
 }
-.boxes.sm {
+.boxes.sm,
+.boxes.sm svg {
   color: #fff;
 }
 .boxes.sm div {

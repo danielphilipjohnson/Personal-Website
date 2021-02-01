@@ -57,17 +57,12 @@ address {
 
 .about-container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  grid-template-columns: 1fr;
 }
-@media screen and (min-width: 769px) and (max-width: 1394px) {
+
+@media screen and (min-width: 1395px) {
   .about-container {
-    grid-template-columns: 1fr;
-  }
-}
-@media screen and (min-width: 1395px) and (max-width: 2000px) {
-  .about-container {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -121,7 +116,16 @@ main#contact section {
   margin-bottom: 1rem;
   border: 3px solid #94c85a;
   background: #fff;
+  left: 50%;
+  transform: translateX(-50%);
 }
+@media screen and (min-width: 770px) {
+  .profile-card-image {
+    left: unset;
+    transform: unset;
+  }
+}
+
 .profile-card-body {
   background: #fff;
   margin-top: -5.5rem;
@@ -143,7 +147,7 @@ main#contact section {
 .profile-card-body-item span {
   font-weight: bolder;
 }
-.profile-card-body-item i {
+.profile-card-body-item svg {
   color: #6d6d7a;
 }
 .profile-card-footer {
@@ -236,9 +240,9 @@ main#contact section {
 .github-stats p {
   text-align: center;
 }
-.connect {
+/* .connect {
   padding: 2rem 0 1rem;
-}
+} */
 
 /* figure */
 .tech-figure {

@@ -1,11 +1,17 @@
 const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
+exports.onCreateNode = ({ node }) => {
+  if (node.internal.type === `MarkdownRemark`) {
+    console.log(node.internal.type);
+  }
+};
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
   const generateWorkPages = async () => {
-    const result = await graphql(`
+    await graphql(`
       query {
         site {
           siteMetadata {
@@ -36,25 +42,38 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
-    `);
-    // get data
-    const posts = result.data.site.siteMetadata.projects;
-    // loop
+    `).then((result) => {
+      // get data
+      const posts = result.data.site.siteMetadata.projects;
+      // loop
 
-    posts.forEach((post, index) => {
-      console.log(post.path);
-      // make correct path
-      // send the data
-      createPage({
-        path: post.path,
-        component: path.resolve(`./src/templates/work.js`),
-        context: {
-          slug: post.path,
-          post: post,
-        },
+      posts.forEach((post, index) => {
+        // make correct path
+        // send the data
+        createPage({
+          path: post.path,
+          component: path.resolve(`./src/templates/work.js`),
+          context: {
+            slug: post.path,
+            post: post,
+          },
+        });
       });
     });
   };
 
-  generateWorkPages();
+  await generateWorkPages();
 };
+
+// exports.onCreateNode = ({ node, getNode, actions }) => {
+//   console.log(node);
+//   const { createNodeField } = actions;
+//   if (node.internal.type === `MarkdownRemark`) {
+//     const slug = createFilePath({ node, getNode, basePath: `/` });
+//     createNodeField({
+//       node,
+//       name: `slug`,
+//       value: slug,
+//     });
+//   }
+// };

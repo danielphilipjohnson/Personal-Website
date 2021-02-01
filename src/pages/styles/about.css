@@ -1,0 +1,110 @@
+.container.about-container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.about a {
+  font-weight: bolder;
+}
+
+.about p {
+  font-size: 1.05rem;
+}
+
+.about-stats h3 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+.about-stats p,
+.alt-bio p {
+  margin-bottom: 1rem;
+}
+
+.about-stats p a {
+  margin-right: 0.75rem;
+}
+
+.about {
+  text-align: left;
+}
+.about p {
+  margin-bottom: 1rem;
+  line-height: 1.58;
+  letter-spacing: -0.028px;
+}
+
+.container.container-text {
+  padding: 1rem 1.75rem;
+}
+.profile-text {
+  padding: 1rem 1.75rem;
+}
+
+.about-info img {
+  margin-bottom: 1rem;
+}
+
+.bio-section {
+  padding: 2rem 0;
+}
+
+.used-technologies {
+  padding: 1rem;
+}
+
+.icons-technology {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.icons-technology img {
+  max-width: 59px;
+  max-height: 75px;
+  padding: 0.55rem;
+}
+
+.bio-list {
+  margin-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+.bio-list li {
+  margin-left: 0.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.alt-bio {
+  background-color: #f7f7f7;
+  color: rgb(79, 79, 79);
+  margin-bottom: 1rem;
+}
+.alt-bio h2 {
+  font-weight: bold;
+  color: rgb(16, 42, 67);
+}
+.alt-bio a {
+  color: #292929;
+  font-weight: bold;
+}
+
+.bio-section h2 {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.profile-card-body-item svg,
+.profile-card-body-item span {
+  margin-right: 0.25rem;
+}
+.profile-card-body-item span {
+  margin-left: 0.25rem;
+}
+
+.btn-outline svg {
+  margin-right: 0.25rem;
+}

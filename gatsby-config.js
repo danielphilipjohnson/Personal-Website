@@ -1,6 +1,7 @@
 const projects = require("./gatsbyConfig/projects");
+const about = require("./gatsbyConfig/siteMetadata/about");
 
-module.exports.plugins = require("./gatsbyConfig/plugins");
+const plugins = require("./gatsbyConfig/plugins");
 
 module.exports = {
   siteMetadata: {
@@ -186,5 +187,7 @@ module.exports = {
     ],
     projectTypes: ["All", "Js", "Responsive", "Angular", "Material"],
     projects: projects,
+    about: about,
   },
+  plugins: plugins,
 };
