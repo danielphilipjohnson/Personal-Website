@@ -103,7 +103,7 @@ const About = ({ location }) => {
 
                   <div class="profile-card-body-item">
                     <h3>Technologies I use</h3>
-                    <div className="icons">
+                    <div className="icons-technology">
                       <img
                         className="img-fluid"
                         src={AngularLogo}
@@ -184,7 +184,7 @@ const About = ({ location }) => {
                         <a
                           href="https://dev.to/danielphilipjohnson"
                           target="_blank"
-                          rel="noopener"
+                          rel="noreferrer"
                         >
                           <FontAwesomeIcon icon={faDev} />
                         </a>
@@ -193,7 +193,7 @@ const About = ({ location }) => {
                         <a
                           href="https://www.hackerrank.com/daniel_p_johnson"
                           target="_blank"
-                          rel="noopener"
+                          rel="noreferrer"
                         >
                           <FontAwesomeIcon icon={faHackerrank} />
                         </a>
@@ -202,7 +202,7 @@ const About = ({ location }) => {
                         <a
                           href="https://codepen.io/danielphilipjohnson/"
                           target="_blank"
-                          rel="noopener"
+                          rel="noreferrer"
                         >
                           <FontAwesomeIcon icon={faCodepen} />
                         </a>
@@ -211,7 +211,7 @@ const About = ({ location }) => {
                         <a
                           href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
                           target="_blank"
-                          rel="noopener"
+                          rel="noreferrer"
                         >
                           <FontAwesomeIcon icon={faStackOverflow} />
                         </a>
@@ -220,7 +220,7 @@ const About = ({ location }) => {
                         <a
                           href="https://www.freecodecamp.org/daniel-philip-johnson"
                           target="_blank"
-                          rel="noopener"
+                          rel="noreferrer"
                         >
                           <FontAwesomeIcon icon={faFreeCodeCamp} />
                         </a>
@@ -229,7 +229,7 @@ const About = ({ location }) => {
                         <a
                           href="https://github.com/danielphilipjohnson/"
                           target="_blank"
-                          rel="noopener"
+                          rel="noreferrer"
                         >
                           <FontAwesomeIcon icon={faGithub} />
                         </a>

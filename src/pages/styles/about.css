@@ -55,12 +55,12 @@
   padding: 1rem;
 }
 
-.icons {
+.icons-technology {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.icons img {
+.icons-technology img {
   max-width: 59px;
   max-height: 75px;
   padding: 0.55rem;
@@ -78,6 +78,7 @@
 .alt-bio {
   background-color: #f7f7f7;
   color: rgb(79, 79, 79);
+  margin-bottom: 1rem;
 }
 .alt-bio h2 {
   font-weight: bold;
