@@ -36,7 +36,7 @@
   letter-spacing: -0.028px;
 }
 .profile-text {
-  padding: 1rem;
+  padding: 1rem 1.75rem;
 }
 
 /* .about-info {
@@ -99,8 +99,11 @@
 }
 
 .bio-section h2 {
+  font-weight: bold;
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .profile-card-body-item svg {

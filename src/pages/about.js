@@ -254,12 +254,10 @@ const About = ({ location }) => {
                 </div>
               </div>
             </div>
-            <div>
-              <div
-                className="profile-text"
-                dangerouslySetInnerHTML={{ __html: aboutInfo.html }}
-              ></div>
-            </div>
+            <div
+              className="profile-text"
+              dangerouslySetInnerHTML={{ __html: aboutInfo.html }}
+            ></div>
           </div>
 
           <section className="alt-bio bio-section" aria-label="quick bio">
