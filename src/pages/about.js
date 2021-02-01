@@ -272,7 +272,7 @@ const About = ({ location }) => {
             className="alt-bio bio-section"
             aria-label="what I do outside of programming"
           >
-            <div className="container">
+            <div className="container container-text">
               <h2>OUTSIDE OF PROGRAMMING </h2>
               <p>
                 Although it seems like my life is entirely ruled by programming
@@ -284,14 +284,31 @@ const About = ({ location }) => {
 
               <ul className="bio-list">
                 <li>
-                  Habits for success Inspired Ideas to help you soar: Brian
-                  Benson
+                  <a href="https://www.amazon.co.uk/Habits-Success-Inspired-Ideas-Help-ebook/dp/B07FTQMQZM">
+                    Habits for success Inspired Ideas to help you soar: Brian
+                    Benson
+                  </a>
                 </li>
-                <li>The illusion of invincibility: Paul Williams </li>
-                <li>The first 20 hours: Josh Kaufman</li>
-                <li>The next big thing: Matthew Mockridge </li>
                 <li>
-                  GET IT DONE 31 Ways to release your inner boss: Hayley Hobson
+                  <a href="https://www.amazon.co.uk/Illusion-Invincibility-Organizations-Inspired-Incas-ebook/dp/B07V3XTSDS">
+                    The illusion of invincibility: Paul Williams{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.amazon.co.uk/First-20-Hours-Learn-Anything/dp/0670921912">
+                    The first 20 hours: Josh Kaufman
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.amazon.co.uk/Your-Next-Thing-Matthew-Mockridge/dp/1642501417">
+                    The next big thing: Matthew Mockridge
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.amazon.co.uk/Get-Done-Ways-Release-Inner/dp/1633537900">
+                    GET IT DONE 31 Ways to release your inner boss: Hayley
+                    Hobson
+                  </a>
                 </li>
               </ul>
               <p>
@@ -331,7 +348,7 @@ const About = ({ location }) => {
             className="values-missions bio-section"
             aria-label="my future plans"
           >
-            <div className="container">
+            <div className="container container-text">
               <h2 className="text-secondary">The FUTURE </h2>
               <p dangerouslySetInnerHTML={{ __html: future.html }}></p>
             </div>
