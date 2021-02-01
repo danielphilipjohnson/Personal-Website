@@ -110,11 +110,35 @@ const About = ({ location }) => {
                   </div>
 
                   <div class="profile-card-body-item">
-                    <h3>What I use</h3>
-                    <p>
+                    <h3>Technologies I use</h3>
+                    <div className="icons">
+                      <img
+                        className="img-fluid"
+                        src={AngularLogo}
+                        alt="Angular"
+                      />
+                      <img src={ReactLogo} alt="React" />
+                      <img src={GatsbyLogo} alt="GatsbyJS" />
+                      <img src={GraphQlLogo} alt="GraphQL" />
+
+                      {/* <img src={HTMLLogo} alt="HTML5" />
+                      <img src={CSSLogo} alt="CSS3" /> */}
+                      <img src={JavaScriptLogo} alt="JavaScript" />
+                      <img src={TypescriptLogo} alt="TypeScript" />
+                      <img src={SassLogo} alt="SASS" />
+                      <img src={BootstrapLogo} alt="Bootstrap" />
+                      <img
+                        className="img-fluid"
+                        src={TailwindLogo}
+                        alt="Tailwind"
+                      />
+                      <img src={GithubLogo} alt="Git Version Control" />
+                      <img src={NpmLogo} alt="NPM" />
+                    </div>
+                    {/* <p>
                       🖥️
                       <span> Kubuntu 20.04 and Manjaro 20.0.3</span>
-                    </p>
+                    </p> */}
                   </div>
                   <div class="profile-card-body-item">
                     <h3>Graduated</h3>
