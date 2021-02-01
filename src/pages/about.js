@@ -231,9 +231,6 @@ const About = ({ location }) => {
             <div>
               <div className="profile-text">
                 <p dangerouslySetInnerHTML={{ __html: aboutInfo.html }}></p>
-                {/* {aboutInfo.text.map((txt) => {
-                  return <p>{txt}</p>;
-                })} */}
               </div>
               <div className="used-technologies">
                 <h3>Technologies I use</h3>

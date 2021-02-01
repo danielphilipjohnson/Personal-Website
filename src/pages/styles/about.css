@@ -3,6 +3,14 @@
   padding-left: 0;
 }
 
+.about a {
+  font-weight: bolder;
+}
+
+.about p {
+  font-size: 1.05rem;
+}
+
 .about-stats h3 {
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -29,11 +37,6 @@
 }
 .profile-text {
   padding: 1rem;
-  font-size: 1.05rem;
-}
-
-.profile-text a {
-  font-weight: bolder;
 }
 
 /* .about-info {
