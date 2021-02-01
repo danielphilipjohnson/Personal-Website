@@ -7,7 +7,6 @@ import heartImage from "../../images/heart.png";
 import "./footer.css";
 
 function Footer({ location }) {
-  console.log(location);
   const routesPathAndValues = {
     "/": "Home",
     "/about/": "About",
@@ -87,8 +86,8 @@ function Footer({ location }) {
 
         <div className="footer-bottom">
           <p>
-            Copyright &copy; <span id="year"> 2020.</span> All Rights Reserved |
-            Designed and built with{" "}
+            Copyright &copy; <span id="year"> {new Date().getFullYear()}</span>{" "}
+            All Rights Reserved | Designed and built with{" "}
           </p>
           <div className="heart-container">
             <div
