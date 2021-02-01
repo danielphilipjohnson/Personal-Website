@@ -5,13 +5,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import "./education.css";
 
-import atlassian from "../images/course-logos/atlassian.webp";
-import google from "../images/course-logos/google.png";
-import hong from "../images/course-logos/hong.png";
-import michigan from "../images/course-logos/michigan.png";
-import plymouth from "../images/course-logos/plymouth.png";
-import uci from "../images/course-logos/uci.webp";
-import udemy from "../images/course-logos/udemy.jpeg";
+import atlassian from "../../images/course-logos/atlassian.webp";
+import google from "../../images/course-logos/google.png";
+import hong from "../../images/course-logos/hong.png";
+import michigan from "../../images/course-logos/michigan.png";
+import plymouth from "../../images/course-logos/plymouth.png";
+import uci from "../../images/course-logos/uci.webp";
+import udemy from "../../images/course-logos/udemy.jpeg";
 
 function Education() {
   const { site } = useStaticQuery(siteQuery);
