@@ -94,3 +94,11 @@
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
+
+.profile-card-body-item svg {
+  margin-right: 0.25rem;
+}
+
+.btn-outline svg {
+  margin-right: 0.25rem;
+}
