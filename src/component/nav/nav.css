@@ -147,7 +147,7 @@ aside {
   transition: all 0.5s ease-out;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   .menu .nav-link {
     font-size: 1.55rem;
   }
