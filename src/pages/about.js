@@ -259,35 +259,6 @@ const About = ({ location }) => {
                 className="profile-text"
                 dangerouslySetInnerHTML={{ __html: aboutInfo.html }}
               ></div>
-              <div className="used-technologies">
-                <h3>Technologies I use</h3>
-                <p>
-                  The following is a selection of my tools that I use for my
-                  professional work.
-                </p>
-                <div className="icons">
-                  <img className="img-fluid" src={AngularLogo} alt="Angular" />
-                  <img src={ReactLogo} alt="React" />
-                  <img src={GatsbyLogo} alt="GatsbyJS" />
-                  <img src={GraphQlLogo} alt="GraphQL" />
-                  {/* <img src={NodeLogo} alt="Node.js" /> */}
-
-                  <img src={HTMLLogo} alt="HTML5" />
-                  <img src={CSSLogo} alt="CSS3" />
-                  <img src={JavaScriptLogo} alt="JavaScript" />
-                  <img src={TypescriptLogo} alt="TypeScript" />
-                  <img src={SassLogo} alt="SASS" />
-                  <img src={BootstrapLogo} alt="Bootstrap" />
-                  <img src={GithubLogo} alt="Git Version Control" />
-                  <img src={NpmLogo} alt="NPM" />
-                  {/* <img src={CypressLogo} alt="NPM" /> */}
-                  <img
-                    className="img-fluid"
-                    src={TailwindLogo}
-                    alt="Tailwind"
-                  />
-                </div>
-              </div>
             </div>
           </div>
 

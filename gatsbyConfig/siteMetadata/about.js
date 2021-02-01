@@ -41,7 +41,7 @@ module.exports = {
     suddenly hit me during this period while applying for graduate
     psychology positions. I found myself spending more and more time
     programming in my spare time. Developing a strong connection. So
-    I decided to start with freecodecamp. I successfully finished in
+    I decided to start with <a href="https://www.freecodecamp.org/daniel-philip-johnson">freecodecamp</a>. I successfully finished in
     2017 and then progressed onto <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011">Udacity in 2018</a> whilst working a
     full-time job. I gained a lot of experience and confidence in
     web development and setout my targetted path. Improving areas
