@@ -121,8 +121,6 @@ const About = ({ location }) => {
                       <img src={GatsbyLogo} alt="GatsbyJS" />
                       <img src={GraphQlLogo} alt="GraphQL" />
 
-                      {/* <img src={HTMLLogo} alt="HTML5" />
-                      <img src={CSSLogo} alt="CSS3" /> */}
                       <img src={JavaScriptLogo} alt="JavaScript" />
                       <img src={TypescriptLogo} alt="TypeScript" />
                       <img src={SassLogo} alt="SASS" />
@@ -135,10 +133,6 @@ const About = ({ location }) => {
                       <img src={GithubLogo} alt="Git Version Control" />
                       <img src={NpmLogo} alt="NPM" />
                     </div>
-                    {/* <p>
-                      🖥️
-                      <span> Kubuntu 20.04 and Manjaro 20.0.3</span>
-                    </p> */}
                   </div>
                   <div class="profile-card-body-item">
                     <h3>Graduated</h3>
