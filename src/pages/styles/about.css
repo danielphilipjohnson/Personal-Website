@@ -55,20 +55,20 @@
 .used-technologies {
   padding: 1rem;
 }
-
+/* 
 .used-technologies h3 {
   font-weight: bold;
   font-size: 1.75rem;
   padding-top: 1rem;
   margin-bottom: 1rem;
-}
+} */
 
 .icons {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 .icons img {
   max-width: 75px;
