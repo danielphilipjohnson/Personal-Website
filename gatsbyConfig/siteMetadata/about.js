@@ -110,7 +110,7 @@ module.exports = {
     try 99% of the time to help the best I can. If I don't know the
     answer. I will try my hardest to find the answer or find another
     person that can help you. I keep almost all my code 99.9% open
-    source for others to look at and use on GitHub(put a link). I
+    source for others to look at and use on <a href="https://github.com/danielphilipjohnson">GitHub</a>. I
     want to help you build apps, websites and programs that express
     your ideas.
   </p>

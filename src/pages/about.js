@@ -59,7 +59,7 @@ const About = ({ location }) => {
                   <img
                     class="card-head-bg"
                     src={banner}
-                    alt="background image of freecodecamp"
+                    alt="cover of daniel philip johnson"
                   />
                 </div>
 
@@ -75,7 +75,12 @@ const About = ({ location }) => {
                   </h2>
                   {aboutStats.map((stat) => {
                     return (
-                      <a class="header-badge" target="_blank" href={stat.link}>
+                      <a
+                        class="header-badge"
+                        target="_blank"
+                        rel="noreferrer"
+                        href={stat.link}
+                      >
                         <img alt={stat.alt} src={stat.imageSrc} />
                       </a>
                     );
@@ -112,7 +117,15 @@ const About = ({ location }) => {
                   </div>
                   <div class="profile-card-body-item">
                     <h3>Graduated</h3>
-                    <h4>🎓 Bsc Psychology | University of Plymouth 🏫</h4>
+                    <h4>
+                      <span role="img" aria-labelledby="graduation cap">
+                        🎓
+                      </span>
+                      Bsc Psychology | University of Plymouth
+                      <span role="img" aria-labelledby="school">
+                        🏫
+                      </span>
+                    </h4>
                   </div>
 
                   <div class="profile-card-body-item">
@@ -248,7 +261,7 @@ const About = ({ location }) => {
             className="values-missions bio-section"
             aria-label="my values and missions"
           >
-            <div className="container">
+            <div className="container container-text">
               <h2 className="text-secondary">{valuesMissions.heading}</h2>
 
               <p dangerouslySetInnerHTML={{ __html: valuesMissions.html }}></p>
