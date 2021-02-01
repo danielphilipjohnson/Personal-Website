@@ -18,14 +18,15 @@ module.exports = {
       src: `https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png`,
       alt: "profile of Daniel Philip Johnson",
     },
-    html: [
-      `Hi, it's Daniel. I am an English front-end engineer from Truro
+    html: `<p>Hi, it's Daniel. I am an English front-end engineer from Truro
     Cornwall who currently works remotely for <a href="https://codecareer.teachable.com/">codecareer.io</a>. I'm
     responsible for maintaining a hiring system and well as
     contributing to a job board. In my spare time, I have a series
     of react side projects and I also contribute to the community
-    with React and web resources.`,
-      `My professional life is a summary: I graduated from the
+    with React and web resources. </p>
+    
+    
+    <p>My professional life is a summary: I graduated from the
     <a href="https://www.plymouth.ac.uk/courses/undergraduate/bsc-psychology?utm_campaign=nn-priority-courses-202021&utm_source=google&utm_medium=cpc&utm_term=&campaign_id=11697299944&gclid=Cj0KCQiA6t6ABhDMARIsAONIYywYK-ri-uvU8UAfy8AFQJB05vFpf1XoESFs9LeYnA6uEe2pI8QeLb8aAmIZEALw_wcB">University of Plymouth with a BSc in psychology</a> in 2014. It was
     at university I discovered my passion for development. I started
     with programming my own project for a neuroscience experiment
@@ -33,8 +34,9 @@ module.exports = {
     loved the topic of vision and memory. It was "vision" that took
     a lot of my interest like how colours catch our eyes and how the
     placement of items has importance. Around the same time, I
-    developed an interest in web development during my free time.`,
-      ` After, I finished my four years of studies. I started to travel
+    developed an interest in web development during my free time.</p>
+    <p> 
+    After, I finished my four years of studies. I started to travel
     around the world. Deciding my next plan and my goals. It
     suddenly hit me during this period while applying for graduate
     psychology positions. I found myself spending more and more time
@@ -45,8 +47,7 @@ module.exports = {
     web development and setout my targetted path. Improving areas
     that required attention and growing my connections. Recently, I
     successfully joined codecareer.io as a react developer and
-    future content creator.`,
-    ],
+    future content creator.</p>`,
   },
   // make icon function
   aboutTechnologies: {

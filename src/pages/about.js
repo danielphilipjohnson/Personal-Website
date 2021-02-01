@@ -237,9 +237,10 @@ const About = ({ location }) => {
               </div>
             </div>
             <div>
-              <div className="profile-text">
-                <p dangerouslySetInnerHTML={{ __html: aboutInfo.html }}></p>
-              </div>
+              <div
+                className="profile-text"
+                dangerouslySetInnerHTML={{ __html: aboutInfo.html }}
+              ></div>
               <div className="used-technologies">
                 <h3>Technologies I use</h3>
                 <p>
