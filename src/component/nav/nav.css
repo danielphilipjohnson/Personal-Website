@@ -90,8 +90,10 @@ aside {
 }
 .menu-nav .icons a {
   padding: 1rem;
+  font-size: 1rem;
   color: #888;
 }
+
 .menu-nav .icons a:hover {
   color: #fff;
 }
@@ -122,16 +124,24 @@ aside {
 .menu .nav-item a.current {
   color: #94c85a;
 }
+
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 1.55rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   padding: 0.5rem 0;
   color: #fff;
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
+
+@media screen and (min-width: 768px) {
+  .menu .nav-link {
+    font-size: 1.55rem;
+  }
+}
+
 .menu .nav-link:hover {
   color: #94c85a;
 }
