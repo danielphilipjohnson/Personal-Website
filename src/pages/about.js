@@ -93,11 +93,6 @@ const About = ({ location }) => {
                     <h4>React Developer</h4>
                   </div>
 
-                  {/* <div className="about-stats">
-                    <h3>{setToday()} by Daniel Johnson</h3>
-                    <p></p>
-                  </div> */}
-
                   <div class="profile-card-body-item">
                     <h3>What I use</h3>
                     <p>
@@ -235,9 +230,10 @@ const About = ({ location }) => {
             </div>
             <div>
               <div className="profile-text">
-                {aboutInfo.text.map((txt) => {
+                <p dangerouslySetInnerHTML={{ __html: aboutInfo.html }}></p>
+                {/* {aboutInfo.text.map((txt) => {
                   return <p>{txt}</p>;
-                })}
+                })} */}
               </div>
               <div className="used-technologies">
                 <h3>Technologies I use</h3>
@@ -417,7 +413,7 @@ const siteQuery = graphql`
               src
               alt
             }
-            text
+            html
           }
           quickBio {
             heading

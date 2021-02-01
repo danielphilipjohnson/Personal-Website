@@ -18,15 +18,15 @@ module.exports = {
       src: `https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png`,
       alt: "profile of Daniel Philip Johnson",
     },
-    text: [
+    html: [
       `Hi, it's Daniel. I am an English front-end engineer from Truro
-    Cornwall who currently works remotely for codecareer.io. I'm
+    Cornwall who currently works remotely for <a href="https://codecareer.teachable.com/">codecareer.io</a>. I'm
     responsible for maintaining a hiring system and well as
     contributing to a job board. In my spare time, I have a series
     of react side projects and I also contribute to the community
     with React and web resources.`,
       `My professional life is a summary: I graduated from the
-    University of Plymouth with a BSc in psychology in 2014. It was
+    <a href="https://www.plymouth.ac.uk/courses/undergraduate/bsc-psychology?utm_campaign=nn-priority-courses-202021&utm_source=google&utm_medium=cpc&utm_term=&campaign_id=11697299944&gclid=Cj0KCQiA6t6ABhDMARIsAONIYywYK-ri-uvU8UAfy8AFQJB05vFpf1XoESFs9LeYnA6uEe2pI8QeLb8aAmIZEALw_wcB">University of Plymouth with a BSc in psychology</a> in 2014. It was
     at university I discovered my passion for development. I started
     with programming my own project for a neuroscience experiment
     and then onto helping others. During my neuroscience lessons, I
@@ -40,7 +40,7 @@ module.exports = {
     psychology positions. I found myself spending more and more time
     programming in my spare time. Developing a strong connection. So
     I decided to start with freecodecamp. I successfully finished in
-    2017 and then progressed onto Udacity in 2018 whilst working a
+    2017 and then progressed onto <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011">Udacity in 2018</a> whilst working a
     full-time job. I gained a lot of experience and confidence in
     web development and setout my targetted path. Improving areas
     that required attention and growing my connections. Recently, I

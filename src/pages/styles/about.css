@@ -29,6 +29,11 @@
 }
 .profile-text {
   padding: 1rem;
+  font-size: 1.05rem;
+}
+
+.profile-text a {
+  font-weight: bolder;
 }
 
 /* .about-info {
