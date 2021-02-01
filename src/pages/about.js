@@ -40,27 +40,6 @@ const About = ({ location }) => {
     },
   } = useStaticQuery(siteQuery);
 
-  const setToday = () => {
-    const monthNames = [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December",
-    ];
-    const date = new Date(Date.now());
-    return `${
-      monthNames[date.getMonth()]
-    } ${date.getDate()}, ${date.getFullYear()}`;
-  };
-
   return (
     <>
       <Layout location={location.pathname}>
