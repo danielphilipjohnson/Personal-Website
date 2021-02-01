@@ -7,6 +7,16 @@ import {
   faPhone,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+
+import {
+  faDev,
+  faHackerrank,
+  faCodepen,
+  faStackOverflow,
+  faFreeCodeCamp,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
 import SEO from "../component/Seo";
 import Header from "../component/layout/Header";
 
@@ -85,6 +95,7 @@ const About = ({ location }) => {
                       </a>
                     );
                   })}
+
                   <div class="profile-card-body-item">
                     <h3>Occupation</h3>
                     <h4>React Developer</h4>
@@ -166,6 +177,65 @@ const About = ({ location }) => {
                       Resume
                     </a>
                   </div>
+                  <div class="connect">
+                    <h2>Connect</h2>
+                    <div class="boxes sm">
+                      <div class="dev">
+                        <a
+                          href="https://dev.to/danielphilipjohnson"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          <FontAwesomeIcon icon={faDev} />
+                        </a>
+                      </div>
+                      <div class="hackerrank">
+                        <a
+                          href="https://www.hackerrank.com/daniel_p_johnson"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          <FontAwesomeIcon icon={faHackerrank} />
+                        </a>
+                      </div>
+                      <div class="codepen">
+                        <a
+                          href="https://codepen.io/danielphilipjohnson/"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          <FontAwesomeIcon icon={faCodepen} />
+                        </a>
+                      </div>
+                      <div class="stack-overflow">
+                        <a
+                          href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          <FontAwesomeIcon icon={faStackOverflow} />
+                        </a>
+                      </div>
+                      <div class="free-code-camp">
+                        <a
+                          href="https://www.freecodecamp.org/daniel-philip-johnson"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          <FontAwesomeIcon icon={faFreeCodeCamp} />
+                        </a>
+                      </div>
+                      <div class="github">
+                        <a
+                          href="https://github.com/danielphilipjohnson/"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <div class="profile-card-footer">
@@ -181,65 +251,6 @@ const About = ({ location }) => {
                       </a>
                     </p>
                   </div> */}
-                  {/* <div class="connect">
-              <h2>Connect</h2>
-              <div class="boxes sm">
-                <div class="dev">
-                  <a
-                    href="https://dev.to/danielphilipjohnson"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <i class="fab fa-dev"></i>
-                  </a>
-                </div>
-                <div class="hackerrank">
-                  <a
-                    href="https://www.hackerrank.com/daniel_p_johnson"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <i class="fab fa-hackerrank"></i>
-                  </a>
-                </div>
-                <div class="codepen">
-                  <a
-                    href="https://codepen.io/danielphilipjohnson/"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <i class="fab fa-codepen"></i>
-                  </a>
-                </div>
-                <div class="stack-overflow">
-                  <a
-                    href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <i class="fab fa-stack-overflow"></i>
-                  </a>
-                </div>
-                <div class="free-code-camp">
-                  <a
-                    href="https://www.freecodecamp.org/daniel-philip-johnson"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <i classimage-2="fab fa-free-code-camp"></i>
-                  </a>
-                </div>
-                <div class="github">
-                  <a
-                    href="https://github.com/danielphilipjohnson/"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <i class="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-            </div> */}
                 </div>
               </div>
             </div>
