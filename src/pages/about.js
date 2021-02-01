@@ -261,7 +261,7 @@ const About = ({ location }) => {
           </div>
 
           <section className="alt-bio bio-section" aria-label="quick bio">
-            <div className="container">
+            <div className="container container-text">
               <h2 className="text-secondary">{quickBio.heading} </h2>
 
               <p dangerouslySetInnerHTML={{ __html: quickBio.html }}></p>
