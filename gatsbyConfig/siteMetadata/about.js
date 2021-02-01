@@ -55,7 +55,7 @@ module.exports = {
   },
   quickBio: {
     heading: "📔 Quick Biography",
-    html: `<p>
+    html: `
   <b>When did I discover programming:</b> Well, when I was a young
   child, my mother, in her spare time would copy code from a
   manual to make games run on the <a href="https://en.wikipedia.org/wiki/Commodore_64">
@@ -100,8 +100,7 @@ module.exports = {
   python and using libraries such as pandas, NumPy and matplotlib
   to plot and analysis data. Now I found my calling with web
   development and love every moment I get using JavaScript and
-  react.js
-</p>`,
+  react.js`,
   },
   valuesMissions: {
     heading: "My values and mission",
