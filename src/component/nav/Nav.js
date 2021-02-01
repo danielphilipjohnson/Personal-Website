@@ -5,6 +5,8 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import "./nav.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
+import profilePhoto from "../../images/profile-md.jpg";
+
 import {
   faGithubAlt,
   faTwitter,
@@ -64,7 +66,8 @@ function Nav() {
         <div className="menu-branding" ref={menuBrandRef}>
           <img
             className="lazyload portrait"
-            src={site.siteMetadata.profileImage}
+            // src={site.siteMetadata.profileImage}
+            src={profilePhoto}
             alt="Profile of daniel philip johnson"
           />
         </div>

@@ -1,11 +1,11 @@
 const path = require(`path`);
-const { createFilePath } = require(`gatsby-source-filesystem`);
+// const { createFilePath } = require(`gatsby-source-filesystem`);
 
-exports.onCreateNode = ({ node }) => {
-  if (node.internal.type === `MarkdownRemark`) {
-    console.log(node.internal.type);
-  }
-};
+// exports.onCreateNode = ({ node }) => {
+//   if (node.internal.type === `MarkdownRemark`) {
+//     console.log(node.internal.type);
+//   }
+// };
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;

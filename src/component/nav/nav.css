@@ -64,13 +64,22 @@ aside {
   overflow: hidden;
 }
 .menu-nav {
-  padding: 3rem 1.5rem;
   background: #0a0a22;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
   font-weight: bolder;
   line-height: 1.22;
 }
+.menu-nav .icons {
+  padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-nav .icons {
+    padding: 3rem 1.5rem;
+  }
+}
+
 .menu-nav,
 .menu-nav ul {
   margin: 0;
@@ -87,11 +96,15 @@ aside {
 .menu-nav .icons {
   position: absolute;
   bottom: 10vh;
+  text-align: center;
+  width: 100%;
 }
 .menu-nav .icons a {
-  padding: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
   color: #888;
 }
+
 .menu-nav .icons a:hover {
   color: #fff;
 }
@@ -122,16 +135,24 @@ aside {
 .menu .nav-item a.current {
   color: #94c85a;
 }
+
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 1.55rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
   padding: 0.5rem 0;
   color: #fff;
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
+
+@media screen and (min-width: 500px) {
+  .menu .nav-link {
+    font-size: 1.55rem;
+  }
+}
+
 .menu .nav-link:hover {
   color: #94c85a;
 }
