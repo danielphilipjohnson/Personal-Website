@@ -5,7 +5,7 @@ import SocialIcons from "../../component/home/Icons";
 import HomeTools from "../../component/home/HomeTools";
 
 import Education from "../../component/home/Education";
-import Biography from "../../component/Biography";
+import Biography from "../../component/home/Biography";
 import Clients from "../../component/home/clients";
 import Services from "../../component/home/services";
 
