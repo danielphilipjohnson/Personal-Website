@@ -22,10 +22,17 @@
 .footer-top .sitemap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-top .sitemap > * {
-  padding: 1rem;
+  padding: 0.75rem;
 }
+@media screen and (min-width: 768px) {
+  .footer-top .sitemap > * {
+    padding: 1rem;
+  }
+}
+
 .footer-top .sitemap > * a {
   color: #fff;
   font-weight: 800;
