@@ -6,7 +6,6 @@ import {
   faMapMarkerAlt,
   faPhone,
   faEnvelope,
-  faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
 import SEO from "../component/Seo";
 import Header from "../component/layout/Header";
@@ -20,9 +19,7 @@ import AngularLogo from "../images/about-logos/angular.svg";
 import ReactLogo from "../images/about-logos/react.svg";
 import GatsbyLogo from "../images/about-logos/gatsby.svg";
 import GraphQlLogo from "../images/about-logos/graphql.svg";
-// import NodeLogo from "../images/about-logos/nodejs.svg";
-import HTMLLogo from "../images/about-logos/html.svg";
-import CSSLogo from "../images/about-logos/css.svg";
+
 import JavaScriptLogo from "../images/about-logos/javascript.svg";
 import TypescriptLogo from "../images/about-logos/ts.svg";
 import SassLogo from "../images/about-logos/sass.svg";
