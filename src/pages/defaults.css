@@ -113,6 +113,16 @@ header {
   background: #94c85a;
   color: #000;
 }
+.btn-outline.light {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.btn-outline.light.active {
+  background: #94c85a;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
 .btn-certificate {
   background: #303146;
   color: #fff;
