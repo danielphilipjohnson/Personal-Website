@@ -8,6 +8,7 @@ import Education from "../../component/home/Education";
 import Biography from "../../component/home/Biography";
 import Clients from "../../component/home/clients";
 import Services from "../../component/home/services";
+import WorkExperience from "../../component/home/work-experience";
 
 import bg from "../../images/showcase1.jpg";
 
@@ -45,7 +46,7 @@ const HomeContainer = () => {
           </div>
         </div>
       </section>
-
+      <WorkExperience />
       <HomeTools />
       <Biography />
       <Services />
