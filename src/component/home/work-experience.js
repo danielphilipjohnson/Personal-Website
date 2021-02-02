@@ -5,7 +5,7 @@ import "./work-experience.css";
 function WorkExperience() {
   return (
     <div class="container container-narrow">
-      <h3 class="text-secondary">Work Experience:</h3>
+      <h2 class="text-secondary">Work Experience:</h2>
 
       <ul class="work-experience">
         <li class="job-current">

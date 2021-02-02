@@ -4,8 +4,7 @@
 }
 .work-experience {
   list-style: none;
-  margin: 0.5rem 0 0 0.5rem;
-  /* padding: 1rem 2rem; */
+  margin: 1rem 0 0 0.75rem;
   position: relative;
   text-align: left;
 }
@@ -26,11 +25,11 @@
   transform: scale(1.4);
 }
 .work-experience > li + li {
-  margin-top: 20px;
+  margin-top: 1.2rem;
 }
 
 .work-experience > li {
-  padding-left: 50px;
+  padding: 0 1.5rem;
   position: relative;
 }
 
@@ -47,15 +46,18 @@
 
 .work-experience .job-title {
   font-size: 1em;
-  margin: 0 0 10px;
+  margin: 0 0 0.75rem;
+}
+.job-title a {
+  color: #94c85a;
 }
 
 .work-experience .job-meta {
-  font-size: 0.75em;
+  font-size: 0.95rem;
   font-style: italic;
 }
 
 .work-experience .job-description {
-  font-size: 0.85em;
-  margin: 10px 0 0;
+  font-size: 1rem;
+  margin: 0.8rem 0 0;
 }
