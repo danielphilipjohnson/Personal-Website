@@ -35,7 +35,7 @@ const HomeContainer = () => {
 
           <SocialIcons />
 
-          <div class="btn-group">
+          <div className="btn-group">
             <Link className="btn-outline light" to="/work/">
               View my work
             </Link>
