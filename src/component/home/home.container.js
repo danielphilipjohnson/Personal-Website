@@ -1,5 +1,5 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 
 import SocialIcons from "../../component/home/Icons";
 import HomeTools from "../../component/home/HomeTools";
@@ -34,6 +34,15 @@ const HomeContainer = () => {
           <h2 className="sm-heading">{site.siteMetadata.tagline}</h2>
 
           <SocialIcons />
+
+          <div className="btn-group">
+            <Link className="btn-outline light" to="/work/">
+              View my work
+            </Link>
+            <Link className="btn-outline light" to="/contact/">
+              Contact
+            </Link>
+          </div>
         </div>
       </section>
 

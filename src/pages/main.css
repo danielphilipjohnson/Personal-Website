@@ -223,9 +223,9 @@ main#contact section {
 }
 
 @media screen and (max-width: 768px) {
-  main {
+  /* main {
     padding: 0;
-  }
+  } */
 
   .select-box .select-button .chevrons {
     padding: 9px 16px;
