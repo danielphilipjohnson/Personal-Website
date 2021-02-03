@@ -47,7 +47,7 @@ module.exports = {
     web development and setout my targetted path. Improving areas
     that required attention and growing my connections. Recently, I
     successfully joined codecareer.io as a react developer and
-    future content creator.</p>`,
+    future content creator.</p> `,
   },
   // make icon function
   aboutTechnologies: {
