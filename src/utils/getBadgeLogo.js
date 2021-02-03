@@ -1,5 +1,8 @@
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+
 import HtmlLogo from "../images/about-logos/html.svg";
 import CSSLogo from "../images/about-logos/css.svg";
 // find something for responsive
@@ -14,26 +17,28 @@ import JavaScriptLogo from "../images/about-logos/javascript.svg";
 import MaterializeLogo from "../images/about-logos/materialize.png";
 import AngularLogo from "../images/about-logos/angular.svg";
 
+// next get all badges and generate
+
 const getBadgeLogo = (name) => {
   const cleanedName = name.toLowerCase();
   if (cleanedName === "html5") {
-    return <img src={HtmlLogo} alt={name}/>;
+    return <img src={HtmlLogo} alt={name} />;
   } else if (cleanedName === "css") {
-    return <img src={CSSLogo} alt={name}/>;
+    return <img src={CSSLogo} alt={name} />;
   } else if (cleanedName === "responsive") {
-    return <img src={JavaScriptLogo} alt={name}/>;
+    return <FontAwesomeIcon icon={faMobileAlt} />;
   } else if (cleanedName === "freecodecamp") {
-    return <img src={FccLogo} alt={name}/>;
+    return <img src={FccLogo} alt={name} />;
   } else if (cleanedName === "sass") {
-    return <img src={SassLogo} alt={name}/>;
+    return <img src={SassLogo} alt={name} />;
   } else if (cleanedName === "materialize") {
-    return <img src={MaterializeLogo} alt={name}/>;
+    return <img src={MaterializeLogo} alt={name} />;
   } else if (cleanedName === "front-end") {
-    return <img src={FrontEndLogo} alt={name}/>;
+    return <img src={FrontEndLogo} alt={name} />;
   } else if (cleanedName === "javascript") {
-    return <img src={JavaScriptLogo} alt={name}/>;
+    return <img src={JavaScriptLogo} alt={name} />;
   } else if (cleanedName === "angular") {
-    return <img src={AngularLogo} alt={name}/>;
+    return <img src={AngularLogo} alt={name} />;
   }
 };
 export default getBadgeLogo;

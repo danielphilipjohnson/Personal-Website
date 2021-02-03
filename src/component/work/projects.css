@@ -160,7 +160,7 @@
 }
 .overlay svg {
   padding: 0.05rem 0.35rem;
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
   transition: 0.5s ease;
   font-size: 2rem;
   height: 35px;
