@@ -3,7 +3,6 @@ import { useStaticQuery, graphql, Link } from "gatsby";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFirefox } from "@fortawesome/free-brands-svg-icons";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 import BtnGroup from "./btns";
 
@@ -36,8 +35,6 @@ function Projects() {
   return (
     <>
       <div id="responsive" class="container">
-        {/* <h2 class="section-header">Responsive Web Design</h2> */}
-
         <BtnGroup
           getTypeOfProjects={getTypeOfProjects}
           activeType={activeType}
@@ -61,12 +58,6 @@ function Projects() {
                     }}
                   >
                     <div class="content">
-                      {/* <div class="arrow-btn">
-                      <div class="arrow-btn-text">
-                      
-                      </div>
-                      <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </div> */}
                       <div className="badges">
                         {project.badges &&
                           project.badges.map((badge) => {
