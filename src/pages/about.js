@@ -35,7 +35,7 @@ import TypescriptLogo from "../images/about-logos/ts.svg";
 import SassLogo from "../images/about-logos/sass.svg";
 import BootstrapLogo from "../images/about-logos/bootstrap4.svg";
 import GithubLogo from "../images/about-logos/github.svg";
-import NpmLogo from "../images/about-logos/npm.svg";
+// import NpmLogo from "../images/about-logos/npm.svg";
 // import CypressLogo from "../images/about-logos/cypress.png";
 import TailwindLogo from "../images/about-logos/tailwind.png";
 
@@ -123,7 +123,7 @@ const About = ({ location }) => {
                         alt="Tailwind"
                       />
                       <img src={GithubLogo} alt="Git Version Control" />
-                      <img src={NpmLogo} alt="NPM" />
+                      {/* <img src={NpmLogo} alt="NPM" /> */}
                     </div>
                   </div>
                   <div class="profile-card-body-item">
@@ -177,65 +177,7 @@ const About = ({ location }) => {
                       Resume
                     </a>
                   </div>
-                  <div class="connect">
-                    <h2>Connect</h2>
-                    <div class="boxes sm">
-                      <div class="dev">
-                        <a
-                          href="https://dev.to/danielphilipjohnson"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FontAwesomeIcon icon={faDev} />
-                        </a>
-                      </div>
-                      <div class="hackerrank">
-                        <a
-                          href="https://www.hackerrank.com/daniel_p_johnson"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FontAwesomeIcon icon={faHackerrank} />
-                        </a>
-                      </div>
-                      <div class="codepen">
-                        <a
-                          href="https://codepen.io/danielphilipjohnson/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FontAwesomeIcon icon={faCodepen} />
-                        </a>
-                      </div>
-                      <div class="stack-overflow">
-                        <a
-                          href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FontAwesomeIcon icon={faStackOverflow} />
-                        </a>
-                      </div>
-                      <div class="free-code-camp">
-                        <a
-                          href="https://www.freecodecamp.org/daniel-philip-johnson"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FontAwesomeIcon icon={faFreeCodeCamp} />
-                        </a>
-                      </div>
-                      <div class="github">
-                        <a
-                          href="https://github.com/danielphilipjohnson/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <FontAwesomeIcon icon={faGithub} />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                  {/*  */}
                 </div>
 
                 <div class="profile-card-footer">
@@ -254,10 +196,81 @@ const About = ({ location }) => {
                 </div>
               </div>
             </div>
-            <div
-              className="profile-text"
-              dangerouslySetInnerHTML={{ __html: aboutInfo.html }}
-            ></div>
+            <div className="profile-text">
+              <div dangerouslySetInnerHTML={{ __html: aboutInfo.html }}></div>
+
+              <div class="connect">
+                {/* <h2>Connect</h2> */}
+                <div class="boxes sm">
+                  <div class="dev">
+                    <a
+                      href="https://dev.to/danielphilipjohnson"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faDev} />
+                    </a>
+                  </div>
+                  <div class="hackerrank">
+                    <a
+                      href="https://www.hackerrank.com/daniel_p_johnson"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faHackerrank} />
+                    </a>
+                  </div>
+                  <div class="codepen">
+                    <a
+                      href="https://codepen.io/danielphilipjohnson/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faCodepen} />
+                    </a>
+                  </div>
+                  <div class="stack-overflow">
+                    <a
+                      href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faStackOverflow} />
+                    </a>
+                  </div>
+                  <div class="free-code-camp">
+                    <a
+                      href="https://www.freecodecamp.org/daniel-philip-johnson"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faFreeCodeCamp} />
+                    </a>
+                  </div>
+                  <div class="github">
+                    <a
+                      href="https://github.com/danielphilipjohnson/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              {/* <div class="github-stats">
+                <h2>Github Statistics</h2>
+                <p>
+                  <a href="https://github.com/danielphilipjohnson/github-readme-stats">
+                    <img
+                      src="https://camo.githubusercontent.com/db37043947c98251b225e363ea8a2bdb30e2122b/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d64616e69656c7068696c69706a6f686e736f6e266c61796f75743d636f6d70616374"
+                      alt="Top Langs"
+                      data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielphilipjohnson&amp;layout=compact"
+                    />
+                  </a>
+                </p>
+              </div> */}
+            </div>
           </div>
 
           <section className="alt-bio bio-section" aria-label="quick bio">

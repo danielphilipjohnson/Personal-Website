@@ -18,7 +18,7 @@ module.exports = {
       src: `https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png`,
       alt: "profile of Daniel Philip Johnson",
     },
-    html: `<p>Hi, it's Daniel. I am an English front-end engineer from Truro
+    html: `<h2>Hi, it's Daniel.👋</h2><p> I am an English front-end engineer from Truro
     Cornwall who currently works remotely for <a href="https://codecareer.teachable.com/">codecareer.io</a>. I'm
     responsible for maintaining a hiring system and well as
     contributing to a job board. In my spare time, I have a series
@@ -47,7 +47,7 @@ module.exports = {
     web development and setout my targetted path. Improving areas
     that required attention and growing my connections. Recently, I
     successfully joined codecareer.io as a react developer and
-    future content creator.</p>`,
+    future content creator.</p> `,
   },
   // make icon function
   aboutTechnologies: {
