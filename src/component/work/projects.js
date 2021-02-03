@@ -30,14 +30,23 @@ function Projects() {
   };
 
   const getBadgeLogo = (name) => {
-    if (name == "HTML5") {
-    } else if (name == "CSS") {
-    } else if (name == "Responsive") {
-    } else if (name == "freecodecamp") {
-    } else if (name == "SASS") {
-    } else if (name == "Materialize") {
-    } else if (name == "Front-End") {
-    } else if (name == "Javascript") {
+    const cleanedName = name.toLowerCase();
+    if (cleanedName === "html5") {
+      return <img src={JavaScriptLogo} />;
+    } else if (cleanedName === "css") {
+      return <img src={JavaScriptLogo} />;
+    } else if (cleanedName === "responsive") {
+      return <img src={JavaScriptLogo} />;
+    } else if (cleanedName === "freecodecamp") {
+      return <img src={JavaScriptLogo} />;
+    } else if (cleanedName === "sass") {
+      return <img src={JavaScriptLogo} />;
+    } else if (cleanedName === "materialize") {
+      return <img src={JavaScriptLogo} />;
+    } else if (cleanedName === "front-end") {
+      return <img src={JavaScriptLogo} />;
+    } else if (cleanedName === "javascript") {
+      return <img src={JavaScriptLogo} />;
     }
   };
 
@@ -76,7 +85,8 @@ function Projects() {
                           project.badges.map((badge) => {
                             return (
                               <span className="badge-tech">
-                                <img src={JavaScriptLogo} />
+                                {getBadgeLogo(badge)}
+                                {/* <img src={JavaScriptLogo} /> */}
                                 {badge}
                               </span>
                             );
