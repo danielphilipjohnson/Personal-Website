@@ -123,7 +123,7 @@ const About = ({ location }) => {
                         alt="Tailwind"
                       />
                       <img src={GithubLogo} alt="Git Version Control" />
-                      <img src={NpmLogo} alt="NPM" />
+                      {/* <img src={NpmLogo} alt="NPM" /> */}
                     </div>
                   </div>
                   <div class="profile-card-body-item">
@@ -177,7 +177,7 @@ const About = ({ location }) => {
                       Resume
                     </a>
                   </div>
-                  <div class="connect">
+                  {/* <div class="connect">
                     <h2>Connect</h2>
                     <div class="boxes sm">
                       <div class="dev">
@@ -235,7 +235,7 @@ const About = ({ location }) => {
                         </a>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div class="profile-card-footer">

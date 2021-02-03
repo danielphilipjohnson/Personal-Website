@@ -18,7 +18,7 @@ module.exports = {
       src: `https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png`,
       alt: "profile of Daniel Philip Johnson",
     },
-    html: `<p>Hi, it's Daniel. I am an English front-end engineer from Truro
+    html: `<h2>Hi, it's Daniel.👋</h2><p> I am an English front-end engineer from Truro
     Cornwall who currently works remotely for <a href="https://codecareer.teachable.com/">codecareer.io</a>. I'm
     responsible for maintaining a hiring system and well as
     contributing to a job board. In my spare time, I have a series

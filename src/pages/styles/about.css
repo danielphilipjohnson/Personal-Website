@@ -41,6 +41,25 @@
 }
 .profile-text {
   padding: 1rem 1.75rem;
+  background-color: #fff;
+  color: rgb(16, 42, 67);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-text a {
+  color: #292929;
+  font-weight: bold;
+}
+/* .about-info {
+  border-right: 1px solid gray;
+} */
+
+@media (min-width: 768px) {
+  .about-info {
+    border-right: 10px solid #3a3c55;
+  }
 }
 
 .about-info img {
@@ -61,9 +80,10 @@
   flex-wrap: wrap;
 }
 .icons-technology img {
-  max-width: 59px;
-  max-height: 75px;
-  padding: 0.55rem;
+  max-width: 55px;
+  /* max-height: 75px; */
+  padding: 0.35rem;
+  object-fit: contain;
 }
 
 .bio-list {
