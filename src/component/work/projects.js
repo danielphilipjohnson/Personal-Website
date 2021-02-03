@@ -36,35 +36,39 @@ function Projects() {
 
   return (
     <>
-      <div id="responsive" class="container">
+      <div id="responsive" className="container">
         <BtnGroup
           getTypeOfProjects={getTypeOfProjects}
           activeType={activeType}
         />
 
-        <div class="projects">
+        <div className="projects">
           {filteredProjects.map((project) => {
             return (
-              <Link to={`${"/" + project.path}`}>
-                <div class="item" key={project.imageSrc}>
-                  <div class="bar">
+              <Link to={`${"/" + project.path}`} key={project.title}>
+                <div className="item" key={project.imageSrc}>
+                  <div className="bar">
                     <FontAwesomeIcon icon={faFirefox} />
-                    <i class="window-buttons"></i>
-                    <span class="title">{project.title}</span>
+                    <i className="window-buttons"></i>
+                    <span className="title">{project.title}</span>
                   </div>
-                  <img class="item-img" src={project.imageSrc} alt="ddd page" />
+                  <img
+                    className="item-img"
+                    src={project.imageSrc}
+                    alt="ddd page"
+                  />
                   <div
-                    class="overlay"
+                    className="overlay"
                     style={{
                       backgroundImage: `url(${bg})`,
                     }}
                   >
-                    <div class="content">
+                    <div className="content">
                       <div className="badges">
                         {project.badges &&
                           project.badges.map((badge) => {
                             return (
-                              <span className="badge-tech">
+                              <span className="badge-tech" key={badge}>
                                 {getBadgeLogo(badge)}
                                 {/* <img src={JavaScriptLogo} /> */}
                                 {badge}
