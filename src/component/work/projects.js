@@ -46,35 +46,37 @@ function Projects() {
         <div class="projects">
           {filteredProjects.map((project) => {
             return (
-              <div class="item" key={project.imageSrc}>
-                <div class="bar">
-                  <FontAwesomeIcon icon={faFirefox} />
-                  <i class="window-buttons"></i>
-                  <span class="title">{project.title}</span>
-                </div>
-                <img class="item-img" src={project.imageSrc} alt="ddd page" />
-                <div
-                  class="overlay"
-                  style={{
-                    backgroundImage: `url(${bg})`,
-                  }}
-                >
-                  <div class="content">
-                    {/* <div class="arrow-btn">
+              <Link to={`${"/" + project.path}`}>
+                <div class="item" key={project.imageSrc}>
+                  <div class="bar">
+                    <FontAwesomeIcon icon={faFirefox} />
+                    <i class="window-buttons"></i>
+                    <span class="title">{project.title}</span>
+                  </div>
+                  <img class="item-img" src={project.imageSrc} alt="ddd page" />
+                  <div
+                    class="overlay"
+                    style={{
+                      backgroundImage: `url(${bg})`,
+                    }}
+                  >
+                    <div class="content">
+                      {/* <div class="arrow-btn">
                       <div class="arrow-btn-text">
-                        <Link to={`${"/" + project.path}`}>View Project</Link>
+                      
                       </div>
                       <FontAwesomeIcon icon={faLongArrowAltRight} />
                     </div> */}
-                    <div className="badges">
-                      {project.badges &&
-                        project.badges.map((badge) => {
-                          return <span className="badge-tech">{badge}</span>;
-                        })}
+                      <div className="badges">
+                        {project.badges &&
+                          project.badges.map((badge) => {
+                            return <span className="badge-tech">{badge}</span>;
+                          })}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
