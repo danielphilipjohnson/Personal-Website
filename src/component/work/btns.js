@@ -16,6 +16,7 @@ function Btns({ getTypeOfProjects, activeType }) {
               onClick={() => {
                 getTypeOfProjects(btnLowered);
               }}
+              key={btnLowered}
             >
               {btn}
             </button>
@@ -27,6 +28,7 @@ function Btns({ getTypeOfProjects, activeType }) {
             onClick={() => {
               getTypeOfProjects(btnLowered);
             }}
+            key={btnLowered}
           >
             {btn}
           </button>

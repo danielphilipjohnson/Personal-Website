@@ -1001,7 +1001,7 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1079,7 +1079,7 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1155,7 +1155,7 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1233,7 +1233,7 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1311,7 +1311,7 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1389,7 +1389,7 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Front End", "freecodecamp"],
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1467,7 +1467,7 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+    badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1545,6 +1545,15 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
     projectLink: "#",
+    badges: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Front-End",
+      "freecodecamp",
+      "Angular",
+    ],
+
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1622,7 +1631,14 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+    badges: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Front-End",
+      "freecodecamp",
+      "Angular",
+    ],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1700,7 +1716,14 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+    badges: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Front-End",
+      "freecodecamp",
+      "Angular",
+    ],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1778,7 +1801,7 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Wiki-Viewer",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front End", "freecodecamp"],
+    badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
