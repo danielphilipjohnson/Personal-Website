@@ -129,6 +129,11 @@
   color: #fff;
 }
 
+.badge-tech:hover {
+  background-color: #444343;
+  opacity: 0.8;
+}
+
 .item .badge-tech img {
   width: 25px;
   height: 25px;
@@ -160,12 +165,7 @@
 }
 .overlay svg {
   padding: 0.05rem 0.35rem;
-  /* background-color: rgba(0, 0, 0, 0.4); */
   transition: 0.5s ease;
   font-size: 2rem;
   height: 35px;
-}
-.overlay .links svg:hover {
-  background-color: #444343;
-  opacity: 0.8;
 }
