@@ -117,6 +117,9 @@
 }
 
 .badge-tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   opacity: 1;
   font-size: 0.875rem;
   margin: 0 0.25rem 0.5rem 0.25rem;
@@ -124,6 +127,13 @@
   line-height: 1.5rem;
   background: rgba(58, 60, 85, 0.4);
   color: #fff;
+}
+
+.item .badge-tech img {
+  width: 25px;
+  height: 25px;
+  padding: 0.2rem;
+  margin-right: 0.25rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -137,7 +147,6 @@
   justify-content: center;
   align-items: center;
   font-size: 0.8rem;
-  /* margin-bottom: 1.5rem; */
   text-transform: uppercase;
 }
 .overlay .arrow-btn .arrow-btn-text {
