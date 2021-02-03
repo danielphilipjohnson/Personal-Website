@@ -1545,7 +1545,14 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
+    badges: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Front-End",
+      "freecodecamp",
+      "Angular",
+    ],
 
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -1624,7 +1631,14 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
+    badges: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Front-End",
+      "freecodecamp",
+      "Angular",
+    ],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure
@@ -1702,7 +1716,14 @@ module.exports = [
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
     projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
+    badges: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Front-End",
+      "freecodecamp",
+      "Angular",
+    ],
     details: {
       overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Architecto explicabo cupiditate perferendis ad unde iure

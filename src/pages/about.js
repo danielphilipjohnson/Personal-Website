@@ -33,7 +33,7 @@ import GraphQlLogo from "../images/about-logos/graphql.svg";
 import JavaScriptLogo from "../images/about-logos/javascript.svg";
 import TypescriptLogo from "../images/about-logos/ts.svg";
 import SassLogo from "../images/about-logos/sass.svg";
-import BootstrapLogo from "../images/about-logos/bs4.svg";
+import BootstrapLogo from "../images/about-logos/bootstrap4.svg";
 import GithubLogo from "../images/about-logos/github.svg";
 import NpmLogo from "../images/about-logos/npm.svg";
 // import CypressLogo from "../images/about-logos/cypress.png";
