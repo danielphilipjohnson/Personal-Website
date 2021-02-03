@@ -6,8 +6,9 @@ import { faFirefox } from "@fortawesome/free-brands-svg-icons";
 
 import BtnGroup from "./btns";
 
+import getBadgeLogo from "../../utils/getBadgeLogo";
+
 import bg from "../../images/overlay-bg.png";
-import JavaScriptLogo from "../../images/about-logos/html.svg";
 import "./projects.css";
 
 function Projects() {
@@ -26,27 +27,6 @@ function Projects() {
           return project.type === type;
         })
       );
-    }
-  };
-
-  const getBadgeLogo = (name) => {
-    const cleanedName = name.toLowerCase();
-    if (cleanedName === "html5") {
-      return <img src={JavaScriptLogo} />;
-    } else if (cleanedName === "css") {
-      return <img src={JavaScriptLogo} />;
-    } else if (cleanedName === "responsive") {
-      return <img src={JavaScriptLogo} />;
-    } else if (cleanedName === "freecodecamp") {
-      return <img src={JavaScriptLogo} />;
-    } else if (cleanedName === "sass") {
-      return <img src={JavaScriptLogo} />;
-    } else if (cleanedName === "materialize") {
-      return <img src={JavaScriptLogo} />;
-    } else if (cleanedName === "front-end") {
-      return <img src={JavaScriptLogo} />;
-    } else if (cleanedName === "javascript") {
-      return <img src={JavaScriptLogo} />;
     }
   };
 
