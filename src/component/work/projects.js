@@ -60,12 +60,12 @@ function Projects() {
                   }}
                 >
                   <div class="content">
-                    <div class="arrow-btn">
+                    {/* <div class="arrow-btn">
                       <div class="arrow-btn-text">
                         <Link to={`${"/" + project.path}`}>View Project</Link>
                       </div>
                       <FontAwesomeIcon icon={faLongArrowAltRight} />
-                    </div>
+                    </div> */}
                     <div className="badges">
                       {project.badges &&
                         project.badges.map((badge) => {
