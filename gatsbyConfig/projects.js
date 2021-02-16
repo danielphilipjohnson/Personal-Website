@@ -24,7 +24,7 @@ module.exports = [
       `,
       lessonsLearned: ` In this project I started to test my understanding of Grid and Flex layout.`,
       process: `
-      <p>I followed the user story:</p>
+      <p>I followed the freecodecamp user story:</p>
           <ul>             
           <li><b>User Story #1:</b> My tribute page should have an element with a corresponding id="main", which contains all other elements.</li>
           <li><b>User Story #2:</b> I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").</li>
@@ -76,7 +76,7 @@ module.exports = [
       overview: `For the second project of Freecodecamp responsive web design certificate I built a survey form that used a minimalistic style with a soft blue background.. The focus was on applying Visual Designs with a combination of typography, color theory, graphics, animation, page layout, and to deliver my message. To apply accessibility to include people with visual, auditory, mobility, or cognitive disabilities. Then make a responsive web design that works and looks great on all devices.`,
       goals: `I wanted to make a great form that was responsive and worked on all devices. To use both flex and grid for the layout. I used a column for layout for the main content using 1fr for mobile and for tablet and for desktop 1fr 2fr. I also wanted to style form elements and make a custom select to make it visually appealing.`,
       lessonsLearned: `I learned that styling a custom select can create problems when using different browsers there are cross browser compatible issues. I had to put in a lot of research into browser extensions for placeholders and hiding the appearance of the select arrow. Some elements can be styled like <form> and simple <input />. However, <input type="search"> is more difficult to style and some elements can't be styled thoroughly using CSS like <input type="file"> . Using custom form styles that rely on JavaScript are problematic for those who don't have JavaScript running.`,
-      process: `<p>I followed the user story:</p>
+      process: `<p>I followed the freecodecamp user story:</p>
       <ul>
                          
       <li><b>User Story #1:</b> I can see a title with id="title" in H1 sized text.</li>
@@ -137,7 +137,7 @@ module.exports = [
       overview: `For the third project of Freecodecamp responsive Design I built a product Landing. I wanted to mimic the apple product page and add a twist to it. Keep it clean and minimal. The focus was on applying Visual Designs with a combination of typography, color theory, graphics, animation, page layout, and to deliver my message. To apply accessibility to include people with visual, auditory, mobility, or cognitive disabilities. Then make a responsive web design that works and looks great on all devices.`,
       goals: `My goal for this project was to implement a sticky navbar that drops down on scroll, to make a hamburger button with JavaScript, to use CSS with variables in my stylesheet and mimic apples design. As a bonus I added an embedded youtube video that links to an apple product.`,
       lessonsLearned: `What I learnt was how to make a sticky navbar with JavaScript after doing lots of research. Some good resources are “https://css-tricks.com/sticky-smooth-active-nav/”, “https://gomakethings.com/how-to-create-a-sticky-navigation-with-only-css/”, “https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky” `,
-      process: `<p>I followed the user story:</p>
+      process: `<p>I followed the freecodecamp user story:</p>
       <li><b>User Story #1:</b> My product landing page should have a header element with a corresponding id="header".</li>
       <li><b>User Story #2:</b> I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.</li>
       <li><b>User Story #3:</b> Within the #header element I can see a nav element with a corresponding id="nav-bar".</li>
@@ -196,7 +196,7 @@ module.exports = [
       overview: `For the fourth project of Freecodecamp responsive Design I built a technical documentation page Landing. I decided to mix the style from MDN Web Docs (https://developer.mozilla.org/en-US/docs/) page and react.js documentation. Keep it clean and minimal. The focus was on applying Visual Designs with a combination of typography, color theory, graphics, animation, page layout, and to deliver my message. To apply accessibility to include people with visual, auditory, mobility, or cognitive disabilities. Then make a responsive web design that works and looks great on all devices.`,
       goals: `The goal was to build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/NdrKKL. I used HTML and CSS to build a responsive design that looks great on all layouts.`,
       lessonsLearned: `What I learnt during this project was how to style coding elements inside the documentation`,
-      process: `<p>I followed the user story:</p>
+      process: `<p>I followed the freecodecamp user story:</p>
       <li><b>User Story #1:</b> I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).</li>
       <li><b>User Story #2:</b> Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.</li>
       <li><b>User Story #3:</b> The first element within each .main-section should be a header element which contains text that describes the topic of that section.</li>
@@ -255,7 +255,7 @@ module.exports = [
       goals: `The goal of this project was to build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG. I decided to alter the design a lot. I listed my projects in a portfolio section by making card components. I included a contact form, added a testimonial section, listed my technical skills with logos and put social icons on my jumbotron.`,
       lessonsLearned: `There was so much custom CSS I had to resort to using a preproccesor SASS to make the CSS more modular.`,
       process: `
-      <p>I followed the user story:</p>
+      <p>I followed the freecodecamp user story:</p>
       <ul>
       <li><b>User Story #1:</b> My portfolio should have a welcome section with an id of welcome-section.</li>
       <li><b>User Story #2:</b> The welcome section should have an h1 element that contains text.</li>
