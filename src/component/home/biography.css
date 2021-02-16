@@ -43,3 +43,7 @@
     padding: 2rem 3rem 1rem;
   }
 }
+
+.bottom-line.secondary {
+  background: #94c85a;
+}

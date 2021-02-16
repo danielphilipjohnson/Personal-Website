@@ -5,10 +5,11 @@ import "./biography.css";
 function Biography() {
   const { site } = useStaticQuery(siteQuery);
   return (
-    <div className="bio ">
+    <div className="bio">
       <div className="container">
         <div className="bio-content">
-          <h3 className="text-secondary">Biography:</h3>
+          <h2 className="md-heading text-secondary">Biography:</h2>
+          <div className="bottom-line secondary"></div>
           <h4 className="mission">{site.siteMetadata.biography.statement}</h4>
 
           <p>{site.siteMetadata.biography.missionStatement}</p>
