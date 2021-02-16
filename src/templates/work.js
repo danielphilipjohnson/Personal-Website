@@ -1,4 +1,6 @@
 import React from "react";
+import { graphql } from "gatsby";
+
 import SEO from "../component/Seo";
 
 import Layout from "../component/layout/Layout";
@@ -6,7 +8,7 @@ import Header from "../component/layout/Header";
 
 import "./styles.css";
 
-function work({ location, data, pageContext }) {
+function Work({ location, data, pageContext }) {
   const { details } = pageContext.post;
 
   const toolUsed = details.toolUsed;
@@ -82,7 +84,7 @@ function work({ location, data, pageContext }) {
               {toolUsed.map((tool) => {
                 const { name, src, about } = tool;
                 return (
-                  <div className="project-tool">
+                  <div className="project-tool" key={name}>
                     <img src={src} alt={name} />
                     <h4>{name}</h4>
                     <p>{about}</p>
@@ -113,7 +115,7 @@ function work({ location, data, pageContext }) {
   );
 }
 
-export default work;
+export default Work;
 
 export const query = graphql`
   query($slug: String!) {
