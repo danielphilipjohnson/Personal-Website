@@ -1,5 +1,5 @@
 .text-dark {
-  color: #000;
+  color: rgb(79, 79, 79);
   text-align: center;
   padding: 1rem 0 0.5rem 1rem;
 }
@@ -59,9 +59,9 @@
     margin-bottom: 1rem;
     border-bottom: 0;
   }
-  .text-dark {
+  /* .text-dark {
     text-align: left;
-  }
+  } */
 }
 
 .course-logo {
