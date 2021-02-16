@@ -4,12 +4,12 @@ import "./work-experience.css";
 
 function WorkExperience() {
   return (
-    <div class="container container-narrow">
-      <h2 class="text-secondary">Work Experience:</h2>
+    <div className="container container-narrow">
+      <h2 className="text-secondary">Work Experience:</h2>
 
-      <ul class="work-experience">
-        <li class="job-current">
-          <h5 class="job-title">
+      <ul className="work-experience">
+        <li className="job-current">
+          <h5 className="job-title">
             React Developer -{" "}
             <a
               href=" http://jobs.codecareer.io/"
@@ -19,11 +19,11 @@ function WorkExperience() {
               CodeCareer.io
             </a>
           </h5>
-          <div class="job-meta">
+          <div className="job-meta">
             <span>Remote </span>
             <span>November 2020 - Present</span>
           </div>
-          <p class="job-description">
+          <p className="job-description">
             In my current role, I use React.js, Javascript ECMA 11 and CSS, BS4
             for styling. I interact with express.js routes, store data in
             MongoDB and use popular node packages of form-hooks and Axios. My
@@ -38,18 +38,18 @@ function WorkExperience() {
             requests with local storage and implement infinite scrolling.
           </p>
         </li>
-        <li class="">
-          <h5 class="job-title">
+        <li className="">
+          <h5 className="job-title">
             Generic job -{" "}
             <a href="#" target="_blank" rel="noopener noreferrer">
               Generic company name
             </a>
           </h5>
-          <div class="job-meta">
+          <div className="job-meta">
             <span>Remote </span>
             <span>May 2033 - September 2035</span>
           </div>
-          <p class="job-description">
+          <p className="job-description">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quod
             laudantium incidunt odio corporis. Perspiciatis perferendis
             voluptatibus eum animi dolorem neque distinctio sint ipsa!
