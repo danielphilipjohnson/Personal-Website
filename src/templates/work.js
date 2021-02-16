@@ -12,7 +12,6 @@ function work({ location, data, pageContext }) {
   const { details } = pageContext.post;
 
   const toolUsed = details.toolUsed;
-  console.log(toolUsed);
   return (
     <Layout location={location.pathname}>
       <SEO />
@@ -99,7 +98,7 @@ function work({ location, data, pageContext }) {
         <div className="project-process container">
           <div className="project-process--information">
             <h2 className="text-secondary">Process</h2>
-            <p>{details.process}</p>
+            <p dangerouslySetInnerHTML={{ __html: details.process }}></p>
           </div>
 
           <figure className="tech-figure">
