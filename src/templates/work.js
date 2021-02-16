@@ -77,7 +77,7 @@ function work({ location, data, pageContext }) {
           <div className="container">
             <div className="project-tools__heading">
               <h3 className="lg-heading">Built With</h3>
-              <div class="bottom-line"></div>
+              <div className="bottom-line"></div>
             </div>
 
             <div className="project-tools__stats">

@@ -87,7 +87,7 @@ module.exports = [
       <li><b>User Story #6:</b> If I enter an email that is not formatted correctly, I will see an HTML5 validation error.</li>
       <li><b>User Story #7: </b>Inside the form, I can enter a number in a field with id="number".</li>
       <li><b>User Story #8:</b> If I enter non-numbers in the number input, I will see an HTML5 validation error.</li>
-      <li><b>User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.</li>
+      <li><b>User Story #9:</b> If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.</li>
       <li><b>User Story #10:</b> For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".</li>
       <li><b>User Story #11: </b>For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.</li>
       <li><b>User Story #12:</b> Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".</li>
@@ -146,9 +146,9 @@ module.exports = [
       <li><b>User Story #7:</b> My landing page has a form element with a corresponding id="form".</li>
       <li><b>User Story #8:</b> Within the form, there is an input field with id="email" where I can enter an email address.</li>
       <li><b>User Story #9:</b> The #email input field should have placeholder text to let the user know what the field is for.</li>
-      <li><b>User Story #10: </b>The #email input field uses HTML5 validation to confirm that the entered text is an email address.</li>
-      <li><b>User Story #11: Within the form, there is a submit input with a corresponding id="submit".</li>
-      <li><b>User Story #12: </b>When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).</li>
+      <li><b>User Story #10:</b> The #email input field uses HTML5 validation to confirm that the entered text is an email address.</li>
+      <li><b>User Story #11:</b> Within the form, there is a submit input with a corresponding id="submit".</li>
+      <li><b>User Story #12:</b> When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).</li>
       <li><b>User Story #13: </b>The navbar should always be at the top of the viewport.</li>
       <li><b>User Story #14: </b>My product landing page should have at least one media query.</li>
       <li><b>User Story #15:</b> My product landing page should utilize CSS flexbox at least once.</li>
@@ -255,7 +255,7 @@ module.exports = [
       lessonsLearned: `There was so much custom CSS I had to resort to using a preproccesor SASS to make the CSS more modular.`,
       process: `<ul>
       <li><b>User Story #1:</b> My portfolio should have a welcome section with an id of welcome-section.</li>
-      <li><b>User Story #2: The welcome section should have an h1 element that contains text.</li>
+      <li><b>User Story #2:</b> The welcome section should have an h1 element that contains text.</li>
       <li><b>User Story #3:</b> My portfolio should have a projects section with an id of projects.</li>
       <li><b>User Story #4:</b> The projects section should contain at least one element with a class of project-tile to hold a project.</li>
       <li><b>User Story #5:</b> The projects section should contain at least one link to a project.</li>
@@ -275,18 +275,12 @@ module.exports = [
         {
           name: "HTML",
           src: "../../../images/about-logos/html5.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
         },
         {
           name: "CSS",
           src: "../../../images/about-logos/css.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
         },
         {
           name: "JavaScript",
