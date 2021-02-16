@@ -13,7 +13,7 @@ import "./clients.css";
 function Clients() {
   return (
     <section id="home-stats" className="home-stats">
-      <h3 className="text-secondary">Activities:</h3>
+      <h3 className="md-heading text-secondary">Activities:</h3>
       <div className="stats container">
         <div className="stat-item">
           <ul>
