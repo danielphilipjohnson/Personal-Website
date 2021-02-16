@@ -18,7 +18,7 @@ function Clients() {
         <div className="stat-item">
           <ul>
             <li className="stats-icon">
-              <FontAwesomeIcon icon={faBook} />
+              <FontAwesomeIcon icon={faBook} size="2x" />
             </li>
             <li className="stats-number">12</li>
             <li className="stats-title">Books read</li>
@@ -28,8 +28,8 @@ function Clients() {
 
         <div className="stat-item">
           <ul>
-            <li>
-              <FontAwesomeIcon icon={faAward} size="3x" />
+            <li className="stats-icon">
+              <FontAwesomeIcon icon={faAward} size="2x" />
             </li>
             <li className="stats-number">35</li>
             <li className="stats-title">Challenges completed</li>
@@ -39,8 +39,8 @@ function Clients() {
 
         <div className="stat-item">
           <ul>
-            <li>
-              <FontAwesomeIcon icon={faHourglassStart} size="3x" />
+            <li className="stats-icon">
+              <FontAwesomeIcon icon={faHourglassStart} size="2x" />
             </li>
             <li className="stats-number">500</li>
             <li className="stats-title">Cups of coffee</li>
@@ -50,8 +50,8 @@ function Clients() {
 
         <div className="stat-item">
           <ul>
-            <li>
-              <FontAwesomeIcon icon={faCodeBranch} size="3x" />
+            <li className="stats-icon">
+              <FontAwesomeIcon icon={faCodeBranch} size="2x" />
             </li>
             <li className="stats-number">14</li>
             <li className="stats-title">Projects Completed</li>
