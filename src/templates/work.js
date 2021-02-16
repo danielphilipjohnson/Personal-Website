@@ -7,8 +7,6 @@ import Header from "../component/layout/Header";
 import "./styles.css";
 
 function work({ location, data, pageContext }) {
-  console.log(pageContext);
-
   const { details } = pageContext.post;
 
   const toolUsed = details.toolUsed;

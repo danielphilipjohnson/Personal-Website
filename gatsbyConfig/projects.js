@@ -123,7 +123,8 @@ module.exports = [
   {
     title: "Product Landing",
     path: "productlanding",
-    imageSrc: "../../../images/responsive-img/productlanding.png",
+    imageSrc:
+      "../../../images/responsive-img/product-landing/product-landing.png",
     type: "responsive",
     description: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti.`,
@@ -155,8 +156,8 @@ module.exports = [
       </ul>
       <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it then finished with adding SEO</p>
       `,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      mobileView: `../../../images/responsive-img/product-landing/product-landing-mobile.png`,
+      tabletView: `../../../images/responsive-img/product-landing/product-landing-tablet.png`,
       toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
       toolUsed: [
         {
