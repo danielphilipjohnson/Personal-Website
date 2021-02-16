@@ -50,18 +50,12 @@ module.exports = [
         {
           name: "CSS",
           src: "../../../images/about-logos/css.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
         },
         {
           name: "JavaScript",
           src: "../../../images/about-logos/javascript.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
         },
       ],
     },
@@ -116,18 +110,12 @@ module.exports = [
         {
           name: "CSS",
           src: "../../../images/about-logos/css.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
         },
         {
           name: "JavaScript",
           src: "../../../images/about-logos/javascript.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
         },
       ],
     },
@@ -179,18 +167,12 @@ module.exports = [
         {
           name: "CSS",
           src: "../../../images/about-logos/css.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
         },
         {
           name: "JavaScript",
           src: "../../../images/about-logos/javascript.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
         },
       ],
       reusablecomponents: null,
@@ -199,7 +181,8 @@ module.exports = [
   {
     title: "Technical Document",
     path: "technicaldocument",
-    imageSrc: "../../../images/responsive-img/technicaldocumentation.png",
+    imageSrc:
+      "../../../images/responsive-img/technical-documentation/technical-documentation.png",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -209,57 +192,46 @@ module.exports = [
     projectLink: "#",
     badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
     details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      overview: `For the fourth project of Freecodecamp responsive Design I built a technical documentation page Landing. I decided to mix the style from MDN Web Docs (https://developer.mozilla.org/en-US/docs/) page and react.js documentation. Keep it clean and minimal. The focus was on applying Visual Designs with a combination of typography, color theory, graphics, animation, page layout, and to deliver my message. To apply accessibility to include people with visual, auditory, mobility, or cognitive disabilities. Then make a responsive web design that works and looks great on all devices.`,
+      goals: `The goal was to build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/NdrKKL. I used HTML and CSS to build a responsive design that looks great on all layouts.`,
+      lessonsLearned: `What I learnt during this project was how to style coding elements inside the documentation`,
+      process: `<p>I followed the user story:</p>
+      <li><b>User Story #1:</b> I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).</li>
+      <li><b>User Story #2:</b> Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.</li>
+      <li><b>User Story #3:</b> The first element within each .main-section should be a header element which contains text that describes the topic of that section.</li>
+      <li><b>User Story #4:</b> Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").</li>
+      <li><b>User Story #5:</b> The .main-section elements should contain at least 10 p elements total (not each).</li>
+      <li><b>User Story #6:</b> The .main-section elements should contain at least 5 code elements total (not each).</li>
+      <li><b>User Story #7:</b> The .main-section elements should contain at least 5 li items total (not each).</li>
+      <li><b>User Story #8: </b>I can see a nav element with a corresponding id="navbar".</li>
+      <li><b>User Story #9: </b>The navbar element should contain one header element which contains text that describes the topic of the technical documentation.</li>
+      <li><b>User Story #10: </b>Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.</li>
+      <li><b>User Story #11:</b> The header element in the navbar must come before any link (a) elements in the navbar.</li>
+      <li><b>User Story #12:</b> Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").</li>
+      <li><b>User Story #13:</b> When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.</li>
+      <li><b>User Story #14:</b> On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.</li>
+      <li><b>User Story #15: </b>My Technical Documentation page should use at least one media query.</li>
+      </ul>
+      <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it then finished with adding SEO</p>
+      `,
+      mobileView: `../../../images/responsive-img/technical-documentation/technical-documentation-mobile.png`,
+      tabletView: `../../../images/responsive-img/technical-documentation/technical-documentation-tablet.png`,
       toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
       toolUsed: [
         {
           name: "HTML",
           src: "../../../images/about-logos/html5.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
         },
         {
           name: "CSS",
           src: "../../../images/about-logos/css.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
         },
         {
           name: "JavaScript",
           src: "../../../images/about-logos/javascript.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
         },
       ],
       reusablecomponents: null,
@@ -325,10 +297,7 @@ module.exports = [
         {
           name: "JavaScript",
           src: "../../../images/about-logos/javascript.svg",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
+          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
         },
       ],
       reusablecomponents: null,
