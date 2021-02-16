@@ -20,7 +20,7 @@ function WorkExperience() {
             </a>
           </h5>
           <div className="job-meta">
-            <span>Remote </span>
+            <span>Remote, </span>
             <span>November 2020 - Present</span>
           </div>
           <p className="job-description">
@@ -40,23 +40,23 @@ function WorkExperience() {
         </li>
         <li className="">
           <h5 className="job-title">
-            Generic job -{" "}
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              Generic company name
+            Cleaner -{" "}
+            <a
+              href="https://www.cityfm.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              City Facilities Management
             </a>
           </h5>
           <div className="job-meta">
-            <span>Remote </span>
-            <span>May 2033 - September 2035</span>
+            <span>Full Time, </span>
+            <span>June 2019 — Present</span>
           </div>
           <p className="job-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quod
-            laudantium incidunt odio corporis. Perspiciatis perferendis
-            voluptatibus eum animi dolorem neque distinctio sint ipsa!
-            Architecto nobis eum consequatur nesciunt et!Ipsam cum, est possimus
-            maxime labore quo ut ratione adipisci porro natus qui incidunt nobis
-            molestiae? Impedit delectus accusantium doloribus beatae sunt.
-            Voluptas, repellat nam! Nostrum, magnam. Sunt, tempora. Facilis.
+            I interact with customers daily as well as coordinate with ASDA
+            workers. I have almost 6 years of customer service skills with
+            previous jobs at Sainsbury's and Co-op.
           </p>
         </li>
       </ul>

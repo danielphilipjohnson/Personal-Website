@@ -137,7 +137,7 @@ module.exports = [
       overview: `For the third project of Freecodecamp responsive Design I built a product Landing. I wanted to mimic the apple product page and add a twist to it. Keep it clean and minimal. The focus was on applying Visual Designs with a combination of typography, color theory, graphics, animation, page layout, and to deliver my message. To apply accessibility to include people with visual, auditory, mobility, or cognitive disabilities. Then make a responsive web design that works and looks great on all devices.`,
       goals: `My goal for this project was to implement a sticky navbar that drops down on scroll, to make a hamburger button with JavaScript, to use CSS with variables in my stylesheet and mimic apples design. As a bonus I added an embedded youtube video that links to an apple product.`,
       lessonsLearned: `What I learnt was how to make a sticky navbar with JavaScript after doing lots of research. Some good resources are “https://css-tricks.com/sticky-smooth-active-nav/”, “https://gomakethings.com/how-to-create-a-sticky-navigation-with-only-css/”, “https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky” `,
-      process: `<p>I followed the user story:<./p>
+      process: `<p>I followed the user story:</p>
       <li><b>User Story #1:</b> My product landing page should have a header element with a corresponding id="header".</li>
       <li><b>User Story #2:</b> I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.</li>
       <li><b>User Story #3:</b> Within the #header element I can see a nav element with a corresponding id="nav-bar".</li>
@@ -254,7 +254,9 @@ module.exports = [
       overview: `For the final project of Freecodecamp responsive Design I built a Single page application portfolio that contains all my socials and links to my work. I used a purple, pink and blue color scheme that is similar to my twitter. The focus was on applying Visual Designs with a combination of typography, color theory, graphics, animation, page layout, and to deliver my message. To apply accessibility to include people with visual, auditory, mobility, or cognitive disabilities. Then make a responsive web design that works and looks great on all devices.`,
       goals: `The goal of this project was to build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG. I decided to alter the design a lot. I listed my projects in a portfolio section by making card components. I included a contact form, added a testimonial section, listed my technical skills with logos and put social icons on my jumbotron.`,
       lessonsLearned: `There was so much custom CSS I had to resort to using a preproccesor SASS to make the CSS more modular.`,
-      process: `<ul>
+      process: `
+      <p>I followed the user story:</p>
+      <ul>
       <li><b>User Story #1:</b> My portfolio should have a welcome section with an id of welcome-section.</li>
       <li><b>User Story #2:</b> The welcome section should have an h1 element that contains text.</li>
       <li><b>User Story #3:</b> My portfolio should have a projects section with an id of projects.</li>
