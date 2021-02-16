@@ -240,7 +240,7 @@ module.exports = [
   {
     title: "Portfolio",
     path: "portfolio",
-    imageSrc: "../../../images/responsive-img/portfolio.jpg",
+    imageSrc: "../../../images/responsive-img/portfolio/portfolio.jpg",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -250,32 +250,26 @@ module.exports = [
     projectLink: "#",
     badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
     details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      overview: `For the final project of Freecodecamp responsive Design I built a Single page application portfolio that contains all my socials and links to my work. I used a purple, pink and blue color scheme that is similar to my twitter. The focus was on applying Visual Designs with a combination of typography, color theory, graphics, animation, page layout, and to deliver my message. To apply accessibility to include people with visual, auditory, mobility, or cognitive disabilities. Then make a responsive web design that works and looks great on all devices.`,
+      goals: `The goal of this project was to build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG. I decided to alter the design a lot. I listed my projects in a portfolio section by making card components. I included a contact form, added a testimonial section, listed my technical skills with logos and put social icons on my jumbotron.`,
+      lessonsLearned: `There was so much custom CSS I had to resort to using a preproccesor SASS to make the CSS more modular.`,
+      process: `<ul>
+      <li><b>User Story #1:</b> My portfolio should have a welcome section with an id of welcome-section.</li>
+      <li><b>User Story #2: The welcome section should have an h1 element that contains text.</li>
+      <li><b>User Story #3:</b> My portfolio should have a projects section with an id of projects.</li>
+      <li><b>User Story #4:</b> The projects section should contain at least one element with a class of project-tile to hold a project.</li>
+      <li><b>User Story #5:</b> The projects section should contain at least one link to a project.</li>
+      <li><b>User Story #6:</b> My portfolio should have a navbar with an id of navbar.</li>
+      <li><b>User Story #7:</b> The navbar should contain at least one link that I can click on to navigate to different sections of the page.</li>
+      <li><b>User Story #8:</b> My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.</li>
+      <li><b>User Story #9:</b> My portfolio should have at least one media query.</li>
+      <li><b>User Story #10: </b>The height of the welcome section should be equal to the height of the viewport.</li>
+      <li><b>User Story #11:</b> The navbar should always be at the top of the viewport.</li>
+      </ul>
+      <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it then finished with adding SEO</p>
+      `,
+      mobileView: `../../../images/responsive-img/portfolio/portfolio-mobile.png`,
+      tabletView: `../../../images/responsive-img/portfolio/portfolio-tablet.jpg`,
       toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
       toolUsed: [
         {
@@ -303,1488 +297,1488 @@ module.exports = [
       reusablecomponents: null,
     },
   },
-  {
-    title: "Edge Ledger",
-    path: "edgeledger",
-    imageSrc: "../../../images/responsive-img/edgeledger.jpg",
-    type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "#",
-    githubLink: "#",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Vozsy News",
-    path: "vozsynews",
-    imageSrc: "../../../images/responsive-img/vozsynews.png",
-    type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "#",
-    githubLink: "#",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Scenic Cornwall",
-    path: "sceniccornwall",
-    imageSrc: "../../../images/responsive-img/sceniccornwall.jpg",
-    type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "#",
-    githubLink: "#",
-    projectLink: "#",
-    badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Nexter",
-    path: "nexter",
-    imageSrc: "../../../images/responsive-img/nexter.png",
-    type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "#",
-    githubLink: "#",
-    projectLink: "#",
-    badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Trillo",
-    path: "trillo",
-    imageSrc: "../../../images/responsive-img/trillo.png",
-    type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "#",
-    githubLink: "#",
-    projectLink: "#",
-    badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Presentation",
-    path: "presentation",
-    imageSrc: "../../../images/responsive-img/presentation.png",
-    type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "#",
-    githubLink: "#",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Basic Spotify Clone",
-    path: "spotifyclone",
-    imageSrc: "../../../images/material-projects/spotify-clone.png",
-    type: "material",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "#",
-    githubLink: "#",
-    projectLink: "#",
-    badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Basic Messenger Clone",
-    path: "messengerclone",
-    imageSrc: "../../../images/material-projects/messenger-clone.png",
-    type: "material",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "#",
-    githubLink: "#",
-    projectLink: "#",
-    badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Random Quote Machine",
-    path: "quotemachine",
-    imageSrc: "../../../images/front-end-lib/quotemachine.png",
-    type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/bGEgaoo",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Markdown Previewer",
-    path: "markdownpreviewer",
-    imageSrc: "../../../images/front-end-lib/markdownpreviewer.png",
-    type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-    },
-  },
-  {
-    title: "Drum Machine",
-    path: "drummachine",
-    imageSrc: "../../../images/front-end-lib/drummachine.png",
-    type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Javascript Calculator",
-    path: "javascriptcalculator",
-    imageSrc: "../../../images/front-end-lib/calculator.png",
-    type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Pomodoro Clock",
-    path: "pomodoroclock",
-    imageSrc: "../../../images/front-end-lib/pomodoro.png",
-    type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Recipe Box",
-    path: "recipebox",
-    imageSrc: "../../../images/front-end-lib/recipebox.jpg",
-    type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Simon",
-    path: "simon",
-    imageSrc: "../../../images/front-end-lib/simon.jpg",
-    type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Twitch.tv JSON-API",
-    path: "twitchclone",
-    imageSrc: "../../../images/front-end-lib/json-api-project.png",
-    type: "angular",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
-    projectLink: "#",
-    badges: [
-      "HTML5",
-      "CSS",
-      "Javascript",
-      "Front-End",
-      "freecodecamp",
-      "Angular",
-    ],
+  // {
+  //   title: "Edge Ledger",
+  //   path: "edgeledger",
+  //   imageSrc: "../../../images/responsive-img/edgeledger.jpg",
+  //   type: "responsive",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "#",
+  //   githubLink: "#",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Vozsy News",
+  //   path: "vozsynews",
+  //   imageSrc: "../../../images/responsive-img/vozsynews.png",
+  //   type: "responsive",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "#",
+  //   githubLink: "#",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Scenic Cornwall",
+  //   path: "sceniccornwall",
+  //   imageSrc: "../../../images/responsive-img/sceniccornwall.jpg",
+  //   type: "responsive",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "#",
+  //   githubLink: "#",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Nexter",
+  //   path: "nexter",
+  //   imageSrc: "../../../images/responsive-img/nexter.png",
+  //   type: "responsive",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "#",
+  //   githubLink: "#",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Trillo",
+  //   path: "trillo",
+  //   imageSrc: "../../../images/responsive-img/trillo.png",
+  //   type: "responsive",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "#",
+  //   githubLink: "#",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Presentation",
+  //   path: "presentation",
+  //   imageSrc: "../../../images/responsive-img/presentation.png",
+  //   type: "responsive",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "#",
+  //   githubLink: "#",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Basic Spotify Clone",
+  //   path: "spotifyclone",
+  //   imageSrc: "../../../images/material-projects/spotify-clone.png",
+  //   type: "material",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "#",
+  //   githubLink: "#",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Basic Messenger Clone",
+  //   path: "messengerclone",
+  //   imageSrc: "../../../images/material-projects/messenger-clone.png",
+  //   type: "material",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "#",
+  //   githubLink: "#",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Random Quote Machine",
+  //   path: "quotemachine",
+  //   imageSrc: "../../../images/front-end-lib/quotemachine.png",
+  //   type: "js",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/bGEgaoo",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Markdown Previewer",
+  //   path: "markdownpreviewer",
+  //   imageSrc: "../../../images/front-end-lib/markdownpreviewer.png",
+  //   type: "js",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   title: "Drum Machine",
+  //   path: "drummachine",
+  //   imageSrc: "../../../images/front-end-lib/drummachine.png",
+  //   type: "js",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Javascript Calculator",
+  //   path: "javascriptcalculator",
+  //   imageSrc: "../../../images/front-end-lib/calculator.png",
+  //   type: "js",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Pomodoro Clock",
+  //   path: "pomodoroclock",
+  //   imageSrc: "../../../images/front-end-lib/pomodoro.png",
+  //   type: "js",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Recipe Box",
+  //   path: "recipebox",
+  //   imageSrc: "../../../images/front-end-lib/recipebox.jpg",
+  //   type: "js",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Simon",
+  //   path: "simon",
+  //   imageSrc: "../../../images/front-end-lib/simon.jpg",
+  //   type: "js",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Twitch.tv JSON-API",
+  //   path: "twitchclone",
+  //   imageSrc: "../../../images/front-end-lib/json-api-project.png",
+  //   type: "angular",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+  //   projectLink: "#",
+  //   badges: [
+  //     "HTML5",
+  //     "CSS",
+  //     "Javascript",
+  //     "Front-End",
+  //     "freecodecamp",
+  //     "Angular",
+  //   ],
 
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Basic Instagram clone",
-    path: "instagramclone",
-    imageSrc: "../../../images/front-end-lib/igclone.png",
-    type: "angular",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
-    projectLink: "#",
-    badges: [
-      "HTML5",
-      "CSS",
-      "Javascript",
-      "Front-End",
-      "freecodecamp",
-      "Angular",
-    ],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Basic Spotify clone",
-    path: "spotifyclone",
-    imageSrc: "../../../images/front-end-lib/spotifyclone-angular.png",
-    type: "angular",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
-    projectLink: "#",
-    badges: [
-      "HTML5",
-      "CSS",
-      "Javascript",
-      "Front-End",
-      "freecodecamp",
-      "Angular",
-    ],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
-  {
-    title: "Wiki Viewer",
-    path: "wikiviewer",
-    imageSrc: "../../../images/front-end-lib/wikiviewer.png",
-    type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
-    codepenLink: "https://codepen.io/danielphilipjohnson/full/LYGWYBg",
-    githubLink:
-      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Wiki-Viewer",
-    projectLink: "#",
-    badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
-    details: {
-      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Architecto explicabo cupiditate perferendis ad unde iure
-      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-      assumenda accusamus minima excepturi laudantium nisi sapiente
-      perspiciatis doloribus fugit ratione ea delectus commodi
-      doloremque ullam aperiam eos mollitia pariatur molestiae,
-      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-      lessonsLearned: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-      quaerat similique delectus aspernatur aut cum. Totam est modi
-      accusantium tempore! Sed, porro!`,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolUsed: [
-        {
-          name: "JavaScript",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "React",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "Redux",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-        {
-          name: "GraphQL",
-          src: "https://source.unsplash.com/daily",
-          about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-        quaerat similique delectus aspernatur aut cum. Totam est modi
-        accusantium tempore! Sed, porro!`,
-        },
-      ],
-      reusablecomponents: null,
-    },
-  },
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Basic Instagram clone",
+  //   path: "instagramclone",
+  //   imageSrc: "../../../images/front-end-lib/igclone.png",
+  //   type: "angular",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+  //   projectLink: "#",
+  //   badges: [
+  //     "HTML5",
+  //     "CSS",
+  //     "Javascript",
+  //     "Front-End",
+  //     "freecodecamp",
+  //     "Angular",
+  //   ],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Basic Spotify clone",
+  //   path: "spotifyclone",
+  //   imageSrc: "../../../images/front-end-lib/spotifyclone-angular.png",
+  //   type: "angular",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+  //   projectLink: "#",
+  //   badges: [
+  //     "HTML5",
+  //     "CSS",
+  //     "Javascript",
+  //     "Front-End",
+  //     "freecodecamp",
+  //     "Angular",
+  //   ],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
+  // {
+  //   title: "Wiki Viewer",
+  //   path: "wikiviewer",
+  //   imageSrc: "../../../images/front-end-lib/wikiviewer.png",
+  //   type: "js",
+  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  //   Autem eligendi deleniti iure eius itaque mollitia veniam
+  //   vitae earum nesciunt voluptate.`,
+  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/LYGWYBg",
+  //   githubLink:
+  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Wiki-Viewer",
+  //   projectLink: "#",
+  //   badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
+  //   details: {
+  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  //     Architecto explicabo cupiditate perferendis ad unde iure
+  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+  //     assumenda accusamus minima excepturi laudantium nisi sapiente
+  //     perspiciatis doloribus fugit ratione ea delectus commodi
+  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
+  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+  //     lessonsLearned: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //     quaerat similique delectus aspernatur aut cum. Totam est modi
+  //     accusantium tempore! Sed, porro!`,
+  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+  //     toolUsed: [
+  //       {
+  //         name: "JavaScript",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "React",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "Redux",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //       {
+  //         name: "GraphQL",
+  //         src: "https://source.unsplash.com/daily",
+  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+  //       quaerat similique delectus aspernatur aut cum. Totam est modi
+  //       accusantium tempore! Sed, porro!`,
+  //       },
+  //     ],
+  //     reusablecomponents: null,
+  //   },
+  // },
 ];
