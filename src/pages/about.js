@@ -8,14 +8,14 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
-import {
-  faDev,
-  faHackerrank,
-  faCodepen,
-  faStackOverflow,
-  faFreeCodeCamp,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+// import {
+//   faDev,
+//   faHackerrank,
+//   faCodepen,
+//   faStackOverflow,
+//   faFreeCodeCamp,
+//   faGithub,
+// } from "@fortawesome/free-brands-svg-icons";
 
 import SEO from "../component/Seo";
 import Header from "../component/layout/Header";
