@@ -17,7 +17,12 @@ import "./form.css";
 
 function Form() {
   return (
-    <form id="project-contact" method="GET" action="" className="contact-form">
+    <form
+      id="project-contact"
+      method="POST"
+      className="contact-form"
+      data-netlify="true"
+    >
       <div className="row">
         <div className="col">
           <div className="labels">
