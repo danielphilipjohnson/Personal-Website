@@ -2,7 +2,7 @@ module.exports = [
   "gatsby-plugin-sass",
   "gatsby-plugin-sharp",
   "gatsby-plugin-react-helmet",
-  "gatsby-plugin-offline",
+  // "gatsby-plugin-offline",
   `gatsby-plugin-fontawesome-css`,
   `gatsby-transformer-remark`,
   // {
@@ -120,7 +120,7 @@ module.exports = [
     resolve: "gatsby-source-filesystem",
     options: {
       name: "pages",
-      path: "src/pages/",
+      path: "./src/pages/",
     },
     __key: "pages",
   },
