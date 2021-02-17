@@ -8,7 +8,7 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
     <div className="container not-found-container p-4">
-      <div className="row">
+      <div className="row center">
         <div className="col-md-6 align-self-center">
           <svg
             version="1.1"

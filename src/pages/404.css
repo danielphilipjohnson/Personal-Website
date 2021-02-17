@@ -56,3 +56,12 @@
 .not-found-container .btn.green:hover:before {
   width: 100%;
 }
+.col-md-6 {
+  width: 100%;
+}
+
+@media screen and (min-width: 1028px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}

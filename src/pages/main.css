@@ -29,6 +29,11 @@ address {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.row.center {
+  align-content: first baseline;
+  align-items: center;
+  height: 100%;
+}
 .col {
   flex-grow: 1;
   margin-right: 1rem;
@@ -123,9 +128,7 @@ main#contact section {
   .profile-card-image {
     left: unset;
     transform: unset;
-  }
-}
-
+  } /* width: 50%;
 .profile-card-body {
   background: #fff;
   margin-top: -5.5rem;
