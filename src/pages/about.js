@@ -158,11 +158,7 @@ const About = ({ location }) => {
                       View my work
                     </Link>
 
-                    <a
-                      className="btn-outline"
-                      href="./assets/cv/Daniel_Johnson_Junior_Web_Developer.pdf"
-                      download=""
-                    >
+                    <a className="btn-outline" href="#">
                       <FontAwesomeIcon icon={faEnvelope} />
                       Resume
                     </a>
