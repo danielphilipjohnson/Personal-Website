@@ -5,6 +5,7 @@ const education = require("./gatsbyConfig/siteMetadata/education");
 const plugins = require("./gatsbyConfig/plugins");
 
 module.exports = {
+  // flags: { PRESERVE_WEBPACK_CACHE: true, FAST_REFRESH: true },
   siteMetadata: {
     title: `Daniel Philip Johnson`,
     titleTemplate: "React Developer · %s",

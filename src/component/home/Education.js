@@ -48,7 +48,8 @@ function Education() {
   return (
     <div id="education" className="bio-education">
       <div className="container education-container">
-        <h2 className="text-dark">Education</h2>
+        <h2 className="text-dark lg-heading">Education</h2>
+
         <div className="education-grid">
           {currentEducation.map((course) => {
             return (

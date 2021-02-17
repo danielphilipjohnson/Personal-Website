@@ -1,4 +1,6 @@
 import React from "react";
+import { graphql } from "gatsby";
+
 import SEO from "../component/Seo";
 
 import Layout from "../component/layout/Layout";
@@ -6,13 +8,10 @@ import Header from "../component/layout/Header";
 
 import "./styles.css";
 
-function work({ location, data, pageContext }) {
-  console.log(pageContext);
-
+function Work({ location, data, pageContext }) {
   const { details } = pageContext.post;
 
   const toolUsed = details.toolUsed;
-  console.log(toolUsed);
   return (
     <Layout location={location.pathname}>
       <SEO />
@@ -78,14 +77,14 @@ function work({ location, data, pageContext }) {
           <div className="container">
             <div className="project-tools__heading">
               <h3 className="lg-heading">Built With</h3>
-              <div class="bottom-line"></div>
+              <div className="bottom-line"></div>
             </div>
 
             <div className="project-tools__stats">
               {toolUsed.map((tool) => {
                 const { name, src, about } = tool;
                 return (
-                  <div className="project-tool">
+                  <div className="project-tool" key={name}>
                     <img src={src} alt={name} />
                     <h4>{name}</h4>
                     <p>{about}</p>
@@ -99,7 +98,7 @@ function work({ location, data, pageContext }) {
         <div className="project-process container">
           <div className="project-process--information">
             <h2 className="text-secondary">Process</h2>
-            <p>{details.process}</p>
+            <p dangerouslySetInnerHTML={{ __html: details.process }}></p>
           </div>
 
           <figure className="tech-figure">
@@ -116,7 +115,7 @@ function work({ location, data, pageContext }) {
   );
 }
 
-export default work;
+export default Work;
 
 export const query = graphql`
   query($slug: String!) {

@@ -1,17 +1,3 @@
-/* .badge-contact-sm {
-  margin-bottom: 2rem;
-}
-.badge-contact-sm img {
-  width: 50px;
-  background-color: #fff;
-  padding: 0.55rem;
-  margin-right: 0.5rem;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-} */
-
 a {
   color: #fff;
   text-decoration: none;
@@ -28,6 +14,11 @@ address {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.row.center {
+  align-content: first baseline;
+  align-items: center;
+  height: 100%;
 }
 .col {
   flex-grow: 1;
@@ -51,37 +42,10 @@ address {
   font-size: 0.9rem;
 }
 
-/* section#home h1 {
-  margin-top: 15vh;
-} */
-
-.about-container {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-@media screen and (min-width: 1395px) {
-  .about-container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 .job {
   background: #3a3c55;
   border-bottom: 5px solid #94c85a;
   padding: 0.5rem;
-}
-@media screen and (max-width: 768px) {
-  main#about {
-    padding-top: 4rem;
-  }
-  .about-container {
-    grid-template-columns: 1fr;
-  }
-  .about-container .bio {
-    font-size: 1.05rem;
-    padding: 1.5rem 0.95rem;
-  }
 }
 
 main#contact {
@@ -91,96 +55,12 @@ main#contact section {
   position: relative;
   z-index: 1000;
 }
-@media screen and (max-width: 768px) {
+@media screen and(max-width: 768px) {
   main#work {
     padding-top: 4rem;
   }
 }
 
-.profile-card {
-  position: relative;
-  background-color: #fff;
-}
-.profile-card-head {
-  background: #fff;
-}
-.profile-card-head .card-head-bg {
-  width: 100%;
-}
-.profile-card-image {
-  position: relative;
-  bottom: 70px;
-  height: 125px;
-  width: auto;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-  border: 3px solid #94c85a;
-  background: #fff;
-  left: 50%;
-  transform: translateX(-50%);
-}
-@media screen and (min-width: 770px) {
-  .profile-card-image {
-    left: unset;
-    transform: unset;
-  }
-}
-
-.profile-card-body {
-  background: #fff;
-  margin-top: -5.5rem;
-  color: #102a43;
-  text-align: center;
-  padding: 1.25rem 1rem 0.5rem;
-}
-.profile-card-body-item {
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
-.profile-card-body-item:last-child {
-  border-bottom: 2px solid #eee;
-  padding-bottom: 1rem;
-}
-.profile-card-body-item address,
-.profile-card-body-item h4,
-.profile-card-body-item p,
-.profile-card-body-item span {
-  font-weight: bolder;
-}
-.profile-card-body-item svg {
-  color: #6d6d7a;
-}
-.profile-card-footer {
-  background: #fff;
-  padding: 0 1rem 1.5rem;
-}
-.profile-card-footer h2 {
-  font-weight: bolder;
-  text-align: center;
-  color: #000;
-}
-@media screen and (min-width: 770px) {
-  .profile-card-image {
-    margin: 0 auto 1rem;
-    display: flex;
-    height: 175px;
-  }
-  .profile-card-body-item {
-    font-size: 1.1rem;
-  }
-}
-.profile-name {
-  font-size: 1.7rem;
-  font-weight: bolder;
-  margin-bottom: 1rem;
-}
-.profile-name span {
-  color: #94c85a;
-}
-.skills {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
 @media screen and (min-width: 650px) and (max-width: 2500px) {
   .skills {
     grid-template-columns: repeat(2, 1fr);
@@ -222,27 +102,11 @@ main#contact section {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 768px) {
-  /* main {
-    padding: 0;
-  } */
-
+@media screen and(max-width: 768px) {
   .select-box .select-button .chevrons {
-    padding: 9px 16px;
+    padding: 9px 16;
   }
 }
-
-.github-stats h2 {
-  color: #000;
-  font-weight: bolder;
-  padding: 1rem;
-}
-.github-stats p {
-  text-align: center;
-}
-/* .connect {
-  padding: 2rem 0 1rem;
-} */
 
 /* figure */
 .tech-figure {
@@ -251,7 +115,8 @@ main#contact section {
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 700px) {
+
+@media screen and(min-width: 700px) {
   .tech-figure {
     padding: 1rem;
   }

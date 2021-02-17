@@ -8,15 +8,6 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
-import {
-  faDev,
-  faHackerrank,
-  faCodepen,
-  faStackOverflow,
-  faFreeCodeCamp,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
-
 import SEO from "../component/Seo";
 import Header from "../component/layout/Header";
 
@@ -35,8 +26,7 @@ import TypescriptLogo from "../images/about-logos/ts.svg";
 import SassLogo from "../images/about-logos/sass.svg";
 import BootstrapLogo from "../images/about-logos/bootstrap4.svg";
 import GithubLogo from "../images/about-logos/github.svg";
-// import NpmLogo from "../images/about-logos/npm.svg";
-// import CypressLogo from "../images/about-logos/cypress.png";
+
 import TailwindLogo from "../images/about-logos/tailwind.png";
 
 import "./styles/about.css";
@@ -49,7 +39,6 @@ const About = ({ location }) => {
       },
     },
   } = useStaticQuery(siteQuery);
-
   return (
     <>
       <Layout location={location.pathname}>
@@ -64,10 +53,10 @@ const About = ({ location }) => {
         <div className="about">
           <div className="container about-container">
             <div className="about-info alt-bio">
-              <div class="profile-card">
-                <div class="profile-card-head">
+              <div className="profile-card">
+                <div className="profile-card-head">
                   <img
-                    class="card-head-bg"
+                    className="card-head-bg"
                     src={banner}
                     alt="cover of daniel philip johnson"
                   />
@@ -76,32 +65,33 @@ const About = ({ location }) => {
                 <img
                   src={profile}
                   alt="Daniel johnson"
-                  class="profile-card-image"
+                  className="profile-card-image"
                 />
 
-                <div class="profile-card-body">
-                  <h2 class="profile-name">
+                <div className="profile-card-body">
+                  <h2 className="profile-name">
                     Daniel <span>Philip</span> Johnson
                   </h2>
                   {aboutStats.map((stat) => {
                     return (
                       <a
-                        class="header-badge"
+                        className="header-badge"
                         target="_blank"
                         rel="noreferrer"
                         href={stat.link}
+                        key={stat.link}
                       >
                         <img alt={stat.alt} src={stat.imageSrc} />
                       </a>
                     );
                   })}
 
-                  <div class="profile-card-body-item">
+                  <div className="profile-card-body-item">
                     <h3>Occupation</h3>
                     <h4>React Developer</h4>
                   </div>
 
-                  <div class="profile-card-body-item">
+                  <div className="profile-card-body-item">
                     <h3>Technologies I use</h3>
                     <div className="icons-technology">
                       <img
@@ -126,7 +116,7 @@ const About = ({ location }) => {
                       {/* <img src={NpmLogo} alt="NPM" /> */}
                     </div>
                   </div>
-                  <div class="profile-card-body-item">
+                  <div className="profile-card-body-item">
                     <h3>Graduated</h3>
                     <h4>
                       <span role="img" aria-labelledby="graduation cap">
@@ -139,37 +129,37 @@ const About = ({ location }) => {
                     </h4>
                   </div>
 
-                  <div class="profile-card-body-item">
+                  <div className="profile-card-body-item">
                     <h3>Location</h3>
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                     <address> Cornwall, United Kingdom</address>
                   </div>
 
-                  <div class="profile-card-body-item">
+                  <div className="profile-card-body-item">
                     <h3>Contact</h3>
                     <FontAwesomeIcon icon={faPhone} />
                     <span> +44 555-5555</span>
                   </div>
 
-                  <div class="profile-card-body-item">
+                  <div className="profile-card-body-item">
                     <h3>Email</h3>
                     <FontAwesomeIcon icon={faEnvelope} />
 
                     <span> daniel-philip-johnson@gmail.com</span>
                   </div>
 
-                  <div class="profile-card-body-item">
+                  <div className="profile-card-body-item">
                     <h3>Availability</h3>
                     <p>Freelance: Available</p>
                   </div>
 
-                  <div class="btn-group">
+                  <div className="btn-group">
                     <Link className="btn-outline" to="/work">
                       View my work
                     </Link>
 
                     <a
-                      class="btn-outline"
+                      className="btn-outline"
                       href="./assets/cv/Daniel_Johnson_Junior_Web_Developer.pdf"
                       download=""
                     >
@@ -179,103 +169,16 @@ const About = ({ location }) => {
                   </div>
                   {/*  */}
                 </div>
-
-                <div class="profile-card-footer">
-                  {/* <div class="github-stats">
-                    <h2>Github Statistics</h2>
-                    <p>
-                      <a href="https://github.com/danielphilipjohnson/github-readme-stats">
-                        <img
-                          src="https://camo.githubusercontent.com/db37043947c98251b225e363ea8a2bdb30e2122b/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d64616e69656c7068696c69706a6f686e736f6e266c61796f75743d636f6d70616374"
-                          alt="Top Langs"
-                          data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielphilipjohnson&amp;layout=compact"
-                        />
-                      </a>
-                    </p>
-                  </div> */}
-                </div>
               </div>
             </div>
             <div className="profile-text">
               <div dangerouslySetInnerHTML={{ __html: aboutInfo.html }}></div>
-
-              <div class="connect">
-                {/* <h2>Connect</h2> */}
-                <div class="boxes sm">
-                  <div class="dev">
-                    <a
-                      href="https://dev.to/danielphilipjohnson"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faDev} />
-                    </a>
-                  </div>
-                  <div class="hackerrank">
-                    <a
-                      href="https://www.hackerrank.com/daniel_p_johnson"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faHackerrank} />
-                    </a>
-                  </div>
-                  <div class="codepen">
-                    <a
-                      href="https://codepen.io/danielphilipjohnson/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faCodepen} />
-                    </a>
-                  </div>
-                  <div class="stack-overflow">
-                    <a
-                      href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faStackOverflow} />
-                    </a>
-                  </div>
-                  <div class="free-code-camp">
-                    <a
-                      href="https://www.freecodecamp.org/daniel-philip-johnson"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faFreeCodeCamp} />
-                    </a>
-                  </div>
-                  <div class="github">
-                    <a
-                      href="https://github.com/danielphilipjohnson/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* <div class="github-stats">
-                <h2>Github Statistics</h2>
-                <p>
-                  <a href="https://github.com/danielphilipjohnson/github-readme-stats">
-                    <img
-                      src="https://camo.githubusercontent.com/db37043947c98251b225e363ea8a2bdb30e2122b/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d64616e69656c7068696c69706a6f686e736f6e266c61796f75743d636f6d70616374"
-                      alt="Top Langs"
-                      data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielphilipjohnson&amp;layout=compact"
-                    />
-                  </a>
-                </p>
-              </div> */}
             </div>
           </div>
 
           <section className="alt-bio bio-section" aria-label="quick bio">
             <div className="container container-text">
-              <h2 className="text-secondary">{quickBio.heading} </h2>
+              <h2 className="text-secondary">{quickBio.heading}</h2>
 
               <p dangerouslySetInnerHTML={{ __html: quickBio.html }}></p>
             </div>
@@ -286,18 +189,30 @@ const About = ({ location }) => {
             aria-label="my values and missions"
           >
             <div className="container container-text">
-              <h2 className="text-secondary">{valuesMissions.heading}</h2>
+              <h2 className="text-secondary">
+                <span role="img" aria-labelledby="values">
+                  🏆
+                </span>{" "}
+                {valuesMissions.heading}
+              </h2>
 
-              <p dangerouslySetInnerHTML={{ __html: valuesMissions.html }}></p>
+              <div
+                dangerouslySetInnerHTML={{ __html: valuesMissions.html }}
+              ></div>
             </div>
           </section>
 
           <section
             className="alt-bio bio-section"
-            aria-label="what I do outside of programming"
+            // aria-label="what I do outside of programming"
           >
             <div className="container container-text">
-              <h2>OUTSIDE OF PROGRAMMING </h2>
+              <h2>
+                <span role="img" aria-labelledby="thunder">
+                  ⚡
+                </span>{" "}
+                OUTSIDE OF PROGRAMMING
+              </h2>
               <p>
                 Although it seems like my life is entirely ruled by programming
                 and computers. I do have spare time and things that I cherish. I
@@ -373,7 +288,12 @@ const About = ({ location }) => {
             aria-label="my future plans"
           >
             <div className="container container-text">
-              <h2 className="text-secondary">The FUTURE </h2>
+              <h2 className="text-secondary">
+                <span role="img" aria-labelledby="green heart">
+                  💚
+                </span>{" "}
+                The FUTURE{" "}
+              </h2>
               <p dangerouslySetInnerHTML={{ __html: future.html }}></p>
             </div>
           </section>

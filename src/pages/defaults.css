@@ -7,8 +7,6 @@ body {
   margin: 0;
 }
 body {
-  /* background: #303146; */
-  /* background-color: #f3f2ef; */
   background-color: #3a3c55;
 
   color: #fff;
@@ -24,37 +22,47 @@ h3 {
   font-weight: 400;
 }
 
+h1.lg-heading,
+h2.lg-heading,
+h3.lg-heading {
+  margin-bottom: 1rem;
+  font-size: 2.55rem;
+}
+
+h1.md-heading,
+h2.md-heading,
+h3.md-heading {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h1.sm-heading,
+h2.sm-heading,
+h3.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem 1rem 0.2rem;
+  font-size: 1.05rem;
+}
+
 @media screen and (min-width: 768px) {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 5rem;
+    font-size: 3.55rem;
   }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
+    font-size: 1.25rem;
   }
-}
-
-h1.lg-heading,
-h2.lg-heading,
-h3.lg-heading {
-  margin-bottom: 1rem;
-  font-size: 3.25rem;
-}
-h1.sm-heading,
-h2.sm-heading,
-h3.sm-heading {
-  margin-bottom: 2rem;
-  padding: 0.2rem 1rem 1rem 0.2rem;
-  font-size: 1.25rem;
 }
 
 header {
   background-color: #1b1c28;
-  padding: 3.5rem 0 0 0;
+  padding: 4.5rem 0 0 0;
 }
 
 .btn-group {
@@ -62,7 +70,6 @@ header {
 }
 .btn-group,
 .github-stats {
-  /* border-bottom: 3px solid #eee; */
   padding: 1rem 0;
 }
 
@@ -104,7 +111,6 @@ header {
 .btn-outline {
   border: 2px solid #000;
   color: #000;
-  /* margin: 0 auto; */
   max-width: 250px;
   transition: all 0.5s ease-out;
 }
@@ -135,4 +141,43 @@ header {
 .btn-download i {
   color: #fff;
   margin-right: 0.5rem;
+}
+
+/* special bottom line border */
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #9b3cab;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }

@@ -4,12 +4,12 @@ import "./work-experience.css";
 
 function WorkExperience() {
   return (
-    <div class="container container-narrow">
-      <h2 class="text-secondary">Work Experience:</h2>
+    <div className="container container-narrow">
+      <h2 className="md-heading text-secondary">Work Experience:</h2>
 
-      <ul class="work-experience">
-        <li class="job-current">
-          <h5 class="job-title">
+      <ul className="work-experience">
+        <li className="job-current">
+          <h5 className="job-title">
             React Developer -{" "}
             <a
               href=" http://jobs.codecareer.io/"
@@ -19,11 +19,11 @@ function WorkExperience() {
               CodeCareer.io
             </a>
           </h5>
-          <div class="job-meta">
-            <span>Remote </span>
+          <div className="job-meta">
+            <span>Remote, </span>
             <span>November 2020 - Present</span>
           </div>
-          <p class="job-description">
+          <p className="job-description">
             In my current role, I use React.js, Javascript ECMA 11 and CSS, BS4
             for styling. I interact with express.js routes, store data in
             MongoDB and use popular node packages of form-hooks and Axios. My
@@ -38,25 +38,25 @@ function WorkExperience() {
             requests with local storage and implement infinite scrolling.
           </p>
         </li>
-        <li class="">
-          <h5 class="job-title">
-            Generic job -{" "}
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              Generic company name
+        <li className="">
+          <h5 className="job-title">
+            Cleaner -{" "}
+            <a
+              href="https://www.cityfm.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              City Facilities Management
             </a>
           </h5>
-          <div class="job-meta">
-            <span>Remote </span>
-            <span>May 2033 - September 2035</span>
+          <div className="job-meta">
+            <span>Full Time, </span>
+            <span>June 2019 — Present</span>
           </div>
-          <p class="job-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quod
-            laudantium incidunt odio corporis. Perspiciatis perferendis
-            voluptatibus eum animi dolorem neque distinctio sint ipsa!
-            Architecto nobis eum consequatur nesciunt et!Ipsam cum, est possimus
-            maxime labore quo ut ratione adipisci porro natus qui incidunt nobis
-            molestiae? Impedit delectus accusantium doloribus beatae sunt.
-            Voluptas, repellat nam! Nostrum, magnam. Sunt, tempora. Facilis.
+          <p className="job-description">
+            I interact with customers daily as well as coordinate with ASDA
+            workers. I have almost 6 years of customer service skills with
+            previous jobs at Sainsbury's and Co-op.
           </p>
         </li>
       </ul>
