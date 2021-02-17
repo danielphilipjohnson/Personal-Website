@@ -40,16 +40,12 @@ main {
   padding: 0.7rem;
 }
 
-/* .home .home-cta a:hover {
-  color: #94c85a;
-  transition: all 0.5s ease-out;
-} */
-
-/* .social-icons a {
-  font-size: 1rem;
-} */
-.social-icons a {
+.footer-top .social-icons a {
   font-size: 1.25rem;
+}
+
+.social-icons a {
+  font-size: 1.05rem;
 }
 @media screen and (min-width: 768px) {
   main .lg-heading {
@@ -64,26 +60,20 @@ main {
   .home {
     padding: 4rem;
   }
+  .social-icons a {
+    font-size: 1.55rem;
+  }
 }
 
 .home .social-icons {
   margin-bottom: 1rem;
 }
-/* iphone 5 */
-@media screen and (max-width: 500px) {
-  .home .lg-heading {
-    font-size: 2.5rem;
-    line-height: 1.2;
-  }
-  .home .sm-heading {
-    font-size: 1.05rem;
-  }
-  .home .social-icons a {
-    font-size: 1rem;
-  }
-  .btn-outline.light {
-    font-size: 0.85rem;
-  }
+/* 
+.home .social-icons a {
+  font-size: 1rem;
+} */
+.btn-outline.light {
+  font-size: 0.85rem;
 }
 
 @media screen and (min-width: 375px) {

@@ -1,17 +1,3 @@
-/* .badge-contact-sm {
-  margin-bottom: 2rem;
-}
-.badge-contact-sm img {
-  width: 50px;
-  background-color: #fff;
-  padding: 0.55rem;
-  margin-right: 0.5rem;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-} */
-
 a {
   color: #fff;
   text-decoration: none;
@@ -121,18 +107,6 @@ main#contact section {
     padding: 9px 16;
   }
 }
-
-/* .github-stats h2 {
-  color: #000;
-  font-weight: bolder;
-  padding: 1rem;
-}
-.github-stats p {
-  text-align: center;
-} */
-/* .connect {
-  padding: 2rem 0 1rem;
-} */
 
 /* figure */
 .tech-figure {

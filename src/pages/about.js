@@ -8,15 +8,6 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
-// import {
-//   faDev,
-//   faHackerrank,
-//   faCodepen,
-//   faStackOverflow,
-//   faFreeCodeCamp,
-//   faGithub,
-// } from "@fortawesome/free-brands-svg-icons";
-
 import SEO from "../component/Seo";
 import Header from "../component/layout/Header";
 
@@ -35,8 +26,7 @@ import TypescriptLogo from "../images/about-logos/ts.svg";
 import SassLogo from "../images/about-logos/sass.svg";
 import BootstrapLogo from "../images/about-logos/bootstrap4.svg";
 import GithubLogo from "../images/about-logos/github.svg";
-// import NpmLogo from "../images/about-logos/npm.svg";
-// import CypressLogo from "../images/about-logos/cypress.png";
+
 import TailwindLogo from "../images/about-logos/tailwind.png";
 
 import "./styles/about.css";
@@ -199,7 +189,12 @@ const About = ({ location }) => {
             aria-label="my values and missions"
           >
             <div className="container container-text">
-              <h2 className="text-secondary">{valuesMissions.heading}</h2>
+              <h2 className="text-secondary">
+                <span role="img" aria-labelledby="values">
+                  🏆
+                </span>{" "}
+                {valuesMissions.heading}
+              </h2>
 
               <div
                 dangerouslySetInnerHTML={{ __html: valuesMissions.html }}
@@ -212,7 +207,12 @@ const About = ({ location }) => {
             // aria-label="what I do outside of programming"
           >
             <div className="container container-text">
-              <h2>OUTSIDE OF PROGRAMMING</h2>
+              <h2>
+                <span role="img" aria-labelledby="thunder">
+                  ⚡
+                </span>{" "}
+                OUTSIDE OF PROGRAMMING
+              </h2>
               <p>
                 Although it seems like my life is entirely ruled by programming
                 and computers. I do have spare time and things that I cherish. I
@@ -288,7 +288,12 @@ const About = ({ location }) => {
             aria-label="my future plans"
           >
             <div className="container container-text">
-              <h2 className="text-secondary">The FUTURE </h2>
+              <h2 className="text-secondary">
+                <span role="img" aria-labelledby="green heart">
+                  💚
+                </span>{" "}
+                The FUTURE{" "}
+              </h2>
               <p dangerouslySetInnerHTML={{ __html: future.html }}></p>
             </div>
           </section>

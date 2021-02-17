@@ -7,8 +7,6 @@ body {
   margin: 0;
 }
 body {
-  /* background: #303146; */
-  /* background-color: #f3f2ef; */
   background-color: #3a3c55;
 
   color: #fff;
@@ -22,20 +20,6 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
-}
-
-@media screen and (min-width: 768px) {
-  h1.lg-heading,
-  h2.lg-heading,
-  h3.lg-heading {
-    font-size: 5rem;
-  }
-  h1.sm-heading,
-  h2.sm-heading,
-  h3.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-  }
 }
 
 h1.lg-heading,
@@ -58,12 +42,27 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem 1rem 0.2rem;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 3.55rem;
+  }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.25rem;
+  }
 }
 
 header {
   background-color: #1b1c28;
-  padding: 3.5rem 0 0 0;
+  padding: 4.5rem 0 0.05rem 0;
 }
 
 .btn-group {
