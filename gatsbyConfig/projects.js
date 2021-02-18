@@ -294,158 +294,91 @@ module.exports = [
       reusablecomponents: null,
     },
   },
-  // {
-  //   title: "Edge Ledger",
-  //   path: "edgeledger",
-  //   imageSrc: "../../../images/responsive-img/edgeledger.jpg",
-  //   type: "responsive",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Vozsy News",
-  //   path: "vozsynews",
-  //   imageSrc: "../../../images/responsive-img/vozsynews.png",
-  //   type: "responsive",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
+  {
+    title: "Edge Ledger",
+    path: "edgeledger",
+    imageSrc: "../../../images/responsive-img/edge-ledger/edge-ledger.jpg",
+    type: "responsive",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "#",
+    githubLink: "#",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Responsive", "Sass"],
+    details: {
+      overview: `I took Modern HTML & CSS From The Beginning (Including Sass) on Udemy from Brad Traversy. I wanted to refresh my front-end skills and evaluate my performance. As well as breaking the reliance on using CSS framework like Bootstrap to design the user interface. With react.js using framework is not as common.One of the projects was building Edge Ledger with flexbox. After the lessons, I took the screenshot of his website and made it my own.`,
+      goals: `I wanted to assimilate the design without looking at the source code and to make a website similar to quickbook. I decided to test my knowledge of HTML and CSS. I wanted a rapid prototype so I used fontawesome icons and unsplash for images. I created CSS variables to save the default styling of some items.I built some utility classes to speed up designing the webpage.I styled my own navbar so that the layout changes based on devices. For mobile and tablet devices I was inspired by quickbooks nav. On Desktop I wanted the navbar to stick to the top which was achieved by using js and jquery. When clicking on a navbar item the web page scrolls to that section. A little bonus I added was when clicking on the images a lightbox appears with text.`,
+      lessonsLearned: `In this project I started to test my understanding of:
+      Building with an HTML5 Semantic Layout,
+      Using CSS Fundamentals and CSS Variables,
+      Testing my Knowledge of Flexbox Layout,
+      Building Responsive Design With Media Queries, and
+      Using CSS Units - rem, em, vh, vw
+      `,
+      process: `<p>I followed the design made by Brad Traversy:</p>
+      <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it, then finished with adding SEO</p>
+      `,
+      mobileView: `../../../images/responsive-img/edge-ledger/edge-ledger-mobile.png`,
+      tabletView: `../../../images/responsive-img/edge-ledger/edge-ledger-tablet.jpg`,
+      toolLogos: ["HTML", "CSS"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Vozsy News",
+    path: "vozsynews",
+    imageSrc: "../../../images/responsive-img/vozsy-news/vozsy-news.png",
+    type: "responsive",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "#",
+    githubLink: "#",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Responsive", "Sass"],
+    details: {
+      overview: `I took Modern HTML & CSS From The Beginning (Including Sass) on Udemy from Brad Traversy. I wanted to refresh my front-end skills and evaluate my performance. As well as breaking the reliance on using CSS framework like Bootstrap to design the user interface. With react.js using framework is not as common.After completing the course I tested all of my knowledge with a final project Vozsy news. `,
+      goals: `I wanted to build a typical news website and test my knowledge of HTML, CSS and SASS. I primarily used the preprocessor SASS for this project as it was almost 1000 lines of styling. I wanted a rapid prototype for this project quickly to test my ability. I used fontawesome for social icons at the bottom of the page and applied an animation hover effect that shows the brands color. I built utility classes to speed up the design and reset the CSS. I wanted to start with the mobile design and work my way up to other devices. I relied heavily on column layout.`,
+      lessonsLearned: `In this project I started to test my understanding of:
+                   
+      Building with an HTML5 Semantic Layout,
+      Using CSS Fundamentals and CSS Variables,
+      Testing my Knowledge of Flexbox Layout,
+      Building Responsive Design With Media Queries, and
+      Using CSS Units - rem, em, vh, vw
+      `,
+      process: `<p>I followed the design made by Brad Traversy:</p>
+      <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it, then finished with adding SEO</p>
+      `,
+      mobileView: `../../../images/responsive-img/vozsy-news/vozsy-news-mobile.png`,
+      tabletView: `../../../images/responsive-img/vozsy-news/vozsy-news-tablet.jpg`,
+      toolLogos: ["HTML", "CSS"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
   // {
   //   title: "Scenic Cornwall",
   //   path: "sceniccornwall",

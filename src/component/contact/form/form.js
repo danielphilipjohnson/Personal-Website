@@ -19,8 +19,9 @@ function Form() {
   return (
     <form
       id="project-contact"
-      method="POST"
+      method="post"
       className="contact-form"
+      netlify-honeypot="bot-field"
       data-netlify="true"
     >
       <div className="row">
@@ -31,6 +32,7 @@ function Form() {
               <span className="asterik">*</span>
             </label>
           </div>
+          <input type="hidden" name="bot-field" />
           <input
             autofocus
             type="text"
