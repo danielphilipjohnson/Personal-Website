@@ -379,158 +379,92 @@ module.exports = [
       reusablecomponents: null,
     },
   },
-  // {
-  //   title: "Scenic Cornwall",
-  //   path: "sceniccornwall",
-  //   imageSrc: "../../../images/responsive-img/sceniccornwall.jpg",
-  //   type: "responsive",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Nexter",
-  //   path: "nexter",
-  //   imageSrc: "../../../images/responsive-img/nexter.png",
-  //   type: "responsive",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
+  {
+    title: "Scenic Cornwall",
+    path: "sceniccornwall",
+    imageSrc: "../../../images/sass-advanced/natours/natours.png",
+    type: "responsive",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "#",
+    githubLink: "https://github.com/danielphilipjohnson/natours",
+    projectLink: "https://danielphilipjohnson.github.io/natours/",
+    badges: ["HTML5", "SASS", "Responsive"],
+    details: {
+      overview: `I took Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann on Udemy. I wanted to improve my CSS by mastering cutting-edge layout technologies Flexbox and CSS Grid. Ensure all my projects are built responsive layouts for all kinds of devices and situations. Further my knowledge of how CSS works behind the scenes and test my ability of architecting large CSS codebases for reusability. Build a maintainable Sass codebase.
+      while also testing my knowledge. The first project was Natours
+      `,
+      goals: `To build with mobile first design in mind and progressively built the design up. To ensure my CSS queries are rendered quickly. Start to apply an architectural structure 7-1 CSS Architecture and using Block-Element-Modifier in my Sass. To think about how CSS is parsed while making styles and heavily use Sass.`,
+      lessonsLearned: `During the project I had learned a lot: First I learned how CSS parsed into a tree, how specificity works, values are processed and how style inheritance works. The benefits of starting with a mobile first design and how it makes writing styles much easier. How to use the NPM ecosystem for development and hope to process and compile Sass. How to utilise NPM to make the browser reload to see style changes in real time. How to prefix and compress CSS files. Used CSS to make animations with @keyframes, animation and transition and used advanced selectors, pseudo-classes and pseudo-elements. I applied a CSS Architecture, Components and BEM. I focused heavily on Sass using: Variables and Nesting, Implementing the 7-1 CSS Architecture with Sass, Mixins, Extends and Functions and Sass Mixins to Write Media Queries.`,
+      process: `<p>I followed the design made by Jonas Schmedtmann:</p>
+      <p>I followed along with the design and added some personal touches</p>`,
+
+      mobileView: `../../../images/sass-advanced/natours/natours-mobile.png`,
+      tabletView: `../../../images/sass-advanced/natours/natours-tablet.png`,
+      toolLogos: ["HTML5", "CSS", "SASS", "Responsive"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Nexter",
+    path: "nexter",
+    imageSrc: "../../../images/sass-advanced/nexters/nexters.png",
+    type: "responsive",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "#",
+    githubLink: "https://github.com/danielphilipjohnson/nexter",
+    projectLink: "https://danielphilipjohnson.github.io/nexter/",
+    badges: ["HTML5", "CSS", "SASS", "Responsive"],
+    details: {
+      overview: `I took Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann on Udemy. I wanted to improve my CSS by mastering cutting-edge layout technologies Flexbox and CSS Grid. Ensure all my projects are built responsive layouts for all kinds of devices and situations. Further my knowledge of how CSS works behind the scenes and test my ability of architecting large CSS codebases for reusability. Build a maintainable Sass codebase.
+      while also testing my knowledge.  The last project was Nexter`,
+      goals: `In this project I wanted to heavily focus on using grid for layout and now I wanted to tie all my knowledge together. Mobile first, CSS media queries,7-1 CSS Architecture and using Sass
+      `,
+      lessonsLearned: `In summary after the Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann. I identified my weaknesses with Sass and improved upon it. I avoided style inheritance issues, specificity issues and improved computing values with REM. Encountered less responsive issues when making designs. My projects started to come to life and feel less static with animations. I now have more confidence with building animations. I started to use the NPM ecosystem more comfortably. Overall, I feel more confident in my Front-End skills and improved in areas that needed updating.
+      `,
+      process: `<p>I followed the design made by Jonas Schmedtmann:</p>
+      <p>I followed along with the design and added some personal touches</p>`,
+      mobileView: `../../../images/sass-advanced/nexters/nexters-mobile.png`,
+      tabletView: `../../../images/sass-advanced/nexters/nexters-tablet.png`,
+      toolLogos: ["JavaScript", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
   // {
   //   title: "Trillo",
   //   path: "trillo",
