@@ -656,8 +656,7 @@ module.exports = [
     projectLink: "#",
     badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
     details: {
-      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. I wanted to improve my JavaScript skills and gain experience using a frontend framework. My the styling I kept it simple with CSS and used CSS variables
-      CSS variables.`,
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. I wanted to improve my JavaScript skills and gain experience using a frontend framework. With the styling I kept it simple with CSS and used CSS variables.`,
       goals: `For this project I decided to make the random quote machine mirror a twitter post. You can generate a new quote via a button and click the share button which will make a twitter post you can then publish.`,
       lessonsLearned: `In this project I started to test my understanding of JavaScript.`,
       process: `
@@ -699,160 +698,125 @@ module.exports = [
       reusablecomponents: null,
     },
   },
-  // {
-  //   title: "Markdown Previewer",
-  //   path: "markdownpreviewer",
-  //   imageSrc: "../../../images/front-end-lib/markdownpreviewer.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //   },
-  // },
-  // {
-  //   title: "Drum Machine",
-  //   path: "drummachine",
-  //   imageSrc: "../../../images/front-end-lib/drummachine.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
+  {
+    title: "Markdown Previewer",
+    path: "markdownpreviewer",
+    imageSrc: "../../../images/front-end-framework/markdown/markdown.png",
+    type: "js",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure eius itaque mollitia veniam
+    vitae earum nesciunt voluptate.`,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to improve my React skills and gain experience using a frontend framework. With the styling I kept it simple with CSS.`,
+      goals: `For this project I decided to make the Markdown Previewer mirror tumblr. You can generate a new blog item by writing with markdown.`,
+      lessonsLearned: `In this project I started to test my understanding of React.`,
+      process: `  <p>I followed the freecodecamp user story:</p>
+      <ul>            
+      <li><b>User Story #1:</b> I can see a textarea element with a corresponding id="editor".</li>
+      <li><b>User Story #2:</b> I can see an element with a corresponding id="preview".</li>
+      <li><b>User Story #3:</b> When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
+</li>
+      <li><b>User Story #4:</b> When I enter GitHub flavored markdown into the #editor element, the text is rendered as HTML in the #preview element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: https://cdnjs.com/libraries/marked).
+</li>
+      <li><b>User Story #5:</b> When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a header (H1 size), a sub header (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+</li>
+      <li><b>User Story #6:</b> When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
+</li>
+</ul> 
+`,
+      mobileView: `../../../images/front-end-framework/markdown/markdown-mobile.png`,
+      tabletView: `../../../images/front-end-framework/markdown/markdown-tablet.png`,
+      toolLogos: ["HTML", "React", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+    },
+  },
+  {
+    title: "Drum Machine",
+    path: "drummachine",
+    imageSrc: "../../../images/front-end-framework/drumkit/drum.png",
+    type: "js",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to improve my React skills and gain experience using a frontend framework. With the styling I kept it simple with CSS.`,
+      goals: `For this project I decided to make a drum machine that looks like a Digital audio workstation, investigated using keyboard events and used a common container pattern for  folder structure.`,
+      lessonsLearned: `In this project I started to further my knowledge of React, improving structure of my code and keyboard events.`,
+      process: `<p>I followed the freecodecamp user story:</p>
+      <ul>            
+      <li><b>User Story #1:</b>  I should be able to see an outer container with a corresponding id="drum-machine" that contains all other elements.
+      </li>
+      <li><b>User Story #2:</b> Within #drum-machine I can see an element with a corresponding id="display".</li>
+      <li><b>User Story #3:</b> Within #drum-machine I can see 9 clickable drum pad elements, each with a class name of drum-pad, a unique id that describes the audio clip the drum pad will be set up to trigger, and an inner text that corresponds to one of the following keys on the keyboard: Q, W, E, A, S, D, Z, X, C. The drum pads MUST be in this order.
+      </li>
+      <li><b>User Story #4:</b> Within each .drum-pad, there should be an HTML5 audio element which has a src attribute pointing to an audio clip, a class name of clip, and an id corresponding to the inner text of its parent .drum-pad (e.g. id="Q", id="W", id="E" etc.).
+      </li>
+      <li><b>User Story #5:</b> When I click on a .drum-pad element, the audio clip contained in its child audio element should be triggered.
+      </li>
+      <li><b>User Story #6:</b> When I press the trigger key associated with each .drum-pad, the audio clip contained in its child audio element should be triggered (e.g. pressing the Q key should trigger the drum pad which contains the string Q, pressing the W key should trigger the drum pad which contains the string W, etc.).
+      </li>
+      <li><b>User Story #7:</b> When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).
+      </li>
+      </ul> 
+      `,
+      mobileView: `../../../images/front-end-framework/drumkit/drum-mobile.png`,
+      tabletView: `../../../images/front-end-framework/drumkit/drum-tablet.png`,
+      toolLogos: ["HTML", "React", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
   // {
   //   title: "Javascript Calculator",
   //   path: "javascriptcalculator",
