@@ -881,7 +881,7 @@ module.exports = [
   {
     title: "Pomodoro Clock",
     path: "pomodoroclock",
-    imageSrc: "../../../images/front-end-lib/pomodoro.png",
+    imageSrc: "../../../images/front-end-framework/pomodoro/pomodoro.png",
     type: "js",
     description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
@@ -925,8 +925,8 @@ module.exports = [
      <li><b>User Story #28:</b> The audio element with id of beep must stop playing and be rewound to the beginning when the element with the id of reset is clicked.</li>
      </ul>
      `,
-      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      mobileView: `../../../images/front-end-framework/pomodoro/pomodoro-mobile.png`,
+      tabletView: `../../../images/front-end-framework/pomodoro/pomodoro-tablet.png`,
       toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
       toolUsed: [
         {
