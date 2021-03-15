@@ -878,84 +878,81 @@ module.exports = [
       reusablecomponents: null,
     },
   },
-  // {
-  //   title: "Pomodoro Clock",
-  //   path: "pomodoroclock",
-  //   imageSrc: "../../../images/front-end-lib/pomodoro.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
+  {
+    title: "Pomodoro Clock",
+    path: "pomodoroclock",
+    imageSrc: "../../../images/front-end-lib/pomodoro.png",
+    type: "js",
+    description: ``,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used vanilla JavaScript to build a functioning Pomodoro Clock.`,
+      goals: `Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/XpKrrW. I decided to make the Pomodoro Clock look like similar to https://pomofocus.io/ .`,
+      lessonsLearned: `In this project I successfully used JavaScript to make a library.`,
+      process: `<p>I followed the freecodecamp user story:</p>
+      <ul>            
+              <li><b>User Story #1:</b> I can see an element with id="break-label" that contains a string (e.g. "Break Length").</li>
+     <li><b>User Story #2:</b> I can see an element with id="session-label" that contains a string (e.g. "Session Length").</li>
+     <li><b>User Story #3:</b> I can see two clickable elements with corresponding IDs: id="break-decrement" and id="session-decrement".</li>
+     <li><b>User Story #4:</b> I can see two clickable elements with corresponding IDs: id="break-increment" and id="session-increment".</li>
+     <li><b>User Story #5:</b> I can see an element with a corresponding id="break-length", which by default (on load) displays a value of 5.</li>
+     <li><b>User Story #6:</b> I can see an element with a corresponding id="session-length", which by default displays a value of 25.</li>
+     <li><b>User Story #7:</b> I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
+     <li><b>User Story #8:</b> I can see an element with corresponding id="time-left". NOTE: Paused or running, the value in this field should always be displayed in mm:ss format (i.e. 25:00).</li>
+     <li><b>User Story #9:</b> I can see a clickable element with a corresponding id="start_stop".</li>
+     <li><b>User Story #10:</b> I can see a clickable element with a corresponding id="reset".</li>
+     <li><b>User Story #11:</b> When I click the element with the id of reset, any running timer should be stopped, the value within id="break-length" should return to 5, the value within id="session-length" should return to 25, and the element with id="time-left" should reset to its default state.</li>
+     <li><b>User Story #12:</b> When I click the element with the id of break-decrement, the value within id="break-length" decrements by a value of 1, and I can see the updated value.</li>
+     <li><b>User Story #13:</b> When I click the element with the id of break-increment, the value within id="break-length" increments by a value of 1, and I can see the updated value.</li>
+     <li><b>User Story #14:</b> When I click the element with the id of session-decrement, the value within id="session-length" decrements by a value of 1, and I can see the updated value.</li>
+     <li><b>User Story #15:</b> When I click the element with the id of session-increment, the value within id="session-length" increments by a value of 1, and I can see the updated value.</li>
+     <li><b>User Story #16:</b> I should not be able to set a session or break length to <= 0.</li>
+     <li><b>User Story #17:</b> I should not be able to set a session or break length to > 60.</li>
+     <li><b>User Story #18:</b> When I first click the element with id="start_stop", the timer should begin running from the value currently displayed in id="session-length", even if the value has been incremented or decremented from the original value of 25.</li>
+     <li><b>User Story #19:</b> If the timer is running, the element with the id of time-left should display the remaining time in mm:ss format (decrementing by a value of 1 and updating the display every 1000ms).</li>
+     <li><b>User Story #20:</b> If the timer is running and I click the element with id="start_stop", the countdown should pause.</li>
+     <li><b>User Story #21:</b> If the timer is paused and I click the element with id="start_stop", the countdown should resume running from the point at which it was paused.</li>
+     <li><b>User Story #22:</b> When a session countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of timer-label should display a string indicating a break has begun.</li>
+     <li><b>User Story #23:</b> When a session countdown reaches zero (NOTE: timer MUST reach 00:00), a new break countdown should begin, counting down from the value currently displayed in the id="break-length" element.</li>
+     <li><b>User Story #24:</b> When a break countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of timer-label should display a string indicating a session has begun.</li>
+     <li><b>User Story #25:</b> When a break countdown reaches zero (NOTE: timer MUST reach 00:00), a new session countdown should begin, counting down from the value currently displayed in the id="session-length" element.</li>
+     <li><b>User Story #26:</b> When a countdown reaches zero (NOTE: timer MUST reach 00:00), a sound indicating that time is up should play. This should utilize an HTML5 audio tag and have a corresponding id="beep".</li>
+     <li><b>User Story #27:</b> The audio element with id="beep" must be 1 second or longer.</li>
+     <li><b>User Story #28:</b> The audio element with id of beep must stop playing and be rewound to the beginning when the element with the id of reset is clicked.</li>
+     </ul>
+     `,
+      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
   // {
   //   title: "Recipe Box",
   //   path: "recipebox",
