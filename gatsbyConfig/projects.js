@@ -817,84 +817,67 @@ module.exports = [
       reusablecomponents: null,
     },
   },
-  // {
-  //   title: "Javascript Calculator",
-  //   path: "javascriptcalculator",
-  //   imageSrc: "../../../images/front-end-lib/calculator.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
+  {
+    title: "Javascript Calculator",
+    path: "javascriptcalculator",
+    imageSrc: "../../../images/front-end-framework/calculator/calculator.png",
+    type: "js",
+    description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to use my React skills to build a functioning calculator. The react app was styled with CSS.`,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to use my React skills to build a functioning calculator. The react app was styled with CSS.`,
+      goals: `For this project I decided to make the calculator look like HP 20b Business Consultant. For the math calculations, I used A small, fast JavaScript library for arbitrary-precision decimal arithmetic called big.js.`,
+      lessonsLearned: `In this project I successfully used useReducer and built a library for calculation.`,
+      process: ` <p>I followed the freecodecamp user story:</p>
+      <ul>            
+              <li><b>User Story #1:</b> My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".</li>
+     <li><b>User Story #2:</b> My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id="zero", id="one", id="two", id="three", id="four", id="five", id="six", id="seven", id="eight", and id="nine".</li>
+     <li><b>User Story #3:</b> My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: id="add", id="subtract", id="multiply", id="divide".</li>
+     <li><b>User Story #4:</b> My calculator should contain a clickable element containing a . (decimal point) symbol with a corresponding id="decimal".</li>
+     <li><b>User Story #5:</b> My calculator should contain a clickable element with an id="clear".</li>
+     <li><b>User Story #6:</b> My calculator should contain an element to display values with a corresponding id="display".</li>
+     <li><b>User Story #7:</b> At any time, pressing the clear button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of display.</li>
+     <li><b>User Story #8:</b> As I input numbers, I should be able to see my input in the element with the id of display.</li>
+     <li><b>User Story #9:</b> In any order, I should be able to add, subtract, multiply and divide a chain of numbers of any length, and when I hit =, the correct result should be shown in the element with the id of display.</li>
+     <li><b>User Story #10:</b> When inputting numbers, my calculator should not allow a number to begin with multiple zeros.</li>
+     <li><b>User Story #11:</b> When the decimal element is clicked, a . should append to the currently displayed value; two . in one number should not be accepted.</li>
+     <li><b>User Story #12:</b> I should be able to perform any operation (+, -, *, /) on numbers containing decimal points.</li>
+     <li><b>User Story #13:</b> If 2 or more operators are entered consecutively, the operation performed should be the last operator entered (excluding the negative (-) sign). For example, if 5 + * 7 = is entered, the result should be 35 (i.e. 5 * 7); if 5 * - 5 = is entered, the result should be -25 (i.e. 5 * (-5)).</li>
+     <li><b>User Story #14:</b> Pressing an operator immediately following = should start a new calculation that operates on the result of the previous evaluation.</li>
+     <li><b>User Story #15:</b> My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like 2 / 7 with reasonable precision to at least 4 decimal places).</li></ul>
+     `,
+      mobileView: `../../../images/front-end-framework/calculator/calculator-mobile.png`,
+      tabletView: `../../../images/front-end-framework/calculator/calculator-tablet.png`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
   // {
   //   title: "Pomodoro Clock",
   //   path: "pomodoroclock",
