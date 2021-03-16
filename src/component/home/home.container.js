@@ -53,13 +53,12 @@ const HomeContainer = () => {
           </div>
         </div>
       </section>
+      <WorkExperience />
       <Profile />
 
       <HomeTools />
       <Services />
       <Biography />
-
-      <WorkExperience />
 
       {/* <Clients /> */}
       <Education />
