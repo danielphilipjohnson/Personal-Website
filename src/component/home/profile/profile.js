@@ -6,10 +6,22 @@ function Profile() {
   return (
     <section className="profile">
       <div className="container">
+        <h2 className="md-heading text-purple skill-heading">🙋‍♂️ About me</h2>
+        <div className="banner">
+          <div className="left">
+            <span className="heading-2">Hi 👋 I am Daniel✨</span>
+            <p>👨‍💻 I work remote 🏠 from Cornwall</p>
+          </div>
+          <div className="right">
+            <span>📝</span>
+            <a href="#"> Resume PDF</a>
+          </div>
+        </div>
+
         <div className="profile-text">
           <blockquote>
             <p>
-              <span className="heading-2">Hi 👋 I am Daniel✨</span>,
+              I am a
               <span className="text-highlight">
                 <strong>Front-End Engineer</strong>
               </span>
