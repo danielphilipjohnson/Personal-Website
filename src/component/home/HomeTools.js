@@ -8,8 +8,8 @@ function HomeTools() {
   return (
     <section id="home-tools">
       <div className="container">
-        <h2 className="section-title">I build with</h2>
-        <div className="bottom-line"></div>
+        <h2 className="md-heading text-purple skill-heading"> 🧰 Tools</h2>
+        {/* <div className="bottom-line"></div> */}
 
         <div className="specials">
           {site.siteMetadata.specialities.map((skill) => {

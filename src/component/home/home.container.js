@@ -12,7 +12,7 @@ import Clients from "../../component/home/clients";
 import Services from "./services/services";
 import Profile from "./profile/profile";
 
-import WorkExperience from "../../component/home/work-experience";
+import WorkExperience from "./work-experience/work-experience";
 
 import bg from "../../images/showcase1.jpg";
 
