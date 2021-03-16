@@ -6,7 +6,7 @@ function WorkExperience() {
   return (
     <section className="experience">
       <div className="container container-narrow">
-        <h2 className="md-heading text-purple skill-heading">👨‍💻 Experience:</h2>
+        <h2 className="text-purple skill-heading">👨‍💻 Experience:</h2>
         <div className="job-meta">
           <span>November 2020 - Present</span>
         </div>

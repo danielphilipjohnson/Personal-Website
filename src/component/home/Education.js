@@ -52,7 +52,7 @@ function Education() {
   return (
     <div id="education" className="bio-education">
       <div className="container container-narrow">
-        <h2 className="md-heading text-purple skill-heading">🎓 Education</h2>
+        <h2 className="text-purple skill-heading">🎓 Education</h2>
         <div className="job-meta">
           <span>May 2014</span>
         </div>
@@ -107,7 +107,7 @@ function Education() {
           </li>
         </ul>
 
-        <h2 className="md-heading text-purple skill-heading">📜 Courses</h2>
+        <h2 className="text-purple skill-heading">📜 Courses</h2>
 
         <div className="education-grid">
           {currentEducation.map((course) => {

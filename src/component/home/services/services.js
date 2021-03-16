@@ -19,9 +19,7 @@ function services() {
   return (
     <section id="home-services" className="home-services">
       <div className="container">
-        <h2 className="md-heading text-purple skill-heading">
-          💼 What I offer
-        </h2>
+        <h2 className="text-purple skill-heading">💼 What I offer</h2>
         {/* <div className="bottom-line"></div> */}
         {/* <p className="lead text-center">
           Things I'm skilled at and passionate about.

@@ -6,7 +6,7 @@ function Profile() {
   return (
     <section className="profile">
       <div className="container">
-        <h2 className="md-heading text-purple skill-heading">🙋‍♂️ About me</h2>
+        <h2 className="text-purple skill-heading">🙋‍♂️ About me</h2>
         <div className="banner">
           <div className="left">
             <span className="heading-2">Hi 👋 I am Daniel✨</span>
