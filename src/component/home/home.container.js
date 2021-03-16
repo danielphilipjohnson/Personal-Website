@@ -30,7 +30,7 @@ const HomeContainer = () => {
           backgroundImage: `url(${bg})`,
         }}
       >
-        <h1 className="lg-heading">
+        <h1 className="lg-heading text-center">
           Daniel
           <span id="secondary" className="text-secondary">
             {" "}

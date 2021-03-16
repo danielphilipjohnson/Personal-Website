@@ -78,7 +78,7 @@ function Education() {
                 current topics:
               </li>
               <li>
-                Neurobiology and crime:
+                <span className="text-highlight">Neurobiology and crime:</span>
                 <p>
                   Researched how lies are formed in the brain and what leads to
                   body cues.
@@ -86,14 +86,18 @@ function Education() {
               </li>
 
               <li>
-                Neuroscience:
+                <span className="text-highlight">Neuroscience:</span>
+
                 <p>
                   The role of mental imagery and mental health. The embodied
                   brain and memory
                 </p>
               </li>
               <li>
-                Mental disorders and Pharmaceuticalogy:
+                <span className="text-highlight">
+                  Mental disorders and Pharmaceuticalogy:
+                </span>
+
                 <p>
                   Investigated Alzhemiers and the role of beta amyloid plaques
                   The role of anxiety in PTSD
