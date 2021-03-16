@@ -51,8 +51,59 @@ function Education() {
   };
   return (
     <div id="education" className="bio-education">
-      <div className="container education-container">
-        <h2 className="text-dark lg-heading">Education</h2>
+      <div className="container container-narrow">
+        <h2 className="md-heading text-purple skill-heading">🎓 Education</h2>
+        <div className="job-meta">
+          <span>May 2014</span>
+        </div>
+        <ul className="work-experience">
+          <li className="job-current">
+            <h5 className="job-title">
+              BSc Psychology{" "}
+              <a
+                className="text-purple"
+                href="https://www.plymouth.ac.uk/courses/undergraduate/bsc-psychology"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @University of Plymouth
+              </a>
+            </h5>
+
+            <ul className="job-description">
+              <li>
+                In this course I studied the following topics Individual
+                Differences, human development, Social, Developmental,
+                Cognition, and Biological Psychology. I chose the following four
+                current topics:
+              </li>
+              <li>
+                Neurobiology and crime:
+                <p>
+                  Researched how lies are formed in the brain and what leads to
+                  body cues.
+                </p>
+              </li>
+
+              <li>
+                Neuroscience:
+                <p>
+                  The role of mental imagery and mental health. The embodied
+                  brain and memory
+                </p>
+              </li>
+              <li>
+                Mental disorders and Pharmaceuticalogy:
+                <p>
+                  Investigated Alzhemiers and the role of beta amyloid plaques
+                  The role of anxiety in PTSD
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2 className="md-heading text-purple skill-heading">📜 Courses</h2>
 
         <div className="education-grid">
           {currentEducation.map((course) => {
@@ -84,7 +135,7 @@ function Education() {
         </div>
       </div>
       {displayShowMore && (
-        <button className="show-more" onClick={() => seeAll()}>
+        <button className="show-more text-center" onClick={() => seeAll()}>
           Show More
         </button>
       )}
