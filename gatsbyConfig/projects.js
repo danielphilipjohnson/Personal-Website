@@ -379,386 +379,194 @@ module.exports = [
       reusablecomponents: null,
     },
   },
-  // {
-  //   title: "Scenic Cornwall",
-  //   path: "sceniccornwall",
-  //   imageSrc: "../../../images/responsive-img/sceniccornwall.jpg",
-  //   type: "responsive",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Nexter",
-  //   path: "nexter",
-  //   imageSrc: "../../../images/responsive-img/nexter.png",
-  //   type: "responsive",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Trillo",
-  //   path: "trillo",
-  //   imageSrc: "../../../images/responsive-img/trillo.png",
-  //   type: "responsive",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "SASS", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Presentation",
-  //   path: "presentation",
-  //   imageSrc: "../../../images/responsive-img/presentation.png",
-  //   type: "responsive",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Basic Spotify Clone",
-  //   path: "spotifyclone",
-  //   imageSrc: "../../../images/material-projects/spotify-clone.png",
-  //   type: "material",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "#",
-  //   githubLink: "#",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
+  {
+    title: "Scenic Cornwall",
+    path: "sceniccornwall",
+    imageSrc: "../../../images/sass-advanced/natours/natours.png",
+    type: "responsive",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "#",
+    githubLink: "https://github.com/danielphilipjohnson/natours",
+    projectLink: "https://danielphilipjohnson.github.io/natours/",
+    badges: ["HTML5", "SASS", "Responsive"],
+    details: {
+      overview: `I took Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann on Udemy. I wanted to improve my CSS by mastering cutting-edge layout technologies Flexbox and CSS Grid. Ensure all my projects are built responsive layouts for all kinds of devices and situations. Further my knowledge of how CSS works behind the scenes and test my ability of architecting large CSS codebases for reusability. Build a maintainable Sass codebase.
+      while also testing my knowledge. The first project was Natours
+      `,
+      goals: `To build with mobile first design in mind and progressively built the design up. To ensure my CSS queries are rendered quickly. Start to apply an architectural structure 7-1 CSS Architecture and using Block-Element-Modifier in my Sass. To think about how CSS is parsed while making styles and heavily use Sass.`,
+      lessonsLearned: `During the project I had learned a lot: First I learned how CSS parsed into a tree, how specificity works, values are processed and how style inheritance works. The benefits of starting with a mobile first design and how it makes writing styles much easier. How to use the NPM ecosystem for development and hope to process and compile Sass. How to utilise NPM to make the browser reload to see style changes in real time. How to prefix and compress CSS files. Used CSS to make animations with @keyframes, animation and transition and used advanced selectors, pseudo-classes and pseudo-elements. I applied a CSS Architecture, Components and BEM. I focused heavily on Sass using: Variables and Nesting, Implementing the 7-1 CSS Architecture with Sass, Mixins, Extends and Functions and Sass Mixins to Write Media Queries.`,
+      process: `<p>I followed the design made by Jonas Schmedtmann:</p>
+      <p>I followed along with the design and added some personal touches</p>`,
+
+      mobileView: `../../../images/sass-advanced/natours/natours-mobile.png`,
+      tabletView: `../../../images/sass-advanced/natours/natours-tablet.png`,
+      toolLogos: ["HTML5", "CSS", "SASS", "Responsive"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Nexter",
+    path: "nexter",
+    imageSrc: "../../../images/sass-advanced/nexters/nexters.png",
+    type: "responsive",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "#",
+    githubLink: "https://github.com/danielphilipjohnson/nexter",
+    projectLink: "https://danielphilipjohnson.github.io/nexter/",
+    badges: ["HTML5", "CSS", "SASS", "Responsive"],
+    details: {
+      overview: `I took Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann on Udemy. I wanted to improve my CSS by mastering cutting-edge layout technologies Flexbox and CSS Grid. Ensure all my projects are built responsive layouts for all kinds of devices and situations. Further my knowledge of how CSS works behind the scenes and test my ability of architecting large CSS codebases for reusability. Build a maintainable Sass codebase.
+      while also testing my knowledge.  The last project was Nexter`,
+      goals: `In this project I wanted to heavily focus on using grid for layout and now I wanted to tie all my knowledge together. Mobile first, CSS media queries,7-1 CSS Architecture and using Sass
+      `,
+      lessonsLearned: `In summary after the Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann. I identified my weaknesses with Sass and improved upon it. I avoided style inheritance issues, specificity issues and improved computing values with REM. Encountered less responsive issues when making designs. My projects started to come to life and feel less static with animations. I now have more confidence with building animations. I started to use the NPM ecosystem more comfortably. Overall, I feel more confident in my Front-End skills and improved in areas that needed updating.
+      `,
+      process: `<p>I followed the design made by Jonas Schmedtmann:</p>
+      <p>I followed along with the design and added some personal touches</p>`,
+      mobileView: `../../../images/sass-advanced/nexters/nexters-mobile.png`,
+      tabletView: `../../../images/sass-advanced/nexters/nexters-tablet.png`,
+      toolLogos: ["JavaScript", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Trillo",
+    path: "trillo",
+    imageSrc: "../../../images/sass-advanced/trilo/trilo.png",
+    type: "responsive",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "#",
+    githubLink: "https://github.com/danielphilipjohnson/trilo",
+    projectLink: "https://danielphilipjohnson.github.io/trilo/",
+    badges: ["HTML5", "CSS", "SASS", "Responsive"],
+    details: {
+      overview: `I took Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann on Udemy. I wanted to improve my CSS by mastering cutting-edge layout technologies Flexbox and CSS Grid. Ensure all my projects are built responsive layouts for all kinds of devices and situations. Further my knowledge of how CSS works behind the scenes and test my ability of architecting large CSS codebases for reusability. Build a maintainable Sass codebase.
+      while also testing my knowledge. The second project was trillo.
+      `,
+      goals: `In this project I wanted to heavily focus on using flexbox for layout. To continue to build with mobile first design in mind and progressively built the design up. Looking for ways to improve the performance of CSS queries and render quickly in google lighthouse. Furthered, my experience of the architectural structure 7-1 CSS Architecture and Block-Element-Modifier. Use Sass more efficiently. 
+      `,
+      lessonsLearned: `My understanding of how CSS is parsed into a tree was dramatically improved. I avoided style inheritance issues, specificity issues and improved computing values with REM. My responsive design started to be more flexible and less issues arised. I started to build animations much quicker.Furthered my knowledge of the NPM ecosystem. My knowledge of Sass improved dramatically and the readability of the styling was improved.`,
+      process: `<p>I followed the design made by Jonas Schmedtmann:</p>
+      <p>I followed along with the design and added some personal touches</p>`,
+      mobileView: `../../../images/sass-advanced/trilo/trilo-mobile.png`,
+      tabletView: `../../../images/sass-advanced/trilo/trilo-tablet.png`,
+      toolLogos: ["JavaScript", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Basic Spotify Clone",
+    path: "spotifyclone",
+    imageSrc: "../../../images/material-projects/spotify-clone.png",
+    type: "material",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "#",
+    githubLink: "#",
+    projectLink: "#",
+    badges: ["HTML5", "Materialize", "Responsive", "freecodecamp"],
+    details: {
+      overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Architecto explicabo cupiditate perferendis ad unde iure
+      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+      assumenda accusamus minima excepturi laudantium nisi sapiente
+      perspiciatis doloribus fugit ratione ea delectus commodi
+      doloremque ullam aperiam eos mollitia pariatur molestiae,
+      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+      goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Architecto explicabo cupiditate perferendis ad unde iure
+      necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
+      deleniti distinctio dolores quaerat ut nihil aliquid!Provident
+      assumenda accusamus minima excepturi laudantium nisi sapiente
+      perspiciatis doloribus fugit ratione ea delectus commodi
+      doloremque ullam aperiam eos mollitia pariatur molestiae,
+      veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
+      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
+      process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
+      mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
+      tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
+      toolLogos: ["HTML", "JavaScript", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
   // {
   //   title: "Basic Messenger Clone",
   //   path: "messengerclone",
@@ -835,635 +643,490 @@ module.exports = [
   //     reusablecomponents: null,
   //   },
   // },
-  // {
-  //   title: "Random Quote Machine",
-  //   path: "quotemachine",
-  //   imageSrc: "../../../images/front-end-lib/quotemachine.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/bGEgaoo",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Markdown Previewer",
-  //   path: "markdownpreviewer",
-  //   imageSrc: "../../../images/front-end-lib/markdownpreviewer.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //   },
-  // },
-  // {
-  //   title: "Drum Machine",
-  //   path: "drummachine",
-  //   imageSrc: "../../../images/front-end-lib/drummachine.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Javascript Calculator",
-  //   path: "javascriptcalculator",
-  //   imageSrc: "../../../images/front-end-lib/calculator.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Pomodoro Clock",
-  //   path: "pomodoroclock",
-  //   imageSrc: "../../../images/front-end-lib/pomodoro.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Recipe Box",
-  //   path: "recipebox",
-  //   imageSrc: "../../../images/front-end-lib/recipebox.jpg",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Simon",
-  //   path: "simon",
-  //   imageSrc: "../../../images/front-end-lib/simon.jpg",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
-  // {
-  //   title: "Twitch.tv JSON-API",
-  //   path: "twitchclone",
-  //   imageSrc: "../../../images/front-end-lib/json-api-project.png",
-  //   type: "angular",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
-  //   projectLink: "#",
-  //   badges: [
-  //     "HTML5",
-  //     "CSS",
-  //     "Javascript",
-  //     "Front-End",
-  //     "freecodecamp",
-  //     "Angular",
-  //   ],
+  {
+    title: "Random Quote Machine",
+    path: "quotemachine",
+    imageSrc: "../../../images/front-end-framework/quote/quote.png",
+    type: "js",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure eius.`,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/bGEgaoo",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. I wanted to improve my JavaScript skills and gain experience using a frontend framework. With the styling I kept it simple with CSS and used CSS variables.`,
+      goals: `For this project I decided to make the random quote machine mirror a twitter post. You can generate a new quote via a button and click the share button which will make a twitter post you can then publish.`,
+      lessonsLearned: `In this project I started to test my understanding of JavaScript.`,
+      process: `
+      <p>I followed the freecodecamp user story:</p>
+          <ul>            
+          <li><b>User Story #1:</b> I can see a wrapper element with a corresponding id="quote-box".</li>
+          <li><b>User Story #2:</b> Within #quote-box, I can see an element with a corresponding id="text".</li>
+          <li><b>User Story #3:</b> Within #quote-box, I can see an element with a corresponding id="author".</li>
+          <li><b>User Story #4:</b> Within #quote-box, I can see a clickable element with a corresponding id="new-quote".</li>
+          <li><b>User Story #5:</b> Within #quote-box, I can see a clickable a element with a corresponding id="tweet-quote".</li>
+          <li><b>User Story #6:</b> On first load, my quote machine displays a random quote in the element with id="text".</li>
+          <li><b>User Story #7:</b> On first load, my quote machine displays the random quote's author in the element with id="author".</li>
+          <li><b>User Story #8:</b> When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.</li>
+          <li><b>User Story #9:</b> My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.</li>
+          <li><b>User Story #10:</b>  I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.</li>
+          <li><b>User Story #11:</b>  The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.</li>
+          </ul>
+ `,
+      mobileView: `../../../images/front-end-framework/quote/quote-mobile.png`,
+      tabletView: `./../../images/front-end-framework/quote/quote-tablet.png`,
+      toolLogos: ["HTML", "JavaScript", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Markdown Previewer",
+    path: "markdownpreviewer",
+    imageSrc: "../../../images/front-end-framework/markdown/markdown.png",
+    type: "js",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure eius itaque mollitia veniam
+    vitae earum nesciunt voluptate.`,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to improve my React skills and gain experience using a frontend framework. With the styling I kept it simple with CSS.`,
+      goals: `For this project I decided to make the Markdown Previewer mirror tumblr. You can generate a new blog item by writing with markdown.`,
+      lessonsLearned: `In this project I started to test my understanding of React.`,
+      process: `  <p>I followed the freecodecamp user story:</p>
+      <ul>            
+      <li><b>User Story #1:</b> I can see a textarea element with a corresponding id="editor".</li>
+      <li><b>User Story #2:</b> I can see an element with a corresponding id="preview".</li>
+      <li><b>User Story #3:</b> When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
+</li>
+      <li><b>User Story #4:</b> When I enter GitHub flavored markdown into the #editor element, the text is rendered as HTML in the #preview element as I type (HINT: You don't need to parse Markdown yourself - you can import the Marked library for this: https://cdnjs.com/libraries/marked).
+</li>
+      <li><b>User Story #5:</b> When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a header (H1 size), a sub header (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+</li>
+      <li><b>User Story #6:</b> When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
+</li>
+</ul> 
+`,
+      mobileView: `../../../images/front-end-framework/markdown/markdown-mobile.png`,
+      tabletView: `../../../images/front-end-framework/markdown/markdown-tablet.png`,
+      toolLogos: ["HTML", "React", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+    },
+  },
+  {
+    title: "Drum Machine",
+    path: "drummachine",
+    imageSrc: "../../../images/front-end-framework/drumkit/drum.png",
+    type: "js",
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Autem eligendi deleniti iure.`,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to improve my React skills and gain experience using a frontend framework. With the styling I kept it simple with CSS.`,
+      goals: `For this project I decided to make a drum machine that looks like a Digital audio workstation, investigated using keyboard events and used a common container pattern for  folder structure.`,
+      lessonsLearned: `In this project I started to further my knowledge of React, improving structure of my code and keyboard events.`,
+      process: `<p>I followed the freecodecamp user story:</p>
+      <ul>            
+      <li><b>User Story #1:</b>  I should be able to see an outer container with a corresponding id="drum-machine" that contains all other elements.
+      </li>
+      <li><b>User Story #2:</b> Within #drum-machine I can see an element with a corresponding id="display".</li>
+      <li><b>User Story #3:</b> Within #drum-machine I can see 9 clickable drum pad elements, each with a class name of drum-pad, a unique id that describes the audio clip the drum pad will be set up to trigger, and an inner text that corresponds to one of the following keys on the keyboard: Q, W, E, A, S, D, Z, X, C. The drum pads MUST be in this order.
+      </li>
+      <li><b>User Story #4:</b> Within each .drum-pad, there should be an HTML5 audio element which has a src attribute pointing to an audio clip, a class name of clip, and an id corresponding to the inner text of its parent .drum-pad (e.g. id="Q", id="W", id="E" etc.).
+      </li>
+      <li><b>User Story #5:</b> When I click on a .drum-pad element, the audio clip contained in its child audio element should be triggered.
+      </li>
+      <li><b>User Story #6:</b> When I press the trigger key associated with each .drum-pad, the audio clip contained in its child audio element should be triggered (e.g. pressing the Q key should trigger the drum pad which contains the string Q, pressing the W key should trigger the drum pad which contains the string W, etc.).
+      </li>
+      <li><b>User Story #7:</b> When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).
+      </li>
+      </ul> 
+      `,
+      mobileView: `../../../images/front-end-framework/drumkit/drum-mobile.png`,
+      tabletView: `../../../images/front-end-framework/drumkit/drum-tablet.png`,
+      toolLogos: ["HTML", "React", "CSS", "Sass"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Javascript Calculator",
+    path: "javascriptcalculator",
+    imageSrc: "../../../images/front-end-framework/calculator/calculator.png",
+    type: "js",
+    description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to use my React skills to build a functioning calculator. The react app was styled with CSS.`,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to use my React skills to build a functioning calculator. The react app was styled with CSS.`,
+      goals: `For this project I decided to make the calculator look like HP 20b Business Consultant. For the math calculations, I used A small, fast JavaScript library for arbitrary-precision decimal arithmetic called big.js.`,
+      lessonsLearned: `In this project I successfully used useReducer and built a library for calculation.`,
+      process: ` <p>I followed the freecodecamp user story:</p>
+      <ul>            
+              <li><b>User Story #1:</b> My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".</li>
+     <li><b>User Story #2:</b> My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id="zero", id="one", id="two", id="three", id="four", id="five", id="six", id="seven", id="eight", and id="nine".</li>
+     <li><b>User Story #3:</b> My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: id="add", id="subtract", id="multiply", id="divide".</li>
+     <li><b>User Story #4:</b> My calculator should contain a clickable element containing a . (decimal point) symbol with a corresponding id="decimal".</li>
+     <li><b>User Story #5:</b> My calculator should contain a clickable element with an id="clear".</li>
+     <li><b>User Story #6:</b> My calculator should contain an element to display values with a corresponding id="display".</li>
+     <li><b>User Story #7:</b> At any time, pressing the clear button clears the input and output values, and returns the calculator to its initialized state; 0 should be shown in the element with the id of display.</li>
+     <li><b>User Story #8:</b> As I input numbers, I should be able to see my input in the element with the id of display.</li>
+     <li><b>User Story #9:</b> In any order, I should be able to add, subtract, multiply and divide a chain of numbers of any length, and when I hit =, the correct result should be shown in the element with the id of display.</li>
+     <li><b>User Story #10:</b> When inputting numbers, my calculator should not allow a number to begin with multiple zeros.</li>
+     <li><b>User Story #11:</b> When the decimal element is clicked, a . should append to the currently displayed value; two . in one number should not be accepted.</li>
+     <li><b>User Story #12:</b> I should be able to perform any operation (+, -, *, /) on numbers containing decimal points.</li>
+     <li><b>User Story #13:</b> If 2 or more operators are entered consecutively, the operation performed should be the last operator entered (excluding the negative (-) sign). For example, if 5 + * 7 = is entered, the result should be 35 (i.e. 5 * 7); if 5 * - 5 = is entered, the result should be -25 (i.e. 5 * (-5)).</li>
+     <li><b>User Story #14:</b> Pressing an operator immediately following = should start a new calculation that operates on the result of the previous evaluation.</li>
+     <li><b>User Story #15:</b> My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like 2 / 7 with reasonable precision to at least 4 decimal places).</li></ul>
+     `,
+      mobileView: `../../../images/front-end-framework/calculator/calculator-mobile.png`,
+      tabletView: `../../../images/front-end-framework/calculator/calculator-tablet.png`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Pomodoro Clock",
+    path: "pomodoroclock",
+    imageSrc: "../../../images/front-end-framework/pomodoro/pomodoro.png",
+    type: "js",
+    description: ``,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used vanilla JavaScript to build a functioning Pomodoro Clock.`,
+      goals: `Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/XpKrrW. I decided to make the Pomodoro Clock look like similar to https://pomofocus.io/ .`,
+      lessonsLearned: `In this project I successfully used JavaScript to make a library.`,
+      process: `<p>I followed the freecodecamp user story:</p>
+      <ul>            
+              <li><b>User Story #1:</b> I can see an element with id="break-label" that contains a string (e.g. "Break Length").</li>
+     <li><b>User Story #2:</b> I can see an element with id="session-label" that contains a string (e.g. "Session Length").</li>
+     <li><b>User Story #3:</b> I can see two clickable elements with corresponding IDs: id="break-decrement" and id="session-decrement".</li>
+     <li><b>User Story #4:</b> I can see two clickable elements with corresponding IDs: id="break-increment" and id="session-increment".</li>
+     <li><b>User Story #5:</b> I can see an element with a corresponding id="break-length", which by default (on load) displays a value of 5.</li>
+     <li><b>User Story #6:</b> I can see an element with a corresponding id="session-length", which by default displays a value of 25.</li>
+     <li><b>User Story #7:</b> I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
+     <li><b>User Story #8:</b> I can see an element with corresponding id="time-left". NOTE: Paused or running, the value in this field should always be displayed in mm:ss format (i.e. 25:00).</li>
+     <li><b>User Story #9:</b> I can see a clickable element with a corresponding id="start_stop".</li>
+     <li><b>User Story #10:</b> I can see a clickable element with a corresponding id="reset".</li>
+     <li><b>User Story #11:</b> When I click the element with the id of reset, any running timer should be stopped, the value within id="break-length" should return to 5, the value within id="session-length" should return to 25, and the element with id="time-left" should reset to its default state.</li>
+     <li><b>User Story #12:</b> When I click the element with the id of break-decrement, the value within id="break-length" decrements by a value of 1, and I can see the updated value.</li>
+     <li><b>User Story #13:</b> When I click the element with the id of break-increment, the value within id="break-length" increments by a value of 1, and I can see the updated value.</li>
+     <li><b>User Story #14:</b> When I click the element with the id of session-decrement, the value within id="session-length" decrements by a value of 1, and I can see the updated value.</li>
+     <li><b>User Story #15:</b> When I click the element with the id of session-increment, the value within id="session-length" increments by a value of 1, and I can see the updated value.</li>
+     <li><b>User Story #16:</b> I should not be able to set a session or break length to <= 0.</li>
+     <li><b>User Story #17:</b> I should not be able to set a session or break length to > 60.</li>
+     <li><b>User Story #18:</b> When I first click the element with id="start_stop", the timer should begin running from the value currently displayed in id="session-length", even if the value has been incremented or decremented from the original value of 25.</li>
+     <li><b>User Story #19:</b> If the timer is running, the element with the id of time-left should display the remaining time in mm:ss format (decrementing by a value of 1 and updating the display every 1000ms).</li>
+     <li><b>User Story #20:</b> If the timer is running and I click the element with id="start_stop", the countdown should pause.</li>
+     <li><b>User Story #21:</b> If the timer is paused and I click the element with id="start_stop", the countdown should resume running from the point at which it was paused.</li>
+     <li><b>User Story #22:</b> When a session countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of timer-label should display a string indicating a break has begun.</li>
+     <li><b>User Story #23:</b> When a session countdown reaches zero (NOTE: timer MUST reach 00:00), a new break countdown should begin, counting down from the value currently displayed in the id="break-length" element.</li>
+     <li><b>User Story #24:</b> When a break countdown reaches zero (NOTE: timer MUST reach 00:00), and a new countdown begins, the element with the id of timer-label should display a string indicating a session has begun.</li>
+     <li><b>User Story #25:</b> When a break countdown reaches zero (NOTE: timer MUST reach 00:00), a new session countdown should begin, counting down from the value currently displayed in the id="session-length" element.</li>
+     <li><b>User Story #26:</b> When a countdown reaches zero (NOTE: timer MUST reach 00:00), a sound indicating that time is up should play. This should utilize an HTML5 audio tag and have a corresponding id="beep".</li>
+     <li><b>User Story #27:</b> The audio element with id="beep" must be 1 second or longer.</li>
+     <li><b>User Story #28:</b> The audio element with id of beep must stop playing and be rewound to the beginning when the element with the id of reset is clicked.</li>
+     </ul>
+     `,
+      mobileView: `../../../images/front-end-framework/pomodoro/pomodoro-mobile.png`,
+      tabletView: `../../../images/front-end-framework/pomodoro/pomodoro-tablet.png`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Recipe Box",
+    path: "recipebox",
+    imageSrc: "../../../images/front-end-framework/recipe-box/recipe-box.png",
+    type: "js",
+    description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used React and gained a better insight into local storage to save recipes.`,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used React and gained a better insight into local storage to save recipes.`,
+      goals: `Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/xVXWag/. I decided to make the Recipe book look like a restaurant website where recipes can be added. The rules were simple, Rule #1: Don't look at the example project's code. Figure it out for yourself. Rule #2: Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style. Rule #3: You must use both Sass and React to build this project.
+      `,
+      lessonsLearned: `In this project I successfully used Local storage to save, edit and delete users recipes.`,
+      process: `<p>I followed the freecodecamp user story:</p>
+      <ul>           
+              <li><b>User Story #1:</b> I can create recipes that have names and ingredients.</li>
+     <li><b>User Story #2:</b> I can see an index view where the names of all the recipes are visible.</li>
+     <li><b>User Story #3:</b> I can click into any of those recipes to view it.</li>
+     <li><b>User Story #4:</b> I can edit these recipes.</li>
+     <li><b>User Story #5:</b> I can delete these recipes.</li>
+     <li><b>User Story #6:</b>All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.</li>
+   </ul>
+ `,
+      mobileView: `../../../images/front-end-framework/recipe-box/recipe-box-mobile.png`,
+      tabletView: `../../../images/front-end-framework/recipe-box/recipe-box-tablet.png`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Simon",
+    path: "simon",
+    imageSrc: "../../../images/front-end-framework/simon/simon.jpg",
+    type: "js",
+    description: ``,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
+    projectLink: "#",
+    badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used Vanilla Js to build a functional simon game.`,
+      goals: `Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/obYBjE. Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style
+      Here are mp3s you can use for each button: https://s3.amazonaws.com/freecodecamp/simonSound1.mp3, https://s3.amazonaws.com/freecodecamp/simonSound2.mp3, https://s3.amazonaws.com/freecodecamp/simonSound3.mp3, https://s3.amazonaws.com/freecodecamp/simonSound4.mp3.
+      `,
+      lessonsLearned: `In this project I successfullyJavaScript to play audio file on button presses.`,
+      process: `<p>I followed the freecodecamp user story:</p>
+      <ul>           
+        <li><b>User Story #1:</b>I am presented with a random series of button presses.</li>
+        <li><b>User Story #2:</b> Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.</li>
+        <li><b>User Story #3:</b> I hear a sound that corresponds to each button both when the series of button presses plays, and when I personally press a button.</li>
+        <li><b>User Story #4:</b> If I press the wrong button, I am notified that I have done so, and that series of button presses starts again to remind me of the pattern so I can try again.</li>
+        <li><b>User Story #5:</b> I can see how many steps are in the current series of button presses.</li>
+        <li><b>User Story #6:</b>If I want to restart, I can hit a button to do so, and the game will return to a single step.</li>
+        <li><b>User Story #7:</b>I can play in strict mode where if I get a button press wrong, it notifies me that I have done so, and the game restarts at a new random series of button presses.</li>
+        <li><b>User Story #8:</b>I can win the game by getting a series of 20 steps correct. I am notified of my victory, then the game starts over.
+        </li>
 
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
+    </ul>
+ `,
+      mobileView: `../../../images/front-end-framework/simon/simon-mobile.png`,
+      tabletView: `../../../images/front-end-framework/simon/simon-mobile.png`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
+  {
+    title: "Twitch.tv JSON-API",
+    path: "twitchclone",
+    imageSrc: "../../../images/front-end-framework/twitch/twitch.png",
+    type: "angular",
+    description: ``,
+    codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
+    githubLink:
+      "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
+    projectLink: "#",
+    badges: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Front-End",
+      "freecodecamp",
+      "Angular",
+    ],
+
+    details: {
+      overview: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used Angular 1 to build a Twitch.tv JSON-API Clone.`,
+      goals: `Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/Myvqmo/. Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.`,
+      lessonsLearned: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+      dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
+      quaerat similique delectus aspernatur aut cum. Totam est modi
+      accusantium tempore! Sed, porro!`,
+      process: `<p>I followed the freecodecamp user story:</p>
+      <ul>           
+          <li><b>User Story #1:</b>I can see whether Free Code Camp is currently streaming on Twitch.tv.</li>
+          <li><b>User Story #2:</b> I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel.</li>
+          <li><b>User Story #3:</b> if a Twitch user is currently streaming, I can see additional details about what they are streaming.</li>
+      </ul>
+ `,
+      mobileView: `../../../images/front-end-framework/twitch/twitch-mobile.png`,
+      tabletView: `../../../images/front-end-framework/twitch/twitch-tablet.png`,
+      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolUsed: [
+        {
+          name: "HTML",
+          src: "../../../images/about-logos/html5.svg",
+          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
+        },
+        {
+          name: "CSS",
+          src: "../../../images/about-logos/css.svg",
+          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
+        },
+        {
+          name: "Sass",
+          src: "../../../images/about-logos/sass.svg",
+          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
+        },
+        {
+          name: "React",
+          src: "../../../images/about-logos/react.svg",
+          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
+        },
+      ],
+      reusablecomponents: null,
+    },
+  },
   // {
   //   title: "Basic Instagram clone",
   //   path: "instagramclone",
@@ -1635,80 +1298,4 @@ module.exports = [
   //   },
   // },
   // {
-  //   title: "Wiki Viewer",
-  //   path: "wikiviewer",
-  //   imageSrc: "../../../images/front-end-lib/wikiviewer.png",
-  //   type: "js",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-  //   Autem eligendi deleniti iure eius itaque mollitia veniam
-  //   vitae earum nesciunt voluptate.`,
-  //   codepenLink: "https://codepen.io/danielphilipjohnson/full/LYGWYBg",
-  //   githubLink:
-  //     "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Wiki-Viewer",
-  //   projectLink: "#",
-  //   badges: ["HTML5", "CSS", "Javascript", "Front-End", "freecodecamp"],
-  //   details: {
-  //     overview: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     goals: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  //     Architecto explicabo cupiditate perferendis ad unde iure
-  //     necessitatibus, ipsum esse veniam? Fugit, quod suscipit facilis
-  //     deleniti distinctio dolores quaerat ut nihil aliquid!Provident
-  //     assumenda accusamus minima excepturi laudantium nisi sapiente
-  //     perspiciatis doloribus fugit ratione ea delectus commodi
-  //     doloremque ullam aperiam eos mollitia pariatur molestiae,
-  //     veritatis illo iure nihil architecto. Ipsam, provident adipisci?`,
-  //     lessonsLearned: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     process: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //     dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //     quaerat similique delectus aspernatur aut cum. Totam est modi
-  //     accusantium tempore! Sed, porro!`,
-  //     mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-  //     toolUsed: [
-  //       {
-  //         name: "JavaScript",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "React",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "Redux",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //       {
-  //         name: "GraphQL",
-  //         src: "https://source.unsplash.com/daily",
-  //         about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-  //       dolorem magnam minus eaque! Placeat excepturi quisquam doloremque
-  //       quaerat similique delectus aspernatur aut cum. Totam est modi
-  //       accusantium tempore! Sed, porro!`,
-  //       },
-  //     ],
-  //     reusablecomponents: null,
-  //   },
-  // },
 ];

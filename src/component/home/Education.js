@@ -8,6 +8,8 @@ import "./education.css";
 import atlassian from "../../images/course-logos/atlassian.webp";
 import google from "../../images/course-logos/google.png";
 import hong from "../../images/course-logos/hong.png";
+import freecodecamp from "../../images/course-logos/freecodecamp.jpeg";
+
 import michigan from "../../images/course-logos/michigan.png";
 import plymouth from "../../images/course-logos/plymouth.png";
 import uci from "../../images/course-logos/uci.webp";
@@ -34,6 +36,8 @@ function Education() {
       return <img className="course-logo" src={google} alt="uci" />;
     } else if (imageType === "hong") {
       return <img className="course-logo" src={hong} alt="uci" />;
+    } else if (imageType === "freecodecamp") {
+      return <img className="course-logo" src={freecodecamp} alt="uci" />;
     } else if (imageType === "michigan") {
       return <img className="course-logo" src={michigan} alt="michigan" />;
     } else if (imageType === "plymouth") {
