@@ -6,14 +6,19 @@ import HomeTools from "../../component/home/HomeTools";
 
 import Education from "../../component/home/Education";
 import Biography from "../../component/home/Biography";
+
 import Clients from "../../component/home/clients";
-import Services from "../../component/home/services";
+
+import Services from "./services/services";
 import WorkExperience from "../../component/home/work-experience";
 
 import bg from "../../images/showcase1.jpg";
 
 const HomeContainer = () => {
-  const { site } = useStaticQuery(siteQuery);
+  const {
+    site: { siteMetadata },
+  } = useStaticQuery(siteQuery);
+
   return (
     <>
       <section
@@ -32,7 +37,7 @@ const HomeContainer = () => {
           <span> Johnson</span>
         </h1>
         <div id="icons" className="icons home-cta">
-          <h2 className="sm-heading">{site.siteMetadata.tagline}</h2>
+          <h2 className="sm-heading">{siteMetadata.tagline}</h2>
 
           <SocialIcons />
 
@@ -46,7 +51,13 @@ const HomeContainer = () => {
           </div>
         </div>
       </section>
-
+      <div className="profile-text">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: siteMetadata.about.aboutInfo.html,
+          }}
+        ></div>
+      </div>
       <HomeTools />
       <Services />
       <Biography />
@@ -66,6 +77,20 @@ const siteQuery = graphql`
     site {
       siteMetadata {
         tagline
+        about {
+          aboutStats {
+            imageSrc
+            link
+            alt
+          }
+          aboutInfo {
+            image {
+              src
+              alt
+            }
+            html
+          }
+        }
       }
     }
   }
