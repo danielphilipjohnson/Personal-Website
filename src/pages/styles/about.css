@@ -191,7 +191,8 @@
 }
 
 .alt-bio {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background-color: #ffff;
   color: rgb(79, 79, 79);
   margin-bottom: 1rem;
 }
