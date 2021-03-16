@@ -91,6 +91,13 @@ function Profile() {
               <span className="emoji">✨</span>. and I am about to start a blog
               series and data structures.
             </p>
+            <div className="banner">
+              <div className="right">
+                <span>👉 </span>
+                If you want to know about me click
+                <a href="#"> here</a>
+              </div>
+            </div>
           </blockquote>
         </div>
       </div>

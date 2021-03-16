@@ -20,7 +20,7 @@ function WorkExperience() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                🔶 @CodeCareer.io
+                @CodeCareer.io
               </a>
             </h5>
             <em className="text-highlight">
