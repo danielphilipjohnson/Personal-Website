@@ -46,9 +46,10 @@ const HomeContainer = () => {
           </div>
         </div>
       </section>
-      <WorkExperience />
+
       <HomeTools />
       <Biography />
+      <WorkExperience />
       <Services />
       <Clients />
       <Education />
