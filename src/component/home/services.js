@@ -43,16 +43,24 @@ function services() {
             />
             <h3>Writing Code</h3>
             <p>
-              Need help refactoring a codebase, implementing new features in
-              react apps with clean code, and performance improvements.
+              Need help adding to your a codebase or a open source project, I
+              can use Javascript, React and Angular. feel free to contact me.
             </p>
           </div>
+
           <div>
-            <FontAwesomeIcon icon={faCogs} size="4x" className="process-icon" />
-            <h3>API Development</h3>
+            <img
+              className="process-icon"
+              src="https://img.icons8.com/ios/250/FFFFFF/book.png"
+              alt=""
+              srcset=""
+            />
+
+            <h3>Writing books and documentation</h3>
             <p>
-              REST APIs that are tailored to your needs and follow the best
-              practices in performance and security.
+              Currently writing a book about Tailwind CSS as well as a Book
+              about using GatsbyJS. If you need someone to review your book
+              contact me.
             </p>
           </div>
 
@@ -77,14 +85,17 @@ function services() {
             </p>
           </div>
           <div>
-            <FontAwesomeIcon
-              icon={faMobileAlt}
-              size="4x"
+            <img
               className="process-icon"
+              src="https://img.icons8.com/ios/250/FFFFFF/hammer.png"
+              alt=""
+              srcset=""
             />
-            <h3>Mobile Applications</h3>
+
+            <h3>Code Refactoring</h3>
             <p>
-              Cross-platform apps built with react Native for Android and iOS.
+              Need help refactoring a codebase, implementing new features in
+              react apps with clean code, and performance improvements.
             </p>
           </div>
         </div>

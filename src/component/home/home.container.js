@@ -48,10 +48,12 @@ const HomeContainer = () => {
       </section>
 
       <HomeTools />
-      <Biography />
-      <WorkExperience />
       <Services />
-      <Clients />
+      <Biography />
+
+      <WorkExperience />
+
+      {/* <Clients /> */}
       <Education />
     </>
   );
