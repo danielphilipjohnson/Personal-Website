@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import "./home-tools.css";
 
-function HomeTools() {
+function Tools() {
   const { site } = useStaticQuery(siteQuery);
 
   return (
@@ -28,7 +28,7 @@ function HomeTools() {
   );
 }
 
-export default HomeTools;
+export default Tools;
 
 const siteQuery = graphql`
   query {

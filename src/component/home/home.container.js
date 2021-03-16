@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 
 import SocialIcons from "../../component/home/Icons";
-import HomeTools from "../../component/home/HomeTools";
+import Tools from "./tools/tools";
 
 import Education from "../../component/home/Education";
 import Biography from "../../component/home/Biography";
@@ -56,7 +56,7 @@ const HomeContainer = () => {
 
       <Profile />
       <WorkExperience />
-      <HomeTools />
+      <Tools />
       <Services />
       <Biography />
 
