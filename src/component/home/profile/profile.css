@@ -1,0 +1,14 @@
+.profile-text {
+  padding: 1rem 1.75rem;
+  background-color: #fff;
+  color: rgb(16, 42, 67);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.profile-text a {
+  color: #292929;
+  font-weight: bold;
+}

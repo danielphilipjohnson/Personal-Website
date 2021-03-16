@@ -10,6 +10,8 @@ import Biography from "../../component/home/Biography";
 import Clients from "../../component/home/clients";
 
 import Services from "./services/services";
+import Profile from "./profile/profile";
+
 import WorkExperience from "../../component/home/work-experience";
 
 import bg from "../../images/showcase1.jpg";
@@ -51,13 +53,8 @@ const HomeContainer = () => {
           </div>
         </div>
       </section>
-      <div className="profile-text">
-        <div
-          dangerouslySetInnerHTML={{
-            __html: siteMetadata.about.aboutInfo.html,
-          }}
-        ></div>
-      </div>
+      <Profile />
+
       <HomeTools />
       <Services />
       <Biography />
