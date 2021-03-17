@@ -1,5 +1,4 @@
 .home-services {
-  /* background-color: #f7f7f7; */
   background-color: #fff;
   color: #333;
   padding: 0rem 0 1rem 0;
@@ -9,7 +8,6 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 1.5rem;
-  text-align: center;
 }
 
 .home-services .process h3 {
@@ -20,23 +18,16 @@
 
 .home-services .process p {
   font-size: 0.95rem;
-  color: rgb(119, 119, 119);
+  color: #37352f;
+}
+.service {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.service div {
+  padding: 0 1rem;
 }
 
-/* .home-services .process-step {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 28px;
-  background: #9b3cab;
-  color: #fff;
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  line-height: 15px;
-  padding: 1rem;
-  transition: all 1s;
-} */
 .home-services .process {
   padding-top: 1rem;
 }
@@ -44,11 +35,10 @@
   background: linear-gradient(90deg, #e947ea 0%, #8f3aa1 35%, #34aeb9 100%);
   border-radius: 50%;
   margin-bottom: 0.75rem;
-  padding: 2rem;
-  width: 5.95rem;
-  height: 5.95rem;
+  padding: 1rem;
+  width: 2.95rem;
+  height: 2.95rem;
   line-height: 70px;
-  text-align: center;
   position: relative;
   color: #fff;
   transition: all 1s;
@@ -81,12 +71,6 @@
   font-size: 2rem;
   display: block;
   padding-bottom: 0.5rem;
-  text-align: center;
   font-weight: 100;
   text-transform: uppercase;
-}
-
-.lead {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
 }
