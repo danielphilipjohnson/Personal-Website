@@ -5,14 +5,14 @@ function Btns({ getTypeOfProjects, activeType }) {
   const { site } = useStaticQuery(siteQuery);
   const allTypes = site.siteMetadata.projectTypes;
   return (
-    <div className="btn-group">
+    <div className="btn-group-between">
       {allTypes.map((btn) => {
         const btnLowered = btn.toLowerCase();
 
         if (btnLowered === activeType) {
           return (
             <button
-              className="btn-outline active"
+              className="btn-outline btn-projects active"
               key={btnLowered}
               onClick={() => {
                 getTypeOfProjects(btnLowered);
@@ -27,7 +27,7 @@ function Btns({ getTypeOfProjects, activeType }) {
         }
         return (
           <button
-            className="btn-outline"
+            className="btn-outline btn-projects"
             onClick={() => {
               getTypeOfProjects(btnLowered);
             }}

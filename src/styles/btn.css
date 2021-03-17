@@ -1,3 +1,13 @@
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+.btn-group-between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .btn,
 .btn-certificate,
 .btn-dark,
@@ -37,14 +47,16 @@
 .btn-outline {
   padding: 0.75rem 0.95rem;
   background-color: #a1a5e438;
+
+  transition: all 0.5s ease-out;
+}
+.btn-outline.btn-projects {
   border: 1px solid #d1d0cd;
   border-radius: 5px;
-  max-width: 150px;
-  transition: all 0.5s ease-out;
-  display: flex;
+  min-width: 150px;
   justify-content: space-between;
+  display: flex;
   margin-right: 2rem;
-  width: 250px;
 }
 .btn-outline:hover {
   background-color: #a1a5e4e7;
@@ -59,6 +71,8 @@
 }
 
 .btn-outline.light {
+  min-width: 120px;
+  margin-right: 0.5rem;
   border: 2px solid #fff;
   color: #fff;
 }
