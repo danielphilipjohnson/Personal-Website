@@ -8,8 +8,16 @@ function Tools() {
   return (
     <section id="home-tools">
       <div className="container">
-        <h2 className="text-purple skill-heading text-center"> 🧰 Tools</h2>
-
+        <h2 className="text-purple skill-heading"> 🧰 Tools</h2>
+        <h3>Here are a list of tools, I use daily during my job.</h3>
+        {/* <div className="banner">
+          <div className="right">
+            <span role="img" aria-label="my resume">
+              ✨
+            </span>
+            Here are a list of tools I use daily during my job.
+          </div>
+        </div> */}
         <div className="specials">
           {site.siteMetadata.specialities.map((skill) => {
             const { heading, src, description } = skill;
