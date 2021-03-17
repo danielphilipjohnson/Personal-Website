@@ -14,11 +14,11 @@ const WorkPage = ({ location }) => {
       <Layout location={location.pathname}>
         <SEO />
         <section id="work" className="work">
-          <Header
+          {/* <Header
             title={"My"}
             secondary={"Work"}
             subTitle={"Check out some of my projects..."}
-          />
+          /> */}
 
           <Projects />
         </section>

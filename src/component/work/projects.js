@@ -37,11 +37,27 @@ function Projects() {
   return (
     <>
       <div id="responsive" className="container">
+        <h1 className="text-purple page-heading lg-heading">Projects</h1>
+        <div className="badge bb">
+          <span role="img" aria-label="my resume">
+            ⚡
+          </span>
+          <span>
+            On this page you will see a list of my personal projects I have
+            built and each will explain what I have learned and what tools I
+            used.
+          </span>
+        </div>
         <BtnGroup
           getTypeOfProjects={getTypeOfProjects}
           activeType={activeType}
         />
-
+        <h2 className="text-purple skill-heading">
+          <span role="img" aria-label="Daniel Johnson">
+            🙋‍♂️
+          </span>{" "}
+          List of projects
+        </h2>
         <div className="projects">
           {filteredProjects.map((project) => {
             return (
