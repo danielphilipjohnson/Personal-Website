@@ -49,7 +49,7 @@ h3.sm-heading {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 3.55rem;
+    font-size: 2.55rem;
   }
   h1.sm-heading,
   h2.sm-heading,
@@ -60,87 +60,93 @@ h3.sm-heading {
   }
 }
 
+.skill-heading {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 2rem 0 1rem 0;
+}
+.page-heading {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 2rem 0 1rem 0;
+}
+.bb {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+/* Badges */
+.badge-tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  font-size: 0.875rem;
+  margin: 0 0.25rem 0.5rem 0.25rem;
+  padding: 0 8px;
+  line-height: 1.5rem;
+  background: #a1a5e454;
+  color: #fff;
+}
+
+.badge-tech:hover {
+  background-color: #444343;
+  opacity: 0.8;
+}
+
+/* split out banner*/
+
+.badge {
+  padding: 0.75rem 0.95rem;
+  background-color: #a1a5e438;
+  border: 1px solid #d1d0cd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.banner {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner .left {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .banner {
+    margin-bottom: 2rem;
+    flex-direction: row;
+  }
+  .banner .left {
+    margin-bottom: 0;
+  }
+}
+.banner .right {
+  padding: 0.75rem 0.95rem;
+  background-color: #a1a5e438;
+  border: 1px solid #d1d0cd;
+  border-radius: 5px;
+}
+.banner .right span {
+  font-size: 1.35rem;
+}
+
+.banner .right a {
+  font-weight: 500;
+  color: rgb(55, 53, 47);
+  border-bottom: 1px solid #e4e4e4;
+}
+
 header {
   background-color: #1b1c28;
   padding: 4.5rem 0 0 0;
 }
 
-.btn-group {
-  text-align: center;
-}
 .btn-group,
 .github-stats {
   padding: 1rem 0;
-}
-
-.btn,
-.btn-certificate,
-.btn-dark,
-.btn-download,
-.btn-light,
-.btn-outline {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  padding: 0.5rem 1rem;
-  border: 0;
-  margin-right: 0.3rem;
-  margin-bottom: 0.3rem;
-}
-.btn-certificate:hover,
-.btn-dark:hover,
-.btn-download:hover,
-.btn-light:hover,
-.btn-outline:hover,
-.btn:hover {
-  background: #94c85a;
-  color: #000;
-}
-.btn-dark {
-  background: #000;
-  color: #fff;
-}
-.btn-light {
-  background: #aeafc7;
-  color: #333;
-}
-.btn-outline {
-  border: 2px solid #000;
-  color: #000;
-  max-width: 250px;
-  transition: all 0.5s ease-out;
-}
-
-.btn-outline.active {
-  background: #94c85a;
-  color: #000;
-}
-.btn-outline.light {
-  border: 2px solid #fff;
-  color: #fff;
-}
-.btn-outline.light.active {
-  background: #94c85a;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-.btn-certificate {
-  background: #303146;
-  color: #fff;
-}
-.btn-download {
-  background-color: #303146;
-  border-radius: 5px;
-  color: #fff;
-}
-.btn-download i {
-  color: #fff;
-  margin-right: 0.5rem;
 }
 
 /* special bottom line border */

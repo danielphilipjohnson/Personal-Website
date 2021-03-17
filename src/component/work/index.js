@@ -9,13 +9,14 @@ import BtnGroup from "./btns";
 import getBadgeLogo from "../../utils/getBadgeLogo";
 
 import bg from "../../images/overlay-bg.png";
+
 import "./projects.css";
 
 function Projects() {
   const { site } = useStaticQuery(siteQuery);
   const allProjects = site.siteMetadata.projects;
   const [filteredProjects, setFilteredProjects] = useState([]);
-  const [activeType, setActiveType] = useState("all");
+  const [activeType, setActiveType] = useState("responsive");
 
   const getTypeOfProjects = (type) => {
     setActiveType(type);
@@ -37,11 +38,27 @@ function Projects() {
   return (
     <>
       <div id="responsive" className="container">
+        <h1 className="text-purple page-heading lg-heading">Projects</h1>
+        <div className="badge bb">
+          <span role="img" aria-label="my resume">
+            ⚡
+          </span>
+          <span>
+            On this page you will see a list of my personal projects I have
+            built and each will explain what I have learned and what tools I
+            used.
+          </span>
+        </div>
         <BtnGroup
           getTypeOfProjects={getTypeOfProjects}
           activeType={activeType}
         />
-
+        <h2 className="text-purple skill-heading">
+          <span role="img" aria-label="Daniel Johnson">
+            🙋‍♂️
+          </span>{" "}
+          List of projects
+        </h2>
         <div className="projects">
           {filteredProjects.map((project) => {
             return (
@@ -70,7 +87,6 @@ function Projects() {
                             return (
                               <span className="badge-tech" key={badge}>
                                 {getBadgeLogo(badge)}
-                                {/* <img src={JavaScriptLogo} /> */}
                                 {badge}
                               </span>
                             );
