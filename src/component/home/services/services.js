@@ -6,12 +6,7 @@ import {
   faObjectUngroup,
 } from "@fortawesome/free-regular-svg-icons";
 
-import {
-  faMobileAlt,
-  faCode,
-  faCogs,
-  faPencilAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCode, faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 
 import "./services.css";
 
@@ -19,11 +14,10 @@ function services() {
   return (
     <section id="home-services" className="home-services">
       <div className="container">
-        <h2 className="text-purple skill-heading">💼 What I offer</h2>
-        {/* <div className="bottom-line"></div> */}
-        {/* <p className="lead text-center">
-          Things I'm skilled at and passionate about.
-        </p> */}
+        <h2 className="text-center text-purple skill-heading">
+          💼 What I offer
+        </h2>
+
         <div className="process">
           <div>
             <FontAwesomeIcon

@@ -8,8 +8,7 @@ function Tools() {
   return (
     <section id="home-tools">
       <div className="container">
-        <h2 className="text-purple skill-heading"> 🧰 Tools</h2>
-        {/* <div className="bottom-line"></div> */}
+        <h2 className="text-purple skill-heading text-center"> 🧰 Tools</h2>
 
         <div className="specials">
           {site.siteMetadata.specialities.map((skill) => {
