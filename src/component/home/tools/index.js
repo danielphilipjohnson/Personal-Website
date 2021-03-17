@@ -1,12 +1,12 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import "./home-tools.css";
+import "./tools.css";
 
 function Tools() {
   const { site } = useStaticQuery(siteQuery);
 
   return (
-    <section className="home-tools">
+    <section className="tools">
       <div className="container">
         <h2 className="text-purple skill-heading"> 🧰 Tools</h2>
         <h3>Here are a list of tools, I use daily during my job.</h3>

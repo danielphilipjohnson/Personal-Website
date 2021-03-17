@@ -1,4 +1,4 @@
-.home-tools {
+.tools {
   padding: 0rem 1rem;
   background-color: #fff;
   color: #37352f;
@@ -33,11 +33,9 @@
 }
 
 @media (min-width: 800px) {
-  .specializes,
-  .home-services .process {
+  .specializes {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .specializes h3 {
     margin-bottom: 0.5rem;
   }

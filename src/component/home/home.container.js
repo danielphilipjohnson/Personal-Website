@@ -1,15 +1,15 @@
 import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 
-import SocialIcons from "../../component/home/Icons";
-import Tools from "./tools/tools";
+import SocialIcons from "./social-icons";
+import Tools from "./tools";
 
-import Education from "./education/Education";
+import Education from "./education";
 
-import Services from "./services/services";
-import Profile from "./profile/profile";
+import Services from "./services";
+import Profile from "./profile";
 
-import WorkExperience from "./work-experience/work-experience";
+import WorkExperience from "./work-experience";
 
 import bg from "../../images/showcase1.jpg";
 
@@ -55,9 +55,6 @@ const HomeContainer = () => {
       <WorkExperience />
       <Tools />
       <Services />
-      {/* <Biography /> */}
-
-      {/* <Clients /> */}
       <Education />
     </>
   );
