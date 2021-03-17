@@ -1,19 +1,23 @@
 import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 
-import SocialIcons from "../../component/home/Icons";
-import HomeTools from "../../component/home/HomeTools";
+import SocialIcons from "./social-icons";
+import Tools from "./tools";
 
-import Education from "../../component/home/Education";
-import Biography from "../../component/home/Biography";
-import Clients from "../../component/home/clients";
-import Services from "../../component/home/services";
-import WorkExperience from "../../component/home/work-experience";
+import Education from "./education";
+
+import Services from "./services";
+import Profile from "./profile";
+
+import WorkExperience from "./work-experience";
 
 import bg from "../../images/showcase1.jpg";
 
 const HomeContainer = () => {
-  const { site } = useStaticQuery(siteQuery);
+  const {
+    site: { siteMetadata },
+  } = useStaticQuery(siteQuery);
+
   return (
     <>
       <section
@@ -23,7 +27,7 @@ const HomeContainer = () => {
           backgroundImage: `url(${bg})`,
         }}
       >
-        <h1 className="lg-heading">
+        <h1 className="lg-heading text-center">
           Daniel
           <span id="secondary" className="text-secondary">
             {" "}
@@ -32,7 +36,7 @@ const HomeContainer = () => {
           <span> Johnson</span>
         </h1>
         <div id="icons" className="icons home-cta">
-          <h2 className="sm-heading">{site.siteMetadata.tagline}</h2>
+          <h2 className="sm-heading">{siteMetadata.tagline}</h2>
 
           <SocialIcons />
 
@@ -46,11 +50,11 @@ const HomeContainer = () => {
           </div>
         </div>
       </section>
+
+      <Profile />
       <WorkExperience />
-      <HomeTools />
-      <Biography />
+      <Tools />
       <Services />
-      <Clients />
       <Education />
     </>
   );
@@ -63,6 +67,20 @@ const siteQuery = graphql`
     site {
       siteMetadata {
         tagline
+        about {
+          aboutStats {
+            imageSrc
+            link
+            alt
+          }
+          aboutInfo {
+            image {
+              src
+              alt
+            }
+            html
+          }
+        }
       }
     }
   }

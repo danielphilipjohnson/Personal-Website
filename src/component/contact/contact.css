@@ -1,0 +1,20 @@
+.contacts {
+  background-color: #fff;
+}
+
+.form-card {
+  grid-template-columns: 1fr;
+  display: grid;
+  padding: 2rem 0 0 0;
+}
+@media screen and (min-width: 370px) {
+  .form-card {
+    padding: 3rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form-card {
+    grid-template-columns: 2fr 1fr;
+  }
+}

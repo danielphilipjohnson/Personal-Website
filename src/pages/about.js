@@ -12,6 +12,7 @@ import SEO from "../component/Seo";
 import Header from "../component/layout/Header";
 
 import Layout from "../component/layout/Layout";
+import Bio from "../component/about/bio/Biography";
 
 import profile from "../images/profile.jpg";
 import banner from "../images/linkedinBanner.png";
@@ -167,9 +168,7 @@ const About = ({ location }) => {
                 </div>
               </div>
             </div>
-            <div className="profile-text">
-              <div dangerouslySetInnerHTML={{ __html: aboutInfo.html }}></div>
-            </div>
+            <Bio />
           </div>
 
           <section className="alt-bio bio-section" aria-label="quick bio">
@@ -181,7 +180,7 @@ const About = ({ location }) => {
           </section>
 
           <section
-            className="values-missions bio-section"
+            className="alt-bio values-missions bio-section"
             aria-label="my values and missions"
           >
             <div className="container container-text">
@@ -280,7 +279,7 @@ const About = ({ location }) => {
           </section>
 
           <section
-            className="values-missions bio-section"
+            className="alt-bio values-missions bio-section"
             aria-label="my future plans"
           >
             <div className="container container-text">

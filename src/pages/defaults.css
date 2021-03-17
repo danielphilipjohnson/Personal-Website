@@ -152,6 +152,11 @@ header {
   margin: 0 auto 1rem;
 }
 
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
 /* Container */
 
 .container {
