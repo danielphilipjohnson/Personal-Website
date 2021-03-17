@@ -1,5 +1,5 @@
 import React from "react";
-import ContactInfo from "./contact-container";
+import FormContainer from "./form-container";
 import ImageContainer from "./image-container";
 
 import "./contact.css";
@@ -10,7 +10,7 @@ function ContactContainer() {
       <section className="form-card">
         <ImageContainer />
 
-        <ContactInfo />
+        <FormContainer />
       </section>
     </section>
   );

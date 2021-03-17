@@ -101,7 +101,14 @@ function Form() {
               <div className="chevrons">
                 <FontAwesomeIcon icon={faChevronUp} />
                 <FontAwesomeIcon icon={faChevronDown} />
-              </div>
+              </div>{" "}
+              {/* <section className="contacts">
+          <section className="form-card">
+            <ImageContainer />
+
+            <ContactContainer />
+          </section>
+        </section> */}
             </div>
             <div className="options">
               <div className="option">

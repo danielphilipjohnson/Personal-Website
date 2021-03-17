@@ -1,11 +1,11 @@
 import React from "react";
 
 import Form from "./form/form";
-import ContactInfo from "./info/contact-info";
+// import ContactInfo from "../info/contact-info";
 
-import "./contact-container.css";
+import "./form-container.css";
 
-function ContactContainer() {
+function FormContainer() {
   const contactinfo = {
     location: "Truro, Cornwall, United Kingdom",
     mobile: "+44 555-5555",
@@ -29,4 +29,4 @@ function ContactContainer() {
   );
 }
 
-export default ContactContainer;
+export default FormContainer;

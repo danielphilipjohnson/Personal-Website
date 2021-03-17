@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./image-container.css";
 
-import formbg from "../../images/formbg.jpeg";
+import formbg from "../../../images/formbg.jpeg";
 function ImageContainer() {
   return (
     <div
