@@ -4,9 +4,7 @@ import { useStaticQuery, graphql, Link } from "gatsby";
 import SocialIcons from "../../component/home/Icons";
 import Tools from "./tools/tools";
 
-import Education from "../../component/home/Education";
-
-import Clients from "../../component/home/clients";
+import Education from "./education/Education";
 
 import Services from "./services/services";
 import Profile from "./profile/profile";
