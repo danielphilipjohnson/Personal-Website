@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import "./profile.css";
 
@@ -6,14 +7,36 @@ function Profile() {
   return (
     <section className="profile">
       <div className="container">
-        <h2 className="text-purple skill-heading">🙋‍♂️ About me</h2>
+        <h2 className="text-purple skill-heading">
+          <span role="img" aria-label="Daniel Johnson">
+            🙋‍♂️
+          </span>{" "}
+          About me
+        </h2>
         <div className="banner">
           <div className="left">
-            <span className="heading-2">Hi 👋 I am Daniel✨</span>
-            <p>👨‍💻 I work remote 🏠 from Cornwall</p>
+            <span className="heading-2">
+              Hi{" "}
+              <span role="img" aria-label="happy to meet you">
+                👋{" "}
+              </span>
+              I am Daniel✨
+            </span>
+            <p>
+              <span role="img" aria-label="As a front end engineer">
+                👨‍💻{" "}
+              </span>
+              I work remote{" "}
+              <span role="img" aria-label="from my house">
+                🏠
+              </span>{" "}
+              in Cornwall
+            </p>
           </div>
           <div className="right">
-            <span>📝</span>
+            <span role="img" aria-label="my resume">
+              📝
+            </span>
             <a href="#"> Resume PDF</a>
           </div>
         </div>
@@ -72,8 +95,7 @@ function Profile() {
               <span className="text-highlight">
                 <strong>maintaining</strong>
               </span>{" "}
-              <span className="emoji">🛠️</span> a job board hiring system for
-              junior developers. Currently, I am{" "}
+              a job board hiring system for junior developers. Currently, I am{" "}
               <span className="text-highlight">
                 <strong>refactoring</strong>
               </span>{" "}
@@ -81,21 +103,21 @@ function Profile() {
               <span className="text-highlight">
                 <strong>optimizing</strong>
               </span>{" "}
-              load times <span className="emoji">⏱️</span>.
+              load times.
             </p>
             <p>
-              In my spare time, I am writing a TailwindCSS{" "}
-              <span className="emoji">📖</span> for a publisher as well as
-              writing a <span className="emoji">📖</span> about using Gatsby.js.
-              I also contribute to open source projects{" "}
-              <span className="emoji">✨</span>. and I am about to start a blog
-              series and data structures.
+              In my spare time, I am writing a TailwindCSS for a publisher as
+              well as writing a about using Gatsby.js. I also contribute to open
+              source projects. and I am about to start a blog series and data
+              structures.
             </p>
             <div className="banner">
               <div className="right">
-                <span>👉 </span>
+                <span role="img" aria-label="go here">
+                  👉{" "}
+                </span>
                 If you want to know about me click
-                <a href="#"> here</a>
+                <Link to="about"> here</Link>
               </div>
             </div>
           </blockquote>
