@@ -9,7 +9,6 @@ import atlassian from "../../images/course-logos/atlassian.webp";
 import google from "../../images/course-logos/google.png";
 import hong from "../../images/course-logos/hong.png";
 import freecodecamp from "../../images/course-logos/freecodecamp.jpeg";
-
 import michigan from "../../images/course-logos/michigan.png";
 import plymouth from "../../images/course-logos/plymouth.png";
 import uci from "../../images/course-logos/uci.webp";
@@ -52,7 +51,12 @@ function Education() {
   return (
     <div id="education" className="bio-education">
       <div className="container container-narrow">
-        <h2 className="text-purple skill-heading">🎓 Education</h2>
+        <h2 className="text-purple skill-heading">
+          <span crole="img" aria-label="graduation">
+            🎓
+          </span>{" "}
+          Education
+        </h2>
         <div className="job-meta">
           <span>May 2014</span>
         </div>
@@ -78,7 +82,9 @@ function Education() {
                 current topics:
               </li>
               <li>
-                <span className="text-highlight">Neurobiology and crime:</span>
+                <span className="text-highlight">
+                  <strong>Neurobiology and crime:</strong>
+                </span>
                 <p>
                   Researched how lies are formed in the brain and what leads to
                   body cues.
@@ -86,7 +92,9 @@ function Education() {
               </li>
 
               <li>
-                <span className="text-highlight">Neuroscience:</span>
+                <span className="text-highlight">
+                  <strong>Neuroscience:</strong>
+                </span>
 
                 <p>
                   The role of mental imagery and mental health. The embodied
@@ -95,7 +103,7 @@ function Education() {
               </li>
               <li>
                 <span className="text-highlight">
-                  Mental disorders and Pharmaceuticalogy:
+                  <strong>Mental disorders and Pharmaceuticalogy:</strong>
                 </span>
 
                 <p>
