@@ -6,26 +6,21 @@ function Tools() {
   const { site } = useStaticQuery(siteQuery);
 
   return (
-    <section id="home-tools">
+    <section className="home-tools">
       <div className="container">
         <h2 className="text-purple skill-heading"> 🧰 Tools</h2>
         <h3>Here are a list of tools, I use daily during my job.</h3>
-        {/* <div className="banner">
-          <div className="right">
-            <span role="img" aria-label="my resume">
-              ✨
-            </span>
-            Here are a list of tools I use daily during my job.
-          </div>
-        </div> */}
-        <div className="specials">
+
+        <div className="specializes">
           {site.siteMetadata.specialities.map((skill) => {
             const { heading, src, description } = skill;
             return (
-              <div key={heading}>
+              <div className="specialize" key={heading}>
                 <img src={src} alt={heading} />
-                <h3>{heading}</h3>
-                <p>{description}</p>
+                <div className="specialize__inner">
+                  <h3>{heading}</h3>
+                  <p>{description}</p>
+                </div>
               </div>
             );
           })}
