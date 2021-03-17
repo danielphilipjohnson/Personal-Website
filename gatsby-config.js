@@ -27,29 +27,26 @@ module.exports = {
         src:
           "https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/js.png",
         heading: `JavaScript`,
-        description: ` I have been using JavaScript for over two years which I have built
-        numerous projects and web apps.`,
+        description: `With over 2 years experience using JavaScript [ECMA5-11] building websites, react and angular apps.`,
       },
       {
         src:
           "https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/react.svg",
         heading: `React`,
-        description: ` I have built numerous projects with React which include a Markdown
-        Previewer, Drum Machine and a portfolio. Currently I'am finishing
-        of an amazon clone.`,
+        description: `2 years experience building various React projects from a Markdown Previewer, Drum Machine and amazon clone. As well as 6 months experience 
+        working as a React developer for a startup.`,
       },
       {
         src:
           "https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/Redux1.png",
         heading: `Redux`,
-        description: ` I use this as my current state manager. I have over a years
-        experience.`,
+        description: `When using React, Redux is my go to state manager which is paired with redux thunk and reselect`,
       },
       {
         src:
           "https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/GraphQL.png",
         heading: `GraphQL`,
-        description: `I use GraphQL as query language for my API's. I have been using
+        description: `An alternative to Redux which I love is GraphQL. I use this as query language for my API's. I have been using
         this for almost a year.`,
       },
     ],
