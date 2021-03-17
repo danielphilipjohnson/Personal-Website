@@ -9,6 +9,7 @@ import BtnGroup from "./btns";
 import getBadgeLogo from "../../utils/getBadgeLogo";
 
 import bg from "../../images/overlay-bg.png";
+
 import "./projects.css";
 
 function Projects() {
@@ -86,7 +87,6 @@ function Projects() {
                             return (
                               <span className="badge-tech" key={badge}>
                                 {getBadgeLogo(badge)}
-                                {/* <img src={JavaScriptLogo} /> */}
                                 {badge}
                               </span>
                             );

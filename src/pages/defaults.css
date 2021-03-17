@@ -75,6 +75,25 @@ h3.sm-heading {
   border-bottom: 1px solid #e4e4e4;
 }
 
+/* Badges */
+.badge-tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  font-size: 0.875rem;
+  margin: 0 0.25rem 0.5rem 0.25rem;
+  padding: 0 8px;
+  line-height: 1.5rem;
+  background: #a1a5e454;
+  color: #fff;
+}
+
+.badge-tech:hover {
+  background-color: #444343;
+  opacity: 0.8;
+}
+
 /* split out banner*/
 
 .badge {
@@ -150,14 +169,11 @@ header {
   user-select: none;
   padding: 0.5rem 1rem;
   border: 0;
-  /* margin-right: 0.3rem;
-  margin-bottom: 0.3rem; */
 }
 .btn-certificate:hover,
 .btn-dark:hover,
 .btn-download:hover,
 .btn-light:hover,
-.btn-outline:hover,
 .btn:hover {
   background: #94c85a;
   color: #000;
@@ -186,12 +202,15 @@ header {
   margin-right: 2rem;
   width: 250px;
 }
+.btn-outline:hover {
+  background-color: #a1a5e4e7;
+}
 .btn-outline p {
   margin-left: 0.75rem;
 }
 
 .btn-outline.active {
-  background: #94c85a;
+  background-color: #a1a5e4e7;
   color: #000;
 }
 
@@ -199,8 +218,9 @@ header {
   border: 2px solid #fff;
   color: #fff;
 }
+
 .btn-outline.light.active {
-  background: #94c85a;
+  background-color: #a1a5e4e7;
   border: 2px solid #fff;
   color: #fff;
 }
