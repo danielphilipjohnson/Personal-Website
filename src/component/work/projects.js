@@ -15,7 +15,7 @@ function Projects() {
   const { site } = useStaticQuery(siteQuery);
   const allProjects = site.siteMetadata.projects;
   const [filteredProjects, setFilteredProjects] = useState([]);
-  const [activeType, setActiveType] = useState("all");
+  const [activeType, setActiveType] = useState("responsive");
 
   const getTypeOfProjects = (type) => {
     setActiveType(type);

@@ -13,11 +13,14 @@ function Btns({ getTypeOfProjects, activeType }) {
           return (
             <button
               className="btn-outline active"
+              key={btnLowered}
               onClick={() => {
                 getTypeOfProjects(btnLowered);
               }}
-              key={btnLowered}
             >
+              <span aria-hidden="true" focusable="false">
+                ⚡
+              </span>
               {btn}
             </button>
           );
@@ -30,6 +33,9 @@ function Btns({ getTypeOfProjects, activeType }) {
             }}
             key={btnLowered}
           >
+            <span aria-hidden="true" focusable="false">
+              ⚡
+            </span>
             {btn}
           </button>
         );
