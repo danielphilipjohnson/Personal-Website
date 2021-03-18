@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import SEO from "../component/Seo";
 
 import Layout from "../component/layout/Layout";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./styles.css";
 
 function Work({ location, data, pageContext }) {
@@ -64,7 +64,9 @@ function Work({ location, data, pageContext }) {
                 alt=""
                 width="25"
               />
-              <a href="#">To view project click here</a>
+              <a href={pageContext.post.codepenLink}>
+                To view project click here
+              </a>
             </div>
           </div>
         </div>
@@ -98,10 +100,37 @@ function Work({ location, data, pageContext }) {
               />
               <figcaption>Fig.1 - Mobile View of App</figcaption>
             </figure>
+
+            <div>
+              <h2 className="project-heading">Respository </h2>
+              <a href={pageContext.post.githubLink}>
+                <div className="repo">
+                  <div className="repo__header">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/journal.png"
+                      alt=""
+                      width="25"
+                    />
+                    <p>{pageContext.post.title}</p>
+                  </div>
+
+                  <p className="repo__text">
+                    What is freeCodeCamp? We’re a nonprofit community that helps
+                    you learn to code by building projects. How can you help me
+                    learn to code? You'll learn to code by completing coding
+                    challenges and buil…
+                  </p>
+                  <div className="repo__footer">
+                    <FontAwesomeIcon icon={["fab", "github"]} />
+                    <span>github.com</span>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="btn-group ">
+        {/* <div className="btn-group ">
           <a
             className="btn-outline btn-outline-primary"
             href={pageContext.post.codepenLink}
@@ -114,7 +143,7 @@ function Work({ location, data, pageContext }) {
           >
             Github source
           </a>
-        </div>
+        </div> */}
 
         <div className="project-process container">
           <div className="project-process--information">
@@ -128,7 +157,7 @@ function Work({ location, data, pageContext }) {
               src={details.tabletView}
               alt="tablet view"
             />
-            <figcaption>Fig.2 - Tablet View of App</figcaption>
+            <figcaption>Fig.2 - Tablet View of App</figcaption>{" "}
           </figure>
         </div>
       </section>
