@@ -87,37 +87,12 @@ const About = ({ location }) => {
                     );
                   })}
 
-                  <div className="profile-card-body-item">
+                  {/* <div className="profile-card-body-item">
                     <h3>Occupation</h3>
                     <h4>React Developer</h4>
-                  </div>
+                  </div> */}
 
-                  <div className="profile-card-body-item">
-                    <h3>Technologies I use</h3>
-                    <div className="icons-technology">
-                      <img
-                        className="img-fluid"
-                        src={AngularLogo}
-                        alt="Angular"
-                      />
-                      <img src={ReactLogo} alt="React" />
-                      <img src={GatsbyLogo} alt="GatsbyJS" />
-                      <img src={GraphQlLogo} alt="GraphQL" />
-
-                      <img src={JavaScriptLogo} alt="JavaScript" />
-                      <img src={TypescriptLogo} alt="TypeScript" />
-                      <img src={SassLogo} alt="SASS" />
-                      <img src={BootstrapLogo} alt="Bootstrap" />
-                      <img
-                        className="img-fluid"
-                        src={TailwindLogo}
-                        alt="Tailwind"
-                      />
-                      <img src={GithubLogo} alt="Git Version Control" />
-                      {/* <img src={NpmLogo} alt="NPM" /> */}
-                    </div>
-                  </div>
-                  <div className="profile-card-body-item">
+                  {/* <div className="profile-card-body-item">
                     <h3>Graduated</h3>
                     <h4>
                       <span role="img" aria-labelledby="graduation cap">
@@ -128,7 +103,7 @@ const About = ({ location }) => {
                         🏫
                       </span>
                     </h4>
-                  </div>
+                  </div> */}
 
                   <div className="profile-card-body-item">
                     <h3>Location</h3>
@@ -148,11 +123,11 @@ const About = ({ location }) => {
 
                     <span> daniel-philip-johnson@gmail.com</span>
                   </div>
-
+                  {/* 
                   <div className="profile-card-body-item">
                     <h3>Availability</h3>
                     <p>Freelance: Available</p>
-                  </div>
+                  </div> */}
 
                   <div className="btn-group">
                     <Link className="btn-outline" to="/work">
@@ -172,7 +147,29 @@ const About = ({ location }) => {
           <Bio />
 
           <section className="alt-bio bio-section" aria-label="quick bio">
-            <div className="container ">
+            <div className="container">
+              {/* make it into a section */}
+              <div className="profile-card-body-item">
+                <h3>Technologies I use</h3>
+                <div className="icons-technology">
+                  <img className="img-fluid" src={AngularLogo} alt="Angular" />
+                  <img src={ReactLogo} alt="React" />
+                  <img src={GatsbyLogo} alt="GatsbyJS" />
+                  <img src={GraphQlLogo} alt="GraphQL" />
+
+                  <img src={JavaScriptLogo} alt="JavaScript" />
+                  <img src={TypescriptLogo} alt="TypeScript" />
+                  <img src={SassLogo} alt="SASS" />
+                  <img src={BootstrapLogo} alt="Bootstrap" />
+                  <img
+                    className="img-fluid"
+                    src={TailwindLogo}
+                    alt="Tailwind"
+                  />
+                  <img src={GithubLogo} alt="Git Version Control" />
+                  {/* <img src={NpmLogo} alt="NPM" /> */}
+                </div>
+              </div>
               <h2 className="text-secondary">{quickBio.heading}</h2>
 
               <p dangerouslySetInnerHTML={{ __html: quickBio.html }}></p>
