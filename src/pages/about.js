@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 
+import PDF from "../../downloads//Daniel_Philip_Johnson_CV.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMapMarkerAlt,
@@ -51,7 +52,7 @@ const About = ({ location }) => {
           subTitle={"Let me tell you a few things..."}
         /> */}
 
-        <div className="about">
+        <div className="about top-banner">
           <div className="about-info alt-bio">
             <div className="profile-card">
               <div className="profile-card-head">
@@ -133,7 +134,9 @@ const About = ({ location }) => {
                       alt=""
                       width="25"
                     />
-                    <a href="#">Version PDF</a>
+                    <a href={PDF} download>
+                      Version PDF
+                    </a>
                   </div>
                   {/* <div className="btn-group">
                     <Link className="btn-outline" to="/work">
@@ -174,7 +177,6 @@ const About = ({ location }) => {
                 </span>{" "}
                 Technologies I use
               </h2>{" "}
-              <h3>Technologies I use</h3>
               <div className="profile-card-body-item">
                 <div className="icons-technology">
                   <img className="img-fluid" src={AngularLogo} alt="Angular" />

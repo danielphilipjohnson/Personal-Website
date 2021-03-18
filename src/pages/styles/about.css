@@ -1,6 +1,15 @@
 /*  About */
+
+.top-banner {
+  padding-top: 2.25rem;
+}
+@media screen and (min-width: 380px) {
+  .top-banner {
+    padding-top: 3rem;
+  }
+}
+
 .about {
-  padding: 3.5rem 0;
   text-align: left;
   background-color: #ffff;
   color: rgb(79, 79, 79);

@@ -37,7 +37,7 @@ function Projects() {
 
   return (
     <>
-      <div id="responsive" className="container">
+      <div className="container top-banner">
         <h1 className="text-purple page-heading lg-heading">Projects</h1>
         <div className="badge badge__text bb mb-1">
           <span className="badge__text" role="img" aria-label="my resume">
