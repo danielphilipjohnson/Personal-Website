@@ -45,11 +45,11 @@ const About = ({ location }) => {
       <Layout location={location.pathname}>
         <SEO />
 
-        <Header
+        {/* <Header
           title={" About "}
           secondary={" Me"}
           subTitle={"Let me tell you a few things..."}
-        />
+        /> */}
 
         <div className="about">
           <div className="about-info alt-bio">

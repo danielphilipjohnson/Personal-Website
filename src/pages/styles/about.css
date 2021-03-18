@@ -1,4 +1,10 @@
 /*  About */
+.about {
+  padding-top: 3.5rem;
+  text-align: left;
+  background-color: #ffff;
+  color: rgb(79, 79, 79);
+}
 .about a {
   font-weight: bolder;
 }
@@ -23,9 +29,6 @@
   margin-right: 0.75rem;
 }
 
-.about {
-  text-align: left;
-}
 .about p {
   margin-bottom: 1rem;
   line-height: 1.58;
@@ -33,9 +36,9 @@
 }
 
 @media (min-width: 768px) {
-  .about-info {
+  /* .about-info {
     border-right: 10px solid #3a3c55;
-  }
+  } */
   .bio {
     font-size: 1.05rem;
     padding: 1.5rem 0.95rem;
@@ -170,8 +173,7 @@
 
 .alt-bio {
   /* background-color: #f7f7f7; */
-  background-color: #ffff;
-  color: rgb(79, 79, 79);
+
   /* margin-bottom: 1rem; */
 }
 .alt-bio h2 {
