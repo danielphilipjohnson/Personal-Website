@@ -1,7 +1,7 @@
 main {
   padding-top: 1rem;
   text-align: left;
-  min-height: calc(100vh - 60px);
+  /* min-height: calc(100vh - 60px); */
 }
 
 .home {

@@ -13,6 +13,8 @@ import {
 
 import { faFirefoxBrowser } from "@fortawesome/free-brands-svg-icons";
 
+import Contact from "../../info/contact-info";
+
 import "./form.css";
 
 function Form() {
@@ -83,7 +85,7 @@ function Form() {
         </div>
       </div>
 
-      <div className="row">
+      {/* <div className="row">
         <div className="col">
           <div className="labels">
             <label htmlFor="help">
@@ -102,13 +104,6 @@ function Form() {
                 <FontAwesomeIcon icon={faChevronUp} />
                 <FontAwesomeIcon icon={faChevronDown} />
               </div>{" "}
-              {/* <section className="contacts">
-          <section className="form-card">
-            <ImageContainer />
-
-            <ContactContainer />
-          </section>
-        </section> */}
             </div>
             <div className="options">
               <div className="option">
@@ -261,8 +256,7 @@ function Form() {
             </div>
           </div>
         </div>
-      </div>
-
+      </div> */}
       <div className="row">
         <div className="col">
           <div className="labels">
