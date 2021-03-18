@@ -102,8 +102,12 @@ h3.sm-heading {
   border: 1px solid #d1d0cd;
   border-radius: 5px;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
-
+.badge img {
+  margin-right: 0.5rem;
+}
 .banner {
   margin-bottom: 2rem;
   display: flex;

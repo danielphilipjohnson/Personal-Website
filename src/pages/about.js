@@ -96,7 +96,7 @@ const About = ({ location }) => {
                       width="25"
                     />
 
-                    <address> Cornwall, United Kingdom</address>
+                    <address>Cornwall, United Kingdom</address>
                   </div>
                   <div className="profile-card-body-item">
                     <img
@@ -127,8 +127,15 @@ const About = ({ location }) => {
                     <h3>Availability</h3>
                     <p>Freelance: Available</p>
                   </div> */}
-
-                  <div className="btn-group">
+                  <div className="badge bb">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/resume.png"
+                      alt=""
+                      width="25"
+                    />
+                    <a href="#">Version PDF</a>
+                  </div>
+                  {/* <div className="btn-group">
                     <Link className="btn-outline" to="/work">
                       View my work
                     </Link>
@@ -137,7 +144,7 @@ const About = ({ location }) => {
                       <FontAwesomeIcon icon={faEnvelope} />
                       Resume
                     </a>
-                  </div>
+                  </div> */}
                   {/*  */}
                   {/* {aboutStats.map((stat) => {
                     return (
@@ -161,8 +168,13 @@ const About = ({ location }) => {
           <section className="alt-bio bio-section" aria-label="quick bio">
             <div className="container">
               {/* make it into a section */}
+              <h2 className="text-secondary">
+                <span role="img" aria-labelledby="values">
+                  🏆
+                </span>{" "}
+                Technologies I use
+              </h2>
               <div className="profile-card-body-item">
-                <h3>Technologies I use</h3>
                 <div className="icons-technology">
                   <img className="img-fluid" src={AngularLogo} alt="Angular" />
                   <img src={ReactLogo} alt="React" />
