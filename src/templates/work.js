@@ -80,16 +80,16 @@ function Work({ location, data, pageContext }) {
           <div className="container">
             <div className="project-stat__information">
               <div className="project-stat__block">
-                <h2 className="project-heading">Overview</h2>
+                <h2 className="project-heading mb-4">Overview</h2>
                 <p>{details.overview}</p>
               </div>
 
               <div className="project-stat__block">
-                <h2 className="project-heading">Goals</h2>
+                <h2 className="project-heading mb-4">Goals</h2>
                 <p>{details.goals}</p>
               </div>
               <div className="project-stat__block">
-                <h2 className="project-heading">Lessons Learned </h2>
+                <h2 className="project-heading mb-4">Lessons Learned </h2>
                 <p>{details.lessonsLearned}</p>
               </div>
             </div>
@@ -104,7 +104,7 @@ function Work({ location, data, pageContext }) {
             </figure>
 
             <div>
-              <h2 className="project-heading">Respository </h2>
+              <h2 className="project-heading mb-4">Respository </h2>
               <a href={pageContext.post.githubLink}>
                 <div className="repo">
                   <div className="repo__header">
