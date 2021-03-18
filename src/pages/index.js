@@ -7,6 +7,7 @@ import HomeContainer from "../component/home/home.container";
 import "./defaults.css";
 import "./index.css";
 import "./main.css";
+import "../styles/btn.css";
 
 const IndexPage = ({ location }) => {
   return (

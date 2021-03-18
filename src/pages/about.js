@@ -45,35 +45,108 @@ const About = ({ location }) => {
       <Layout location={location.pathname}>
         <SEO />
 
-        <Header
+        {/* <Header
           title={" About "}
           secondary={" Me"}
           subTitle={"Let me tell you a few things..."}
-        />
+        /> */}
 
         <div className="about">
-          <div className="container about-container">
-            <div className="about-info alt-bio">
-              <div className="profile-card">
-                <div className="profile-card-head">
-                  <img
-                    className="card-head-bg"
-                    src={banner}
-                    alt="cover of daniel philip johnson"
-                  />
-                </div>
+          <div className="about-info alt-bio">
+            <div className="profile-card">
+              <div className="profile-card-head">
+                <img
+                  className="card-head-bg"
+                  src={banner}
+                  alt="cover of daniel philip johnson"
+                />
+              </div>
 
+              <div className="container">
                 <img
                   src={profile}
                   alt="Daniel johnson"
                   className="profile-card-image"
                 />
-
                 <div className="profile-card-body">
                   <h2 className="profile-name">
                     Daniel <span>Philip</span> Johnson
                   </h2>
-                  {aboutStats.map((stat) => {
+
+                  <div className="profile-card-body-item">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/twitter.png"
+                      alt=""
+                      srcset=""
+                      width="20"
+                    />
+                    <p>@danielp_johnson</p>
+                  </div>
+
+                  <p className="description">
+                    React Developer for CodeCareer. My goal is to help others
+                    get their first programming job. Lets talk: #reactjs #js
+                    #css
+                  </p>
+
+                  <div className="profile-card-body-item">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/marker.png"
+                      alt=""
+                      width="25"
+                    />
+
+                    <address>Cornwall, United Kingdom</address>
+                  </div>
+                  <div className="profile-card-body-item">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/linkedin.png"
+                      alt=""
+                      width="25"
+                    />
+
+                    <p>danielphilipjohnson</p>
+                  </div>
+
+                  {/* <div className="profile-card-body-item">
+                    <FontAwesomeIcon icon={faPhone} />
+                    <span> +44 555-5555</span>
+                  </div> */}
+
+                  <div className="profile-card-body-item">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"
+                      alt=""
+                      width="25"
+                    />
+
+                    <p> daniel-philip-johnson@gmail.com</p>
+                  </div>
+                  {/* 
+                  <div className="profile-card-body-item">
+                    <h3>Availability</h3>
+                    <p>Freelance: Available</p>
+                  </div> */}
+                  <div className="badge bb">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/resume.png"
+                      alt=""
+                      width="25"
+                    />
+                    <a href="#">Version PDF</a>
+                  </div>
+                  {/* <div className="btn-group">
+                    <Link className="btn-outline" to="/work">
+                      View my work
+                    </Link>
+
+                    <a className="btn-outline" href="#">
+                      <FontAwesomeIcon icon={faEnvelope} />
+                      Resume
+                    </a>
+                  </div> */}
+                  {/*  */}
+                  {/* {aboutStats.map((stat) => {
                     return (
                       <a
                         className="header-badge"
@@ -85,105 +158,53 @@ const About = ({ location }) => {
                         <img alt={stat.alt} src={stat.imageSrc} />
                       </a>
                     );
-                  })}
-
-                  <div className="profile-card-body-item">
-                    <h3>Occupation</h3>
-                    <h4>React Developer</h4>
-                  </div>
-
-                  <div className="profile-card-body-item">
-                    <h3>Technologies I use</h3>
-                    <div className="icons-technology">
-                      <img
-                        className="img-fluid"
-                        src={AngularLogo}
-                        alt="Angular"
-                      />
-                      <img src={ReactLogo} alt="React" />
-                      <img src={GatsbyLogo} alt="GatsbyJS" />
-                      <img src={GraphQlLogo} alt="GraphQL" />
-
-                      <img src={JavaScriptLogo} alt="JavaScript" />
-                      <img src={TypescriptLogo} alt="TypeScript" />
-                      <img src={SassLogo} alt="SASS" />
-                      <img src={BootstrapLogo} alt="Bootstrap" />
-                      <img
-                        className="img-fluid"
-                        src={TailwindLogo}
-                        alt="Tailwind"
-                      />
-                      <img src={GithubLogo} alt="Git Version Control" />
-                      {/* <img src={NpmLogo} alt="NPM" /> */}
-                    </div>
-                  </div>
-                  <div className="profile-card-body-item">
-                    <h3>Graduated</h3>
-                    <h4>
-                      <span role="img" aria-labelledby="graduation cap">
-                        🎓
-                      </span>
-                      Bsc Psychology | University of Plymouth
-                      <span role="img" aria-labelledby="school">
-                        🏫
-                      </span>
-                    </h4>
-                  </div>
-
-                  <div className="profile-card-body-item">
-                    <h3>Location</h3>
-                    <FontAwesomeIcon icon={faMapMarkerAlt} />
-                    <address> Cornwall, United Kingdom</address>
-                  </div>
-
-                  <div className="profile-card-body-item">
-                    <h3>Contact</h3>
-                    <FontAwesomeIcon icon={faPhone} />
-                    <span> +44 555-5555</span>
-                  </div>
-
-                  <div className="profile-card-body-item">
-                    <h3>Email</h3>
-                    <FontAwesomeIcon icon={faEnvelope} />
-
-                    <span> daniel-philip-johnson@gmail.com</span>
-                  </div>
-
-                  <div className="profile-card-body-item">
-                    <h3>Availability</h3>
-                    <p>Freelance: Available</p>
-                  </div>
-
-                  <div className="btn-group">
-                    <Link className="btn-outline" to="/work">
-                      View my work
-                    </Link>
-
-                    <a className="btn-outline" href="#">
-                      <FontAwesomeIcon icon={faEnvelope} />
-                      Resume
-                    </a>
-                  </div>
-                  {/*  */}
+                  })} */}
                 </div>
               </div>
             </div>
-            <Bio />
           </div>
+          <Bio />
 
           <section className="alt-bio bio-section" aria-label="quick bio">
-            <div className="container container-text">
-              <h2 className="text-secondary">{quickBio.heading}</h2>
+            <div className="container">
+              {/* make it into a section */}
+              <h2 className="text-secondary">
+                <span role="img" aria-labelledby="values">
+                  🏆
+                </span>{" "}
+                Technologies I use
+              </h2>{" "}
+              <h3>Technologies I use</h3>
+              <div className="profile-card-body-item">
+                <div className="icons-technology">
+                  <img className="img-fluid" src={AngularLogo} alt="Angular" />
+                  <img src={ReactLogo} alt="React" />
+                  <img src={GatsbyLogo} alt="GatsbyJS" />
+                  <img src={GraphQlLogo} alt="GraphQL" />
 
+                  <img src={JavaScriptLogo} alt="JavaScript" />
+                  <img src={TypescriptLogo} alt="TypeScript" />
+                  <img src={SassLogo} alt="SASS" />
+                  <img src={BootstrapLogo} alt="Bootstrap" />
+                  <img
+                    className="img-fluid"
+                    src={TailwindLogo}
+                    alt="Tailwind"
+                  />
+                  <img src={GithubLogo} alt="Git Version Control" />
+                  {/* <img src={NpmLogo} alt="NPM" /> */}
+                </div>
+              </div>
+              <h2 className="text-secondary">{quickBio.heading}</h2>
               <p dangerouslySetInnerHTML={{ __html: quickBio.html }}></p>
             </div>
           </section>
 
           <section
-            className="alt-bio values-missions bio-section"
+            className="alt-bio bio-section"
             aria-label="my values and missions"
           >
-            <div className="container container-text">
+            <div className="container ">
               <h2 className="text-secondary">
                 <span role="img" aria-labelledby="values">
                   🏆
@@ -201,7 +222,7 @@ const About = ({ location }) => {
             className="alt-bio bio-section"
             // aria-label="what I do outside of programming"
           >
-            <div className="container container-text">
+            <div className="container ">
               <h2>
                 <span role="img" aria-labelledby="thunder">
                   ⚡
@@ -272,17 +293,15 @@ const About = ({ location }) => {
                 there still believing in me. She keeps my life in balance by
                 forcing me to take breaks when I decide to overdo it. Also
                 giving me constant encouragement to be better and quick to offer
-                some pointers on what needs addressing. Really we are a great
+                some pointers on what needs addressing. Really we a- mover
+                Banner to the Top - move profile picture underneathre a great
                 team.
               </p>
             </div>
           </section>
 
-          <section
-            className="alt-bio values-missions bio-section"
-            aria-label="my future plans"
-          >
-            <div className="container container-text">
+          <section className="alt-bio bio-section" aria-label="my future plans">
+            <div className="container ">
               <h2 className="text-secondary">
                 <span role="img" aria-labelledby="green heart">
                   💚
@@ -293,6 +312,24 @@ const About = ({ location }) => {
             </div>
           </section>
         </div>
+
+        {/* <div className="profile-card-body-item">
+                    <h3>Occupation</h3>
+                    <h4>React Developer</h4>
+                  </div> */}
+
+        {/* <div className="profile-card-body-item">
+                    <h3>Graduated</h3>
+                    <h4>
+                      <span role="img" aria-labelledby="graduation cap">
+                        🎓
+                      </span>
+                      Bsc Psychology | University of Plymouth
+                      <span role="img" aria-labelledby="school">
+                        🏫
+                      </span>
+                    </h4>
+                  </div> */}
       </Layout>
     </>
   );
