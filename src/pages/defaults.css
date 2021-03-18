@@ -83,6 +83,13 @@ h3.sm-heading {
   margin-bottom: 1.5rem;
 }
 
+.text-purple {
+  color: rgb(16, 42, 67);
+}
+.text-purple-dark {
+  color: rgb(87, 5, 119);
+  font-weight: 600;
+}
 .page-heading {
   font-weight: 600;
   margin-bottom: 1rem;

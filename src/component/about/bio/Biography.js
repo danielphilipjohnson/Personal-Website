@@ -19,7 +19,7 @@ function Biography() {
               return (
                 <span key={focus + i}>
                   <span> {"//"} </span>
-                  <span className="text-purple"> {focus} </span>
+                  <span className="text-purple-dark "> {focus} </span>
                 </span>
               );
             })}
