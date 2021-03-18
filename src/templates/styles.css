@@ -1,3 +1,52 @@
+.work-temp {
+  background-color: #fff;
+  color: #292929;
+}
+.work-temp a {
+  color: #292929;
+}
+.profile-emoji {
+  font-size: 3rem;
+  background-color: #fff;
+  padding: 1rem 1.25rem;
+  bottom: -30px;
+}
+
+.image-banner {
+  padding-top: 2.5rem;
+}
+
+@media screen and (min-width: 378px) {
+  .image-banner {
+    padding-top: 3.5rem;
+  }
+}
+
+.image-inner {
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+@media screen and (min-width: 768px) {
+  .image-inner {
+    height: 450px;
+  }
+  .profile-emoji {
+    background-color: #fff;
+    /* padding: 0.5rem; */
+  }
+}
+.project {
+  margin-top: -4.5rem;
+  padding-bottom: 2rem;
+}
+
+.project .project-heading {
+  margin-top: 3rem;
+}
+
 .work-temp header .lg-heading {
   font-size: 2rem;
 }
@@ -10,14 +59,11 @@
 }
 
 /* project stats */
-.project-stat {
-  background-color: #1b1c28;
-}
+
 .project-stat .container {
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -26,6 +72,9 @@
   }
   .project-stat__information {
     text-align: left;
+  }
+  .project .project-heading {
+    margin-top: 4rem;
   }
 }
 
@@ -52,20 +101,23 @@
 
 /* project-tools */
 .project-tools {
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  background-color: #f7f7f7;
+  padding: 1rem 0;
   color: rgb(79, 79, 79);
 }
 .project-tools__heading {
   margin-bottom: 3rem;
 }
 .project-tools__stats {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid; */
+  /* grid-template-columns: repeat(1, 1fr); */
+}
+.project-tools__header {
+  margin-right: 0.5rem;
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
   .project-tools__stats {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -75,11 +127,11 @@
   .project-tools__stats {
     grid-template-columns: repeat(4, 1fr);
   }
-}
+} */
 
 .project-tool {
   margin-right: 1.5rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 .project-tool h4 {
   margin-bottom: 0.5rem;
@@ -90,8 +142,8 @@
 }
 
 .project-tool img {
-  width: 160px;
-  height: 145px;
+  width: 35px;
+  height: 35px;
   margin-bottom: 0.5rem;
 }
 
@@ -117,4 +169,27 @@
 
 .project-process--information h2 {
   margin-bottom: 1rem;
+}
+
+.repo {
+  border: 1px solid rgba(55, 53, 47, 0.16);
+  border-radius: 5px;
+  padding: 0.75rem;
+}
+
+.repo__header {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+.repo__header img {
+  margin-right: 0.5rem;
+}
+.repo__text {
+  font-size: 0.9rem;
+  color: #5a5d61;
+  margin-bottom: 1rem;
+}
+.repo__footer span {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
 }

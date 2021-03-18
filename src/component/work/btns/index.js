@@ -18,10 +18,14 @@ function Btns({ getTypeOfProjects, activeType }) {
                 getTypeOfProjects(btnLowered);
               }}
             >
-              <span aria-hidden="true" focusable="false">
+              <span
+                className="btn-projects_text"
+                aria-hidden="true"
+                focusable="false"
+              >
                 ⚡
               </span>
-              {btn}
+              <span>{btn}</span>
             </button>
           );
         }
@@ -33,10 +37,14 @@ function Btns({ getTypeOfProjects, activeType }) {
             }}
             key={btnLowered}
           >
-            <span aria-hidden="true" focusable="false">
+            <span
+              className="btn-projects_text"
+              aria-hidden="true"
+              focusable="false"
+            >
               ⚡
             </span>
-            {btn}
+            <span>{btn}</span>
           </button>
         );
       })}

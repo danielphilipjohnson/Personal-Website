@@ -14,10 +14,11 @@ aside {
   cursor: pointer;
   /* transition: all 0.5s ease-out; */
   background-color: #3a3c55;
+
   padding: 1.15rem;
   border: 0;
   /* border-radius: 50%; */
-  box-shadow: 0 5px 20px -10px #222121;
+  /* box-shadow: 0 5px 20px -10px #222121; */
 }
 
 .menu-btn .btn-line {
@@ -25,7 +26,10 @@ aside {
   height: 3px;
   margin: 0 0 5px;
   background: #fff;
+
   transition: all 0.5s ease-out;
+  float: right;
+  clear: both;
 }
 .menu-btn .btn-line:last-child {
   margin: 0;
