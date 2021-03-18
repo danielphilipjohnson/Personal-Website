@@ -50,31 +50,24 @@
   position: relative;
   background-color: #fff;
 }
-
-.profile-card-head {
-  background: #fff;
-}
-.profile-card-head .card-head-bg {
+.card-head-bg {
   width: 100%;
 }
+
 .profile-card-image {
   position: relative;
-  bottom: 70px;
-  height: 125px;
+  bottom: 50px;
+  height: 75px;
   width: auto;
   border-radius: 50%;
-  border: 3px solid #94c85a;
-  background: #fff;
-  left: 50%;
-  transform: translateX(-50%);
+  border: 3px solid #fff;
 }
 
 .profile-card-body {
-  text-align: center;
+  /* text-align: center; */
   color: rgb(16, 42, 67);
   background: #fff;
-  margin-top: -5.5rem;
-  text-align: center;
+  margin-top: -4.5rem;
   padding: 1.25rem 1rem 0.5rem;
 }
 .profile-card-body-item {
@@ -107,13 +100,11 @@
 }
 .profile-card-footer h2 {
   font-weight: bolder;
-  text-align: center;
-  color: #000;
 }
 
 @media screen and (min-width: 770px) {
   .profile-card-image {
-    height: 175px;
+    height: 105px;
   }
 
   .profile-card-body-item {

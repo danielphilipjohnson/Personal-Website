@@ -62,83 +62,66 @@ const About = ({ location }) => {
                 />
               </div>
 
-              <img
-                src={profile}
-                alt="Daniel johnson"
-                className="profile-card-image"
-              />
+              <div className="container">
+                <img
+                  src={profile}
+                  alt="Daniel johnson"
+                  className="profile-card-image"
+                />
+                <div className="profile-card-body">
+                  <h2 className="profile-name">
+                    Frontend <span>Engineer</span>
+                  </h2>
+                  {aboutStats.map((stat) => {
+                    return (
+                      <a
+                        className="header-badge"
+                        target="_blank"
+                        rel="noreferrer"
+                        href={stat.link}
+                        key={stat.link}
+                      >
+                        <img alt={stat.alt} src={stat.imageSrc} />
+                      </a>
+                    );
+                  })}
 
-              <div className="profile-card-body">
-                <h2 className="profile-name">
-                  Daniel <span>Philip</span> Johnson
-                </h2>
-                {aboutStats.map((stat) => {
-                  return (
-                    <a
-                      className="header-badge"
-                      target="_blank"
-                      rel="noreferrer"
-                      href={stat.link}
-                      key={stat.link}
-                    >
-                      <img alt={stat.alt} src={stat.imageSrc} />
-                    </a>
-                  );
-                })}
+                  <div className="profile-card-body-item">
+                    <h3>Location</h3>
+                    <FontAwesomeIcon icon={faMapMarkerAlt} />
+                    <address> Cornwall, United Kingdom</address>
+                  </div>
 
-                {/* <div className="profile-card-body-item">
-                    <h3>Occupation</h3>
-                    <h4>React Developer</h4>
-                  </div> */}
+                  <div className="profile-card-body-item">
+                    <h3>Contact</h3>
+                    <FontAwesomeIcon icon={faPhone} />
+                    <span> +44 555-5555</span>
+                  </div>
 
-                {/* <div className="profile-card-body-item">
-                    <h3>Graduated</h3>
-                    <h4>
-                      <span role="img" aria-labelledby="graduation cap">
-                        🎓
-                      </span>
-                      Bsc Psychology | University of Plymouth
-                      <span role="img" aria-labelledby="school">
-                        🏫
-                      </span>
-                    </h4>
-                  </div> */}
+                  <div className="profile-card-body-item">
+                    <h3>Email</h3>
+                    <FontAwesomeIcon icon={faEnvelope} />
 
-                <div className="profile-card-body-item">
-                  <h3>Location</h3>
-                  <FontAwesomeIcon icon={faMapMarkerAlt} />
-                  <address> Cornwall, United Kingdom</address>
-                </div>
-
-                <div className="profile-card-body-item">
-                  <h3>Contact</h3>
-                  <FontAwesomeIcon icon={faPhone} />
-                  <span> +44 555-5555</span>
-                </div>
-
-                <div className="profile-card-body-item">
-                  <h3>Email</h3>
-                  <FontAwesomeIcon icon={faEnvelope} />
-
-                  <span> daniel-philip-johnson@gmail.com</span>
-                </div>
-                {/* 
+                    <span> daniel-philip-johnson@gmail.com</span>
+                  </div>
+                  {/* 
                   <div className="profile-card-body-item">
                     <h3>Availability</h3>
                     <p>Freelance: Available</p>
                   </div> */}
 
-                <div className="btn-group">
-                  <Link className="btn-outline" to="/work">
-                    View my work
-                  </Link>
+                  <div className="btn-group">
+                    <Link className="btn-outline" to="/work">
+                      View my work
+                    </Link>
 
-                  <a className="btn-outline" href="#">
-                    <FontAwesomeIcon icon={faEnvelope} />
-                    Resume
-                  </a>
+                    <a className="btn-outline" href="#">
+                      <FontAwesomeIcon icon={faEnvelope} />
+                      Resume
+                    </a>
+                  </div>
+                  {/*  */}
                 </div>
-                {/*  */}
               </div>
             </div>
           </div>
@@ -286,6 +269,24 @@ const About = ({ location }) => {
             </div>
           </section>
         </div>
+
+        {/* <div className="profile-card-body-item">
+                    <h3>Occupation</h3>
+                    <h4>React Developer</h4>
+                  </div> */}
+
+        {/* <div className="profile-card-body-item">
+                    <h3>Graduated</h3>
+                    <h4>
+                      <span role="img" aria-labelledby="graduation cap">
+                        🎓
+                      </span>
+                      Bsc Psychology | University of Plymouth
+                      <span role="img" aria-labelledby="school">
+                        🏫
+                      </span>
+                    </h4>
+                  </div> */}
       </Layout>
     </>
   );
