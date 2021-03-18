@@ -8,21 +8,35 @@
 .profile-emoji {
   background-color: #fff;
   padding: 0.5rem;
-  bottom: 0;
+  bottom: -30px;
 }
 
 .image-banner {
   padding-top: 3.5rem;
 }
 .image-inner {
-  height: 450px;
+  height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
+@media screen and (min-width: 768px) {
+  .image-inner {
+    height: 450px;
+  }
+  .profile-emoji {
+    background-color: #fff;
+    padding: 0.5rem;
+    bottom: 0;
+  }
+}
 .project {
   margin-top: -4.5rem;
+}
+
+.project .project-heading {
+  margin-top: 2rem;
 }
 
 .work-temp header .lg-heading {
@@ -37,9 +51,7 @@
 }
 
 /* project stats */
-.project-stat {
-  /* background-color: #1b1c28; */
-}
+
 .project-stat .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -53,6 +65,9 @@
   }
   .project-stat__information {
     text-align: left;
+  }
+  .project .project-heading {
+    margin-top: 0;
   }
 }
 
@@ -87,11 +102,16 @@
   margin-bottom: 3rem;
 }
 .project-tools__stats {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid; */
+  /* grid-template-columns: repeat(1, 1fr); */
+}
+.project-tools__header {
+  margin-right: 0.5rem;
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
   .project-tools__stats {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -101,10 +121,10 @@
   .project-tools__stats {
     grid-template-columns: repeat(4, 1fr);
   }
-}
+} */
 
 .project-tool {
-  /* margin-right: 1.5rem; */
+  margin-right: 1.5rem;
   /* margin-bottom: 3rem; */
 }
 .project-tool h4 {

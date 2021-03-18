@@ -27,7 +27,7 @@ function Work({ location, data, pageContext }) {
               backgroundImage: `url(${pageContext.post.imageSrc})`,
             }}
           ></div>
-          <div className="container project">
+          <div className="container project bb">
             <div>
               <img
                 className="profile-card-image profile-emoji"
@@ -40,13 +40,15 @@ function Work({ location, data, pageContext }) {
               {pageContext.post.title}
             </h1>
 
-            <div className="project-tools bb ">
+            <div className="project-tools">
               {/* <div className="project-tools__heading">
                 <h3 className="lg-heading">Built With</h3>
               </div> */}
 
               <div className="project-tools__stats">
-                <h3 className="text-purple">Built with </h3>
+                <h3 className="text-purple project-tools__header">
+                  Built with{" "}
+                </h3>
                 {toolUsed.map((tool) => {
                   const { name, src, about } = tool;
                   return (
@@ -58,7 +60,7 @@ function Work({ location, data, pageContext }) {
               </div>
             </div>
 
-            <div className="badge bb">
+            <div className="badge">
               <img
                 src="https://img.icons8.com/ios/250/000000/application-window.png"
                 alt=""
