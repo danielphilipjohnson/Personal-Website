@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 import SEO from "../component/Seo";
 
 import Layout from "../component/layout/Layout";
-import Header from "../component/layout/Header";
 
 import "./styles.css";
 
@@ -37,53 +36,31 @@ function Work({ location, data, pageContext }) {
               />
             </div>
 
-            <h1 className="text-purple skill-heading">
-              <span role="img" aria-label="Daniel Johnson">
-                🙋‍♂️
-              </span>{" "}
+            <h1 className="text-purple project-heading lg-heading">
               {pageContext.post.title}
             </h1>
 
-            <div className="project-tools">
-              <div className="container">
-                <div className="project-tools__heading">
-                  <h3 className="lg-heading">Built With</h3>
-                  <div className="bottom-line"></div>
-                </div>
+            <div className="project-tools bb ">
+              {/* <div className="project-tools__heading">
+                <h3 className="lg-heading">Built With</h3>
+              </div> */}
 
-                <div className="project-tools__stats">
-                  {toolUsed.map((tool) => {
-                    const { name, src, about } = tool;
-                    return (
-                      <div className="project-tool" key={name}>
-                        <img src={src} alt={name} />
-                        <h4>{name}</h4>
-                        <p>{about}</p>
-                      </div>
-                    );
-                  })}
-                </div>
+              <div className="project-tools__stats">
+                <h3 className="text-purple">Built with </h3>
+                {toolUsed.map((tool) => {
+                  const { name, src, about } = tool;
+                  return (
+                    <div className="project-tool" key={name}>
+                      <img src={src} alt={name} />
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
         </div>
         <div className="">
-          <div className="container">
-            <div className="btn-group ">
-              <a
-                className="btn-outline btn-outline-primary"
-                href={pageContext.post.codepenLink}
-              >
-                View project
-              </a>
-              <a
-                className="btn-outline btn-outline-primary"
-                href={pageContext.post.githubLink}
-              >
-                Github source
-              </a>
-            </div>
-          </div>
+          <div className="container"></div>
         </div>
 
         <div className="project-stat">
@@ -115,6 +92,21 @@ function Work({ location, data, pageContext }) {
               <figcaption>Fig.1 - Mobile View of App</figcaption>
             </figure>
           </div>
+        </div>
+
+        <div className="btn-group ">
+          <a
+            className="btn-outline btn-outline-primary"
+            href={pageContext.post.codepenLink}
+          >
+            View project
+          </a>
+          <a
+            className="btn-outline btn-outline-primary"
+            href={pageContext.post.githubLink}
+          >
+            Github source
+          </a>
         </div>
 
         <div className="project-process container">

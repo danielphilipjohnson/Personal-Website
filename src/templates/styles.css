@@ -74,8 +74,7 @@
 /* project-tools */
 .project-tools {
   padding-top: 2rem;
-  padding-bottom: 4rem;
-  background-color: #f7f7f7;
+  padding-bottom: 1rem;
   color: rgb(79, 79, 79);
 }
 .project-tools__heading {
@@ -99,8 +98,8 @@
 }
 
 .project-tool {
-  margin-right: 1.5rem;
-  margin-bottom: 3rem;
+  /* margin-right: 1.5rem; */
+  /* margin-bottom: 3rem; */
 }
 .project-tool h4 {
   margin-bottom: 0.5rem;
@@ -111,8 +110,8 @@
 }
 
 .project-tool img {
-  width: 160px;
-  height: 145px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 0.5rem;
 }
 
