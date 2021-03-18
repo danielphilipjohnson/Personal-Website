@@ -173,7 +173,8 @@ const About = ({ location }) => {
                   🏆
                 </span>{" "}
                 Technologies I use
-              </h2>
+              </h2>{" "}
+              <h3>Technologies I use</h3>
               <div className="profile-card-body-item">
                 <div className="icons-technology">
                   <img className="img-fluid" src={AngularLogo} alt="Angular" />
@@ -195,7 +196,6 @@ const About = ({ location }) => {
                 </div>
               </div>
               <h2 className="text-secondary">{quickBio.heading}</h2>
-
               <p dangerouslySetInnerHTML={{ __html: quickBio.html }}></p>
             </div>
           </section>

@@ -4,6 +4,9 @@
   /* padding: 2rem 1rem 1rem; */
   font-size: 1rem;
 }
+.bio-section p {
+  margin-bottom: 1rem;
+}
 .bio-name {
   margin-bottom: 1rem;
 }
