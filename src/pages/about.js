@@ -170,8 +170,9 @@ const About = ({ location }) => {
             </div>
           </div>
           <Bio />
+
           <section className="alt-bio bio-section" aria-label="quick bio">
-            <div className="container container-text">
+            <div className="container ">
               <h2 className="text-secondary">{quickBio.heading}</h2>
 
               <p dangerouslySetInnerHTML={{ __html: quickBio.html }}></p>
@@ -182,7 +183,7 @@ const About = ({ location }) => {
             className="alt-bio values-missions bio-section"
             aria-label="my values and missions"
           >
-            <div className="container container-text">
+            <div className="container ">
               <h2 className="text-secondary">
                 <span role="img" aria-labelledby="values">
                   🏆
@@ -200,7 +201,7 @@ const About = ({ location }) => {
             className="alt-bio bio-section"
             // aria-label="what I do outside of programming"
           >
-            <div className="container container-text">
+            <div className="container ">
               <h2>
                 <span role="img" aria-labelledby="thunder">
                   ⚡
@@ -282,7 +283,7 @@ const About = ({ location }) => {
             className="alt-bio values-missions bio-section"
             aria-label="my future plans"
           >
-            <div className="container container-text">
+            <div className="container ">
               <h2 className="text-secondary">
                 <span role="img" aria-labelledby="green heart">
                   💚
