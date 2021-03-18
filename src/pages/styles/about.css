@@ -39,7 +39,7 @@ p {
   } */
   .bio {
     font-size: 1.05rem;
-    padding: 1.5rem 0.95rem;
+    /* padding: 1.5rem 0.95rem; */
   }
 }
 /*  End of About */
@@ -128,7 +128,7 @@ p {
 }
 
 .bio-section {
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
 }
 
 .bio-section h2 {
@@ -147,6 +147,7 @@ p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 .icons-technology img {
   max-width: 50px;
