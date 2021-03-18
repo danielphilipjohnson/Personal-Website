@@ -8,8 +8,7 @@ function Biography() {
     <div className="bio">
       <div className="container">
         <div className="bio-content">
-          <h2 className="md-heading text-secondary">Biography:</h2>
-          <div className="bottom-line secondary"></div>
+          <h2 className="text-purple skill-heading">Mission Statement:</h2>
           <h4 className="mission">{site.siteMetadata.biography.statement}</h4>
 
           <p>{site.siteMetadata.biography.missionStatement}</p>
@@ -20,7 +19,7 @@ function Biography() {
               return (
                 <span key={focus + i}>
                   <span> {"//"} </span>
-                  <span className="text-secondary"> {focus} </span>
+                  <span className="text-purple"> {focus} </span>
                 </span>
               );
             })}

@@ -168,9 +168,8 @@ const About = ({ location }) => {
                 </div>
               </div>
             </div>
-            <Bio />
           </div>
-
+          <Bio />
           <section className="alt-bio bio-section" aria-label="quick bio">
             <div className="container container-text">
               <h2 className="text-secondary">{quickBio.heading}</h2>
@@ -272,7 +271,8 @@ const About = ({ location }) => {
                 there still believing in me. She keeps my life in balance by
                 forcing me to take breaks when I decide to overdo it. Also
                 giving me constant encouragement to be better and quick to offer
-                some pointers on what needs addressing. Really we are a great
+                some pointers on what needs addressing. Really we a- mover
+                Banner to the Top - move profile picture underneathre a great
                 team.
               </p>
             </div>
