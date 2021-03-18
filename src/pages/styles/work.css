@@ -5,5 +5,10 @@
 }
 
 #responsive {
-  padding-top: 5rem;
+  padding-top: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  #responsive {
+    padding-top: 3rem;
+  }
 }
