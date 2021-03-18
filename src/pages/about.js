@@ -70,39 +70,57 @@ const About = ({ location }) => {
                 />
                 <div className="profile-card-body">
                   <h2 className="profile-name">
-                    Frontend <span>Engineer</span>
+                    Daniel <span>Philip</span> Johnson
                   </h2>
-                  {aboutStats.map((stat) => {
-                    return (
-                      <a
-                        className="header-badge"
-                        target="_blank"
-                        rel="noreferrer"
-                        href={stat.link}
-                        key={stat.link}
-                      >
-                        <img alt={stat.alt} src={stat.imageSrc} />
-                      </a>
-                    );
-                  })}
 
                   <div className="profile-card-body-item">
-                    <h3>Location</h3>
-                    <FontAwesomeIcon icon={faMapMarkerAlt} />
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/twitter.png"
+                      alt=""
+                      srcset=""
+                      width="20"
+                    />
+                    <p>@danielp_johnson</p>
+                  </div>
+
+                  <p className="description">
+                    React Developer for CodeCareer. My goal is to help others
+                    get their first programming job. Lets talk: #reactjs #js
+                    #css
+                  </p>
+
+                  <div className="profile-card-body-item">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/marker.png"
+                      alt=""
+                      width="25"
+                    />
+
                     <address> Cornwall, United Kingdom</address>
                   </div>
-
                   <div className="profile-card-body-item">
-                    <h3>Contact</h3>
-                    <FontAwesomeIcon icon={faPhone} />
-                    <span> +44 555-5555</span>
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/linkedin.png"
+                      alt=""
+                      width="25"
+                    />
+
+                    <p>danielphilipjohnson</p>
                   </div>
 
-                  <div className="profile-card-body-item">
-                    <h3>Email</h3>
-                    <FontAwesomeIcon icon={faEnvelope} />
+                  {/* <div className="profile-card-body-item">
+                    <FontAwesomeIcon icon={faPhone} />
+                    <span> +44 555-5555</span>
+                  </div> */}
 
-                    <span> daniel-philip-johnson@gmail.com</span>
+                  <div className="profile-card-body-item">
+                    <img
+                      src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"
+                      alt=""
+                      width="25"
+                    />
+
+                    <p> daniel-philip-johnson@gmail.com</p>
                   </div>
                   {/* 
                   <div className="profile-card-body-item">
@@ -121,6 +139,19 @@ const About = ({ location }) => {
                     </a>
                   </div>
                   {/*  */}
+                  {/* {aboutStats.map((stat) => {
+                    return (
+                      <a
+                        className="header-badge"
+                        target="_blank"
+                        rel="noreferrer"
+                        href={stat.link}
+                        key={stat.link}
+                      >
+                        <img alt={stat.alt} src={stat.imageSrc} />
+                      </a>
+                    );
+                  })} */}
                 </div>
               </div>
             </div>
