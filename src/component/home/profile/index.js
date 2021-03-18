@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import PDF from "../../../../downloads/Daniel_Philip_Johnson_CV.pdf";
 
 import "./profile.css";
 
@@ -37,7 +38,9 @@ function Profile() {
             <span role="img" aria-label="my resume">
               📝
             </span>
-            <a href="#"> Resume PDF</a>
+            <a href={PDF} download>
+              Resume PDF
+            </a>
           </div>
         </div>
 
