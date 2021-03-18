@@ -1,6 +1,6 @@
 /*  About */
 .about {
-  padding-top: 3.5rem;
+  padding: 3.5rem 0;
   text-align: left;
   background-color: #ffff;
   color: rgb(79, 79, 79);
@@ -144,6 +144,7 @@ p {
 }
 
 .icons-technology {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
