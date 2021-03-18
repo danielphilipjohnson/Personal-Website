@@ -13,7 +13,7 @@ function Profile() {
           </span>{" "}
           About me
         </h2>
-        <div className="banner">
+        <div className="banner mb-4">
           <div className="left">
             <span className="heading-2">
               Hi{" "}
