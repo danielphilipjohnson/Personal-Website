@@ -16,15 +16,59 @@ function Work({ location, data, pageContext }) {
     <Layout location={location.pathname}>
       <SEO />
       <section id="work-temp" className="work-temp">
-        <Header
+        {/* <Header
           title={"Project: "}
           secondary={pageContext.post.title}
           subTitle={"Daniel Philip Johnson"}
-        />
+        /> */}
+        <div className="image-banner">
+          <div
+            className="image-inner"
+            style={{
+              backgroundImage: `url(${pageContext.post.imageSrc})`,
+            }}
+          ></div>
+          <div className="container project">
+            <div>
+              <img
+                className="profile-card-image profile-emoji"
+                src="https://img.icons8.com/ios/250/000000/macbook.png"
+                alt=""
+              />
+            </div>
 
+            <h1 className="text-purple skill-heading">
+              <span role="img" aria-label="Daniel Johnson">
+                🙋‍♂️
+              </span>{" "}
+              {pageContext.post.title}
+            </h1>
+
+            <div className="project-tools">
+              <div className="container">
+                <div className="project-tools__heading">
+                  <h3 className="lg-heading">Built With</h3>
+                  <div className="bottom-line"></div>
+                </div>
+
+                <div className="project-tools__stats">
+                  {toolUsed.map((tool) => {
+                    const { name, src, about } = tool;
+                    return (
+                      <div className="project-tool" key={name}>
+                        <img src={src} alt={name} />
+                        <h4>{name}</h4>
+                        <p>{about}</p>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="">
           <div className="container">
-            <img className="img-fluid" src={pageContext.post.imageSrc} alt="" />
             <div className="btn-group ">
               <a
                 className="btn-outline btn-outline-primary"
@@ -70,28 +114,6 @@ function Work({ location, data, pageContext }) {
               />
               <figcaption>Fig.1 - Mobile View of App</figcaption>
             </figure>
-          </div>
-        </div>
-
-        <div className="project-tools">
-          <div className="container">
-            <div className="project-tools__heading">
-              <h3 className="lg-heading">Built With</h3>
-              <div className="bottom-line"></div>
-            </div>
-
-            <div className="project-tools__stats">
-              {toolUsed.map((tool) => {
-                const { name, src, about } = tool;
-                return (
-                  <div className="project-tool" key={name}>
-                    <img src={src} alt={name} />
-                    <h4>{name}</h4>
-                    <p>{about}</p>
-                  </div>
-                );
-              })}
-            </div>
           </div>
         </div>
 

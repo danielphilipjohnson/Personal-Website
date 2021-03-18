@@ -2,6 +2,22 @@
   background-color: #fff;
   color: #292929;
 }
+.profile-emoji {
+  background-color: #fff;
+  padding: 0.5rem;
+  bottom: 0;
+}
+
+.image-banner {
+  padding-top: 3.5rem;
+}
+.image-inner {
+  height: 450px;
+}
+
+.project {
+  margin-top: -4.5rem;
+}
 
 .work-temp header .lg-heading {
   font-size: 2rem;

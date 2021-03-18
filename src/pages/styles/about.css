@@ -18,10 +18,6 @@
   font-weight: bold;
   padding: 0 0.5rem;
 }
-/* 
-p {
-  margin-bottom: 1rem;
-} */
 
 .about-stats p a {
   margin-right: 0.75rem;
@@ -178,7 +174,6 @@ p {
   color: #292929;
   font-weight: bold;
 }
-
-.btn-outline svg {
+bio-section .btn-outline svg {
   margin-right: 0.25rem;
 }
