@@ -49,7 +49,7 @@ function WorkExperience() {
                 need to change to be more accessible.
               </li>
               <li>
-                We we uses the{" "}
+                We uses the{" "}
                 <span className="text-highlight">
                   <strong>agile</strong>
                 </span>
