@@ -180,7 +180,7 @@ const About = ({ location }) => {
           </section>
 
           <section
-            className="alt-bio values-missions bio-section"
+            className="alt-bio bio-section"
             aria-label="my values and missions"
           >
             <div className="container ">
@@ -279,10 +279,7 @@ const About = ({ location }) => {
             </div>
           </section>
 
-          <section
-            className="alt-bio values-missions bio-section"
-            aria-label="my future plans"
-          >
+          <section className="alt-bio bio-section" aria-label="my future plans">
             <div className="container ">
               <h2 className="text-secondary">
                 <span role="img" aria-labelledby="green heart">
