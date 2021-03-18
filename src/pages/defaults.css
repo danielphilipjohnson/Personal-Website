@@ -68,7 +68,7 @@ h3.sm-heading {
 }
 .project-heading {
   font-weight: 600;
-  padding: 2rem 0 0 0;
+  /* padding: 2rem 0 0 0; */
 }
 
 .page-heading {

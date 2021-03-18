@@ -67,18 +67,16 @@ function Work({ location, data, pageContext }) {
           <div className="container">
             <div className="project-stat__information">
               <div className="project-stat__block">
-                <h2 className="text-secondary project-stat__block--header">
-                  Overview
-                </h2>
+                <h2 className="project-heading">Overview</h2>
                 <p>{details.overview}</p>
               </div>
 
               <div className="project-stat__block">
-                <h2 className="text-secondary">Goals</h2>
+                <h2 className="project-heading">Goals</h2>
                 <p>{details.goals}</p>
               </div>
               <div className="project-stat__block">
-                <h2 className="text-secondary">Lessons Learned </h2>
+                <h2 className="project-heading">Lessons Learned </h2>
                 <p>{details.lessonsLearned}</p>
               </div>
             </div>
@@ -111,7 +109,7 @@ function Work({ location, data, pageContext }) {
 
         <div className="project-process container">
           <div className="project-process--information">
-            <h2 className="text-secondary">Process</h2>
+            <h2 className="project-heading">Process</h2>
             <p dangerouslySetInnerHTML={{ __html: details.process }}></p>
           </div>
 
