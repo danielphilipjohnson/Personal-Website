@@ -57,6 +57,15 @@ function Work({ location, data, pageContext }) {
                 })}
               </div>
             </div>
+
+            <div className="badge bb">
+              <img
+                src="https://img.icons8.com/ios/250/000000/application-window.png"
+                alt=""
+                width="25"
+              />
+              <a href="#">To view project click here</a>
+            </div>
           </div>
         </div>
         <div className="">
