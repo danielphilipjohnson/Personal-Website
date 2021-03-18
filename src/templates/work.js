@@ -27,14 +27,15 @@ function Work({ location, data, pageContext }) {
               backgroundImage: `url(${pageContext.post.imageSrc})`,
             }}
           ></div>
-          <div className="container project bb">
-            <div>
-              <img
+          <div className="container project bb ">
+            <span className="profile-card-image profile-emoji mb-2">
+              🖥️
+              {/* <img
                 className="profile-card-image profile-emoji"
                 src="https://img.icons8.com/ios/250/000000/macbook.png"
                 alt=""
-              />
-            </div>
+              /> */}
+            </span>
 
             <h1 className="text-purple project-heading lg-heading">
               {pageContext.post.title}

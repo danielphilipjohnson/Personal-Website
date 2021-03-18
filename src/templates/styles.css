@@ -6,14 +6,22 @@
   color: #292929;
 }
 .profile-emoji {
+  font-size: 3rem;
   background-color: #fff;
-  padding: 0.5rem;
+  padding: 1rem 1.25rem;
   bottom: -30px;
 }
 
 .image-banner {
-  padding-top: 3.5rem;
+  padding-top: 2.5rem;
 }
+
+@media screen and (min-width: 378px) {
+  .image-banner {
+    padding-top: 3.5rem;
+  }
+}
+
 .image-inner {
   height: 250px;
   background-size: cover;
@@ -27,16 +35,16 @@
   }
   .profile-emoji {
     background-color: #fff;
-    padding: 0.5rem;
-    bottom: 0;
+    /* padding: 0.5rem; */
   }
 }
 .project {
   margin-top: -4.5rem;
+  padding-bottom: 2rem;
 }
 
 .project .project-heading {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .work-temp header .lg-heading {
@@ -66,7 +74,7 @@
     text-align: left;
   }
   .project .project-heading {
-    margin-top: 0;
+    margin-top: 4rem;
   }
 }
 
@@ -93,8 +101,7 @@
 
 /* project-tools */
 .project-tools {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   color: rgb(79, 79, 79);
 }
 .project-tools__heading {
