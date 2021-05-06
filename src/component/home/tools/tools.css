@@ -41,11 +41,6 @@
   }
 }
 
-/* @media (min-width: 1000px) {
-  .home-services .process {
-    grid-template-columns: repeat(4, 1fr);
-  }
-} */
 @media (min-width: 1500px) {
   .specializes img {
     width: 80px;
