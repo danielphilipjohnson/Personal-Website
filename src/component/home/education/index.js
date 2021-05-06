@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
@@ -30,21 +32,110 @@ function Education() {
 
   const choosePhoto = (imageType) => {
     if (imageType === "atlassian") {
-      return <img className="course-logo" src={atlassian} alt="uci" />;
+      return (
+        <StaticImage
+          className="course-logo"
+          src="../../../images/course-logos/atlassian.webp"
+          alt="uci"
+          placeholder="none"
+          layout="fixed"
+          width={75}
+          height={75}
+          quality="90"
+          formats={["auto", "avif", "webp", "png"]}
+        />
+      );
     } else if (imageType === "google") {
-      return <img className="course-logo" src={google} alt="uci" />;
+      return (
+        <StaticImage
+          className="course-logo"
+          src="../../../images/course-logos/google.png"
+          alt="google"
+          placeholder="none"
+          height={75}
+          width={75}
+          quality="90"
+          formats={["auto", "avif", "webp", "png"]}
+        />
+      );
     } else if (imageType === "hong") {
-      return <img className="course-logo" src={hong} alt="uci" />;
+      return (
+        <StaticImage
+          className="course-logo"
+          src="../../../images/course-logos/hong.png"
+          alt="hong"
+          placeholder="none"
+          height={75}
+          width={75}
+          quality="90"
+          formats={["auto", "avif", "webp", "png"]}
+        />
+      );
     } else if (imageType === "freecodecamp") {
-      return <img className="course-logo" src={freecodecamp} alt="uci" />;
+      return (
+        <StaticImage
+          className="course-logo"
+          src="../../../images/course-logos/freecodecamp.jpeg"
+          alt="freecodecamp"
+          placeholder="none"
+          height={75}
+          width={75}
+          quality="90"
+          formats={["auto", "avif", "webp", "png"]}
+        />
+      );
     } else if (imageType === "michigan") {
-      return <img className="course-logo" src={michigan} alt="michigan" />;
+      return (
+        <StaticImage
+          className="course-logo"
+          src="../../../images/course-logos/michigan.png"
+          alt="michigan"
+          placeholder="none"
+          height={75}
+          width={75}
+          quality="90"
+          formats={["auto", "avif", "webp", "png"]}
+        />
+      );
     } else if (imageType === "plymouth") {
-      return <img className="course-logo" src={plymouth} alt="plymouth" />;
+      return (
+        <StaticImage
+          className="course-logo"
+          src="../../../images/course-logos/plymouth.png"
+          alt="plymouth"
+          placeholder="none"
+          height={75}
+          width={75}
+          quality="90"
+          formats={["auto", "avif", "webp", "png"]}
+        />
+      );
     } else if (imageType === "uci") {
-      return <img className="course-logo" src={uci} alt="uci" />;
+      return (
+        <StaticImage
+          className="course-logo"
+          src="../../../images/course-logos/uci.webp"
+          alt="uci"
+          placeholder="none"
+          height={75}
+          width={75}
+          quality="90"
+          formats={["auto", "avif", "webp", "png"]}
+        />
+      );
     } else if (imageType === "udemy") {
-      return <img className="course-logo" src={udemy} alt="udemy" />;
+      return (
+        <StaticImage
+          className="course-logo"
+          src="../../../images/course-logos/udemy.jpeg"
+          alt="udemy"
+          placeholder="none"
+          height={75}
+          width={75}
+          quality="90"
+          formats={["auto", "avif", "webp", "png"]}
+        />
+      );
     }
     return <p>No image</p>;
   };

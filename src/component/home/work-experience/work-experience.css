@@ -1,60 +1,19 @@
 .experience {
   background-color: #fff;
   color: #37352f;
-  text-align: left;
 }
 .experience h2 {
   border-bottom: 1px solid #e4e4e4;
 }
 
-.container.container-narrow {
-  position: relative;
-  padding: 2rem inherit;
-}
 .work-experience {
   list-style: none;
   margin: 1rem 0 0 0;
-  position: relative;
-  text-align: left;
   line-height: 1.75;
-
-  /* padding-bottom: 1rem; */
-  /* border-bottom: 1px solid #e4e4e4; */
 }
 
-.work-experience::before {
-  content: "";
-  position: absolute;
-  top: 6px;
-  left: 0;
-  bottom: 0;
-  width: 1px;
-  /* background: hsla(120, 0%, 50%, 0.9); */
-}
-
-.work-experience > li.job-current::before {
-  background: #94c85a;
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4);
-}
 .work-experience > li + li {
   margin-top: 1.2rem;
-}
-
-.work-experience > li {
-  /* padding: 0 1.5rem;
-  position: relative; */
-}
-
-.work-experience > li::before {
-  /* content: "";
-  position: absolute;
-  top: 5px;
-  left: -5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #fff; */
 }
 
 .work-experience .job-title {

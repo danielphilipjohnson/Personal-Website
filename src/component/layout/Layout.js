@@ -5,7 +5,7 @@ import Footer from "./footer";
 export default function Layout({ location, children }) {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <main>{children}</main>
       <Footer location={location} />
     </>
