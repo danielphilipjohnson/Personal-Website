@@ -4,9 +4,9 @@
   width: 100% !important;
   height: 300px !important;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .contact-bg {
-    height: 900px !important;
+    height: 950px !important;
   }
 }
 

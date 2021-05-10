@@ -13,7 +13,7 @@ function ImageContainer() {
         placeholder="none"
         layout="fixed"
         width={700}
-        height={700}
+        height={900}
         formats={["auto", "avif", "webp", "png"]}
       />
       <div className="image__inner">
