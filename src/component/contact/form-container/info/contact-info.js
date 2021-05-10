@@ -14,7 +14,9 @@ function ContactInfo({ info }) {
           width="25"
           height="25"
         />
-        <address className="inline contact__info-item">{location}</address>
+        <address className="inline contact__info-item">
+          Truro, Cornwall, United Kingdom
+        </address>
       </div>
       <div className="contact__info" id="phone">
         <img

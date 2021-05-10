@@ -6,12 +6,6 @@ import ContactInfo from "./info/contact-info";
 import "./form-container.css";
 
 function FormContainer() {
-  const contactinfo = {
-    location: "Truro, Cornwall, United Kingdom",
-    mobile: "+44 555-5555",
-    email: "daniel-philip-johnson@gmail.com",
-  };
-
   return (
     <div className="form-container">
       <p className="form__description">
@@ -23,7 +17,6 @@ function FormContainer() {
       </p>
 
       <Form />
-
       <ContactInfo info={contactinfo} />
     </div>
   );
