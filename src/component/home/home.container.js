@@ -57,8 +57,8 @@ const HomeContainer = () => {
       <Profile />
       <WorkExperience />
       <Tools />
-      {/* <Services />
-      <Education /> */}
+      <Services />
+      {/* <Education /> */}
     </>
   );
 };
