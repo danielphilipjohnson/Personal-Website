@@ -7,12 +7,10 @@ import ContactContainer from "../component/contact";
 
 function contact({ location }) {
   return (
-    <>
-      <Layout location={location.pathname}>
-        <SEO />
-        <ContactContainer />
-      </Layout>
-    </>
+    <Layout location={location.pathname}>
+      <SEO />
+      <ContactContainer />
+    </Layout>
   );
 }
 
