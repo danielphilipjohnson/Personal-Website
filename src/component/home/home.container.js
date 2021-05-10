@@ -3,14 +3,13 @@ import { useStaticQuery, graphql, Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 import SocialIcons from "./social-icons";
+import Profile from "./profile";
+import WorkExperience from "./work-experience";
 import Tools from "./tools";
 
 import Education from "./education";
 
 import Services from "./services";
-import Profile from "./profile";
-
-import WorkExperience from "./work-experience";
 
 import bg from "../../images/showcase1.jpg";
 
