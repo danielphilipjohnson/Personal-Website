@@ -1,13 +1,9 @@
 .form-container {
-  background-color: #fff;
   margin: 0 auto;
   padding: 2rem 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  color: #000;
   max-width: 75%;
 }
-.form-container .description {
+.form__description {
   font-size: 1.2rem;
   font-weight: bolder;
   margin-bottom: 2rem;
