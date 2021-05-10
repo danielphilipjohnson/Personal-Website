@@ -13,7 +13,7 @@ import {
 
 import { faFirefoxBrowser } from "@fortawesome/free-brands-svg-icons";
 
-import Contact from "../../info/contact-info";
+import Contact from "../info/contact-info";
 
 import "./form.css";
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 import Form from "./form/form";
-import ContactInfo from "../info/contact-info";
+import ContactInfo from "./info/contact-info";
 
 import "./form-container.css";
 

@@ -4,25 +4,25 @@
   padding-top: 1rem;
   text-align: left;
 }
-.contact p {
+.contact__title {
   color: #102a43;
   font-size: 0.8rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
-.contact .info {
+.contact__info {
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
-.contact .info i {
+/* .contact__info i {
   color: #6d6d7a;
   font-size: 1.25rem;
-}
-.contact .info address,
-.contact .info span {
+} */
+.contact__info address,
+.contact__info span {
   color: #627d98;
   margin-left: 1rem;
 }
-.contact .info address {
+.inline {
   display: inline;
 }
