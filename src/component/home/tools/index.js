@@ -11,10 +11,17 @@ function Tools() {
 
         <div className="specializes">
           <div className="specialize">
-            <img
-              src="https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/js.png"
-              alt="JavaScript"
-            />
+            <div className="img-container">
+              <StaticImage
+                src="../../../images/about-logos/png/javascript.png"
+                alt="JavaScript"
+                placeholder="none"
+                layout="fixed"
+                width={85}
+                height={80}
+                formats={["auto", "avif", "webp", "png"]}
+              />
+            </div>
             <div class="specialize__inner">
               <h3>JavaScript</h3>
               <p>
@@ -24,10 +31,18 @@ function Tools() {
             </div>
           </div>
           <div class="specialize">
-            <img
-              src="https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/react.svg"
-              alt="React"
-            />
+            <div className="img-container">
+              <StaticImage
+                src="../../../images/about-logos/png/react.png"
+                alt="react"
+                placeholder="none"
+                layout="fixed"
+                width={85}
+                height={76}
+                formats={["auto", "avif", "webp", "png"]}
+              />
+            </div>
+
             <div class="specialize__inner">
               <h3>React</h3>
               <p>
@@ -38,10 +53,22 @@ function Tools() {
             </div>
           </div>
           <div class="specialize">
-            <img
+            {/* <img
               src="https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/Redux1.png"
               alt="Redux"
-            />
+            /> */}
+            <div className="img-container">
+              <StaticImage
+                src="../../../images/about-logos/png/redux.png"
+                alt="redux"
+                placeholder="none"
+                layout="fixed"
+                width={85}
+                height={76}
+                formats={["auto", "avif", "webp", "png"]}
+              />
+            </div>
+
             <div class="specialize__inner">
               <h3>Redux</h3>
               <p>
@@ -51,10 +78,18 @@ function Tools() {
             </div>
           </div>
           <div class="specialize">
-            <img
-              src="https://raw.githubusercontent.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage/img/logos/GraphQL.png"
-              alt="GraphQL"
-            />
+            <div className="img-container">
+              <StaticImage
+                src="../../../images/about-logos/png/graphql.png"
+                alt="react"
+                placeholder="none"
+                layout="fixed"
+                width={85}
+                height={85}
+                formats={["auto", "avif", "webp", "png"]}
+              />
+            </div>
+
             <div class="specialize__inner">
               <h3>GraphQL</h3>
               <p>
