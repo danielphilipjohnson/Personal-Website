@@ -1,16 +1,10 @@
 import React from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 import PDF from "../../downloads/Daniel_Philip_Johnson_CV.pdf";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faMapMarkerAlt,
-  faPhone,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
 
 import SEO from "../component/Seo";
-import Header from "../component/layout/Header";
 
 import Layout from "../component/layout/Layout";
 import Bio from "../component/about/bio/Biography";
@@ -46,12 +40,6 @@ const About = ({ location }) => {
       <Layout location={location.pathname}>
         <SEO />
 
-        {/* <Header
-          title={" About "}
-          secondary={" Me"}
-          subTitle={"Let me tell you a few things..."}
-        /> */}
-
         <div className="about top-banner">
           <div className="about-info alt-bio">
             <div className="profile-card">
@@ -64,11 +52,17 @@ const About = ({ location }) => {
               </div>
 
               <div className="container">
-                <img
-                  src={profile}
-                  alt="Daniel johnson"
+                <StaticImage
                   className="profile-card-image"
+                  src="../images/profile.jpg"
+                  alt="Daniel johnson"
+                  placeholder="none"
+                  layout="fixed"
+                  width={99}
+                  height={99}
+                  formats={["auto", "avif", "webp", "png"]}
                 />
+
                 <div className="profile-card-body">
                   <h2 className="profile-name">
                     Daniel <span>Philip</span> Johnson
@@ -109,11 +103,6 @@ const About = ({ location }) => {
                     <p>danielphilipjohnson</p>
                   </div>
 
-                  {/* <div className="profile-card-body-item">
-                    <FontAwesomeIcon icon={faPhone} />
-                    <span> +44 555-5555</span>
-                  </div> */}
-
                   <div className="profile-card-body-item">
                     <img
                       src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"
@@ -123,11 +112,11 @@ const About = ({ location }) => {
 
                     <p> daniel-philip-johnson@gmail.com</p>
                   </div>
-                  {/* 
+
                   <div className="profile-card-body-item">
                     <h3>Availability</h3>
                     <p>Freelance: Available</p>
-                  </div> */}
+                  </div>
                   <div className="badge bb">
                     <img
                       src="https://img.icons8.com/ios/250/000000/resume.png"
@@ -138,30 +127,6 @@ const About = ({ location }) => {
                       Version PDF
                     </a>
                   </div>
-                  {/* <div className="btn-group">
-                    <Link className="btn-outline" to="/work">
-                      View my work
-                    </Link>
-
-                    <a className="btn-outline" href="#">
-                      <FontAwesomeIcon icon={faEnvelope} />
-                      Resume
-                    </a>
-                  </div> */}
-                  {/*  */}
-                  {/* {aboutStats.map((stat) => {
-                    return (
-                      <a
-                        className="header-badge"
-                        target="_blank"
-                        rel="noreferrer"
-                        href={stat.link}
-                        key={stat.link}
-                      >
-                        <img alt={stat.alt} src={stat.imageSrc} />
-                      </a>
-                    );
-                  })} */}
                 </div>
               </div>
             </div>
@@ -170,7 +135,6 @@ const About = ({ location }) => {
 
           <section className="alt-bio bio-section" aria-label="quick bio">
             <div className="container">
-              {/* make it into a section */}
               <h2 className="text-secondary">
                 <span role="img" aria-labelledby="values">
                   🏆
@@ -179,22 +143,110 @@ const About = ({ location }) => {
               </h2>{" "}
               <div className="profile-card-body-item">
                 <div className="icons-technology">
-                  <img className="img-fluid" src={AngularLogo} alt="Angular" />
-                  <img src={ReactLogo} alt="React" />
-                  <img src={GatsbyLogo} alt="GatsbyJS" />
-                  <img src={GraphQlLogo} alt="GraphQL" />
-
-                  <img src={JavaScriptLogo} alt="JavaScript" />
-                  <img src={TypescriptLogo} alt="TypeScript" />
-                  <img src={SassLogo} alt="SASS" />
-                  <img src={BootstrapLogo} alt="Bootstrap" />
-                  <img
+                  <StaticImage
                     className="img-fluid"
-                    src={TailwindLogo}
-                    alt="Tailwind"
+                    src="../images/about-logos/png/angular.png"
+                    alt="angular"
+                    placeholder="none"
+                    layout="fixed"
+                    width={50}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
                   />
-                  <img src={GithubLogo} alt="Git Version Control" />
-                  {/* <img src={NpmLogo} alt="NPM" /> */}
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/react.png"
+                    alt="react"
+                    placeholder="none"
+                    layout="fixed"
+                    width={50}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/gatsby.png"
+                    alt="GatsbyJS"
+                    placeholder="none"
+                    layout="fixed"
+                    width={45}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
+
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/graphql.png"
+                    alt="GraphQL"
+                    placeholder="none"
+                    layout="fixed"
+                    width={45}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/javascript.png"
+                    alt="javascript"
+                    placeholder="none"
+                    layout="fixed"
+                    width={45}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
+
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/ts.png"
+                    alt="typescript"
+                    placeholder="none"
+                    layout="fixed"
+                    width={45}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/sass.png"
+                    alt="SASS"
+                    placeholder="none"
+                    layout="fixed"
+                    width={50}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
+
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/bootstrap4.png"
+                    alt="bootstrap4"
+                    placeholder="none"
+                    layout="fixed"
+                    width={45}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
+
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/tailwind.png"
+                    alt="tailwind"
+                    placeholder="none"
+                    layout="fixed"
+                    width={75}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
+                  <StaticImage
+                    className="img-fluid"
+                    src="../images/about-logos/png/github.png"
+                    alt="Git Version Contro"
+                    placeholder="none"
+                    layout="fixed"
+                    width={45}
+                    height={45}
+                    formats={["auto", "avif", "webp", "png"]}
+                  />
                 </div>
               </div>
               <h2 className="text-secondary">{quickBio.heading}</h2>
@@ -220,10 +272,7 @@ const About = ({ location }) => {
             </div>
           </section>
 
-          <section
-            className="alt-bio bio-section"
-            // aria-label="what I do outside of programming"
-          >
+          <section className="alt-bio bio-section">
             <div className="container ">
               <h2>
                 <span role="img" aria-labelledby="thunder">
@@ -314,24 +363,6 @@ const About = ({ location }) => {
             </div>
           </section>
         </div>
-
-        {/* <div className="profile-card-body-item">
-                    <h3>Occupation</h3>
-                    <h4>React Developer</h4>
-                  </div> */}
-
-        {/* <div className="profile-card-body-item">
-                    <h3>Graduated</h3>
-                    <h4>
-                      <span role="img" aria-labelledby="graduation cap">
-                        🎓
-                      </span>
-                      Bsc Psychology | University of Plymouth
-                      <span role="img" aria-labelledby="school">
-                        🏫
-                      </span>
-                    </h4>
-                  </div> */}
       </Layout>
     </>
   );
