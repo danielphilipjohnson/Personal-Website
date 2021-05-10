@@ -24,8 +24,9 @@ function Tools() {
             />
           </div>
           <div>
-            <h3>JavaScript</h3>
-            <p>
+            <h3 className="specialize__header">JavaScript</h3>
+
+            <p className="specialize__paragraph">
               With over 2 years experience using JavaScript [ECMA5-11] building
               websites, react and angular apps.
             </p>
@@ -38,15 +39,15 @@ function Tools() {
               alt="react"
               placeholder="none"
               layout="fixed"
-              width={85}
+              width={86}
               height={76}
               formats={["auto", "avif", "webp", "png"]}
             />
           </div>
 
           <div>
-            <h3>React</h3>
-            <p>
+            <h3 className="specialize__header">React</h3>
+            <p className="specialize__paragraph">
               2 years experience building various React projects from a Markdown
               Previewer, Drum Machine and amazon clone. As well as 6 months
               experience working as a React developer for a startup.
@@ -67,8 +68,8 @@ function Tools() {
           </div>
 
           <div>
-            <h3>Redux</h3>
-            <p>
+            <h3 className="specialize__header">Redux</h3>
+            <p className="specialize__paragraph">
               When using React, Redux is my go to state manager which is paired
               with redux thunk and reselect
             </p>
@@ -88,8 +89,8 @@ function Tools() {
           </div>
 
           <div>
-            <h3>GraphQL</h3>
-            <p>
+            <h3 className="specialize__header">GraphQL</h3>
+            <p className="specialize__paragraph">
               An alternative to Redux which I love is GraphQL. I use this as
               query language for my API's. I have been using this for almost a
               year.
