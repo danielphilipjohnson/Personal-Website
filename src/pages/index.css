@@ -23,6 +23,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 .home:after {
   content: "";
