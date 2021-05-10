@@ -1,6 +1,4 @@
 .tools {
-  padding: 0rem 1rem;
-  background-color: #fff;
   color: #37352f;
 }
 
@@ -41,6 +39,10 @@
 @media (min-width: 800px) {
   .specializes {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  .specializes .img-container {
+    margin-right: 1rem;
   }
   .specializes h3 {
     margin-bottom: 0.5rem;
