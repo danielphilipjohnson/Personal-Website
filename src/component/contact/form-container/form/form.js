@@ -23,7 +23,7 @@ function Form() {
           </div>
 
           <input
-            autofocus
+            autoFocus
             type="text"
             name="first-name"
             id="first-name"
@@ -40,7 +40,7 @@ function Form() {
             </label>
           </div>
           <input
-            autofocus
+            autoFocus
             type="text"
             name="last-name"
             id="last-name"
