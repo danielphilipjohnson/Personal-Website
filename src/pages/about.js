@@ -9,21 +9,7 @@ import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import Bio from "../component/about/bio/Biography";
 
-import profile from "../images/profile.jpg";
 import banner from "../images/linkedinBanner.png";
-
-import AngularLogo from "../images/about-logos/png/angular.png";
-import ReactLogo from "../images/about-logos/png/react.png";
-import GatsbyLogo from "../images/about-logos/png/gatsby.png";
-import GraphQlLogo from "../images/about-logos/png/graphql.png";
-
-import JavaScriptLogo from "../images/about-logos/png/javascript.png";
-import TypescriptLogo from "../images/about-logos/png/ts.png";
-import SassLogo from "../images/about-logos/png/sass.png";
-import BootstrapLogo from "../images/about-logos/png/bootstrap4.png";
-import GithubLogo from "../images/about-logos/png/github.png";
-
-import TailwindLogo from "../images/about-logos/png/tailwind.png";
 
 import "./styles/about.css";
 
@@ -71,9 +57,9 @@ const About = ({ location }) => {
                   <div className="profile-card-body-item">
                     <img
                       src="https://img.icons8.com/ios/250/000000/twitter.png"
-                      alt=""
-                      srcset=""
-                      width="20"
+                      alt="twitter icon"
+                      width="25"
+                      height="25"
                     />
                     <p>@danielp_johnson</p>
                   </div>
@@ -87,8 +73,9 @@ const About = ({ location }) => {
                   <div className="profile-card-body-item">
                     <img
                       src="https://img.icons8.com/ios/250/000000/marker.png"
-                      alt=""
+                      alt="marker icon"
                       width="25"
+                      height="25"
                     />
 
                     <address>Cornwall, United Kingdom</address>
@@ -96,8 +83,9 @@ const About = ({ location }) => {
                   <div className="profile-card-body-item">
                     <img
                       src="https://img.icons8.com/ios/250/000000/linkedin.png"
-                      alt=""
+                      alt="linkedin icon"
                       width="25"
+                      height="25"
                     />
 
                     <p>danielphilipjohnson</p>
@@ -106,8 +94,9 @@ const About = ({ location }) => {
                   <div className="profile-card-body-item">
                     <img
                       src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"
-                      alt=""
+                      alt="mail icon"
                       width="25"
+                      height="25"
                     />
 
                     <p> daniel-philip-johnson@gmail.com</p>
@@ -120,7 +109,7 @@ const About = ({ location }) => {
                   <div className="badge bb">
                     <img
                       src="https://img.icons8.com/ios/250/000000/resume.png"
-                      alt=""
+                      alt="resume icon"
                       width="25"
                     />
                     <a href={PDF} download>
