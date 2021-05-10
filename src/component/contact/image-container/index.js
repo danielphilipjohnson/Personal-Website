@@ -1,6 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { StaticImage } from "gatsby-plugin-image";
+import {
+  faStackOverflow,
+  faCodepen,
+  faFreeCodeCamp,
+  faGithub,
+  faDev,
+  faHackerrank,
+} from "@fortawesome/free-brands-svg-icons";
+
 import "./image-container.css";
 
 function ImageContainer() {
@@ -22,36 +31,36 @@ function ImageContainer() {
         <div className="boxes">
           <div className="box dev">
             <a href="https://dev.to/danielphilipjohnson">
-              <FontAwesomeIcon icon={["fab", "dev"]} />
+              <FontAwesomeIcon icon={faDev} />
             </a>
           </div>
 
           <div className="box hackerrank">
             <a href="https://www.hackerrank.com/daniel_p_johnson">
-              <FontAwesomeIcon icon={["fab", "hackerrank"]} />
+              <FontAwesomeIcon icon={faHackerrank} />
             </a>
           </div>
 
           <div className="box codepen">
             <a href="https://codepen.io/danielphilipjohnson">
-              <FontAwesomeIcon icon={["fab", "codepen"]} />
+              <FontAwesomeIcon icon={faCodepen} />
             </a>
           </div>
 
           <div className="box stack-overflow">
             <a href="https://stackoverflow.com/users/13921677/daniel-philip-johnson">
-              <FontAwesomeIcon icon={["fab", "stack-overflow"]} />
+              <FontAwesomeIcon icon={faStackOverflow} />
             </a>
           </div>
 
           <div className="box free-code-camp">
             <a href="https://www.freecodecamp.org/daniel-philip-johnson">
-              <FontAwesomeIcon icon={["fab", "free-code-camp"]} />
+              <FontAwesomeIcon icon={faFreeCodeCamp} />
             </a>
           </div>
           <div className="box github">
             <a href="https://github.com/danielphilipjohnson">
-              <FontAwesomeIcon icon={["fab", "github"]} />
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
         </div>
