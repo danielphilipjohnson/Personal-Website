@@ -40,7 +40,6 @@ function Form() {
             </label>
           </div>
           <input
-            autoFocus
             type="text"
             name="last-name"
             id="last-name"

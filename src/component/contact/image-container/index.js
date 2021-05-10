@@ -7,17 +7,17 @@ function ImageContainer() {
   return (
     <div className="image-container">
       <StaticImage
-        className="img-bg1"
+        className="contact-bg"
         src="../../../images/formbg.jpeg"
         alt="showcase"
         placeholder="none"
         layout="fixed"
         width={700}
-        height={1000}
+        height={700}
         formats={["auto", "avif", "webp", "png"]}
       />
-      <div className="image-inner">
-        <h3 className="title">Connect With Me</h3>
+      <div className="image__inner">
+        <h3 className="image__inner-title">Connect With Me</h3>
 
         <div className="boxes">
           <div className="box dev">
