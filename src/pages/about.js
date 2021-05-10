@@ -18,18 +18,18 @@ import Bio from "../component/about/bio/Biography";
 import profile from "../images/profile.jpg";
 import banner from "../images/linkedinBanner.png";
 
-import AngularLogo from "../images/about-logos/angular.svg";
-import ReactLogo from "../images/about-logos/react.svg";
-import GatsbyLogo from "../images/about-logos/gatsby.svg";
-import GraphQlLogo from "../images/about-logos/graphql.svg";
+import AngularLogo from "../images/about-logos/png/angular.png";
+import ReactLogo from "../images/about-logos/png/react.png";
+import GatsbyLogo from "../images/about-logos/png/gatsby.png";
+import GraphQlLogo from "../images/about-logos/png/graphql.png";
 
-import JavaScriptLogo from "../images/about-logos/javascript.svg";
-import TypescriptLogo from "../images/about-logos/ts.svg";
-import SassLogo from "../images/about-logos/sass.svg";
-import BootstrapLogo from "../images/about-logos/bootstrap4.svg";
-import GithubLogo from "../images/about-logos/github.svg";
+import JavaScriptLogo from "../images/about-logos/png/javascript.png";
+import TypescriptLogo from "../images/about-logos/png/ts.png";
+import SassLogo from "../images/about-logos/png/sass.png";
+import BootstrapLogo from "../images/about-logos/png/bootstrap4.png";
+import GithubLogo from "../images/about-logos/png/github.png";
 
-import TailwindLogo from "../images/about-logos/tailwind.png";
+import TailwindLogo from "../images/about-logos/png/tailwind.png";
 
 import "./styles/about.css";
 

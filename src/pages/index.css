@@ -4,21 +4,26 @@ main {
   /* min-height: calc(100vh - 60px); */
 }
 
-.home {
-  padding: 1rem;
+.img-bg {
+  filter: brightness(0.35);
+  object-fit: cover;
+  width: 100% !important;
+}
+
+.relative {
+  position: absolute;
+  padding: 0 1rem;
 }
 
 .home {
   overflow: hidden;
   position: relative;
-  z-index: 99;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 .home:after {
   content: "";
@@ -57,9 +62,6 @@ main {
     font-size: 0.95rem;
   }
 
-  .home {
-    padding: 4rem;
-  }
   .social-icons a {
     font-size: 1.55rem;
   }

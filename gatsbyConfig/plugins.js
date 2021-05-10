@@ -5,6 +5,7 @@ module.exports = [
       devMode: true,
     },
   },
+  "gatsby-plugin-image",
   "gatsby-plugin-sass",
   "gatsby-plugin-sharp",
   "gatsby-plugin-react-helmet",
@@ -108,9 +109,8 @@ module.exports = [
     resolve: "gatsby-source-filesystem",
     options: {
       name: "images",
-      path: "./src/images/",
+      path: `./src/images/`,
     },
-    __key: "images",
   },
 
   {
@@ -134,7 +134,7 @@ module.exports = [
   {
     resolve: "gatsby-plugin-static-folders",
     options: {
-      folders: ["/images"],
+      folders: ["/static/images"],
     },
   },
 ];

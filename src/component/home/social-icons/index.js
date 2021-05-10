@@ -1,71 +1,58 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import {
-  faGithubAlt,
-  faTwitter,
-  faLinkedinIn,
   faStackOverflow,
   faCodepen,
+  faGithub,
+  faLinkedin,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { fab } from "@fortawesome/free-brands-svg-icons";
-
-import { library } from "@fortawesome/fontawesome-svg-core";
-library.add(
-  fab,
-  faGithubAlt,
-  faTwitter,
-  faLinkedinIn,
-  faStackOverflow,
-  faCodepen
-);
 function Icons() {
-  const { site } = useStaticQuery(siteQuery);
   return (
     <>
       <div id="social-icons" className="social-icons badge-contact-sm">
-        {site.siteMetadata.socials.map((social) => {
-          return (
-            <a
-              key={social.FontAwesomeIcon.logo}
-              href={social.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon
-                icon={[
-                  `${social.FontAwesomeIcon.type}`,
-                  `${social.FontAwesomeIcon.logo}`,
-                ]}
-                size="2x"
-              />
-            </a>
-          );
-        })}
+        <div id="social-icons" class="social-icons badge-contact-sm">
+          <a
+            href="https://github.com/danielphilipjohnson"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
+          <a
+            href="https://twitter.com/danielp_johnson"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/daniel-philip-johnson/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+          <a
+            href="https://codepen.io/danielphilipjohnson/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faCodepen} size="2x" />
+          </a>
+          <a
+            href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faStackOverflow} size="2x" />
+          </a>
+        </div>
       </div>
     </>
   );
 }
 
 export default Icons;
-
-const siteQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-
-        socials {
-          link
-          FontAwesomeIcon {
-            logo
-            type
-          }
-        }
-      }
-    }
-  }
-`;

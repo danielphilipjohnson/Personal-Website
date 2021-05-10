@@ -170,39 +170,39 @@ function Work({ location, data, pageContext }) {
 
 export default Work;
 
-export const query = graphql`
-  query($slug: String!) {
-    allSitePage(filter: { path: { eq: $slug } }) {
-      nodes {
-        path
-        context {
-          post {
-            path
-            badges
-            codepenLink
-            description
-            githubLink
-            imageSrc
-            path
-            projectLink
-            title
-            type
-            details {
-              overview
-              goals
-              lessonsLearned
-              mobileView
-              toolUsed {
-                name
-                src
-                about
-              }
-              process
-              tabletView
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+// export const query = graphql`
+//   query($slug: String!) {
+//     allSitePage(filter: { path: { eq: $slug } }) {
+//       nodes {
+//         path
+//         context {
+//           post {
+//             path
+//             badges
+//             codepenLink
+//             description
+//             githubLink
+//             imageSrc
+//             path
+//             projectLink
+//             title
+//             type
+//             details {
+//               overview
+//               goals
+//               lessonsLearned
+//               mobileView
+//               toolUsed {
+//                 name
+//                 src
+//                 about
+//               }
+//               process
+//               tabletView
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
