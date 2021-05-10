@@ -1,5 +1,5 @@
 import React from "react";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 import SocialIcons from "./social-icons";
@@ -11,13 +11,7 @@ import Education from "./education";
 
 import Services from "./services";
 
-import bg from "../../images/showcase1.jpg";
-
 const HomeContainer = () => {
-  const {
-    site: { siteMetadata },
-  } = useStaticQuery(siteQuery);
-
   return (
     <>
       <section id="home" className="home">
@@ -70,13 +64,3 @@ const HomeContainer = () => {
 };
 
 export default HomeContainer;
-
-const siteQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        tagline
-      }
-    }
-  }
-`;
