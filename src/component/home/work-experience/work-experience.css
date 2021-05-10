@@ -1,37 +1,25 @@
-.experience {
-  background-color: #fff;
-  color: #37352f;
-}
-.experience h2 {
-  border-bottom: 1px solid #e4e4e4;
-}
-
 .work-experience {
   list-style: none;
   margin: 1rem 0 0 0;
   line-height: 1.75;
 }
 
-.work-experience > li + li {
-  margin-top: 1.2rem;
-}
-
-.work-experience .job-title {
+.job-title {
   font-size: 1em;
   margin: 0 0 0.75rem;
 }
 
-.work-experience .job-meta {
+.job-meta {
   font-size: 0.95rem;
   font-style: italic;
 }
 
-.work-experience .job-description {
+.job-description {
   font-size: 1rem;
   margin: 0.8rem 0 0;
 }
 
-.job-description li {
+.job-description__list {
   list-style: none;
   margin-bottom: 1rem;
 }
