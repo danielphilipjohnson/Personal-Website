@@ -17,7 +17,7 @@ function FormContainer() {
       </p>
 
       <Form />
-      <ContactInfo info={contactinfo} />
+      <ContactInfo />
     </div>
   );
 }

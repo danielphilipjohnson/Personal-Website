@@ -2,8 +2,7 @@ import React from "react";
 
 import "./contact-info.css";
 
-function ContactInfo({ info }) {
-  const { location } = info;
+function ContactInfo() {
   return (
     <div className="contact">
       <p className="contact__title">Contact Information</p>
