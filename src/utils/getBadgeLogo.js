@@ -3,35 +3,15 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 
-import html5Logo from "../images/about-logos/html5.svg";
-import cssLogo from "../images/about-logos/css.svg";
-import freecodecampLogo from "../images/about-logos/freecodecamp.svg";
-import frontendLogo from "../images/about-logos/front-end.png";
-import sassLogo from "../images/about-logos/sass.svg";
-import javascriptLogo from "../images/about-logos/javascript.svg";
+import html5Logo from "../images/about-logos/png/html5.png";
+import cssLogo from "../images/about-logos/png/css.png";
+import freecodecampLogo from "../images/about-logos/png/freecodecamp.png";
+import frontendLogo from "../images/about-logos/png/front-end.png";
+import sassLogo from "../images/about-logos/png/sass.png";
+import javascriptLogo from "../images/about-logos/png/javascript.png";
 
-import materializeLogo from "../images/about-logos/materialize.png";
-import angularLogo from "../images/about-logos/angular.svg";
-
-// const allBadges = [
-//   "html5",
-//   "css",
-//   "responsive",
-//   "freecodecamp",
-//   "sass",
-//   "materialize",
-//   "front-end",
-//   "javascript",
-//   "angular",
-// ];
-// could map the badges to make jsx
-// {name: "", src: "", alt: ""}
-
-// const articlesJsx = articlesObj.map((item, index) => {
-//   return (
-//     <View key={index}>...</View>
-//  );
-// });
+import materializeLogo from "../images/about-logos/png/materialize.png";
+import angularLogo from "../images/about-logos/png/angular.png";
 
 const getBadgeLogo = (name) => {
   const cleanedName = name.toLowerCase();
