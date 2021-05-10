@@ -58,7 +58,7 @@ const HomeContainer = () => {
       <WorkExperience />
       <Tools />
       <Services />
-      {/* <Education /> */}
+      <Education />
     </>
   );
 };
