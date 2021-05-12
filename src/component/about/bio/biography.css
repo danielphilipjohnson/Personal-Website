@@ -12,15 +12,8 @@
   text-transform: uppercase;
 }
 
-/* 
-possible removal
-.bio-name h3 {
-  font-size: 1.5rem;
-} */
-
 .bio-content,
-.bio-name,
-.bio-content h3 {
+.bio-name {
   margin-bottom: 1rem;
 }
 
@@ -35,7 +28,3 @@ possible removal
     padding: 1rem 1rem 0 1rem;
   }
 }
-
-/* .bottom-line.secondary {
-  background: #94c85a;
-} */
