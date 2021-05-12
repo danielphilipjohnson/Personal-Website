@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import PDF from "../../downloads/Daniel_Philip_Johnson_CV.pdf";
 
-import SEO from "../component/Seo";
+import Seo from "../component/Seo";
 
 import Layout from "../component/layout/Layout";
 import Bio from "../component/about/bio/Biography";
@@ -13,18 +13,20 @@ import banner from "../images/linkedinBanner.png";
 
 import "./styles/about.css";
 
+// issue with bringing in markdown
+// missing bio link
 const About = ({ location }) => {
   const {
     site: {
       siteMetadata: {
-        about: { aboutStats, aboutInfo, quickBio, valuesMissions, future },
+        about: { quickBio, valuesMissions, future },
       },
     },
   } = useStaticQuery(siteQuery);
   return (
     <>
       <Layout location={location.pathname}>
-        <SEO />
+        <Seo />
 
         <div className="about top-banner">
           <div className="about-info alt-bio">
@@ -34,6 +36,7 @@ const About = ({ location }) => {
                   className="card-head-bg"
                   src={banner}
                   alt="cover of daniel philip johnson"
+                  height="400px"
                 />
               </div>
 
@@ -51,7 +54,8 @@ const About = ({ location }) => {
 
                 <div className="profile-card-body">
                   <h2 className="profile-name">
-                    Daniel <span>Philip</span> Johnson
+                    Daniel <span className="profile-middle-name">Philip</span>{" "}
+                    Johnson
                   </h2>
 
                   <div className="profile-card-body-item">
@@ -111,8 +115,9 @@ const About = ({ location }) => {
                       src="https://img.icons8.com/ios/250/000000/resume.png"
                       alt="resume icon"
                       width="25"
+                      height="25"
                     />
-                    <a href={PDF} download>
+                    <a className="bio-link" href={PDF} download>
                       Version PDF
                     </a>
                   </div>
@@ -124,7 +129,7 @@ const About = ({ location }) => {
 
           <section className="alt-bio bio-section" aria-label="quick bio">
             <div className="container">
-              <h2 className="text-secondary">
+              <h2 className="bio-section-header text-secondary">
                 <span role="img" aria-labelledby="values">
                   🏆
                 </span>{" "}
@@ -133,7 +138,7 @@ const About = ({ location }) => {
               <div className="profile-card-body-item">
                 <div className="icons-technology">
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/angular.png"
                     alt="angular"
                     placeholder="none"
@@ -143,7 +148,7 @@ const About = ({ location }) => {
                     formats={["auto", "avif", "webp", "png"]}
                   />
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/react.png"
                     alt="react"
                     placeholder="none"
@@ -153,7 +158,7 @@ const About = ({ location }) => {
                     formats={["auto", "avif", "webp", "png"]}
                   />
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/gatsby.png"
                     alt="GatsbyJS"
                     placeholder="none"
@@ -164,7 +169,7 @@ const About = ({ location }) => {
                   />
 
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/graphql.png"
                     alt="GraphQL"
                     placeholder="none"
@@ -174,7 +179,7 @@ const About = ({ location }) => {
                     formats={["auto", "avif", "webp", "png"]}
                   />
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/javascript.png"
                     alt="javascript"
                     placeholder="none"
@@ -185,7 +190,7 @@ const About = ({ location }) => {
                   />
 
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/ts.png"
                     alt="typescript"
                     placeholder="none"
@@ -195,7 +200,7 @@ const About = ({ location }) => {
                     formats={["auto", "avif", "webp", "png"]}
                   />
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/sass.png"
                     alt="SASS"
                     placeholder="none"
@@ -206,7 +211,7 @@ const About = ({ location }) => {
                   />
 
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/bootstrap4.png"
                     alt="bootstrap4"
                     placeholder="none"
@@ -217,7 +222,7 @@ const About = ({ location }) => {
                   />
 
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/tailwind.png"
                     alt="tailwind"
                     placeholder="none"
@@ -227,7 +232,7 @@ const About = ({ location }) => {
                     formats={["auto", "avif", "webp", "png"]}
                   />
                   <StaticImage
-                    className="img-fluid"
+                    className="img-fluid icons-technology-img"
                     src="../images/about-logos/png/github.png"
                     alt="Git Version Contro"
                     placeholder="none"
@@ -247,8 +252,8 @@ const About = ({ location }) => {
             className="alt-bio bio-section"
             aria-label="my values and missions"
           >
-            <div className="container ">
-              <h2 className="text-secondary">
+            <div className="container">
+              <h2 className="bio-section-header text-secondary">
                 <span role="img" aria-labelledby="values">
                   🏆
                 </span>{" "}
@@ -263,7 +268,7 @@ const About = ({ location }) => {
 
           <section className="alt-bio bio-section">
             <div className="container ">
-              <h2>
+              <h2 className="bio-section-header">
                 <span role="img" aria-labelledby="thunder">
                   ⚡
                 </span>{" "}
@@ -278,29 +283,44 @@ const About = ({ location }) => {
               </p>
 
               <ul className="bio-list">
-                <li>
-                  <a href="https://www.amazon.co.uk/Habits-Success-Inspired-Ideas-Help-ebook/dp/B07FTQMQZM">
+                <li className="bio-list-item">
+                  <a
+                    className="bio-link"
+                    href="https://www.amazon.co.uk/Habits-Success-Inspired-Ideas-Help-ebook/dp/B07FTQMQZM"
+                  >
                     Habits for success Inspired Ideas to help you soar: Brian
                     Benson
                   </a>
                 </li>
-                <li>
-                  <a href="https://www.amazon.co.uk/Illusion-Invincibility-Organizations-Inspired-Incas-ebook/dp/B07V3XTSDS">
+                <li className="bio-list-item">
+                  <a
+                    className="bio-link"
+                    href="https://www.amazon.co.uk/Illusion-Invincibility-Organizations-Inspired-Incas-ebook/dp/B07V3XTSDS"
+                  >
                     The illusion of invincibility: Paul Williams{" "}
                   </a>
                 </li>
-                <li>
-                  <a href="https://www.amazon.co.uk/First-20-Hours-Learn-Anything/dp/0670921912">
+                <li className="bio-list-item">
+                  <a
+                    className="bio-link"
+                    href="https://www.amazon.co.uk/First-20-Hours-Learn-Anything/dp/0670921912"
+                  >
                     The first 20 hours: Josh Kaufman
                   </a>
                 </li>
-                <li>
-                  <a href="https://www.amazon.co.uk/Your-Next-Thing-Matthew-Mockridge/dp/1642501417">
+                <li className="bio-list-item">
+                  <a
+                    className="bio-link"
+                    href="https://www.amazon.co.uk/Your-Next-Thing-Matthew-Mockridge/dp/1642501417"
+                  >
                     The next big thing: Matthew Mockridge
                   </a>
                 </li>
-                <li>
-                  <a href="https://www.amazon.co.uk/Get-Done-Ways-Release-Inner/dp/1633537900">
+                <li className="bio-list-item">
+                  <a
+                    className="bio-link"
+                    href="https://www.amazon.co.uk/Get-Done-Ways-Release-Inner/dp/1633537900"
+                  >
                     GET IT DONE 31 Ways to release your inner boss: Hayley
                     Hobson
                   </a>
@@ -342,7 +362,7 @@ const About = ({ location }) => {
 
           <section className="alt-bio bio-section" aria-label="my future plans">
             <div className="container ">
-              <h2 className="text-secondary">
+              <h2 className="bio-section-header text-secondary">
                 <span role="img" aria-labelledby="green heart">
                   💚
                 </span>{" "}
