@@ -13,22 +13,7 @@ module.exports = {
         "https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social",
     },
   ],
-  aboutInfo: {
-    image: {
-      src: `https://pbs.twimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png`,
-      alt: "profile of Daniel Philip Johnson",
-    },
-    html: `<h2>Hi 👋 I am Daniel,</h2><p> Front-End Engineer with 2+ years experience building responsive and accessible web-applications and 6
-    months experience in the startup world working remotely with<a href="https://codecareer.teachable.com/">codecareer.io</a>. I primarly build front end views 
-    with the React framwork and use both Next.js and Gatsby. For styling I use TailwindCSS, vanilla CSS and on occassion Sass for legacy projects. 
-    I dabble with some backend issues such as MongoDB and mongoose schemas.
-    <br/>
-    My responsibilities, include maintaing a job board hiring system for junior developers. 
-    Currently, I am refactoring the codebase and optimizing load times.
-    
-    In my spare time, I am writing a TailwindCSS book for a publisher as well as writing a book about using Gatsby. I also contribute to open source projects.
-    and I am about to start a blog series and data structures.</p>`,
-  },
+
   // make icon function
   aboutTechnologies: {
     icons: [{ name: "Angular", alt: "" }],
@@ -97,20 +82,5 @@ module.exports = {
     world as possible. If you would like to help by converting my future tutorials, blog and books to other languages. Please let
     me know :). I'm happy to give you credit. I hope we can all make educational content more accessible to those who desire to
     program can do it. </p>`,
-  },
-  future: {
-    html: `Ways to support my journey, values and mission Follow Me You can
-    encourage me on Twitter, Instagram and LinkedIn. Tell me what
-    you need to know about web-development I would love to write
-    about it and help by making learning material. I want to create
-    content in the forms of blogs, posts and YouTube. Share, share
-    and share again! If you enjoy my content, please share it with
-    friends and family. Comment and give me valuable feedback! I
-    want my projects to be of high quality. Learn React or Vue.js
-    These are areas I specialise in so can answer your questions and
-    possibly help collaborate. Contribute Also, come join me on some
-    GitHub projects and practice with me! Find an issue with my
-    tutorial GitHub source let me know! Make a pull request and show
-    off your skills.`,
   },
 };
