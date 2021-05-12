@@ -7,9 +7,9 @@ import Layout from "../component/layout/Layout";
 import AboutCard from "../component/about/about-card";
 import Bio from "../component/about/bio/Biography";
 import TechnologiesUsed from "../component/about/technologies-used";
-import QuickBio from "../component/about/quickBio";
-import ValuesAndMissions from "../component/about/valuesAndMissions";
-import OutsideProgramming from "../component/about/outsideProgramming";
+import QuickBio from "../component/about/quick-bio";
+import ValuesAndMissions from "../component/about/values-Missions";
+import OutsideProgramming from "../component/about/outside-programming";
 
 import Future from "../component/about/future";
 
