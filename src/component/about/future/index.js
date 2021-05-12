@@ -2,14 +2,15 @@ import React from "react";
 
 function Future() {
   return (
-    <section className="container" aria-label="my future plans">
+    <section className="bio container" aria-label="my future plans">
       <h2 className="bio-section-header">
         <span role="img" aria-labelledby="green heart">
           💚
         </span>{" "}
         The FUTURE{" "}
       </h2>
-      <p>
+
+      <p className="bio-content">
         Ways to support my journey, values and mission Follow Me You can
         encourage me on Twitter, Instagram and LinkedIn. Tell me what you need
         to know about web-development I would love to write about it and help by
