@@ -3,13 +3,13 @@ import { StaticImage } from "gatsby-plugin-image";
 
 function QuickBio() {
   return (
-    <section className="bio-section container" aria-label="quick bio">
+    <section className="bio container" aria-label="quick bio">
       <h2 className="bio-section-header">
         <span role="img" aria-labelledby="values">
           🏆
-        </span>{" "}
+        </span>
         Technologies I use
-      </h2>{" "}
+      </h2>
       <div className="profile-card-body-item">
         <div className="icons-technology">
           <StaticImage
@@ -118,11 +118,11 @@ function QuickBio() {
           />
         </div>
       </div>
-      <h2 className="text-secondary">📔 Quick Biography</h2>
-      <p>
+      <h2 className="bio-section-header">📔 Quick Biography</h2>
+      <p className="bio-content">
         <b>When did I discover programming:</b> Well, when I was a young child,
         my mother, in her spare time would copy code from a manual to make games
-        run on the{" "}
+        run on the
         <a
           className="bio-link"
           href="https://en.wikipedia.org/wiki/Commodore_64"
@@ -131,7 +131,7 @@ function QuickBio() {
         </a>
         but putting them into memory. She kept this console for quite some time
         it was the closest thing we had to a computer. The first game I remember
-        helping run was{" "}
+        helping run was
         <a
           className="bio-link"
           href="https://www.retrogamer.net/retro_games80/blue-meanies-from-outer-space/"
@@ -141,7 +141,7 @@ function QuickBio() {
         . It was so exciting to see it running, however, not so for my mom. She
         claimed all that time for a space invaders clone.
       </p>
-      <p>
+      <p className="bio-content">
         Span a few years to one year before I started college. I needed to buy a
         PC to submit my assignments. So during the summer of 2008, I worked so
         hard cleaning hotels with my mother. I now had enough money to buy my
@@ -179,28 +179,28 @@ function QuickBio() {
         . I encountered problems I was unable to download the ISO. So I asked
         canonical for a disc and enclosed a cheque to cover the shipping. From
         that day I have used Linux ever since. The distros I commonly use now
-        are{" "}
+        are
         <a className="bio-link" href="https://kubuntu.org/">
           Kubuntu 20.10
         </a>
         ,
         <a className="bio-link" href="https://manjaro.org/">
           Manjaro"
-        </a>{" "}
-        and{" "}
+        </a>
+        and
         <a className="bio-link" href="https://archlinux.org/">
           Arch Linux
         </a>
-        . I use{" "}
+        . I use
         <a className="bio-link" href="https://kde.org/">
           KDE
-        </a>{" "}
+        </a>
         as my GUI "you know what they say old habits die hard." Yes, I
-        occasionally use Windows. After I built my next PC, I got{" "}
+        occasionally use Windows. After I built my next PC, I got
         <a className="bio-link" href="https://en.wikipedia.org/wiki/Windows_7">
           Windows 7
-        </a>{" "}
-        and came across{" "}
+        </a>
+        and came across
         <a
           className="bio-link"
           href="https://en.wikipedia.org/wiki/Microsoft_XNA_Game_Studio"
@@ -208,32 +208,32 @@ function QuickBio() {
           XNA Game Studio 3.0
         </a>
         . The idea of making games for Xbox seemed great. It gave me a moment of
-        nostalgia with my mom. Which lead me to learn C# from{" "}
+        nostalgia with my mom. Which lead me to learn C# from
         <a className="bio-link" href="https://docs.microsoft.com/en-us/learn/">
           Microsoft Academy
-        </a>{" "}
-        and eventually built an{" "}
+        </a>
+        and eventually built an
         <a
           className="bio-link"
           href="https://sourceforge.net/projects/xnarpgtoolkit/"
         >
           RPG game from the toolkit
-        </a>{" "}
-        they provided. I progressed onto making an{" "}
+        </a>
+        they provided. I progressed onto making an
         <a className="bio-link" href="https://ubuntu.com/server">
           Ubuntu Linux server
-        </a>{" "}
+        </a>
         out of interest as well as a samba server. All in my free time. During
         my final year of studies, I was responsible for creating experiments
-        with python and using libraries such as{" "}
+        with python and using libraries such as
         <a className="bio-link" href="https://pandas.pydata.org/">
           pandas
         </a>
-        ,{" "}
+        ,
         <a className="bio-link" href="https://numpy.org/">
           NumPy
         </a>
-        and{" "}
+        and
         <a className="bio-link" href="https://matplotlib.org/">
           matplotlib
         </a>

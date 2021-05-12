@@ -1,7 +1,7 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 
 import "./biography.css";
+
 function Biography() {
   return (
     <div className="bio container">
