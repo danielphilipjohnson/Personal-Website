@@ -14,7 +14,7 @@ function TechnologiesUsed() {
         <div className="icons-technology">
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/angular.png"
+            src="../../../images/about-logos/png/angular.png"
             alt="angular"
             placeholder="none"
             layout="fixed"
@@ -24,7 +24,7 @@ function TechnologiesUsed() {
           />
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/react.png"
+            src="../../../images/about-logos/png/react.png"
             alt="react"
             placeholder="none"
             layout="fixed"
@@ -34,7 +34,7 @@ function TechnologiesUsed() {
           />
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/gatsby.png"
+            src="../../../images/about-logos/png/gatsby.png"
             alt="GatsbyJS"
             placeholder="none"
             layout="fixed"
@@ -45,7 +45,7 @@ function TechnologiesUsed() {
 
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/graphql.png"
+            src="../../../images/about-logos/png/graphql.png"
             alt="GraphQL"
             placeholder="none"
             layout="fixed"
@@ -55,7 +55,7 @@ function TechnologiesUsed() {
           />
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/javascript.png"
+            src="../../../images/about-logos/png/javascript.png"
             alt="javascript"
             placeholder="none"
             layout="fixed"
@@ -66,7 +66,7 @@ function TechnologiesUsed() {
 
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/ts.png"
+            src="../../../images/about-logos/png/ts.png"
             alt="typescript"
             placeholder="none"
             layout="fixed"
@@ -76,7 +76,7 @@ function TechnologiesUsed() {
           />
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/sass.png"
+            src="../../../images/about-logos/png/sass.png"
             alt="SASS"
             placeholder="none"
             layout="fixed"
@@ -87,7 +87,7 @@ function TechnologiesUsed() {
 
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/bootstrap4.png"
+            src="../../../images/about-logos/png/bootstrap4.png"
             alt="bootstrap4"
             placeholder="none"
             layout="fixed"
@@ -98,7 +98,7 @@ function TechnologiesUsed() {
 
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/tailwind.png"
+            src="../../../images/about-logos/png/tailwind.png"
             alt="tailwind"
             placeholder="none"
             layout="fixed"
@@ -108,8 +108,8 @@ function TechnologiesUsed() {
           />
           <StaticImage
             className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/github.png"
-            alt="Git Version Contro"
+            src="../../../images/about-logos/png/github.png"
+            alt="Git Version Control"
             placeholder="none"
             layout="fixed"
             width={45}
