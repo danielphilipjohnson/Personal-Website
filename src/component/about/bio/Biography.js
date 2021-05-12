@@ -5,26 +5,32 @@ import "./biography.css";
 function Biography() {
   const { site } = useStaticQuery(siteQuery);
   return (
-    <div className="bio">
-      <div className="container">
-        <div className="bio-content">
-          <h2 className="text-purple skill-heading">Mission Statement:</h2>
-          <h4 className="mission">{site.siteMetadata.biography.statement}</h4>
+    <div className="bio container">
+      <div className="bio-content">
+        <h2 className="bio-name-heading-2 text-purple skill-heading">
+          Mission Statement:
+        </h2>
+        <h4 className="bio-mission-heading">
+          {site.siteMetadata.biography.statement}
+        </h4>
 
-          <p>{site.siteMetadata.biography.missionStatement}</p>
-          <p>{site.siteMetadata.biography.subStatement}</p>
-          <p>
-            Current Focus:
-            {site.siteMetadata.biography.focuses.map((focus, i) => {
-              return (
-                <span key={focus + i}>
-                  <span> {"//"} </span>
-                  <span className="text-purple-dark "> {focus} </span>
-                </span>
-              );
-            })}
-          </p>
-        </div>
+        <p className="bio-content">
+          {site.siteMetadata.biography.missionStatement}
+        </p>
+        <p className="bio-content">
+          {site.siteMetadata.biography.subStatement}
+        </p>
+        <p className="bio-content">
+          Current Focus:
+          {site.siteMetadata.biography.focuses.map((focus, i) => {
+            return (
+              <span key={focus + i}>
+                <span> {"//"} </span>
+                <span className="text-purple-dark "> {focus} </span>
+              </span>
+            );
+          })}
+        </p>
       </div>
     </div>
   );

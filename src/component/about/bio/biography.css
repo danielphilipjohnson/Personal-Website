@@ -1,44 +1,33 @@
 .bio {
-  background-color: #fff;
-  color: #37352f;
-  /* padding: 2rem 1rem 1rem; */
   font-size: 1rem;
 }
-.bio-section p {
-  margin-bottom: 1rem;
-}
-.bio-name {
-  margin-bottom: 1rem;
-}
-.bio-name h2 {
+
+.bio-name-heading-2 {
   font-size: 2rem;
-  text-transform: uppercase;
 }
-.bio-name h2,
-.bio-name h3 {
+.bio-name-heading-2,
+.bio-name-heading-3 {
   font-weight: bolder;
   display: inline-block;
+  text-transform: uppercase;
 }
+
+/* 
+possible removal
 .bio-name h3 {
   font-size: 1.5rem;
-}
-.bio-content {
-  /* border-bottom: 2px solid #eee; */
-  /* padding-bottom: 2rem; */
-}
+} */
+
 .bio-content,
-.bio-content h3,
-.bio-content p {
+.bio-name,
+.bio-content h3 {
   margin-bottom: 1rem;
 }
-.bio-content p {
-  text-align: left;
-}
-.bio-content .mission {
+
+.bio-mission-heading {
   border-left: 3px solid #1b1c28;
   padding-left: 1rem;
   margin-bottom: 1rem;
-  text-align: left;
 }
 
 @media (min-width: 768px) {
@@ -47,6 +36,6 @@
   }
 }
 
-.bottom-line.secondary {
+/* .bottom-line.secondary {
   background: #94c85a;
-}
+} */
