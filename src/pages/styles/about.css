@@ -93,10 +93,6 @@
   color: rgb(16, 42, 67);
 }
 
-.used-technologies {
-  padding: 1rem;
-}
-
 .icons-technology {
   width: 100%;
   display: flex;
@@ -106,7 +102,7 @@
 }
 .icons-technology-img {
   max-width: 50px;
-  padding: 0.35rem;
+  margin: 1rem;
   object-fit: contain;
 }
 
