@@ -1,15 +1,15 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import Layout from "../layout/";
 
 function QuickBio() {
   return (
-    <section className="bio container" aria-label="quick bio">
-      <h2 className="bio-section-header">
-        <span role="img" aria-labelledby="values">
-          🏆
-        </span>
-        Technologies I use
-      </h2>
+    <Layout
+      sectionLabel={"quick bio"}
+      icon={"🏆"}
+      iconLabel={"trophy"}
+      title={"Technologies I use"}
+    >
       <div className="profile-card-body-item">
         <div className="icons-technology">
           <StaticImage
@@ -23,7 +23,7 @@ function QuickBio() {
             formats={["auto", "avif", "webp", "png"]}
           />
           <StaticImage
-            className="img-fluid icons-technology-img"
+            className="img-fluid icons-tec  </Layout>hnology-img"
             src="../images/about-logos/png/react.png"
             alt="react"
             placeholder="none"
@@ -118,6 +118,7 @@ function QuickBio() {
           />
         </div>
       </div>
+      {/* need to put into seperate component */}
       <h2 className="bio-section-header">📔 Quick Biography</h2>
       <p className="bio-content">
         <b>When did I discover programming:</b> Well, when I was a young child,
@@ -240,7 +241,7 @@ function QuickBio() {
         to plot and analysis data. Now I found my calling with web development
         and love every moment I get using JavaScript and react.js
       </p>
-    </section>
+    </Layout>
   );
 }
 

@@ -1,15 +1,14 @@
 import React from "react";
+import Layout from "../layout/";
 
 function Future() {
   return (
-    <section className="bio container" aria-label="my future plans">
-      <h2 className="bio-section-header">
-        <span role="img" aria-labelledby="green heart">
-          💚
-        </span>{" "}
-        The FUTURE{" "}
-      </h2>
-
+    <Layout
+      sectionLabel={"my future plans"}
+      icon={"💚"}
+      iconLabel={"green heart"}
+      title={"The FUTURE"}
+    >
       <p className="bio-content">
         Ways to support my journey, values and mission Follow Me You can
         encourage me on Twitter, Instagram and LinkedIn. Tell me what you need
@@ -23,7 +22,7 @@ function Future() {
         GitHub projects and practice with me! Find an issue with my tutorial
         GitHub source let me know! Make a pull request and show off your skills.
       </p>
-    </section>
+    </Layout>
   );
 }
 

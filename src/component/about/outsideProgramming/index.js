@@ -1,14 +1,14 @@
 import React from "react";
+import Layout from "../layout/";
 
 function OutsideProgramming() {
   return (
-    <section className="bio container">
-      <h2 className="bio-section-header">
-        <span role="img" aria-labelledby="thunder">
-          ⚡
-        </span>{" "}
-        OUTSIDE OF PROGRAMMING
-      </h2>
+    <Layout
+      sectionLabel={"what i do outside of programming"}
+      icon={"⚡"}
+      iconLabel={"thunder"}
+      title={"OUTSIDE OF PROGRAMMING"}
+    >
       <p className="bio-content">
         Although it seems like my life is entirely ruled by programming and
         computers. I do have spare time and things that I cherish. I love to
@@ -84,7 +84,7 @@ function OutsideProgramming() {
         what needs addressing. Really we a- mover Banner to the Top - move
         profile picture underneathre a great team.
       </p>
-    </section>
+    </Layout>
   );
 }
 
