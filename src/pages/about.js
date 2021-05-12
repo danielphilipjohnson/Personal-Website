@@ -9,6 +9,7 @@ import Bio from "../component/about/bio/Biography";
 
 import QuickBio from "../component/about/quickBio";
 import Future from "../component/about/future";
+import TechnologiesUsed from "../component/about/technologies-used";
 
 import OutsideProgramming from "../component/about/outsideProgramming";
 import ValuesAndMissions from "../component/about/valuesAndMissions";
@@ -25,6 +26,7 @@ const About = ({ location }) => {
           <AboutCard />
 
           <Bio />
+          <TechnologiesUsed />
 
           <QuickBio />
 
