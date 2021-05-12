@@ -25,6 +25,7 @@
   width: auto;
   border-radius: 50%;
   border: 3px solid #fff;
+  z-index: 2;
 }
 
 .profile-card-body {
