@@ -1,5 +1,4 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 import PDF from "../../downloads/Daniel_Philip_Johnson_CV.pdf";
@@ -9,6 +8,8 @@ import Seo from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import Bio from "../component/about/bio/Biography";
 
+import Future from "../component/about/future";
+
 import banner from "../images/linkedinBanner.png";
 
 import "./styles/about.css";
@@ -16,20 +17,13 @@ import "./styles/about.css";
 // issue with bringing in markdown
 // missing bio link
 const About = ({ location }) => {
-  const {
-    site: {
-      siteMetadata: {
-        about: { quickBio, valuesMissions, future },
-      },
-    },
-  } = useStaticQuery(siteQuery);
   return (
     <>
       <Layout location={location.pathname}>
         <Seo />
 
         <div className="about top-banner">
-          <div className="about-info alt-bio">
+          <div className="about-info ">
             <div className="profile-card">
               <div className="profile-card-head">
                 <img
@@ -127,7 +121,7 @@ const About = ({ location }) => {
           </div>
           <Bio />
 
-          <section className="alt-bio bio-section" aria-label="quick bio">
+          <section className=" bio-section" aria-label="quick bio">
             <div className="container">
               <h2 className="bio-section-header text-secondary">
                 <span role="img" aria-labelledby="values">
@@ -243,30 +237,191 @@ const About = ({ location }) => {
                   />
                 </div>
               </div>
-              <h2 className="text-secondary">{quickBio.heading}</h2>
-              <p dangerouslySetInnerHTML={{ __html: quickBio.html }}></p>
+              <h2 className="text-secondary">📔 Quick Biography</h2>
+              <p>
+                <b>When did I discover programming:</b> Well, when I was a young
+                child, my mother, in her spare time would copy code from a
+                manual to make games run on the{" "}
+                <a
+                  className="bio-link"
+                  href="https://en.wikipedia.org/wiki/Commodore_64"
+                >
+                  Commodore 64 (CBM 64)
+                </a>
+                but putting them into memory. She kept this console for quite
+                some time it was the closest thing we had to a computer. The
+                first game I remember helping run was{" "}
+                <a
+                  className="bio-link"
+                  href="https://www.retrogamer.net/retro_games80/blue-meanies-from-outer-space/"
+                >
+                  Blue Meanies from Outer Space
+                </a>
+                . It was so exciting to see it running, however, not so for my
+                mom. She claimed all that time for a space invaders clone.
+              </p>
+              <p>
+                Span a few years to one year before I started college. I needed
+                to buy a PC to submit my assignments. So during the summer of
+                2008, I worked so hard cleaning hotels with my mother. I now had
+                enough money to buy my first computer a
+                <a
+                  className="bio-link"
+                  href="https://www.mrmemory.co.uk/memory-ram-upgrades/packard-bell/imedia/x2414"
+                >
+                  Packard Bell iMedia x2414
+                </a>
+                with an enormous amount of Ram totalling 2GB and an intel
+                Celeron with duo cores. The best part was it was running
+                everyone's favourite Windows version
+                <a
+                  className="bio-link"
+                  href="https://en.wikipedia.org/wiki/Windows_Vista"
+                >
+                  Windows Vista
+                </a>
+                . It was so hard to get any work done. Then one fatal evening
+                windows broke the
+                <a
+                  className="bio-link"
+                  href="https://social.technet.microsoft.com/Forums/windows/en-US/69029855-21c1-411d-bdd3-b864222eefb6/dhcp-on-vista-has-stopped-running?forum=itprovistasetup"
+                >
+                  DHCP no longer worked
+                </a>
+                I had no clue how to fix it and no other device to search how to
+                fix it. I was then forced to use the library to find a solution
+                get a windows disc this seemed almost impossible. I started to
+                ask what is Windows and is there an alternative. The answer was
+                Yes!
+                <a
+                  className="bio-link"
+                  href="https://wiki.ubuntu.com/JauntyJackalope"
+                >
+                  Ubuntu 9.04 (Jaunty Jackalope)
+                </a>
+                . I encountered problems I was unable to download the ISO. So I
+                asked canonical for a disc and enclosed a cheque to cover the
+                shipping. From that day I have used Linux ever since. The
+                distros I commonly use now are{" "}
+                <a className="bio-link" href="https://kubuntu.org/">
+                  Kubuntu 20.10
+                </a>
+                ,
+                <a className="bio-link" href="https://manjaro.org/">
+                  Manjaro"
+                </a>{" "}
+                and{" "}
+                <a className="bio-link" href="https://archlinux.org/">
+                  Arch Linux
+                </a>
+                . I use{" "}
+                <a className="bio-link" href="https://kde.org/">
+                  KDE
+                </a>{" "}
+                as my GUI "you know what they say old habits die hard." Yes, I
+                occasionally use Windows. After I built my next PC, I got{" "}
+                <a
+                  className="bio-link"
+                  href="https://en.wikipedia.org/wiki/Windows_7"
+                >
+                  Windows 7
+                </a>{" "}
+                and came across{" "}
+                <a
+                  className="bio-link"
+                  href="https://en.wikipedia.org/wiki/Microsoft_XNA_Game_Studio"
+                >
+                  XNA Game Studio 3.0
+                </a>
+                . The idea of making games for Xbox seemed great. It gave me a
+                moment of nostalgia with my mom. Which lead me to learn C# from{" "}
+                <a
+                  className="bio-link"
+                  href="https://docs.microsoft.com/en-us/learn/"
+                >
+                  Microsoft Academy
+                </a>{" "}
+                and eventually built an{" "}
+                <a
+                  className="bio-link"
+                  href="https://sourceforge.net/projects/xnarpgtoolkit/"
+                >
+                  RPG game from the toolkit
+                </a>{" "}
+                they provided. I progressed onto making an{" "}
+                <a className="bio-link" href="https://ubuntu.com/server">
+                  Ubuntu Linux server
+                </a>{" "}
+                out of interest as well as a samba server. All in my free time.
+                During my final year of studies, I was responsible for creating
+                experiments with python and using libraries such as{" "}
+                <a className="bio-link" href="https://pandas.pydata.org/">
+                  pandas
+                </a>
+                ,{" "}
+                <a className="bio-link" href="https://numpy.org/">
+                  NumPy
+                </a>
+                and{" "}
+                <a className="bio-link" href="https://matplotlib.org/">
+                  matplotlib
+                </a>
+                to plot and analysis data. Now I found my calling with web
+                development and love every moment I get using JavaScript and
+                react.js
+              </p>
             </div>
           </section>
 
-          <section
-            className="alt-bio bio-section"
-            aria-label="my values and missions"
-          >
+          <section className=" bio-section" aria-label="my values and missions">
             <div className="container">
               <h2 className="bio-section-header text-secondary">
                 <span role="img" aria-labelledby="values">
                   🏆
                 </span>{" "}
-                {valuesMissions.heading}
+                My values and mission
               </h2>
 
-              <div
-                dangerouslySetInnerHTML={{ __html: valuesMissions.html }}
-              ></div>
+              <div>
+                <p>
+                  I always try to leave the world a better place than yesterday.
+                  I try to give advice related to programming and personal. I
+                  always try 99% of the time to help the best I can. If I don't
+                  know the answer. I will try my hardest to find the answer or
+                  find another person that can help you. I keep almost all my
+                  code 99.9% opensource for others to look at and use on{" "}
+                  <a
+                    className="bio-link"
+                    href="https://github.com/danielphilipjohnson"
+                  >
+                    GitHub
+                  </a>
+                  . I want to help you build apps, websites and programs that
+                  express your ideas.
+                </p>
+                <p>
+                  Currently, I'm finishing off my language studies with the
+                  Spanish language. I know that speaking and reading in the
+                  English language is a blessing. Many people do not have access
+                  to good programming content due to it being in English.
+                  Providing a language barrier. Also, most educational content
+                  is not reasonably priced when you convert it to other
+                  currencies. For instance, Peruvian Soles to Dollars it can
+                  make courses very expensive. This is something I'm serious
+                  about addressing and hoping to help with. That's why I
+                  volunteer my time and money to help those from South America
+                  and North America. I want to also make educational content
+                  that is accessible to as much of the world as possible. If you
+                  would like to help by converting my future tutorials, blog and
+                  books to other languages. Please let me know :). I'm happy to
+                  give you credit. I hope we can all make educational content
+                  more accessible to those who desire to program can do it.{" "}
+                </p>
+              </div>
             </div>
           </section>
 
-          <section className="alt-bio bio-section">
+          <section className=" bio-section">
             <div className="container ">
               <h2 className="bio-section-header">
                 <span role="img" aria-labelledby="thunder">
@@ -360,31 +515,7 @@ const About = ({ location }) => {
             </div>
           </section>
 
-          <section className="alt-bio bio-section" aria-label="my future plans">
-            <div className="container ">
-              <h2 className="bio-section-header text-secondary">
-                <span role="img" aria-labelledby="green heart">
-                  💚
-                </span>{" "}
-                The FUTURE{" "}
-              </h2>
-              <p>
-                Ways to support my journey, values and mission Follow Me You can
-                encourage me on Twitter, Instagram and LinkedIn. Tell me what
-                you need to know about web-development I would love to write
-                about it and help by making learning material. I want to create
-                content in the forms of blogs, posts and YouTube. Share, share
-                and share again! If you enjoy my content, please share it with
-                friends and family. Comment and give me valuable feedback! I
-                want my projects to be of high quality. Learn React or Vue.js
-                These are areas I specialise in so can answer your questions and
-                possibly help collaborate. Contribute Also, come join me on some
-                GitHub projects and practice with me! Find an issue with my
-                tutorial GitHub source let me know! Make a pull request and show
-                off your skills.
-              </p>
-            </div>
-          </section>
+          <Future />
         </div>
       </Layout>
     </>
@@ -392,28 +523,3 @@ const About = ({ location }) => {
 };
 
 export default About;
-
-const siteQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        about {
-          aboutStats {
-            imageSrc
-            link
-            alt
-          }
-
-          quickBio {
-            heading
-            html
-          }
-          valuesMissions {
-            heading
-            html
-          }
-        }
-      }
-    }
-  }
-`;
