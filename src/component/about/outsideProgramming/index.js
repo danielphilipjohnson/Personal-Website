@@ -2,14 +2,14 @@ import React from "react";
 
 function OutsideProgramming() {
   return (
-    <section className="container bio-section">
+    <section className="bio container">
       <h2 className="bio-section-header">
         <span role="img" aria-labelledby="thunder">
           ⚡
         </span>{" "}
         OUTSIDE OF PROGRAMMING
       </h2>
-      <p>
+      <p className="bio-content">
         Although it seems like my life is entirely ruled by programming and
         computers. I do have spare time and things that I cherish. I love to
         read about psychology from both books and journals. I also love reading
@@ -57,7 +57,7 @@ function OutsideProgramming() {
           </a>
         </li>
       </ul>
-      <p>
+      <p className="bio-content">
         In another life, I was actually for a while a semi-professional Fortnite
         player. I enjoyed playing it a lot. However, after a while, I started to
         feel a great sense of unfulfillment. I started, to realise just because
@@ -66,13 +66,13 @@ function OutsideProgramming() {
         to disclose my real identity. Despite that, I still wish to try public
         speaking at conferences. Who knows what the future holds?
       </p>
-      <p>
+      <p className="bio-content">
         During my competition days, coding made me really happy. I got out of
         bed excited and, it drives my girlfriend crazy as I always bother her
         with my projects and what I had learnt. It still happens now. Always she
         sits there and tries hard to understand.
       </p>
-      <p>
+      <p className="bio-content">
         The significant part of my life and the biggest change is my girlfriend
         Fabiola. I don't want to name her fully because I want her to still feel
         some anonymity and not feel pressured. With her, everything started to
