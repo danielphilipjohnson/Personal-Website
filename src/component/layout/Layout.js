@@ -7,7 +7,7 @@ export default function Layout({ location, children }) {
     <>
       {/* <Nav /> */}
       <main>{children}</main>
-      {/* <Footer location={location} /> */}
+      <Footer location={location} />
     </>
   );
 }
