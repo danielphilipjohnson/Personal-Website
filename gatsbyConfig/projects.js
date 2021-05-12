@@ -2,7 +2,7 @@ module.exports = [
   {
     title: "Tribute Page",
     path: "tributepage",
-    imageSrc: "../../../images/responsive-img/tribute-page/tribute-page.png",
+    imageSrc: "tribute-page",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure eiu.`,
@@ -63,7 +63,7 @@ module.exports = [
   {
     title: "Survey Form",
     path: "surveyform",
-    imageSrc: "../../../images/responsive-img/survey/survey-form.png",
+    imageSrc: "survey-form",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure eius.`,
@@ -123,8 +123,7 @@ module.exports = [
   {
     title: "Product Landing",
     path: "productlanding",
-    imageSrc:
-      "../../../images/responsive-img/product-landing/product-landing.png",
+    imageSrc: "product-landing",
     type: "responsive",
     description: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti.`,
@@ -182,8 +181,7 @@ module.exports = [
   {
     title: "Technical Document",
     path: "technicaldocument",
-    imageSrc:
-      "../../../images/responsive-img/technical-documentation/technical-documentation.png",
+    imageSrc: "technical-documentation",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -241,7 +239,7 @@ module.exports = [
   {
     title: "Portfolio",
     path: "portfolio",
-    imageSrc: "../../../images/responsive-img/portfolio/portfolio.jpg",
+    imageSrc: "portfolio",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -297,7 +295,7 @@ module.exports = [
   {
     title: "Edge Ledger",
     path: "edgeledger",
-    imageSrc: "../../../images/responsive-img/edge-ledger/edge-ledger.jpg",
+    imageSrc: "edge-ledger",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -339,7 +337,7 @@ module.exports = [
   {
     title: "Vozsy News",
     path: "vozsynews",
-    imageSrc: "../../../images/responsive-img/vozsy-news/vozsy-news.png",
+    imageSrc: "vozsy-news",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -382,7 +380,7 @@ module.exports = [
   {
     title: "Scenic Cornwall",
     path: "sceniccornwall",
-    imageSrc: "../../../images/sass-advanced/natours/natours.png",
+    imageSrc: "natours",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -425,7 +423,7 @@ module.exports = [
   {
     title: "Nexter",
     path: "nexter",
-    imageSrc: "../../../images/sass-advanced/nexters/nexters.png",
+    imageSrc: "nexters",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -468,7 +466,7 @@ module.exports = [
   {
     title: "Trillo",
     path: "trillo",
-    imageSrc: "../../../images/sass-advanced/trilo/trilo.png",
+    imageSrc: "trilo",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -511,7 +509,7 @@ module.exports = [
   {
     title: "Basic Spotify Clone",
     path: "spotifyclone",
-    imageSrc: "../../../images/material-projects/spotify-clone.png",
+    imageSrc: "spotify-clone",
     type: "material",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -646,7 +644,7 @@ module.exports = [
   {
     title: "Random Quote Machine",
     path: "quotemachine",
-    imageSrc: "../../../images/front-end-framework/quote/quote.png",
+    imageSrc: "quote",
     type: "js",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure eius.`,
@@ -701,7 +699,7 @@ module.exports = [
   {
     title: "Markdown Previewer",
     path: "markdownpreviewer",
-    imageSrc: "../../../images/front-end-framework/markdown/markdown.png",
+    imageSrc: "markdown",
     type: "js",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure eius itaque mollitia veniam
@@ -759,7 +757,7 @@ module.exports = [
   {
     title: "Drum Machine",
     path: "drummachine",
-    imageSrc: "../../../images/front-end-framework/drumkit/drum.png",
+    imageSrc: "drum",
     type: "js",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -820,7 +818,7 @@ module.exports = [
   {
     title: "Javascript Calculator",
     path: "javascriptcalculator",
-    imageSrc: "../../../images/front-end-framework/calculator/calculator.png",
+    imageSrc: "calculator",
     type: "js",
     description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to use my React skills to build a functioning calculator. The react app was styled with CSS.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
@@ -881,7 +879,7 @@ module.exports = [
   {
     title: "Pomodoro Clock",
     path: "pomodoroclock",
-    imageSrc: "../../../images/front-end-framework/pomodoro/pomodoro.png",
+    imageSrc: "pomodoro",
     type: "js",
     description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
@@ -956,7 +954,7 @@ module.exports = [
   {
     title: "Recipe Box",
     path: "recipebox",
-    imageSrc: "../../../images/front-end-framework/recipe-box/recipe-box.png",
+    imageSrc: "recipe-box",
     type: "js",
     description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used React and gained a better insight into local storage to save recipes.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
@@ -1010,7 +1008,7 @@ module.exports = [
   {
     title: "Simon",
     path: "simon",
-    imageSrc: "../../../images/front-end-framework/simon/simon.jpg",
+    imageSrc: "simon",
     type: "js",
     description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
@@ -1069,7 +1067,7 @@ module.exports = [
   {
     title: "Twitch.tv JSON-API",
     path: "twitchclone",
-    imageSrc: "../../../images/front-end-framework/twitch/twitch.png",
+    imageSrc: "twitch",
     type: "angular",
     description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
