@@ -1,7 +1,6 @@
 import React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql, Link } from "gatsby";
-import bg from "../../images/overlay-bg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFirefox } from "@fortawesome/free-brands-svg-icons";
 import getBadgeLogo from "../../utils/getBadgeLogo";
@@ -9,6 +8,26 @@ import getBadgeLogo from "../../utils/getBadgeLogo";
 function Card({ project }) {
   const { path, title, imageSrc, badges } = project;
   const { allFile } = useStaticQuery(siteQuery);
+
+  const ProjectImage = () => {
+    return allFile.nodes.map((edge) => {
+      if (edge.name === imageSrc) {
+        const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
+        return <GatsbyImage image={image} />;
+      }
+    });
+  };
+
+  const Badges = () => {
+    return badges.map((badge) => {
+      return (
+        <span className="badge-tech" key={badge}>
+          {getBadgeLogo(badge)}
+          {badge}
+        </span>
+      );
+    });
+  };
 
   return (
     <Link to={`${"/" + path}`} key={title}>
@@ -19,30 +38,12 @@ function Card({ project }) {
           <span className="title">{title}</span>
         </div>
 
-        {allFile.nodes.map((edge) => {
-          if (edge.name === imageSrc) {
-            const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
-            return <GatsbyImage image={image} />;
-          }
-        })}
+        <ProjectImage />
 
-        <div
-          className="overlay"
-          style={{
-            backgroundImage: `url(${bg})`,
-          }}
-        >
+        <div className="overlay">
           <div className="content">
             <div className="badges">
-              {badges &&
-                badges.map((badge) => {
-                  return (
-                    <span className="badge-tech" key={badge}>
-                      {getBadgeLogo(badge)}
-                      {badge}
-                    </span>
-                  );
-                })}
+              <Badges />
             </div>
           </div>
         </div>
@@ -62,8 +63,8 @@ const siteQuery = graphql`
         name
         childrenImageSharp {
           gatsbyImageData(
-            width: 550
-            height: 270
+            width: 1028
+            height: 500
             placeholder: BLURRED
             formats: [AUTO, WEBP, AVIF]
           )

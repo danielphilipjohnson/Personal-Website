@@ -126,7 +126,9 @@
     display: block;
   }
 }
-
+.overlay {
+  background-color: #404040;
+}
 .overlay .arrow-btn {
   display: flex;
   justify-content: center;
