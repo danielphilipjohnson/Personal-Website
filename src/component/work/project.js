@@ -63,8 +63,8 @@ const siteQuery = graphql`
         name
         childrenImageSharp {
           gatsbyImageData(
-            width: 1028
-            height: 500
+            width: 550
+            height: 270
             placeholder: BLURRED
             formats: [AUTO, WEBP, AVIF]
           )
