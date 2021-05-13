@@ -1,13 +1,11 @@
 import React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { useStaticQuery, graphql, Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../layout/";
 
 function TechnologiesUsed() {
   const { allFile } = useStaticQuery(siteQuery);
-  // https://www.howtogeek.com/109369/how-to-quickly-resize-convert-modify-images-from-the-linux-terminal/
-  // convert logos to 60x60!
+
   return (
     <Layout
       sectionLabel={"Technologies I use"}
