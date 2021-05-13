@@ -18,12 +18,13 @@ function TechnologiesUsed() {
       <div className="profile-card-body-item">
         <div className="icons-technology">
           {allFile.nodes.map((edge) => {
-            const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
+            const image = getImage(edge.childrenImageSharp[0]?.gatsbyImageData);
             return (
               <GatsbyImage
                 image={image}
                 className="img-fluid icons-technology-img"
                 alt={edge.name}
+                key={edge.name}
               />
             );
           })}
@@ -43,10 +44,11 @@ const siteQuery = graphql`
         name
         childrenImageSharp {
           gatsbyImageData(
-            width: 60
-            height: 60
-            placeholder: BLURRED
-            formats: [AUTO, WEBP, AVIF]
+            width: 100
+            height: 100
+            placeholder: DOMINANT_COLOR
+            quality: 50
+            formats: [AUTO, WEBP, AVIF, PNG]
           )
         }
       }
