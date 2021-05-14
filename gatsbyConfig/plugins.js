@@ -131,10 +131,10 @@ module.exports = [
     __key: "pages",
   },
 
-  {
-    resolve: "gatsby-plugin-static-folders",
-    options: {
-      folders: ["/static/images"],
-    },
-  },
+  // {
+  //   resolve: "gatsby-plugin-static-folders",
+  //   options: {
+  //     folders: ["/static/images"],
+  //   },
+  // },
 ];

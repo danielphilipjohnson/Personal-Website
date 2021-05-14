@@ -1,8 +1,11 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../layout/";
 
 function TechnologiesUsed() {
+  const { allFile } = useStaticQuery(siteQuery);
+
   return (
     <Layout
       sectionLabel={"Technologies I use"}
@@ -12,110 +15,17 @@ function TechnologiesUsed() {
     >
       <div className="profile-card-body-item">
         <div className="icons-technology">
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/angular.png"
-            alt="angular"
-            placeholder="none"
-            layout="fixed"
-            width={50}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/react.png"
-            alt="react"
-            placeholder="none"
-            layout="fixed"
-            width={50}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/gatsby.png"
-            alt="GatsbyJS"
-            placeholder="none"
-            layout="fixed"
-            width={45}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/graphql.png"
-            alt="GraphQL"
-            placeholder="none"
-            layout="fixed"
-            width={45}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/javascript.png"
-            alt="javascript"
-            placeholder="none"
-            layout="fixed"
-            width={45}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/ts.png"
-            alt="typescript"
-            placeholder="none"
-            layout="fixed"
-            width={45}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/sass.png"
-            alt="SASS"
-            placeholder="none"
-            layout="fixed"
-            width={50}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/bootstrap4.png"
-            alt="bootstrap4"
-            placeholder="none"
-            layout="fixed"
-            width={45}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/tailwind.png"
-            alt="tailwind"
-            placeholder="none"
-            layout="fixed"
-            width={75}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
-          <StaticImage
-            className="img-fluid icons-technology-img"
-            src="../images/about-logos/png/github.png"
-            alt="Git Version Contro"
-            placeholder="none"
-            layout="fixed"
-            width={45}
-            height={45}
-            formats={["auto", "avif", "webp", "png"]}
-          />
+          {allFile.nodes.map((edge) => {
+            const image = getImage(edge.childrenImageSharp[0]?.gatsbyImageData);
+            return (
+              <GatsbyImage
+                image={image}
+                className="img-fluid icons-technology-img"
+                alt={edge.name}
+                key={edge.name}
+              />
+            );
+          })}
         </div>
       </div>
     </Layout>
@@ -123,3 +33,23 @@ function TechnologiesUsed() {
 }
 
 export default TechnologiesUsed;
+const siteQuery = graphql`
+  query {
+    allFile(filter: { absolutePath: { regex: "/images/about-logos/" } }) {
+      distinct(field: sourceInstanceName)
+      nodes {
+        id
+        name
+        childrenImageSharp {
+          gatsbyImageData(
+            width: 100
+            height: 100
+            placeholder: DOMINANT_COLOR
+            quality: 50
+            formats: [AUTO, WEBP, AVIF, PNG]
+          )
+        }
+      }
+    }
+  }
+`;

@@ -102,9 +102,8 @@
   margin-bottom: 1rem;
 }
 .icons-technology-img {
-  max-width: 50px;
-  margin: 1rem;
-  object-fit: contain;
+  max-width: 40px;
+  margin: 1rem 0.45rem;
 }
 
 .bio-list {
@@ -119,5 +118,6 @@
 .bio-link {
   color: #292929;
   font-weight: bold;
+  word-break: break-all;
   margin: 0 0.25rem;
 }

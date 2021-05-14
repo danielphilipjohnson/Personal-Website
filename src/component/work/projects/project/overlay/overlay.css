@@ -1,0 +1,23 @@
+.overlay {
+  background-color: #404040;
+}
+
+.overlay__content {
+  margin-top: -0.5rem;
+  padding-top: 0.5rem;
+}
+
+.badges {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.badge-tech {
+  padding: 0.5rem;
+}
+.badge-tech p {
+  margin-left: 0.5rem;
+}

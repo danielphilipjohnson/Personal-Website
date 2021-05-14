@@ -20,7 +20,7 @@ function AboutCard() {
         <div className="container">
           <StaticImage
             className="profile-card-image"
-            src="../images/profile.jpg"
+            src="../../../images/profile.jpg"
             alt="Daniel johnson"
             placeholder="none"
             layout="fixed"

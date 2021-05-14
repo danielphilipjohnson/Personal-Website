@@ -1,7 +1,10 @@
 import React from "react";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
 
-import SEO from "../component/Seo";
+import Badges from "../component/shared/badgeLogos";
+
+import Seo from "../component/Seo";
 
 import Layout from "../component/layout/Layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,31 +13,56 @@ import "./styles.css";
 function Work({ location, data, pageContext }) {
   const { details } = pageContext.post;
 
-  const toolUsed = details.toolUsed;
+  const toolUsed = details.toolLogos;
+
+  const tabletImageName = pageContext.post.imageSrc + "-tablet";
+  const mobileImageName = pageContext.post.imageSrc + "-mobile";
+
+  // refactor into another component
+  const ProjectTabletImage = ({ tabletImageName }) => {
+    return data.tablet.nodes.map((edge) => {
+      if (edge.name === tabletImageName) {
+        const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
+        return <GatsbyImage image={image} />;
+      }
+      return null;
+    });
+  };
+
+  const ProjectMobileImage = ({ mobileImageName }) => {
+    return data.mobile.nodes.map((edge) => {
+      if (edge.name === mobileImageName) {
+        const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
+        return <GatsbyImage image={image} />;
+      }
+      return null;
+    });
+  };
+
+  const ProjectImage = () => {
+    return data.allFile.nodes.map((edge) => {
+      if (edge.name === pageContext.post.imageSrc) {
+        const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
+        return <GatsbyImage image={image} />;
+      }
+      return null;
+    });
+  };
+
   return (
     <Layout location={location.pathname}>
-      <SEO />
+      <Seo />
       <section id="work-temp" className="work-temp">
-        {/* <Header
-          title={"Project: "}
-          secondary={pageContext.post.title}
-          subTitle={"Daniel Philip Johnson"}
-        /> */}
         <div className="image-banner">
-          <div
-            className="image-inner"
-            style={{
-              backgroundImage: `url(${pageContext.post.imageSrc})`,
-            }}
-          ></div>
+          <ProjectImage className="image-inner" />
+
           <div className="container project bb ">
-            <span className="profile-card-image profile-emoji mb-2">
+            <span
+              className="profile-card-image profile-emoji mb-2"
+              role="img"
+              aria-labelledby="project icon"
+            >
               🖥️
-              {/* <img
-                className="profile-card-image profile-emoji"
-                src="https://img.icons8.com/ios/250/000000/macbook.png"
-                alt=""
-              /> */}
             </span>
 
             <h1 className="text-purple project-heading lg-heading">
@@ -42,22 +70,11 @@ function Work({ location, data, pageContext }) {
             </h1>
 
             <div className="project-tools">
-              {/* <div className="project-tools__heading">
-                <h3 className="lg-heading">Built With</h3>
-              </div> */}
-
               <div className="project-tools__stats">
                 <h3 className="text-purple project-tools__header">
                   Built with{" "}
                 </h3>
-                {toolUsed.map((tool) => {
-                  const { name, src, about } = tool;
-                  return (
-                    <div className="project-tool" key={name}>
-                      <img src={src} alt={name} />
-                    </div>
-                  );
-                })}
+                <Badges badges={toolUsed} />
               </div>
             </div>
 
@@ -96,11 +113,8 @@ function Work({ location, data, pageContext }) {
             </div>
 
             <figure className="tech-figure">
-              <img
-                className="img-fluid"
-                src={details.mobileView}
-                alt="mobile view"
-              />
+              <ProjectMobileImage mobileImageName={mobileImageName} />
+
               <figcaption>Fig.1 - Mobile View of App</figcaption>
             </figure>
 
@@ -133,21 +147,6 @@ function Work({ location, data, pageContext }) {
           </div>
         </div>
 
-        {/* <div className="btn-group ">
-          <a
-            className="btn-outline btn-outline-primary"
-            href={pageContext.post.codepenLink}
-          >
-            View project
-          </a>
-          <a
-            className="btn-outline btn-outline-primary"
-            href={pageContext.post.githubLink}
-          >
-            Github source
-          </a>
-        </div> */}
-
         <div className="project-process container">
           <div className="project-process--information">
             <h2 className="project-heading">Process</h2>
@@ -155,11 +154,7 @@ function Work({ location, data, pageContext }) {
           </div>
 
           <figure className="tech-figure">
-            <img
-              className="img-fluid"
-              src={details.tabletView}
-              alt="tablet view"
-            />
+            <ProjectTabletImage tabletImageName={tabletImageName} />
             <figcaption>Fig.2 - Tablet View of App</figcaption>{" "}
           </figure>
         </div>
@@ -168,41 +163,89 @@ function Work({ location, data, pageContext }) {
   );
 }
 
+// resolve tablet image
+
 export default Work;
 
-// export const query = graphql`
-//   query($slug: String!) {
-//     allSitePage(filter: { path: { eq: $slug } }) {
-//       nodes {
-//         path
-//         context {
-//           post {
-//             path
-//             badges
-//             codepenLink
-//             description
-//             githubLink
-//             imageSrc
-//             path
-//             projectLink
-//             title
-//             type
-//             details {
-//               overview
-//               goals
-//               lessonsLearned
-//               mobileView
-//               toolUsed {
-//                 name
-//                 src
-//                 about
-//               }
-//               process
-//               tabletView
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
+export const query = graphql`
+  query($slug: String!) {
+    allSitePage(filter: { path: { eq: $slug } }) {
+      nodes {
+        path
+        context {
+          post {
+            path
+            badges
+            codepenLink
+            description
+            githubLink
+            imageSrc
+            path
+            projectLink
+            title
+            type
+            details {
+              overview
+              goals
+              lessonsLearned
+              mobileView
+              toolLogos
+              toolUsed {
+                name
+                src
+                about
+              }
+              process
+              tabletView
+            }
+          }
+        }
+      }
+    }
+    allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
+      distinct(field: sourceInstanceName)
+      nodes {
+        id
+        name
+        childrenImageSharp {
+          gatsbyImageData(
+            width: 2048
+            height: 800
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+          )
+        }
+      }
+    }
+    tablet: allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
+      distinct(field: sourceInstanceName)
+      nodes {
+        id
+        name
+        childrenImageSharp {
+          gatsbyImageData(
+            width: 765
+            height: 920
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+          )
+        }
+      }
+    }
+    mobile: allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
+      distinct(field: sourceInstanceName)
+      nodes {
+        id
+        name
+        childrenImageSharp {
+          gatsbyImageData(
+            width: 375
+            height: 595
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+          )
+        }
+      }
+    }
+  }
+`;

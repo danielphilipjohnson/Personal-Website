@@ -2,7 +2,7 @@ module.exports = [
   {
     title: "Tribute Page",
     path: "tributepage",
-    imageSrc: "../../../images/responsive-img/tribute-page/tribute-page.png",
+    imageSrc: "tribute-page",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure eiu.`,
@@ -40,30 +40,13 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/tribute-page/tribute-page-mobile.png`,
       tabletView: `../../../images/responsive-img/tribute-page/tribute-page-tablet.png`,
-      toolLogos: ["Html", "CSS"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "JavaScript",
-          src: "../../../images/about-logos/javascript.svg",
-          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
-        },
-      ],
+      toolLogos: ["Html", "CSS", "JavaScript"],
     },
   },
   {
     title: "Survey Form",
     path: "surveyform",
-    imageSrc: "../../../images/responsive-img/survey/survey-form.png",
+    imageSrc: "survey-form",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure eius.`,
@@ -100,7 +83,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/survey/survey-form-mobile.png`,
       tabletView: `../../../images/responsive-img/survey/survey-form-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "JavaScript"],
       toolUsed: [
         {
           name: "HTML",
@@ -123,8 +106,7 @@ module.exports = [
   {
     title: "Product Landing",
     path: "productlanding",
-    imageSrc:
-      "../../../images/responsive-img/product-landing/product-landing.png",
+    imageSrc: "product-landing",
     type: "responsive",
     description: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti.`,
@@ -158,7 +140,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/product-landing/product-landing-mobile.png`,
       tabletView: `../../../images/responsive-img/product-landing/product-landing-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "JavaScript"],
       toolUsed: [
         {
           name: "HTML",
@@ -182,8 +164,7 @@ module.exports = [
   {
     title: "Technical Document",
     path: "technicaldocument",
-    imageSrc:
-      "../../../images/responsive-img/technical-documentation/technical-documentation.png",
+    imageSrc: "technical-documentation",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -217,7 +198,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/technical-documentation/technical-documentation-mobile.png`,
       tabletView: `../../../images/responsive-img/technical-documentation/technical-documentation-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "JavaScript"],
       toolUsed: [
         {
           name: "HTML",
@@ -241,7 +222,7 @@ module.exports = [
   {
     title: "Portfolio",
     path: "portfolio",
-    imageSrc: "../../../images/responsive-img/portfolio/portfolio.jpg",
+    imageSrc: "portfolio",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -273,7 +254,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/portfolio/portfolio-mobile.png`,
       tabletView: `../../../images/responsive-img/portfolio/portfolio-tablet.jpg`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "JavaScript"],
       toolUsed: [
         {
           name: "HTML",
@@ -297,7 +278,7 @@ module.exports = [
   {
     title: "Edge Ledger",
     path: "edgeledger",
-    imageSrc: "../../../images/responsive-img/edge-ledger/edge-ledger.jpg",
+    imageSrc: "edge-ledger",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -339,7 +320,7 @@ module.exports = [
   {
     title: "Vozsy News",
     path: "vozsynews",
-    imageSrc: "../../../images/responsive-img/vozsy-news/vozsy-news.png",
+    imageSrc: "vozsy-news",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -382,7 +363,7 @@ module.exports = [
   {
     title: "Scenic Cornwall",
     path: "sceniccornwall",
-    imageSrc: "../../../images/sass-advanced/natours/natours.png",
+    imageSrc: "natours",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -425,7 +406,7 @@ module.exports = [
   {
     title: "Nexter",
     path: "nexter",
-    imageSrc: "../../../images/sass-advanced/nexters/nexters.png",
+    imageSrc: "nexters",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -444,7 +425,7 @@ module.exports = [
       <p>I followed along with the design and added some personal touches</p>`,
       mobileView: `../../../images/sass-advanced/nexters/nexters-mobile.png`,
       tabletView: `../../../images/sass-advanced/nexters/nexters-tablet.png`,
-      toolLogos: ["JavaScript", "CSS", "Sass"],
+      toolLogos: ["HTML", "CSS", "Sass"],
       toolUsed: [
         {
           name: "HTML",
@@ -468,7 +449,7 @@ module.exports = [
   {
     title: "Trillo",
     path: "trillo",
-    imageSrc: "../../../images/sass-advanced/trilo/trilo.png",
+    imageSrc: "trilo",
     type: "responsive",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -487,7 +468,7 @@ module.exports = [
       <p>I followed along with the design and added some personal touches</p>`,
       mobileView: `../../../images/sass-advanced/trilo/trilo-mobile.png`,
       tabletView: `../../../images/sass-advanced/trilo/trilo-tablet.png`,
-      toolLogos: ["JavaScript", "CSS", "Sass"],
+      toolLogos: ["HTML", "CSS", "Sass"],
       toolUsed: [
         {
           name: "HTML",
@@ -511,7 +492,7 @@ module.exports = [
   {
     title: "Basic Spotify Clone",
     path: "spotifyclone",
-    imageSrc: "../../../images/material-projects/spotify-clone.png",
+    imageSrc: "spotify-clone",
     type: "material",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -546,7 +527,7 @@ module.exports = [
       accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
       tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["HTML", "JavaScript", "CSS", "Sass"],
+      toolLogos: ["HTML5", "Materialize", "Responsive", "Sass"],
       toolUsed: [
         {
           name: "HTML",
@@ -646,7 +627,7 @@ module.exports = [
   {
     title: "Random Quote Machine",
     path: "quotemachine",
-    imageSrc: "../../../images/front-end-framework/quote/quote.png",
+    imageSrc: "quote",
     type: "js",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure eius.`,
@@ -677,7 +658,7 @@ module.exports = [
  `,
       mobileView: `../../../images/front-end-framework/quote/quote-mobile.png`,
       tabletView: `./../../images/front-end-framework/quote/quote-tablet.png`,
-      toolLogos: ["HTML", "JavaScript", "CSS", "Sass"],
+      toolLogos: ["HTML", "CSS", "Sass"],
       toolUsed: [
         {
           name: "HTML",
@@ -701,7 +682,7 @@ module.exports = [
   {
     title: "Markdown Previewer",
     path: "markdownpreviewer",
-    imageSrc: "../../../images/front-end-framework/markdown/markdown.png",
+    imageSrc: "markdown",
     type: "js",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure eius itaque mollitia veniam
@@ -759,7 +740,7 @@ module.exports = [
   {
     title: "Drum Machine",
     path: "drummachine",
-    imageSrc: "../../../images/front-end-framework/drumkit/drum.png",
+    imageSrc: "drum",
     type: "js",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem eligendi deleniti iure.`,
@@ -820,7 +801,7 @@ module.exports = [
   {
     title: "Javascript Calculator",
     path: "javascriptcalculator",
-    imageSrc: "../../../images/front-end-framework/calculator/calculator.png",
+    imageSrc: "calculator",
     type: "js",
     description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to use my React skills to build a functioning calculator. The react app was styled with CSS.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
@@ -852,7 +833,7 @@ module.exports = [
      `,
       mobileView: `../../../images/front-end-framework/calculator/calculator-mobile.png`,
       tabletView: `../../../images/front-end-framework/calculator/calculator-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "Sass", "React"],
       toolUsed: [
         {
           name: "HTML",
@@ -881,7 +862,7 @@ module.exports = [
   {
     title: "Pomodoro Clock",
     path: "pomodoroclock",
-    imageSrc: "../../../images/front-end-framework/pomodoro/pomodoro.png",
+    imageSrc: "pomodoro",
     type: "js",
     description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
@@ -927,7 +908,7 @@ module.exports = [
      `,
       mobileView: `../../../images/front-end-framework/pomodoro/pomodoro-mobile.png`,
       tabletView: `../../../images/front-end-framework/pomodoro/pomodoro-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "Sass", "React"],
       toolUsed: [
         {
           name: "HTML",
@@ -956,7 +937,7 @@ module.exports = [
   {
     title: "Recipe Box",
     path: "recipebox",
-    imageSrc: "../../../images/front-end-framework/recipe-box/recipe-box.png",
+    imageSrc: "recipe-box",
     type: "js",
     description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used React and gained a better insight into local storage to save recipes.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
@@ -981,7 +962,7 @@ module.exports = [
  `,
       mobileView: `../../../images/front-end-framework/recipe-box/recipe-box-mobile.png`,
       tabletView: `../../../images/front-end-framework/recipe-box/recipe-box-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "Sass", "React"],
       toolUsed: [
         {
           name: "HTML",
@@ -1010,7 +991,7 @@ module.exports = [
   {
     title: "Simon",
     path: "simon",
-    imageSrc: "../../../images/front-end-framework/simon/simon.jpg",
+    imageSrc: "simon",
     type: "js",
     description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
@@ -1040,7 +1021,7 @@ module.exports = [
  `,
       mobileView: `../../../images/front-end-framework/simon/simon-mobile.png`,
       tabletView: `../../../images/front-end-framework/simon/simon-mobile.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "Sass", "React"],
       toolUsed: [
         {
           name: "HTML",
@@ -1069,7 +1050,7 @@ module.exports = [
   {
     title: "Twitch.tv JSON-API",
     path: "twitchclone",
-    imageSrc: "../../../images/front-end-framework/twitch/twitch.png",
+    imageSrc: "twitch",
     type: "angular",
     description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
@@ -1101,7 +1082,7 @@ module.exports = [
  `,
       mobileView: `../../../images/front-end-framework/twitch/twitch-mobile.png`,
       tabletView: `../../../images/front-end-framework/twitch/twitch-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML5", "CSS", "Javascript", "Angular"],
       toolUsed: [
         {
           name: "HTML",
