@@ -1,13 +1,9 @@
 module.exports = [
   {
     resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
-    options: {
-      devMode: true,
-    },
   },
 
   "gatsby-plugin-image",
-  "gatsby-plugin-sass",
   "gatsby-plugin-sharp",
   "gatsby-plugin-react-helmet",
   "gatsby-plugin-offline",
@@ -106,13 +102,6 @@ module.exports = [
     },
   },
   `gatsby-plugin-advanced-sitemap`,
-  // {
-  //   resolve: `gatsby-source-filesystem`,
-  //   options: {
-  //     name: `src`,
-  //     path: `${__dirname}/src/`,
-  //   },
-  // },
 
   {
     resolve: "gatsby-source-filesystem",
@@ -139,11 +128,4 @@ module.exports = [
     },
     __key: "pages",
   },
-
-  // {
-  //   resolve: "gatsby-plugin-static-folders",
-  //   options: {
-  //     folders: ["/static/images"],
-  //   },
-  // },
 ];
