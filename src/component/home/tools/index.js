@@ -14,12 +14,12 @@ function Tools() {
         <div className="specialize">
           <div className="img-container">
             <StaticImage
-              src="../../../images/about-logos/png/javascript.png"
+              src="../../../images/about-logos/javascript.png"
               alt="JavaScript"
               placeholder="none"
               layout="fixed"
-              width={85}
-              height={80}
+              width={70}
+              height={70}
               formats={["auto", "avif", "webp", "png"]}
             />
           </div>
@@ -35,12 +35,12 @@ function Tools() {
         <div class="specialize">
           <div className="img-container">
             <StaticImage
-              src="../../../images/about-logos/png/react.png"
+              src="../../../images/about-logos/React.png"
               alt="react"
               placeholder="none"
               layout="fixed"
-              width={86}
-              height={76}
+              width={70}
+              height={70}
               formats={["auto", "avif", "webp", "png"]}
             />
           </div>
@@ -57,12 +57,12 @@ function Tools() {
         <div class="specialize">
           <div className="img-container">
             <StaticImage
-              src="../../../images/about-logos/png/redux.png"
+              src="../../../images/about-logos/Redux.png"
               alt="redux"
               placeholder="none"
               layout="fixed"
-              width={85}
-              height={76}
+              width={70}
+              height={70}
               formats={["auto", "avif", "webp", "png"]}
             />
           </div>
@@ -78,12 +78,12 @@ function Tools() {
         <div class="specialize">
           <div className="img-container">
             <StaticImage
-              src="../../../images/about-logos/png/graphql.png"
+              src="../../../images/about-logos/graphql.png"
               alt="graphql"
               placeholder="none"
               layout="fixed"
-              width={85}
-              height={85}
+              width={70}
+              height={70}
               formats={["auto", "avif", "webp", "png"]}
             />
           </div>
