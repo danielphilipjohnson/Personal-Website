@@ -6,10 +6,6 @@
   margin-top: -0.5rem;
   padding-top: 0.5rem;
 }
-/* .overlay__content p {
-  font-size: 0.75rem;
-  color: #c6c7c7;
-} */
 
 .badges {
   padding: 0.5rem;
@@ -19,32 +15,3 @@
   justify-content: center;
   align-content: center;
 }
-
-/* .overlay .arrow-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-}
-.overlay .arrow-btn .arrow-btn-text {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 0.5rem;
-}
-.overlay .links {
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-} */
-/* .overlay svg {
-  padding: 0.05rem 0.35rem;
-  transition: 0.5s ease;
-  font-size: 2rem;
-  height: 35px;
-} */
-
-/* @media screen and (min-width: 768px) {
-  .overlay .content p {
-    display: block;
-  }
-} */
