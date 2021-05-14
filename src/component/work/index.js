@@ -64,7 +64,6 @@ const siteQuery = graphql`
           path
           imageSrc
           type
-          description
           codepenLink
           githubLink
           projectLink

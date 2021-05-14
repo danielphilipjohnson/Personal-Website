@@ -4,8 +4,6 @@ module.exports = [
     path: "tributepage",
     imageSrc: "tribute-page",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eiu.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/VwaJrPg",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/1.Tribute-Page",
@@ -38,9 +36,9 @@ module.exports = [
           </ul>
       <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it then finished with adding SEO</p>
       `,
-      mobileView: `../../../images/responsive-img/tribute-page/tribute-page-mobile.png`,
-      tabletView: `../../../images/responsive-img/tribute-page/tribute-page-tablet.png`,
-      toolLogos: ["Html", "CSS", "JavaScript"],
+      mobileView: `tribute-page-mobile`,
+      tabletView: `tribute-page-tablet`,
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
     },
   },
   {
@@ -48,8 +46,6 @@ module.exports = [
     path: "surveyform",
     imageSrc: "survey-form",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/oNxabPN",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/2.Survey_form",
@@ -81,26 +77,9 @@ module.exports = [
       </ul>
       <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it then finished with adding SEO</p>
       `,
-      mobileView: `../../../images/responsive-img/survey/survey-form-mobile.png`,
-      tabletView: `../../../images/responsive-img/survey/survey-form-tablet.png`,
-      toolLogos: ["HTML", "CSS", "JavaScript"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "JavaScript",
-          src: "../../../images/about-logos/javascript.svg",
-          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
-        },
-      ],
+      mobileView: `survey-form-mobile`,
+      tabletView: `survey-form-tablet`,
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
     },
   },
   {
@@ -108,8 +87,6 @@ module.exports = [
     path: "productlanding",
     imageSrc: "product-landing",
     type: "responsive",
-    description: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/LYNgrGV",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/3.Product-Landing-Page",
@@ -138,26 +115,10 @@ module.exports = [
       </ul>
       <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it then finished with adding SEO</p>
       `,
-      mobileView: `../../../images/responsive-img/product-landing/product-landing-mobile.png`,
-      tabletView: `../../../images/responsive-img/product-landing/product-landing-tablet.png`,
-      toolLogos: ["HTML", "CSS", "JavaScript"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "JavaScript",
-          src: "../../../images/about-logos/javascript.svg",
-          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
-        },
-      ],
+      mobileView: `product-landing-mobile`,
+      tabletView: `product-landing-tablet`,
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
+
       reusablecomponents: null,
     },
   },
@@ -166,8 +127,7 @@ module.exports = [
     path: "technicaldocument",
     imageSrc: "technical-documentation",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
+
     codepenLink: "https://codepen.io/danielphilipjohnson/full/PoNVJLW",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/4.Technical-Documentation-Page",
@@ -196,26 +156,10 @@ module.exports = [
       </ul>
       <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it then finished with adding SEO</p>
       `,
-      mobileView: `../../../images/responsive-img/technical-documentation/technical-documentation-mobile.png`,
-      tabletView: `../../../images/responsive-img/technical-documentation/technical-documentation-tablet.png`,
-      toolLogos: ["HTML", "CSS", "JavaScript"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "JavaScript",
-          src: "../../../images/about-logos/javascript.svg",
-          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
-        },
-      ],
+      mobileView: `technical-documentation-mobile`,
+      tabletView: `technical-documentation-tablet`,
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
+
       reusablecomponents: null,
     },
   },
@@ -224,8 +168,6 @@ module.exports = [
     path: "portfolio",
     imageSrc: "portfolio",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/JjXmZGj",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/5.Personal-Portfolio-Webpage",
@@ -252,26 +194,10 @@ module.exports = [
       </ul>
       <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it then finished with adding SEO</p>
       `,
-      mobileView: `../../../images/responsive-img/portfolio/portfolio-mobile.png`,
-      tabletView: `../../../images/responsive-img/portfolio/portfolio-tablet.jpg`,
-      toolLogos: ["HTML", "CSS", "JavaScript"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "JavaScript",
-          src: "../../../images/about-logos/javascript.svg",
-          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
-        },
-      ],
+      mobileView: `portfolio-mobile`,
+      tabletView: `portfolio-tablet`,
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
+
       reusablecomponents: null,
     },
   },
@@ -280,8 +206,7 @@ module.exports = [
     path: "edgeledger",
     imageSrc: "edge-ledger",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
+
     codepenLink: "#",
     githubLink: "#",
     projectLink: "#",
@@ -299,21 +224,10 @@ module.exports = [
       process: `<p>I followed the design made by Brad Traversy:</p>
       <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it, then finished with adding SEO</p>
       `,
-      mobileView: `../../../images/responsive-img/edge-ledger/edge-ledger-mobile.png`,
-      tabletView: `../../../images/responsive-img/edge-ledger/edge-ledger-tablet.jpg`,
-      toolLogos: ["HTML", "CSS"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-      ],
+      mobileView: `edge-ledger-mobile`,
+      tabletView: `edge-ledger-tablet`,
+      toolLogos: ["HTML5", "CSS"],
+
       reusablecomponents: null,
     },
   },
@@ -322,8 +236,7 @@ module.exports = [
     path: "vozsynews",
     imageSrc: "vozsy-news",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
+
     codepenLink: "#",
     githubLink: "#",
     projectLink: "#",
@@ -342,21 +255,10 @@ module.exports = [
       process: `<p>I followed the design made by Brad Traversy:</p>
       <p>Then decided on the best layout of the content and made a design in figma. Finally I scaffolded the HTML and started to style it, then finished with adding SEO</p>
       `,
-      mobileView: `../../../images/responsive-img/vozsy-news/vozsy-news-mobile.png`,
-      tabletView: `../../../images/responsive-img/vozsy-news/vozsy-news-tablet.jpg`,
-      toolLogos: ["HTML", "CSS"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-      ],
+      mobileView: `vozsy-news-mobile`,
+      tabletView: `vozsy-news-tablet`,
+      toolLogos: ["HTML5", "CSS"],
+
       reusablecomponents: null,
     },
   },
@@ -365,8 +267,7 @@ module.exports = [
     path: "sceniccornwall",
     imageSrc: "natours",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
+
     codepenLink: "#",
     githubLink: "https://github.com/danielphilipjohnson/natours",
     projectLink: "https://danielphilipjohnson.github.io/natours/",
@@ -380,26 +281,10 @@ module.exports = [
       process: `<p>I followed the design made by Jonas Schmedtmann:</p>
       <p>I followed along with the design and added some personal touches</p>`,
 
-      mobileView: `../../../images/sass-advanced/natours/natours-mobile.png`,
-      tabletView: `../../../images/sass-advanced/natours/natours-tablet.png`,
+      mobileView: `natours-mobile`,
+      tabletView: `natours-tablet`,
       toolLogos: ["HTML5", "CSS", "SASS", "Responsive"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-      ],
+
       reusablecomponents: null,
     },
   },
@@ -408,8 +293,6 @@ module.exports = [
     path: "nexter",
     imageSrc: "nexters",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
     codepenLink: "#",
     githubLink: "https://github.com/danielphilipjohnson/nexter",
     projectLink: "https://danielphilipjohnson.github.io/nexter/",
@@ -423,26 +306,10 @@ module.exports = [
       `,
       process: `<p>I followed the design made by Jonas Schmedtmann:</p>
       <p>I followed along with the design and added some personal touches</p>`,
-      mobileView: `../../../images/sass-advanced/nexters/nexters-mobile.png`,
-      tabletView: `../../../images/sass-advanced/nexters/nexters-tablet.png`,
-      toolLogos: ["HTML", "CSS", "Sass"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-      ],
+      mobileView: `nexters-mobile`,
+      tabletView: `nexters-tablet`,
+      toolLogos: ["HTML5", "CSS", "Sass"],
+
       reusablecomponents: null,
     },
   },
@@ -451,8 +318,7 @@ module.exports = [
     path: "trillo",
     imageSrc: "trilo",
     type: "responsive",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
+
     codepenLink: "#",
     githubLink: "https://github.com/danielphilipjohnson/trilo",
     projectLink: "https://danielphilipjohnson.github.io/trilo/",
@@ -466,26 +332,10 @@ module.exports = [
       lessonsLearned: `My understanding of how CSS is parsed into a tree was dramatically improved. I avoided style inheritance issues, specificity issues and improved computing values with REM. My responsive design started to be more flexible and less issues arised. I started to build animations much quicker.Furthered my knowledge of the NPM ecosystem. My knowledge of Sass improved dramatically and the readability of the styling was improved.`,
       process: `<p>I followed the design made by Jonas Schmedtmann:</p>
       <p>I followed along with the design and added some personal touches</p>`,
-      mobileView: `../../../images/sass-advanced/trilo/trilo-mobile.png`,
-      tabletView: `../../../images/sass-advanced/trilo/trilo-tablet.png`,
-      toolLogos: ["HTML", "CSS", "Sass"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-      ],
+      mobileView: `trilo-mobile`,
+      tabletView: `trilo-tablet`,
+      toolLogos: ["HTML5", "CSS", "Sass"],
+
       reusablecomponents: null,
     },
   },
@@ -494,8 +344,7 @@ module.exports = [
     path: "spotifyclone",
     imageSrc: "spotify-clone",
     type: "material",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
+
     codepenLink: "#",
     githubLink: "#",
     projectLink: "#",
@@ -528,30 +377,14 @@ module.exports = [
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
       tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
       toolLogos: ["HTML5", "Materialize", "Responsive", "Sass"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-      ],
+
       reusablecomponents: null,
     },
   },
   // {
   //   title: "Basic Messenger Clone",
   //   path: "messengerclone",
-  //   imageSrc: "../../../images/material-projects/messenger-clone.png",
+  //   imageSrc: "../../../images/material-projects/messenger-clone",
   //   type: "material",
   //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
   //   Autem eligendi deleniti iure.`,
@@ -629,8 +462,6 @@ module.exports = [
     path: "quotemachine",
     imageSrc: "quote",
     type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/bGEgaoo",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/1.%20Build%20a%20Random-Quote-Machine",
@@ -656,26 +487,10 @@ module.exports = [
           <li><b>User Story #11:</b>  The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.</li>
           </ul>
  `,
-      mobileView: `../../../images/front-end-framework/quote/quote-mobile.png`,
-      tabletView: `./../../images/front-end-framework/quote/quote-tablet.png`,
-      toolLogos: ["HTML", "CSS", "Sass"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-      ],
+      mobileView: `quote-mobile`,
+      tabletView: `quote-tablet`,
+      toolLogos: ["HTML5", "CSS", "Sass"],
+
       reusablecomponents: null,
     },
   },
@@ -684,9 +499,6 @@ module.exports = [
     path: "markdownpreviewer",
     imageSrc: "markdown",
     type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure eius itaque mollitia veniam
-    vitae earum nesciunt voluptate.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/vYLgpjX",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/2.%20Build%20a%20Markdown%20Previewer",
@@ -710,31 +522,9 @@ module.exports = [
 </li>
 </ul> 
 `,
-      mobileView: `../../../images/front-end-framework/markdown/markdown-mobile.png`,
-      tabletView: `../../../images/front-end-framework/markdown/markdown-tablet.png`,
-      toolLogos: ["HTML", "React", "CSS", "Sass"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-        {
-          name: "React",
-          src: "../../../images/about-logos/react.svg",
-          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
-        },
-      ],
+      mobileView: `markdown-mobile`,
+      tabletView: `markdown-tablet`,
+      toolLogos: ["HTML5", "React", "CSS", "Sass"],
     },
   },
   {
@@ -742,8 +532,6 @@ module.exports = [
     path: "drummachine",
     imageSrc: "drum",
     type: "js",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    Autem eligendi deleniti iure.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/mdVRLam",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/3.%20Build%20a%20Drum%20Machine",
@@ -770,31 +558,10 @@ module.exports = [
       </li>
       </ul> 
       `,
-      mobileView: `../../../images/front-end-framework/drumkit/drum-mobile.png`,
-      tabletView: `../../../images/front-end-framework/drumkit/drum-tablet.png`,
-      toolLogos: ["HTML", "React", "CSS", "Sass"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-        {
-          name: "React",
-          src: "../../../images/about-logos/react.svg",
-          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
-        },
-      ],
+      mobileView: `drum-mobile`,
+      tabletView: `drum-tablet`,
+      toolLogos: ["HTML5", "React", "CSS", "Sass"],
+
       reusablecomponents: null,
     },
   },
@@ -803,7 +570,6 @@ module.exports = [
     path: "javascriptcalculator",
     imageSrc: "calculator",
     type: "js",
-    description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I wanted to use my React skills to build a functioning calculator. The react app was styled with CSS.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/abdpKOv",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/4.%20Build%20a%20JavaScript%20Calculator",
@@ -831,31 +597,10 @@ module.exports = [
      <li><b>User Story #14:</b> Pressing an operator immediately following = should start a new calculation that operates on the result of the previous evaluation.</li>
      <li><b>User Story #15:</b> My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like 2 / 7 with reasonable precision to at least 4 decimal places).</li></ul>
      `,
-      mobileView: `../../../images/front-end-framework/calculator/calculator-mobile.png`,
-      tabletView: `../../../images/front-end-framework/calculator/calculator-tablet.png`,
-      toolLogos: ["HTML", "CSS", "Sass", "React"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-        {
-          name: "React",
-          src: "../../../images/about-logos/react.svg",
-          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
-        },
-      ],
+      mobileView: `calculator-mobile`,
+      tabletView: `calculator-tablet`,
+      toolLogos: ["HTML5", "CSS", "Sass", "React"],
+
       reusablecomponents: null,
     },
   },
@@ -864,7 +609,6 @@ module.exports = [
     path: "pomodoroclock",
     imageSrc: "pomodoro",
     type: "js",
-    description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/OJMWEXZ",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/5.%20Build%20a%20Pomodoro%20Clock",
@@ -906,31 +650,10 @@ module.exports = [
      <li><b>User Story #28:</b> The audio element with id of beep must stop playing and be rewound to the beginning when the element with the id of reset is clicked.</li>
      </ul>
      `,
-      mobileView: `../../../images/front-end-framework/pomodoro/pomodoro-mobile.png`,
-      tabletView: `../../../images/front-end-framework/pomodoro/pomodoro-tablet.png`,
-      toolLogos: ["HTML", "CSS", "Sass", "React"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-        {
-          name: "React",
-          src: "../../../images/about-logos/react.svg",
-          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
-        },
-      ],
+      mobileView: `pomodoro-mobile`,
+      tabletView: `pomodoro-tablet`,
+      toolLogos: ["HTML5", "CSS", "Sass", "React"],
+
       reusablecomponents: null,
     },
   },
@@ -939,7 +662,6 @@ module.exports = [
     path: "recipebox",
     imageSrc: "recipe-box",
     type: "js",
-    description: `I took FreeCodeCamp Front End Development Libraries Projects to improve my front end skills. With this project I used React and gained a better insight into local storage to save recipes.`,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/VwePBBR",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Recipe-Box",
@@ -960,31 +682,10 @@ module.exports = [
      <li><b>User Story #6:</b>All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.</li>
    </ul>
  `,
-      mobileView: `../../../images/front-end-framework/recipe-box/recipe-box-mobile.png`,
-      tabletView: `../../../images/front-end-framework/recipe-box/recipe-box-tablet.png`,
-      toolLogos: ["HTML", "CSS", "Sass", "React"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-        {
-          name: "React",
-          src: "../../../images/about-logos/react.svg",
-          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
-        },
-      ],
+      mobileView: `recipe-box-mobile`,
+      tabletView: `recipe-box-tablet`,
+      toolLogos: ["HTML5", "CSS", "Sass", "React"],
+
       reusablecomponents: null,
     },
   },
@@ -993,7 +694,6 @@ module.exports = [
     path: "simon",
     imageSrc: "simon",
     type: "js",
-    description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/QWypLgY",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Simon",
@@ -1019,31 +719,10 @@ module.exports = [
 
     </ul>
  `,
-      mobileView: `../../../images/front-end-framework/simon/simon-mobile.png`,
-      tabletView: `../../../images/front-end-framework/simon/simon-mobile.png`,
-      toolLogos: ["HTML", "CSS", "Sass", "React"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-        {
-          name: "React",
-          src: "../../../images/about-logos/react.svg",
-          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
-        },
-      ],
+      mobileView: `simon-mobile`,
+      tabletView: `simon-mobile`,
+      toolLogos: ["HTML5", "CSS", "Sass", "React"],
+
       reusablecomponents: null,
     },
   },
@@ -1052,7 +731,6 @@ module.exports = [
     path: "twitchclone",
     imageSrc: "twitch",
     type: "angular",
-    description: ``,
     codepenLink: "https://codepen.io/danielphilipjohnson/full/ZEQezmb",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/2.Front-End-Libraries-Certification/Legacy%20Projects/Twitch.tv-JSON-API",
@@ -1080,38 +758,17 @@ module.exports = [
           <li><b>User Story #3:</b> if a Twitch user is currently streaming, I can see additional details about what they are streaming.</li>
       </ul>
  `,
-      mobileView: `../../../images/front-end-framework/twitch/twitch-mobile.png`,
-      tabletView: `../../../images/front-end-framework/twitch/twitch-tablet.png`,
+      mobileView: `twitch-mobile`,
+      tabletView: `twitch-tablet`,
       toolLogos: ["HTML5", "CSS", "Javascript", "Angular"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-        {
-          name: "React",
-          src: "../../../images/about-logos/react.svg",
-          about: `React is an open-source, front end, JavaScript library for building user interfaces or UI components.`,
-        },
-      ],
+
       reusablecomponents: null,
     },
   },
   // {
   //   title: "Basic Instagram clone",
   //   path: "instagramclone",
-  //   imageSrc: "../../../images/front-end-lib/igclone.png",
+  //   imageSrc: "../../../images/front-end-lib/igclone",
   //   type: "angular",
   //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
   //   Autem eligendi deleniti iure eius itaque mollitia veniam
@@ -1196,7 +853,7 @@ module.exports = [
   // {
   //   title: "Basic Spotify clone",
   //   path: "spotifyclone",
-  //   imageSrc: "../../../images/front-end-lib/spotifyclone-angular.png",
+  //   imageSrc: "../../../images/front-end-lib/spotifyclone-angular",
   //   type: "angular",
   //   description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
   //   Autem eligendi deleniti iure eius itaque mollitia veniam

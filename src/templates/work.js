@@ -11,39 +11,31 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./styles.css";
 
 function Work({ location, data, pageContext }) {
-  const { details } = pageContext.post;
+  const {
+    details,
+    imageSrc,
+    title,
+    codepenLink,
+    githubLink,
+  } = pageContext.post;
 
-  const toolUsed = details.toolLogos;
+  const { tablet, mobile, desktop } = data;
 
-  const tabletImageName = pageContext.post.imageSrc + "-tablet";
-  const mobileImageName = pageContext.post.imageSrc + "-mobile";
+  const {
+    toolLogos,
+    process,
+    overview,
+    goals,
+    lessonsLearned,
+    tabletView,
+    mobileView,
+  } = details;
 
-  // refactor into another component
-  const ProjectTabletImage = ({ tabletImageName }) => {
-    return data.tablet.nodes.map((edge) => {
-      if (edge.name === tabletImageName) {
+  const ProjectImage = ({ images, imageName, className = "" }) => {
+    return images.nodes.map((edge) => {
+      if (edge.name === imageName) {
         const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
-        return <GatsbyImage image={image} />;
-      }
-      return null;
-    });
-  };
-
-  const ProjectMobileImage = ({ mobileImageName }) => {
-    return data.mobile.nodes.map((edge) => {
-      if (edge.name === mobileImageName) {
-        const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
-        return <GatsbyImage image={image} />;
-      }
-      return null;
-    });
-  };
-
-  const ProjectImage = () => {
-    return data.allFile.nodes.map((edge) => {
-      if (edge.name === pageContext.post.imageSrc) {
-        const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
-        return <GatsbyImage image={image} />;
+        return <GatsbyImage image={image} className={className} />;
       }
       return null;
     });
@@ -54,7 +46,11 @@ function Work({ location, data, pageContext }) {
       <Seo />
       <section id="work-temp" className="work-temp">
         <div className="image-banner">
-          <ProjectImage className="image-inner" />
+          <ProjectImage
+            images={desktop}
+            imageName={imageSrc}
+            className="image-inner"
+          />
 
           <div className="container project bb ">
             <span
@@ -65,16 +61,14 @@ function Work({ location, data, pageContext }) {
               🖥️
             </span>
 
-            <h1 className="text-purple project-heading lg-heading">
-              {pageContext.post.title}
-            </h1>
+            <h1 className="text-purple project-heading lg-heading">{title}</h1>
 
             <div className="project-tools">
               <div className="project-tools__stats">
                 <h3 className="text-purple project-tools__header">
                   Built with{" "}
                 </h3>
-                <Badges badges={toolUsed} />
+                <Badges badges={toolLogos} />
               </div>
             </div>
 
@@ -84,9 +78,7 @@ function Work({ location, data, pageContext }) {
                 alt=""
                 width="25"
               />
-              <a href={pageContext.post.codepenLink}>
-                To view project click here
-              </a>
+              <a href={codepenLink}>To view project click here</a>
             </div>
           </div>
         </div>
@@ -99,28 +91,27 @@ function Work({ location, data, pageContext }) {
             <div className="project-stat__information">
               <div className="project-stat__block">
                 <h2 className="project-heading mb-4">Overview</h2>
-                <p>{details.overview}</p>
+                <p>{overview}</p>
               </div>
 
               <div className="project-stat__block">
                 <h2 className="project-heading mb-4">Goals</h2>
-                <p>{details.goals}</p>
+                <p>{goals}</p>
               </div>
               <div className="project-stat__block">
                 <h2 className="project-heading mb-4">Lessons Learned </h2>
-                <p>{details.lessonsLearned}</p>
+                <p>{lessonsLearned}</p>
               </div>
             </div>
 
             <figure className="tech-figure">
-              <ProjectMobileImage mobileImageName={mobileImageName} />
-
+              <ProjectImage images={mobile} imageName={mobileView} />
               <figcaption>Fig.1 - Mobile View of App</figcaption>
             </figure>
 
             <div>
               <h2 className="project-heading mb-4">Respository </h2>
-              <a href={pageContext.post.githubLink}>
+              <a href={githubLink}>
                 <div className="repo">
                   <div className="repo__header">
                     <img
@@ -128,10 +119,11 @@ function Work({ location, data, pageContext }) {
                       alt=""
                       width="25"
                     />
-                    <p>{pageContext.post.title}</p>
+                    <p>{title}</p>
                   </div>
 
                   <p className="repo__text">
+                    {/* make sitemap field */}
                     What is freeCodeCamp? We’re a nonprofit community that helps
                     you learn to code by building projects. How can you help me
                     learn to code? You'll learn to code by completing coding
@@ -150,11 +142,11 @@ function Work({ location, data, pageContext }) {
         <div className="project-process container">
           <div className="project-process--information">
             <h2 className="project-heading">Process</h2>
-            <p dangerouslySetInnerHTML={{ __html: details.process }}></p>
+            <p dangerouslySetInnerHTML={{ __html: process }}></p>
           </div>
 
           <figure className="tech-figure">
-            <ProjectTabletImage tabletImageName={tabletImageName} />
+            <ProjectImage images={tablet} imageName={tabletView} />
             <figcaption>Fig.2 - Tablet View of App</figcaption>{" "}
           </figure>
         </div>
@@ -162,8 +154,6 @@ function Work({ location, data, pageContext }) {
     </Layout>
   );
 }
-
-// resolve tablet image
 
 export default Work;
 
@@ -177,7 +167,6 @@ export const query = graphql`
             path
             badges
             codepenLink
-            description
             githubLink
             imageSrc
             path
@@ -190,11 +179,6 @@ export const query = graphql`
               lessonsLearned
               mobileView
               toolLogos
-              toolUsed {
-                name
-                src
-                about
-              }
               process
               tabletView
             }
@@ -202,8 +186,7 @@ export const query = graphql`
         }
       }
     }
-    allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
-      distinct(field: sourceInstanceName)
+    desktop: allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
       nodes {
         id
         name
@@ -218,7 +201,6 @@ export const query = graphql`
       }
     }
     tablet: allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
-      distinct(field: sourceInstanceName)
       nodes {
         id
         name
@@ -233,7 +215,6 @@ export const query = graphql`
       }
     }
     mobile: allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
-      distinct(field: sourceInstanceName)
       nodes {
         id
         name
