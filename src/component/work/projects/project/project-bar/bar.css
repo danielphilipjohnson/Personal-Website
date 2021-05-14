@@ -1,4 +1,4 @@
-.bar {
+.top__bar {
   display: block;
   position: relative;
   height: 24px;
@@ -9,8 +9,7 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
-.bar .fa-blog,
-.bar .fa-firefox {
+.top__bar .fa-firefox {
   position: absolute;
   z-index: 12;
   top: 1px;
@@ -20,26 +19,26 @@
   display: inline-block;
   color: #fd7e14;
 }
-.bar .window-buttons {
+.window-buttons {
   background-color: #ff5f57;
   top: 6px;
   right: 38px;
 }
-.bar .window-buttons,
-.bar .window-buttons:before {
+.window-buttons,
+.window-buttons:before {
   height: 12px;
   width: 12px;
   display: inline-block;
   border-radius: 50%;
   position: absolute;
 }
-.bar .window-buttons:before {
+.window-buttons:before {
   content: " ";
   left: 16px;
   background-color: #ffbd2e;
   top: 0;
 }
-.bar .window-buttons:after {
+.window-buttons:after {
   content: " ";
   left: 32px;
   background-color: #28ca41;
@@ -50,7 +49,7 @@
   border-radius: 50%;
   position: absolute;
 }
-.bar .title {
+.top__bar-title {
   display: block;
   width: 100%;
   text-align: center;

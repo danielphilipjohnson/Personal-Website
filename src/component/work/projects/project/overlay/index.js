@@ -1,15 +1,15 @@
 import React from "react";
-import getBadgeLogo from "../../../../../utils/getBadgeLogo";
+import BadgeLogos from "../../../../shared/badgeLogos";
+
 import "./overlay.css";
 
 function Overlay({ badges }) {
-  // refactor into seperate component
   const Badges = () => {
     return badges.map((badge) => {
       return (
         <span className="badge-tech" key={badge}>
-          {getBadgeLogo(badge)}
-          {badge}
+          <BadgeLogos name={badge} />
+          <p>{badge}</p>
         </span>
       );
     });

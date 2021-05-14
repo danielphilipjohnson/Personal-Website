@@ -5,10 +5,10 @@ import "./bar.css";
 
 function TopBar({ title }) {
   return (
-    <div className="bar">
+    <div className="top__bar">
       <FontAwesomeIcon icon={faFirefox} />
       <i className="window-buttons"></i>
-      <span className="title">{title}</span>
+      <span className="top__bar-title">{title}</span>
     </div>
   );
 }

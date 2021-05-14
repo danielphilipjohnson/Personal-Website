@@ -4,7 +4,6 @@ import { useStaticQuery, graphql, Link } from "gatsby";
 
 import TopBar from "./project-bar";
 import Overlay from "./overlay";
-import getBadgeLogo from "../../../../utils/getBadgeLogo";
 
 function ProjectCard({ project }) {
   const { path, title, imageSrc, badges } = project;
