@@ -7,14 +7,11 @@ import Projects from "../component/work";
 
 const WorkPage = ({ location }) => {
   return (
-    <>
-      <Layout location={location.pathname}>
-        <SEO />
-        <section id="work">
-          <Projects />
-        </section>
-      </Layout>
-    </>
+    <Layout location={location.pathname}>
+      <SEO />
+
+      <Projects />
+    </Layout>
   );
 };
 
