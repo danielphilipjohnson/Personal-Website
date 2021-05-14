@@ -38,7 +38,7 @@ module.exports = [
       `,
       mobileView: `tribute-page-mobile`,
       tabletView: `tribute-page-tablet`,
-      toolLogos: ["Html", "CSS", "JavaScript"],
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
     },
   },
   {
@@ -79,7 +79,7 @@ module.exports = [
       `,
       mobileView: `survey-form-mobile`,
       tabletView: `survey-form-tablet`,
-      toolLogos: ["HTML", "CSS", "JavaScript"],
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
     },
   },
   {
@@ -87,7 +87,6 @@ module.exports = [
     path: "productlanding",
     imageSrc: "product-landing",
     type: "responsive",
-
     codepenLink: "https://codepen.io/danielphilipjohnson/full/LYNgrGV",
     githubLink:
       "https://github.com/danielphilipjohnson/Free-Code-Camp-Portfolio-2018-2019/tree/master/1.Responsive-Web-Design-Certification/3.Product-Landing-Page",
@@ -118,7 +117,7 @@ module.exports = [
       `,
       mobileView: `product-landing-mobile`,
       tabletView: `product-landing-tablet`,
-      toolLogos: ["HTML", "CSS", "JavaScript"],
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
 
       reusablecomponents: null,
     },
@@ -159,7 +158,7 @@ module.exports = [
       `,
       mobileView: `technical-documentation-mobile`,
       tabletView: `technical-documentation-tablet`,
-      toolLogos: ["HTML", "CSS", "JavaScript"],
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
 
       reusablecomponents: null,
     },
@@ -197,7 +196,7 @@ module.exports = [
       `,
       mobileView: `portfolio-mobile`,
       tabletView: `portfolio-tablet`,
-      toolLogos: ["HTML", "CSS", "JavaScript"],
+      toolLogos: ["HTML5", "CSS", "JavaScript"],
 
       reusablecomponents: null,
     },
@@ -227,7 +226,7 @@ module.exports = [
       `,
       mobileView: `edge-ledger-mobile`,
       tabletView: `edge-ledger-tablet`,
-      toolLogos: ["HTML", "CSS"],
+      toolLogos: ["HTML5", "CSS"],
 
       reusablecomponents: null,
     },
@@ -258,7 +257,7 @@ module.exports = [
       `,
       mobileView: `vozsy-news-mobile`,
       tabletView: `vozsy-news-tablet`,
-      toolLogos: ["HTML", "CSS"],
+      toolLogos: ["HTML5", "CSS"],
 
       reusablecomponents: null,
     },
@@ -309,7 +308,7 @@ module.exports = [
       <p>I followed along with the design and added some personal touches</p>`,
       mobileView: `nexters-mobile`,
       tabletView: `nexters-tablet`,
-      toolLogos: ["HTML", "CSS", "Sass"],
+      toolLogos: ["HTML5", "CSS", "Sass"],
 
       reusablecomponents: null,
     },
@@ -335,7 +334,7 @@ module.exports = [
       <p>I followed along with the design and added some personal touches</p>`,
       mobileView: `trilo-mobile`,
       tabletView: `trilo-tablet`,
-      toolLogos: ["HTML", "CSS", "Sass"],
+      toolLogos: ["HTML5", "CSS", "Sass"],
 
       reusablecomponents: null,
     },
@@ -378,23 +377,7 @@ module.exports = [
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
       tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
       toolLogos: ["HTML5", "Materialize", "Responsive", "Sass"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "Sass",
-          src: "../../../images/about-logos/sass.svg",
-          about: `CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS`,
-        },
-      ],
+
       reusablecomponents: null,
     },
   },
@@ -506,7 +489,7 @@ module.exports = [
  `,
       mobileView: `quote-mobile`,
       tabletView: `quote-tablet`,
-      toolLogos: ["HTML", "CSS", "Sass"],
+      toolLogos: ["HTML5", "CSS", "Sass"],
 
       reusablecomponents: null,
     },
@@ -541,7 +524,7 @@ module.exports = [
 `,
       mobileView: `markdown-mobile`,
       tabletView: `markdown-tablet`,
-      toolLogos: ["HTML", "React", "CSS", "Sass"],
+      toolLogos: ["HTML5", "React", "CSS", "Sass"],
     },
   },
   {
@@ -577,7 +560,7 @@ module.exports = [
       `,
       mobileView: `drum-mobile`,
       tabletView: `drum-tablet`,
-      toolLogos: ["HTML", "React", "CSS", "Sass"],
+      toolLogos: ["HTML5", "React", "CSS", "Sass"],
 
       reusablecomponents: null,
     },
@@ -616,7 +599,7 @@ module.exports = [
      `,
       mobileView: `calculator-mobile`,
       tabletView: `calculator-tablet`,
-      toolLogos: ["HTML", "CSS", "Sass", "React"],
+      toolLogos: ["HTML5", "CSS", "Sass", "React"],
 
       reusablecomponents: null,
     },
@@ -669,7 +652,7 @@ module.exports = [
      `,
       mobileView: `pomodoro-mobile`,
       tabletView: `pomodoro-tablet`,
-      toolLogos: ["HTML", "CSS", "Sass", "React"],
+      toolLogos: ["HTML5", "CSS", "Sass", "React"],
 
       reusablecomponents: null,
     },
@@ -701,7 +684,7 @@ module.exports = [
  `,
       mobileView: `recipe-box-mobile`,
       tabletView: `recipe-box-tablet`,
-      toolLogos: ["HTML", "CSS", "Sass", "React"],
+      toolLogos: ["HTML5", "CSS", "Sass", "React"],
 
       reusablecomponents: null,
     },
@@ -738,7 +721,7 @@ module.exports = [
  `,
       mobileView: `simon-mobile`,
       tabletView: `simon-mobile`,
-      toolLogos: ["HTML", "CSS", "Sass", "React"],
+      toolLogos: ["HTML5", "CSS", "Sass", "React"],
 
       reusablecomponents: null,
     },
