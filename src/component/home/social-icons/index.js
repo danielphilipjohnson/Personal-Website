@@ -13,7 +13,7 @@ function Icons() {
   return (
     <>
       <div id="social-icons" className="social-icons badge-contact-sm">
-        <div id="social-icons" class="social-icons badge-contact-sm">
+        <div id="social-icons" className="social-icons badge-contact-sm">
           <a
             href="https://github.com/danielphilipjohnson"
             target="_blank"

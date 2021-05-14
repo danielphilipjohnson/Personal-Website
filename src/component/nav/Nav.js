@@ -3,34 +3,59 @@ import { Link } from "gatsby";
 
 import "./nav.css";
 
-function Nav() {
+function Nav({ location }) {
+  console.log(location);
+  const routesPathAndValues = {
+    // "/": "Home",
+    "/about/": "About",
+    "/work/": "Work",
+    "/contact/": "Contact",
+  };
+
+  const DisplayHome = () => {
+    if (location === "/") {
+      return null;
+    } else {
+      return (
+        <li>
+          <Link to="/" className="nav-link">
+            <span className="link-slash">/</span>
+          </Link>
+        </li>
+      );
+    }
+  };
+
+  let allFooterRoutes = [];
+
+  for (let path in routesPathAndValues) {
+    if (path !== location) {
+      const route = {
+        link: path,
+        text: routesPathAndValues[path],
+      };
+
+      allFooterRoutes.push(route);
+    }
+  }
+  console.log(allFooterRoutes);
   return (
     <nav className="nav" role="navigation" aria-labelledby="nav1">
       <div className="container nav-content">
         <ul className="nav-links">
           <li>🌕</li>
-          <li>
-            <Link to="/" className="nav-link">
-              <span className="link-slash">/</span>
-            </Link>
-          </li>
+          <DisplayHome />
         </ul>
         <ul className="nav-links">
-          <li>
-            <Link to="/about" className="nav-link">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/work" className="nav-link">
-              Work
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="nav-link">
-              Contact
-            </Link>
-          </li>
+          {allFooterRoutes.map((route) => {
+            return (
+              <li>
+                <Link to={route.link} className="nav-link">
+                  {route.text}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </nav>

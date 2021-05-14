@@ -13,6 +13,7 @@ module.exports = {
     title: `Daniel Philip Johnson`,
     titleTemplate: "React Developer · %s",
     url: "http://danielphilipjohnson.me/",
+    siteUrl: `https://danielphilipjohnson.com/`,
     image: "images/banner.png",
     twitterUsername: "@danielp_johnson",
     author: `Daniel Philip Johnson`,
