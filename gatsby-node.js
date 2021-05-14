@@ -13,7 +13,6 @@ exports.createPages = async ({ graphql, actions }) => {
               path
               imageSrc
               type
-              description
               codepenLink
               githubLink
               projectLink
@@ -24,11 +23,6 @@ exports.createPages = async ({ graphql, actions }) => {
                 lessonsLearned
                 mobileView
                 toolLogos
-                toolUsed {
-                  name
-                  src
-                  about
-                }
                 process
                 tabletView
               }
