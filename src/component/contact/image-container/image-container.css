@@ -1,0 +1,97 @@
+.contact-bg {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100% !important;
+  height: 300px !important;
+}
+@media screen and (min-width: 1024px) {
+  .contact-bg {
+    height: 950px !important;
+  }
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.image__inner-title {
+  font-size: 2rem;
+  color: #fff;
+  z-index: 5;
+  margin-bottom: 1rem;
+}
+.image__inner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Boxes */
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 2;
+  margin-bottom: 2rem;
+}
+
+.box:hover {
+  background: #303146;
+  color: #fff;
+}
+.box:hover span {
+  color: #000;
+}
+
+.box {
+  font-size: 1.5rem;
+  border: 3px solid #fff;
+  padding: 1rem 1.5rem;
+  margin-right: 0.35rem;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease-out;
+  max-width: 75px;
+}
+.box a {
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .box {
+    font-size: 2.5rem;
+    padding: 1.25rem 2rem;
+    margin-bottom: 3rem;
+    max-width: 125px;
+  }
+}
+/* Colors for the boxes */
+.codepen,
+.dev,
+.github {
+  background: #000;
+}
+.hackerrank {
+  background: #32c766;
+}
+.stack-overflow {
+  background: #f48024;
+}
+.free-code-camp {
+  background: #006400;
+}

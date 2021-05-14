@@ -1,11 +1,4 @@
 const path = require(`path`);
-// const { createFilePath } = require(`gatsby-source-filesystem`);
-
-// exports.onCreateNode = ({ node }) => {
-//   if (node.internal.type === `MarkdownRemark`) {
-//     console.log(node.internal.type);
-//   }
-// };
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -20,7 +13,6 @@ exports.createPages = async ({ graphql, actions }) => {
               path
               imageSrc
               type
-              description
               codepenLink
               githubLink
               projectLink
@@ -30,11 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 goals
                 lessonsLearned
                 mobileView
-                toolUsed {
-                  name
-                  src
-                  about
-                }
+                toolLogos
                 process
                 tabletView
               }
@@ -52,7 +40,7 @@ exports.createPages = async ({ graphql, actions }) => {
         // send the data
         createPage({
           path: post.path,
-          component: path.resolve(`./src/templates/work.js`),
+          component: path.resolve(`./src/templates/WorkProject/work.js`),
           context: {
             slug: post.path,
             post: post,
@@ -64,16 +52,3 @@ exports.createPages = async ({ graphql, actions }) => {
 
   await generateWorkPages();
 };
-
-// exports.onCreateNode = ({ node, getNode, actions }) => {
-//   console.log(node);
-//   const { createNodeField } = actions;
-//   if (node.internal.type === `MarkdownRemark`) {
-//     const slug = createFilePath({ node, getNode, basePath: `/` });
-//     createNodeField({
-//       node,
-//       name: `slug`,
-//       value: slug,
-//     });
-//   }
-// };

@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+*,
+body {
+  margin: 0;
+}
+body {
+  color: #37352f;
+  height: 100%;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h1.lg-heading,
+h2.lg-heading,
+h3.lg-heading {
+  margin-bottom: 1rem;
+  font-size: 2.55rem;
+}
+
+h1.md-heading,
+h2.md-heading,
+h3.md-heading {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h1.sm-heading,
+h2.sm-heading,
+h3.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem 1rem 0.2rem;
+  font-size: 1.05rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 2.55rem;
+  }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.25rem;
+  }
+}
+
+address {
+  display: inline-block;
+}
+
+a {
+  color: #292929;
+  text-decoration: none;
+}
+
+.skill-heading {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 1rem 0;
+}
+.project-heading {
+  font-weight: 600;
+}
+
+.page-heading {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 2rem 0 1rem 0;
+}
+
+/* Badges */
+.badge-tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  font-size: 0.875rem;
+  margin: 0 0.25rem 0.5rem 0.25rem;
+  padding: 0 8px;
+  line-height: 1.5rem;
+  background: #a1a5e454;
+  color: #fff;
+}
+
+.badge-tech:hover {
+  background-color: #444343;
+  opacity: 0.8;
+}
+
+/* split out banner*/
+
+.btn-group,
+.github-stats {
+  padding: 1rem 0;
+}
+
+/* special bottom line border */
+/* .bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #9b3cab;
+  display: block;
+  margin: 0 auto 1rem;
+} */
+
+/* .lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+} */
+
+/* Container */
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}

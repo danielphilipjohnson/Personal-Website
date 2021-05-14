@@ -1,0 +1,67 @@
+.process {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.process {
+  padding-top: 1rem;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.service__header {
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.service__text {
+  font-size: 0.95rem;
+}
+
+.service__container {
+  padding: 0 1rem;
+}
+
+.process-icon {
+  background: linear-gradient(90deg, #e947ea 0%, #8f3aa1 35%, #34aeb9 100%);
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+  /* due to font awesome having a default */
+  width: 4rem !important;
+  height: 4rem !important;
+  line-height: 70px;
+  position: relative;
+  color: #fff;
+}
+
+.process-icon:hover {
+  background: linear-gradient(to bottom left, #0000a3, #40b1df);
+}
+
+@media (min-width: 800px) {
+  .process {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .process {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 
+future removal
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+} */

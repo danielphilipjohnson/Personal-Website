@@ -1,0 +1,16 @@
+.form-container {
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+  max-width: 75%;
+}
+.form__description {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  color: #102a43;
+}
+@media screen and (min-width: 1024px) {
+  .form-container {
+    grid-row: 1;
+  }
+}

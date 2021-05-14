@@ -1,18 +1,19 @@
 import React from "react";
-import SEO from "../component/Seo";
+import Seo from "../component/Seo";
 import Layout from "../component/layout/Layout";
 
 import HomeContainer from "../component/home/home.container";
 
-import "./defaults.css";
-import "./index.css";
-import "./main.css";
+import "../styles/defaults.css";
+import "../styles/btn.css";
+import "../styles/utils.css";
+import "./styles/index.css";
 
 const IndexPage = ({ location }) => {
   return (
     <>
       <Layout location={location.pathname}>
-        <SEO />
+        <Seo />
         <HomeContainer />
       </Layout>
     </>

@@ -1,0 +1,114 @@
+.home-stats {
+  background-color: #3a3c55;
+  padding: 1rem 0 0 0;
+}
+
+.home-stats .stats {
+  position: relative;
+  justify-items: center;
+  align-items: flex-end;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.home-stats .stats .stat-item {
+  display: flex;
+  z-index: 100;
+  width: 100%;
+}
+
+.home-stats .stats .stat-item ul {
+  width: 100%;
+  padding: 1.25rem 0 1.5rem 0;
+  list-style: none;
+  border-bottom: 2px solid #fff;
+}
+
+.home-stats .stats .stat-item ul:first-child {
+  border-top: 2px solid #fff;
+}
+.home-stats .stats .stat-item ul:last-child {
+  border-bottom: none;
+}
+
+.home-stats .stats li {
+  min-width: 250px;
+  color: #fff;
+}
+
+.home-stats .stats .stats-icon {
+  font-size: 1.45rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.home-stats .stats li.stats-title {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.home-stats .stats li.stats-number {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .home-stats {
+    padding: 1rem 0 2rem 0;
+  }
+  .home-stats .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home-stats .stats .stat-item ul {
+    border-bottom: 0;
+    padding: 3rem 0;
+  }
+
+  .home-stats .stats li.stats-title {
+    font-size: 1.35rem;
+  }
+
+  .home-stats .stats li.stats-number {
+    font-size: 1.5rem;
+  }
+  .home-stats .stats .stats-icon {
+    font-size: 1.55rem;
+  }
+
+  .home-stats .stats .stat-item ul:first-child {
+    border-top: unset;
+  }
+  .home-stats .stats .stat-item {
+    border-left: 2px solid #fff;
+    margin-bottom: 1rem;
+  }
+
+  .home-stats .stats .stat-item:nth-child(even) {
+    border-right: 2px solid #fff;
+  }
+}
+@media (min-width: 1200px) {
+  .br {
+    border-right: 2px solid #fff;
+    transform: rotate(23deg);
+    margin-left: 3.5rem;
+  }
+  .home-stats .stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .home-stats .stats .stat-item,
+  .home-stats .stats .stat-item:nth-child(even) {
+    border: 0;
+  }
+  .home-stats .stats .stats-icon {
+    font-size: 2rem;
+  }
+
+  .home-stats .stats li.stats-title {
+    font-size: 1.15rem;
+  }
+  .home-stats .stats li.stats-number {
+    font-size: 2.25rem;
+  }
+}

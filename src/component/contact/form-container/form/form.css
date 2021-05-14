@@ -1,0 +1,47 @@
+/* Contact Form Container */
+
+.contact-form {
+  width: 100%;
+}
+.contact-form input,
+.contact-form textarea {
+  background: transparent;
+  padding: 0.75rem 1.15rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e1e2eb;
+  border-radius: 3px;
+  transition: border 0.75s;
+}
+
+.contact-form textarea,
+.contact-form input[type="email"],
+.contact-form input[type="number"],
+.contact-form input[type="text"] {
+  width: 100%;
+}
+.asterik {
+  color: #e13557;
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 0.8rem;
+}
+
+.contact-form .labels {
+  padding-bottom: 0.5rem;
+}
+.contact-form .labels label {
+  text-transform: uppercase;
+  color: #102a43;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #303146;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1.025rem 15px;
+  font-weight: 600;
+}

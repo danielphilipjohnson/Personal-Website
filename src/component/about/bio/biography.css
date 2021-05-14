@@ -1,0 +1,30 @@
+.bio {
+  font-size: 1rem;
+}
+
+.bio-name-heading-2 {
+  font-size: 1.5rem;
+}
+.bio-name-heading-2,
+.bio-name-heading-3 {
+  font-weight: bolder;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.bio-content,
+.bio-name {
+  margin-bottom: 1rem;
+}
+
+.bio-mission-heading {
+  border-left: 3px solid #1b1c28;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .bio {
+    padding: 1rem 1rem 0 1rem;
+  }
+}

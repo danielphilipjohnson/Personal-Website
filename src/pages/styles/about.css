@@ -1,110 +1,123 @@
-.container.about-container {
-  padding-right: 0;
-  padding-left: 0;
+.card-head-bg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
-
-.about a {
-  font-weight: bolder;
-}
-
-.about p {
+.about {
+  text-align: left;
+  background-color: #ffff;
+  color: rgb(79, 79, 79);
+  line-height: 1.58;
+  letter-spacing: -0.028px;
   font-size: 1.05rem;
 }
 
-.about-stats h3 {
+@media (min-width: 768px) {
+  .bio {
+    font-size: 1.05rem;
+  }
+}
+
+.profile-card-image {
+  position: relative;
+  bottom: 50px;
+  height: 75px;
+  width: auto;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  z-index: 2;
+}
+
+.profile-card-body {
+  margin-top: -4.5rem;
+  padding: 1.25rem 0 0;
+}
+
+.description {
   margin-bottom: 1rem;
-  text-transform: uppercase;
+}
+.profile-card-body-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+.profile-card-body-item p,
+.profile-card-body-item address {
+  margin-left: 0.5rem;
+}
+
+.profile-card-body-item:last-child {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.profile-card-footer {
+  background: #fff;
+  padding: 0 1rem 1.5rem;
+}
+.profile-card-footer h2 {
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 770px) {
+  .profile-card-image {
+    height: 105px;
+  }
+
+  .profile-card-body-item {
+    font-size: 1.1rem;
+  }
+
+  .profile-name {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+  }
+  .profile-middle-name {
+    color: #94c85a;
+    margin-right: 0.25rem;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.bio-section-header {
   font-weight: bold;
-  padding: 0 0.5rem;
-}
-
-.about-stats p,
-.alt-bio p {
+  font-size: 1.5rem;
   margin-bottom: 1rem;
-}
-
-.about-stats p a {
-  margin-right: 0.75rem;
-}
-
-.about {
-  text-align: left;
-}
-.about p {
-  margin-bottom: 1rem;
-  line-height: 1.58;
-  letter-spacing: -0.028px;
-}
-
-.container.container-text {
-  padding: 1rem 1.75rem;
-}
-.profile-text {
-  padding: 1rem 1.75rem;
-}
-
-.about-info img {
-  margin-bottom: 1rem;
-}
-
-.bio-section {
-  padding: 2rem 0;
-}
-
-.used-technologies {
-  padding: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e4e4e4;
+  color: rgb(16, 42, 67);
 }
 
 .icons-technology {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
-.icons-technology img {
-  max-width: 59px;
-  max-height: 75px;
-  padding: 0.55rem;
+.icons-technology-img {
+  max-width: 40px;
+  margin: 1rem 0.45rem;
 }
 
 .bio-list {
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
-.bio-list li {
+.bio-list-item {
   margin-left: 0.25rem;
   padding-bottom: 0.5rem;
 }
 
-.alt-bio {
-  background-color: #f7f7f7;
-  color: rgb(79, 79, 79);
-  margin-bottom: 1rem;
-}
-.alt-bio h2 {
-  font-weight: bold;
-  color: rgb(16, 42, 67);
-}
-.alt-bio a {
+.bio-link {
   color: #292929;
   font-weight: bold;
-}
-
-.bio-section h2 {
-  font-weight: bold;
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e4e4e4;
-}
-
-.profile-card-body-item svg,
-.profile-card-body-item span {
-  margin-right: 0.25rem;
-}
-.profile-card-body-item span {
-  margin-left: 0.25rem;
-}
-
-.btn-outline svg {
-  margin-right: 0.25rem;
+  word-break: break-all;
+  margin: 0 0.25rem;
 }

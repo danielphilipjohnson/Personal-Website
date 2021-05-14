@@ -1,0 +1,45 @@
+.profile-text {
+  background-color: #fff;
+  color: #37352f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  border-left: 3px solid #3a3c55;
+  padding-left: 1.25rem;
+}
+
+.heading-2 {
+  font-size: 1.5rem;
+}
+
+.profile-text p {
+  margin-bottom: 0.75rem;
+  line-height: 1.75;
+}
+.profile-text p:last-child {
+  margin: 0;
+}
+.profile-text a {
+  color: #292929;
+  font-weight: bold;
+}
+
+.emoji {
+  font-size: 1.2rem;
+}
+
+.text-highlight {
+  padding: 0.2rem 0.4rem;
+  margin: 0 0.25rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-radius: 5px;
+  background-color: #a2a7d646;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace,
+    Courier;
+}
