@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import SEO from "../component/Seo";
 import Layout from "../component/layout/Layout";
-import "./404.css";
+import "./styles/404.css";
 import { Tween } from "react-gsap";
 const NotFoundPage = () => (
   <Layout>

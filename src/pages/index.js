@@ -4,11 +4,10 @@ import Layout from "../component/layout/Layout";
 
 import HomeContainer from "../component/home/home.container";
 
-import "./defaults.css";
-import "./styles/index.css";
-import "./main.css";
+import "../styles/defaults.css";
 import "../styles/btn.css";
 import "../styles/utils.css";
+import "./styles/index.css";
 
 const IndexPage = ({ location }) => {
   return (
