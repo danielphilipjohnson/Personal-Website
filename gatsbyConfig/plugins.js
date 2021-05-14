@@ -5,6 +5,7 @@ module.exports = [
       devMode: true,
     },
   },
+
   "gatsby-plugin-image",
   "gatsby-plugin-sass",
   "gatsby-plugin-sharp",
@@ -96,7 +97,7 @@ module.exports = [
       ],
     },
   },
-
+  `gatsby-plugin-advanced-sitemap`,
   // {
   //   resolve: `gatsby-source-filesystem`,
   //   options: {

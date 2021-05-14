@@ -19,26 +19,6 @@ import {
 import "./footer.css";
 
 function Footer({ location }) {
-  // const routesPathAndValues = {
-  //   "/": "Home",
-  //   "/about/": "About",
-  //   "/work/": "Work",
-  //   "/contact/": "Contact",
-  // };
-
-  // let allFooterRoutes = [];
-
-  // for (let path in routesPathAndValues) {
-  //   if (path !== location) {
-  //     const route = {
-  //       link: path,
-  //       text: routesPathAndValues[path],
-  //     };
-
-  //     allFooterRoutes.push(route);
-  //   }
-  // }
-
   return (
     <>
       <footer className="footer bg-gradient-to-r">
