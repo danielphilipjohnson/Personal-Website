@@ -4,9 +4,7 @@ import { Link } from "gatsby";
 import "./nav.css";
 
 function Nav({ location }) {
-  console.log(location);
   const routesPathAndValues = {
-    // "/": "Home",
     "/about/": "About",
     "/work/": "Work",
     "/contact/": "Contact",
@@ -26,7 +24,7 @@ function Nav({ location }) {
     }
   };
 
-  let allFooterRoutes = [];
+  let allNavRoutes = [];
 
   for (let path in routesPathAndValues) {
     if (path !== location) {
@@ -35,19 +33,23 @@ function Nav({ location }) {
         text: routesPathAndValues[path],
       };
 
-      allFooterRoutes.push(route);
+      allNavRoutes.push(route);
     }
   }
-  console.log(allFooterRoutes);
+
   return (
     <nav className="nav" role="navigation" aria-labelledby="nav1">
       <div className="container nav-content">
         <ul className="nav-links">
-          <li>🌕</li>
+          <li>
+            <span role="img" aria-labelledby="dark mode">
+              🌕
+            </span>
+          </li>
           <DisplayHome />
         </ul>
         <ul className="nav-links">
-          {allFooterRoutes.map((route) => {
+          {allNavRoutes.map((route) => {
             return (
               <li>
                 <Link to={route.link} className="nav-link">

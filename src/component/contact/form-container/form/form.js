@@ -23,7 +23,6 @@ function Form() {
           </div>
 
           <input
-            autoFocus
             type="text"
             name="first-name"
             id="first-name"

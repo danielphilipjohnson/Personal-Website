@@ -6,7 +6,13 @@ function Tools() {
   return (
     <section className="container">
       <header>
-        <h2 className="text-purple skill-heading"> 🧰 Tools</h2>
+        <h2 className="text-purple skill-heading">
+          {" "}
+          <span role="img" aria-labelledby="tools">
+            🧰
+          </span>{" "}
+          Tools
+        </h2>
         <h3>Here are a list of tools, I use daily during my job.</h3>
       </header>
 
@@ -32,7 +38,7 @@ function Tools() {
             </p>
           </div>
         </div>
-        <div class="specialize">
+        <div className="specialize">
           <div className="img-container">
             <StaticImage
               src="../../../images/about-logos/React.png"
@@ -54,7 +60,7 @@ function Tools() {
             </p>
           </div>
         </div>
-        <div class="specialize">
+        <div className="specialize">
           <div className="img-container">
             <StaticImage
               src="../../../images/about-logos/Redux.png"
@@ -75,7 +81,7 @@ function Tools() {
             </p>
           </div>
         </div>
-        <div class="specialize">
+        <div className="specialize">
           <div className="img-container">
             <StaticImage
               src="../../../images/about-logos/graphql.png"

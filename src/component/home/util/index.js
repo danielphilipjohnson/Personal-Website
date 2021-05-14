@@ -2,7 +2,7 @@ import React from "react";
 
 import { StaticImage } from "gatsby-plugin-image";
 
-export default (imageType) => {
+const getImage = (imageType) => {
   if (imageType === "atlassian") {
     return (
       <StaticImage
@@ -111,3 +111,4 @@ export default (imageType) => {
   }
   return <p>No image</p>;
 };
+export default getImage;

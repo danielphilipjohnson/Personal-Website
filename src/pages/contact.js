@@ -1,6 +1,6 @@
 import React from "react";
 
-import SEO from "../component/Seo";
+import Seo from "../component/Seo";
 import Layout from "../component/layout/Layout";
 
 import ContactContainer from "../component/contact";
@@ -8,7 +8,7 @@ import ContactContainer from "../component/contact";
 function contact({ location }) {
   return (
     <Layout location={location.pathname}>
-      <SEO />
+      <Seo />
       <ContactContainer />
     </Layout>
   );

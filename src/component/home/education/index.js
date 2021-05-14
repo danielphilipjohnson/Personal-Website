@@ -88,7 +88,13 @@ function Education() {
         </li>
       </ul>
 
-      <h2 className="text-purple skill-heading">📜 Courses</h2>
+      <h2 className="text-purple skill-heading">
+        {" "}
+        <span role="img" aria-labelledby="icon of courses">
+          📜
+        </span>{" "}
+        Courses
+      </h2>
 
       <div className="education-grid">
         {currentEducation.map((course) => {

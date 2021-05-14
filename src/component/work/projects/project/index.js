@@ -14,6 +14,8 @@ function ProjectCard({ project }) {
       if (edge.name === imageSrc) {
         const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
         return <GatsbyImage image={image} className="projects__item-img" />;
+      } else {
+        return null;
       }
     });
   };

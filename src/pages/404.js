@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
-import SEO from "../component/Seo";
+import Seo from "../component/Seo";
 import Layout from "../component/layout/Layout";
 import "./styles/404.css";
 import { Tween } from "react-gsap";
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <Seo title="404: Not found" />
     <div className="container not-found-container p-4">
       <div className="row center">
         <div className="col-md-6 align-self-center">

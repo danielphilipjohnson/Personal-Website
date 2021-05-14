@@ -16,7 +16,13 @@ import "./services.css";
 function services() {
   return (
     <section id="home-services" className="home-services container">
-      <h2 className="text-purple skill-heading">💼 What I offer</h2>
+      <h2 className="text-purple skill-heading">
+        {" "}
+        <span role="img" aria-labelledby="icon of offer">
+          💼
+        </span>
+        What I offer
+      </h2>
 
       <div className="process">
         <div className="service">
