@@ -61,6 +61,11 @@ h3.sm-heading {
   }
 }
 
+a {
+  color: #292929;
+  text-decoration: none;
+}
+
 .skill-heading {
   font-weight: 600;
   margin-bottom: 1rem;
@@ -84,6 +89,7 @@ h3.sm-heading {
   margin-bottom: 1.5rem;
 }
 
+/* make heading default */
 .text-purple {
   color: rgb(16, 42, 67);
 }
