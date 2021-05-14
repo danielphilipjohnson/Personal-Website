@@ -97,6 +97,14 @@ module.exports = [
       ],
     },
   },
+  {
+    resolve: "gatsby-plugin-robots-txt",
+    options: {
+      host: "https://danielphilipjohnson.com/",
+      sitemap: "https://danielphilipjohnson.com/sitemap.xml",
+      policy: [{ userAgent: "*", allow: "/" }],
+    },
+  },
   `gatsby-plugin-advanced-sitemap`,
   // {
   //   resolve: `gatsby-source-filesystem`,
