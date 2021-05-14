@@ -61,6 +61,11 @@ h3.sm-heading {
   }
 }
 
+a {
+  color: #292929;
+  text-decoration: none;
+}
+
 .skill-heading {
   font-weight: 600;
   margin-bottom: 1rem;

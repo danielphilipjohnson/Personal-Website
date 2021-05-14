@@ -40,7 +40,7 @@ exports.createPages = async ({ graphql, actions }) => {
         // send the data
         createPage({
           path: post.path,
-          component: path.resolve(`./src/templates/work.js`),
+          component: path.resolve(`./src/templates/WorkProject/work.js`),
           context: {
             slug: post.path,
             post: post,

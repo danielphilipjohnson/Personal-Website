@@ -2,12 +2,14 @@ import React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
 
-import Badges from "../component/shared/badgeLogos";
+import Badges from "../../component/shared/badgeLogos";
 
-import Seo from "../component/Seo";
+import Seo from "../../component/Seo";
 
-import Layout from "../component/layout/Layout";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Layout from "../../component/layout/Layout";
+
+import Repo from "./repo";
+
 import "./styles.css";
 
 function Work({ location, data, pageContext }) {
@@ -65,9 +67,7 @@ function Work({ location, data, pageContext }) {
 
             <div className="project-tools">
               <div className="project-tools__stats">
-                <h3 className="text-purple project-tools__header">
-                  Built with{" "}
-                </h3>
+                <h3 className="project-tools__header">Built with </h3>
                 <Badges badges={toolLogos} />
               </div>
             </div>
@@ -78,7 +78,9 @@ function Work({ location, data, pageContext }) {
                 alt=""
                 width="25"
               />
-              <a href={codepenLink}>To view project click here</a>
+              <a className="" href={codepenLink}>
+                To view project click here
+              </a>
             </div>
           </div>
         </div>
@@ -86,56 +88,33 @@ function Work({ location, data, pageContext }) {
           <div className="container"></div>
         </div>
 
-        <div className="project-stat">
-          <div className="container">
-            <div className="project-stat__information">
-              <div className="project-stat__block">
-                <h2 className="project-heading mb-4">Overview</h2>
-                <p>{overview}</p>
-              </div>
-
-              <div className="project-stat__block">
-                <h2 className="project-heading mb-4">Goals</h2>
-                <p>{goals}</p>
-              </div>
-              <div className="project-stat__block">
-                <h2 className="project-heading mb-4">Lessons Learned </h2>
-                <p>{lessonsLearned}</p>
-              </div>
+        <div className="project__stat-container container">
+          <div className="project-stat__information">
+            <div className="project-stat__block">
+              <h2 className="project-heading mb-4">Overview</h2>
+              <p>{overview}</p>
             </div>
 
-            <figure className="tech-figure">
-              <ProjectImage images={mobile} imageName={mobileView} />
-              <figcaption>Fig.1 - Mobile View of App</figcaption>
-            </figure>
-
-            <div>
-              <h2 className="project-heading mb-4">Respository </h2>
-              <a href={githubLink}>
-                <div className="repo">
-                  <div className="repo__header">
-                    <img
-                      src="https://img.icons8.com/ios/250/000000/journal.png"
-                      alt=""
-                      width="25"
-                    />
-                    <p>{title}</p>
-                  </div>
-
-                  <p className="repo__text">
-                    {/* make sitemap field */}
-                    What is freeCodeCamp? We’re a nonprofit community that helps
-                    you learn to code by building projects. How can you help me
-                    learn to code? You'll learn to code by completing coding
-                    challenges and buil…
-                  </p>
-                  <div className="repo__footer">
-                    <FontAwesomeIcon icon={["fab", "github"]} />
-                    <span>github.com</span>
-                  </div>
-                </div>
-              </a>
+            <div className="project-stat__block">
+              <h2 className="project-heading mb-4">Goals</h2>
+              <p>{goals}</p>
             </div>
+            <div className="project-stat__block">
+              <h2 className="project-heading mb-4">Lessons Learned </h2>
+              <p>{lessonsLearned}</p>
+            </div>
+          </div>
+
+          <figure className="tech-figure">
+            <ProjectImage images={mobile} imageName={mobileView} />
+            <figcaption>Fig.1 - Mobile View of App</figcaption>
+          </figure>
+
+          <div>
+            <h2 className="project-heading mb-4">Respository </h2>
+            <a href={githubLink}>
+              <Repo title={title} />
+            </a>
           </div>
         </div>
 
