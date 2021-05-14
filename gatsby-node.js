@@ -23,6 +23,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 goals
                 lessonsLearned
                 mobileView
+                toolLogos
                 toolUsed {
                   name
                   src

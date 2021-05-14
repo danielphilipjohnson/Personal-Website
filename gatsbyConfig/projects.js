@@ -40,24 +40,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/tribute-page/tribute-page-mobile.png`,
       tabletView: `../../../images/responsive-img/tribute-page/tribute-page-tablet.png`,
-      toolLogos: ["Html", "CSS"],
-      toolUsed: [
-        {
-          name: "HTML",
-          src: "../../../images/about-logos/html5.svg",
-          about: `HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content.`,
-        },
-        {
-          name: "CSS",
-          src: "../../../images/about-logos/css.svg",
-          about: `CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.`,
-        },
-        {
-          name: "JavaScript",
-          src: "../../../images/about-logos/javascript.svg",
-          about: `JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.`,
-        },
-      ],
+      toolLogos: ["Html", "CSS", "JavaScript"],
     },
   },
   {
@@ -100,7 +83,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/survey/survey-form-mobile.png`,
       tabletView: `../../../images/responsive-img/survey/survey-form-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "JavaScript"],
       toolUsed: [
         {
           name: "HTML",
@@ -157,7 +140,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/product-landing/product-landing-mobile.png`,
       tabletView: `../../../images/responsive-img/product-landing/product-landing-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "JavaScript"],
       toolUsed: [
         {
           name: "HTML",
@@ -215,7 +198,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/technical-documentation/technical-documentation-mobile.png`,
       tabletView: `../../../images/responsive-img/technical-documentation/technical-documentation-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "JavaScript"],
       toolUsed: [
         {
           name: "HTML",
@@ -271,7 +254,7 @@ module.exports = [
       `,
       mobileView: `../../../images/responsive-img/portfolio/portfolio-mobile.png`,
       tabletView: `../../../images/responsive-img/portfolio/portfolio-tablet.jpg`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "JavaScript"],
       toolUsed: [
         {
           name: "HTML",
@@ -442,7 +425,7 @@ module.exports = [
       <p>I followed along with the design and added some personal touches</p>`,
       mobileView: `../../../images/sass-advanced/nexters/nexters-mobile.png`,
       tabletView: `../../../images/sass-advanced/nexters/nexters-tablet.png`,
-      toolLogos: ["JavaScript", "CSS", "Sass"],
+      toolLogos: ["HTML", "CSS", "Sass"],
       toolUsed: [
         {
           name: "HTML",
@@ -485,7 +468,7 @@ module.exports = [
       <p>I followed along with the design and added some personal touches</p>`,
       mobileView: `../../../images/sass-advanced/trilo/trilo-mobile.png`,
       tabletView: `../../../images/sass-advanced/trilo/trilo-tablet.png`,
-      toolLogos: ["JavaScript", "CSS", "Sass"],
+      toolLogos: ["HTML", "CSS", "Sass"],
       toolUsed: [
         {
           name: "HTML",
@@ -544,7 +527,7 @@ module.exports = [
       accusantium tempore! Sed, porro!`,
       mobileView: `https://source.unsplash.com/user/erondu/1600x900`,
       tabletView: `https://source.unsplash.com/user/erondu/1600x900`,
-      toolLogos: ["HTML", "JavaScript", "CSS", "Sass"],
+      toolLogos: ["HTML5", "Materialize", "Responsive", "Sass"],
       toolUsed: [
         {
           name: "HTML",
@@ -675,7 +658,7 @@ module.exports = [
  `,
       mobileView: `../../../images/front-end-framework/quote/quote-mobile.png`,
       tabletView: `./../../images/front-end-framework/quote/quote-tablet.png`,
-      toolLogos: ["HTML", "JavaScript", "CSS", "Sass"],
+      toolLogos: ["HTML", "CSS", "Sass"],
       toolUsed: [
         {
           name: "HTML",
@@ -850,7 +833,7 @@ module.exports = [
      `,
       mobileView: `../../../images/front-end-framework/calculator/calculator-mobile.png`,
       tabletView: `../../../images/front-end-framework/calculator/calculator-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "Sass", "React"],
       toolUsed: [
         {
           name: "HTML",
@@ -925,7 +908,7 @@ module.exports = [
      `,
       mobileView: `../../../images/front-end-framework/pomodoro/pomodoro-mobile.png`,
       tabletView: `../../../images/front-end-framework/pomodoro/pomodoro-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "Sass", "React"],
       toolUsed: [
         {
           name: "HTML",
@@ -979,7 +962,7 @@ module.exports = [
  `,
       mobileView: `../../../images/front-end-framework/recipe-box/recipe-box-mobile.png`,
       tabletView: `../../../images/front-end-framework/recipe-box/recipe-box-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "Sass", "React"],
       toolUsed: [
         {
           name: "HTML",
@@ -1038,7 +1021,7 @@ module.exports = [
  `,
       mobileView: `../../../images/front-end-framework/simon/simon-mobile.png`,
       tabletView: `../../../images/front-end-framework/simon/simon-mobile.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML", "CSS", "Sass", "React"],
       toolUsed: [
         {
           name: "HTML",
@@ -1099,7 +1082,7 @@ module.exports = [
  `,
       mobileView: `../../../images/front-end-framework/twitch/twitch-mobile.png`,
       tabletView: `../../../images/front-end-framework/twitch/twitch-tablet.png`,
-      toolLogos: ["JavaScript", "React", "Redux", "GraphQL"],
+      toolLogos: ["HTML5", "CSS", "Javascript", "Angular"],
       toolUsed: [
         {
           name: "HTML",

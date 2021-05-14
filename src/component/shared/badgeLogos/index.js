@@ -4,46 +4,55 @@ import { useStaticQuery, graphql } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 
-const GetBadgeLogo = ({ name }) => {
-  const cleanedName = name.toLowerCase();
-  const { allFile } = useStaticQuery(siteQuery);
+const Badges = ({ badges }) => {
+  const BadgeLogo = ({ name }) => {
+    const cleanedName = name.toLowerCase();
+    const { allFile } = useStaticQuery(siteQuery);
 
-  const ResponsiveBadge = () => {
-    if (cleanedName === "responsive") {
-      return <FontAwesomeIcon icon={faMobileAlt} />;
-    } else {
-      return null;
-    }
-  };
-
-  const ImageBadges = () => {
-    return allFile.nodes.map((edge) => {
-      const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
-      if (edge.name === cleanedName) {
-        return (
-          <GatsbyImage
-            image={image}
-            className="img-fluid"
-            alt={cleanedName}
-            key={edge.name}
-          />
-        );
+    const ResponsiveBadge = () => {
+      if (cleanedName === "responsive") {
+        return <FontAwesomeIcon icon={faMobileAlt} />;
       } else {
         return null;
       }
-    });
+    };
+
+    const ImageBadges = () => {
+      return allFile.nodes.map((edge) => {
+        const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
+        if (edge.name === cleanedName) {
+          return (
+            <GatsbyImage
+              image={image}
+              className="img-fluid"
+              alt={cleanedName}
+              key={edge.name}
+            />
+          );
+        } else {
+          return null;
+        }
+      });
+    };
+
+    return (
+      <>
+        <ResponsiveBadge />
+        <ImageBadges />
+      </>
+    );
   };
 
-  return (
-    <>
-      <ResponsiveBadge />
-      <ImageBadges />
-    </>
-  );
+  return badges.map((badge) => {
+    return (
+      <span className="badge-tech" key={badge}>
+        <BadgeLogo name={badge} />
+      </span>
+    );
+  });
 };
-export default GetBadgeLogo;
 
-// fetch badges for projects
+export default Badges;
 
 const siteQuery = graphql`
   query {

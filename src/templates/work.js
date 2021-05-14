@@ -1,7 +1,8 @@
 import React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
-import getBadgeLogo from "../utils/getBadgeLogo";
+
+import Badges from "../component/shared/badgeLogos";
 
 import Seo from "../component/Seo";
 
@@ -12,7 +13,7 @@ import "./styles.css";
 function Work({ location, data, pageContext }) {
   const { details } = pageContext.post;
 
-  const toolUsed = details.toolUsed;
+  const toolUsed = details.toolLogos;
 
   const tabletImageName = pageContext.post.imageSrc + "-tablet";
   const mobileImageName = pageContext.post.imageSrc + "-mobile";
@@ -48,14 +49,6 @@ function Work({ location, data, pageContext }) {
     });
   };
 
-  // make into sharable component
-
-  const Badges = () => {
-    return toolUsed.map((badge) => {
-      return <span className="badge-tech">{getBadgeLogo(badge.name)}</span>;
-    });
-  };
-
   return (
     <Layout location={location.pathname}>
       <Seo />
@@ -81,7 +74,7 @@ function Work({ location, data, pageContext }) {
                 <h3 className="text-purple project-tools__header">
                   Built with{" "}
                 </h3>
-                <Badges />
+                <Badges badges={toolUsed} />
               </div>
             </div>
 
@@ -196,6 +189,7 @@ export const query = graphql`
               goals
               lessonsLearned
               mobileView
+              toolLogos
               toolUsed {
                 name
                 src
