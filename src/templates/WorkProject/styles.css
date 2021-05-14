@@ -14,10 +14,6 @@
   bottom: -30px;
 }
 
-.project-heading {
-  margin-top: 3rem;
-}
-
 /* project-tools */
 .project-tools {
   padding: 1rem 0;
@@ -37,22 +33,25 @@
 .project__stat-container {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 2rem;
 }
 
 .project-stat__information {
   margin-right: 1rem;
 }
-.project-stat__block {
+/* .project-stat__block {
   margin-bottom: 1.5rem;
+} */
+
+.project-heading {
+  margin-top: 3rem;
 }
 
 @media screen and (min-width: 800px) {
   .project__stat-container {
     grid-template-columns: 2fr 1fr;
   }
-  .project .project-heading {
-    margin-top: 4rem;
+  .project-heading {
+    margin-top: 1.5rem;
   }
 }
 

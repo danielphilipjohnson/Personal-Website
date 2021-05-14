@@ -54,7 +54,7 @@ function Work({ location, data, pageContext }) {
             className="image-inner"
           />
 
-          <div className="container project bb ">
+          <div className="container project bb">
             <span
               className="profile-card-image profile-emoji mb-2"
               role="img"
@@ -84,22 +84,19 @@ function Work({ location, data, pageContext }) {
             </div>
           </div>
         </div>
-        <div className="">
-          <div className="container"></div>
-        </div>
 
         <div className="project__stat-container container">
           <div className="project-stat__information">
-            <div className="project-stat__block">
+            <div className="">
               <h2 className="project-heading mb-4">Overview</h2>
               <p>{overview}</p>
             </div>
 
-            <div className="project-stat__block">
+            <div className="">
               <h2 className="project-heading mb-4">Goals</h2>
               <p>{goals}</p>
             </div>
-            <div className="project-stat__block">
+            <div className="">
               <h2 className="project-heading mb-4">Lessons Learned </h2>
               <p>{lessonsLearned}</p>
             </div>
