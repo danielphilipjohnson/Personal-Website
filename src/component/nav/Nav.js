@@ -7,8 +7,13 @@ function Nav() {
   return (
     <nav className="nav" role="navigation" aria-labelledby="nav1">
       <div className="container nav-content">
-        <ul>
+        <ul className="nav-links">
           <li>🌕</li>
+          <li>
+            <Link to="/" className="nav-link">
+              <span className="link-slash">/</span>
+            </Link>
+          </li>
         </ul>
         <ul className="nav-links">
           <li>
