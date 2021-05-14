@@ -14,18 +14,20 @@
   bottom: -30px;
 }
 
-/* project-tools */
 .project-tools {
   padding: 1rem 0;
   color: rgb(79, 79, 79);
 }
+
 .project-tools__heading {
   margin-bottom: 3rem;
 }
+
 .project-tools__stats {
   display: flex;
   flex-wrap: wrap;
 }
+
 .project-tools__header {
   margin-right: 0.5rem;
 }
@@ -38,9 +40,6 @@
 .project-stat__information {
   margin-right: 1rem;
 }
-/* .project-stat__block {
-  margin-bottom: 1.5rem;
-} */
 
 .project-heading {
   margin-top: 3rem;
@@ -64,9 +63,9 @@
 .project-process {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
 @media screen and (min-width: 1000px) {
   .project-process {
     grid-template-columns: 2fr 1fr;
@@ -76,4 +75,17 @@
 .project-process--information {
   margin-bottom: 2rem;
   padding-right: 1rem;
+}
+
+.process-generated {
+  margin: 1rem 0;
+}
+
+.process-generated ul {
+  list-style-type: none;
+}
+
+.process-generated p,
+.process-generated li {
+  margin-bottom: 0.5rem;
 }

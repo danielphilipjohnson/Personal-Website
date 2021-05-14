@@ -37,7 +37,15 @@ function Work({ location, data, pageContext }) {
     return images.nodes.map((edge) => {
       if (edge.name === imageName) {
         const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
-        return <GatsbyImage image={image} className={className} />;
+
+        return (
+          <GatsbyImage
+            image={image}
+            className={className}
+            key={edge.name}
+            alt={edge.name}
+          />
+        );
       }
       return null;
     });
@@ -87,16 +95,16 @@ function Work({ location, data, pageContext }) {
 
         <div className="project__stat-container container">
           <div className="project-stat__information">
-            <div className="">
+            <div>
               <h2 className="project-heading mb-4">Overview</h2>
               <p>{overview}</p>
             </div>
 
-            <div className="">
+            <div>
               <h2 className="project-heading mb-4">Goals</h2>
               <p>{goals}</p>
             </div>
-            <div className="">
+            <div>
               <h2 className="project-heading mb-4">Lessons Learned </h2>
               <p>{lessonsLearned}</p>
             </div>
@@ -118,7 +126,10 @@ function Work({ location, data, pageContext }) {
         <div className="project-process container">
           <div className="project-process--information">
             <h2 className="project-heading">Process</h2>
-            <p dangerouslySetInnerHTML={{ __html: process }}></p>
+            <div
+              className="process-generated"
+              dangerouslySetInnerHTML={{ __html: process }}
+            ></div>
           </div>
 
           <figure className="tech-figure">
