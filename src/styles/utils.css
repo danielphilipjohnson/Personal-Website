@@ -28,3 +28,48 @@
   color: rgb(87, 5, 119);
   font-weight: 600;
 }
+
+.text-secondary {
+  color: #94c85a;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.row.center {
+  align-content: first baseline;
+  align-items: center;
+  height: 100%;
+}
+.col {
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+.text-center {
+  text-align: center;
+}
+.logo {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+.logo img {
+  padding: 0.75rem;
+  min-width: 75px;
+  max-width: 85px;
+  height: auto;
+}
+.logo p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.job {
+  background: #3a3c55;
+  border-bottom: 5px solid #94c85a;
+  padding: 0.5rem;
+}

@@ -58,6 +58,10 @@ h3.sm-heading {
   }
 }
 
+address {
+  display: inline-block;
+}
+
 a {
   color: #292929;
   text-decoration: none;

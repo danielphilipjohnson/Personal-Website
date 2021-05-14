@@ -1,65 +1,16 @@
-address {
-  display: inline-block;
-}
-
-.text-secondary {
-  color: #94c85a;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.row.center {
-  align-content: first baseline;
-  align-items: center;
-  height: 100%;
-}
-.col {
-  flex-grow: 1;
-  margin-right: 1rem;
-}
-.text-center {
-  text-align: center;
-}
-.logo {
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto 1rem;
-}
-.logo img {
-  padding: 0.75rem;
-  min-width: 75px;
-  max-width: 85px;
-  height: auto;
-}
-.logo p {
-  text-align: center;
-  font-size: 0.9rem;
-}
-
-.job {
-  background: #3a3c55;
-  border-bottom: 5px solid #94c85a;
-  padding: 0.5rem;
-}
-
-main#contact {
+/* main#contact {
   padding-top: 4rem;
 }
 main#contact section {
   position: relative;
   z-index: 1000;
-}
-@media screen and(max-width: 768px) {
+} */
+/* @media screen and(max-width: 768px) {
   main#work {
     padding-top: 4rem;
   }
-}
-
+} */
+/* 
 @media screen and (min-width: 650px) and (max-width: 2500px) {
   .skills {
     grid-template-columns: repeat(2, 1fr);
@@ -90,8 +41,8 @@ main#contact section {
   width: auto;
   max-height: 100px;
   padding: 0.5rem;
-}
-.section-header {
+} */
+/* .section-header {
   font-size: 1.7511em;
   line-height: 1.2;
   overflow-wrap: break-word;
@@ -99,30 +50,4 @@ main#contact section {
   border-bottom: 1px solid #424255;
   padding: 1rem 0.2rem;
   margin-bottom: 2rem;
-}
-
-@media screen and(max-width: 768px) {
-  .select-box .select-button .chevrons {
-    padding: 9px 16;
-  }
-}
-
-/* figure */
-.tech-figure {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-@media screen and(min-width: 700px) {
-  .tech-figure {
-    padding: 1rem;
-  }
-}
-.tech-figure img {
-  margin-bottom: 1.5rem;
-}
-.tech-figure figcaption {
-  font-weight: bolder;
-}
+} */
