@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import BtnGroup from "./btns";
 
-import Project from "./project";
+import Projects from "./projects";
 
-import "./projects.css";
-
-function Projects() {
+function WorkContainer() {
   const { site } = useStaticQuery(siteQuery);
 
   const allProjects = site.siteMetadata.projects;
@@ -55,17 +53,13 @@ function Projects() {
           getTypeOfProjects={getTypeOfProjects}
           activeType={activeType}
         />
-        <div className="projects">
-          {filteredProjects.map((project) => {
-            return <Project project={project} />;
-          })}
-        </div>
+        <Projects filteredProjects={filteredProjects} />
       </div>
     </>
   );
 }
 
-export default Projects;
+export default WorkContainer;
 
 const siteQuery = graphql`
   query {

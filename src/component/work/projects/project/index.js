@@ -1,11 +1,12 @@
 import React from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql, Link } from "gatsby";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFirefox } from "@fortawesome/free-brands-svg-icons";
-import getBadgeLogo from "../../utils/getBadgeLogo";
 
-function Card({ project }) {
+import TopBar from "./project-bar";
+import Overlay from "./overlay";
+import getBadgeLogo from "../../../../utils/getBadgeLogo";
+
+function ProjectCard({ project }) {
   const { path, title, imageSrc, badges } = project;
   const { allFile } = useStaticQuery(siteQuery);
 
@@ -13,46 +14,24 @@ function Card({ project }) {
     return allFile.nodes.map((edge) => {
       if (edge.name === imageSrc) {
         const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
-        return <GatsbyImage image={image} />;
+        return <GatsbyImage image={image} className="projects__item-img" />;
       }
-    });
-  };
-
-  const Badges = () => {
-    return badges.map((badge) => {
-      return (
-        <span className="badge-tech" key={badge}>
-          {getBadgeLogo(badge)}
-          {badge}
-        </span>
-      );
     });
   };
 
   return (
     <Link to={`${"/" + path}`} key={title}>
-      <div className="item" key={imageSrc}>
-        <div className="bar">
-          <FontAwesomeIcon icon={faFirefox} />
-          <i className="window-buttons"></i>
-          <span className="title">{title}</span>
-        </div>
+      <div className="projects__item" key={imageSrc}>
+        <TopBar title={title} />
 
         <ProjectImage />
-
-        <div className="overlay">
-          <div className="content">
-            <div className="badges">
-              <Badges />
-            </div>
-          </div>
-        </div>
+        <Overlay badges={badges} />
       </div>
     </Link>
   );
 }
 
-export default Card;
+export default ProjectCard;
 
 const siteQuery = graphql`
   query {
