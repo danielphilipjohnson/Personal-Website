@@ -1,6 +1,6 @@
 import React from "react";
-
 import { Link } from "gatsby";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -15,29 +15,29 @@ import {
   faYoutube,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import heartImage from "../../images/heart.png";
+// import heartImage from "../../images/heart.png";
 import "./footer.css";
 
 function Footer({ location }) {
-  const routesPathAndValues = {
-    "/": "Home",
-    "/about/": "About",
-    "/work/": "Work",
-    "/contact/": "Contact",
-  };
+  // const routesPathAndValues = {
+  //   "/": "Home",
+  //   "/about/": "About",
+  //   "/work/": "Work",
+  //   "/contact/": "Contact",
+  // };
 
-  let allFooterRoutes = [];
+  // let allFooterRoutes = [];
 
-  for (let path in routesPathAndValues) {
-    if (path !== location) {
-      const route = {
-        link: path,
-        text: routesPathAndValues[path],
-      };
+  // for (let path in routesPathAndValues) {
+  //   if (path !== location) {
+  //     const route = {
+  //       link: path,
+  //       text: routesPathAndValues[path],
+  //     };
 
-      allFooterRoutes.push(route);
-    }
-  }
+  //     allFooterRoutes.push(route);
+  //   }
+  // }
 
   return (
     <>
