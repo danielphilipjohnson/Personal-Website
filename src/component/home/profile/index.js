@@ -13,8 +13,8 @@ function Profile() {
         </span>{" "}
         About me
       </h2>
-      <div className="banner mb-4">
-        <div className="left">
+      <div className="badge-container mb-4">
+        <div className="badge-content">
           <span className="heading-2">
             Hi{" "}
             <span role="img" aria-label="happy to meet you">
@@ -33,7 +33,7 @@ function Profile() {
             in Cornwall
           </p>
         </div>
-        <div className="right">
+        <div className="badge">
           <span role="img" aria-label="my resume">
             📝
           </span>
@@ -112,8 +112,8 @@ function Profile() {
             as writing a about using Gatsby.js. I also contribute to open source
             projects. and I am about to start a blog series and data structures.
           </p>
-          <div className="banner">
-            <div className="right">
+          <div className="badge-container">
+            <div className="badge">
               <span role="img" aria-label="go here">
                 👉{" "}
               </span>
