@@ -23,8 +23,7 @@
   justify-content: space-between;
 }
 .nav-links li {
-  padding: 0.35rem 0.75rem;
-  margin-right: 0.15rem;
+  padding: 0.35rem 0.55rem;
   transition: background 0.5s;
   font-size: 0.9rem;
 }

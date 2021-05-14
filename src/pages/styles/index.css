@@ -73,7 +73,7 @@
 }
 
 .badge span {
-  font-size: 1.35rem;
+  font-size: 1rem;
   margin-right: 0.5rem;
 }
 
@@ -86,6 +86,7 @@
 /* might be able to remove */
 .badge__text {
   margin-right: 0.75rem;
+  font-size: 1rem;
 }
 .badge img {
   margin-right: 0.5rem;

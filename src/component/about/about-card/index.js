@@ -1,7 +1,7 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-import PDF from "../../../../downloads/Daniel_Philip_Johnson_CV.pdf";
+import PDF from "../../../../downloads/Daniel_Philip_Johnson_Front_End_Engineer.pdf";
 import banner from "../../../images/linkedinBanner.png";
 
 function AboutCard() {
