@@ -2,7 +2,6 @@ module.exports = [
   {
     resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
   },
-
   "gatsby-plugin-image",
   "gatsby-plugin-sharp",
   "gatsby-plugin-react-helmet",
@@ -102,7 +101,6 @@ module.exports = [
     },
   },
   `gatsby-plugin-advanced-sitemap`,
-
   {
     resolve: "gatsby-source-filesystem",
     options: {
@@ -110,15 +108,6 @@ module.exports = [
       path: `./src/images/`,
     },
   },
-
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `markdown-pages`,
-      path: `./src/markdown/about`,
-    },
-  },
-  "gatsby-plugin-mdx",
   "gatsby-transformer-sharp",
   {
     resolve: "gatsby-source-filesystem",
