@@ -51,7 +51,7 @@ function Nav({ location }) {
         <ul className="nav-links">
           {allNavRoutes.map((route) => {
             return (
-              <li>
+              <li key={route.link}>
                 <Link to={route.link} className="nav-link">
                   {route.text}
                 </Link>
