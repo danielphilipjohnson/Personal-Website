@@ -83,6 +83,13 @@ function AboutCard() {
             </div>
 
             <div className="profile-card-body-item">
+              <img
+                src="https://img.icons8.com/ios/250/000000/business.png"
+                alt="Availability icon"
+                width="25"
+                height="25"
+              />
+
               <p>Availability: Available</p>
             </div>
 
