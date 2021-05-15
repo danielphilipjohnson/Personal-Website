@@ -13,7 +13,14 @@ function ProjectCard({ project }) {
     return allFile.nodes.map((edge) => {
       if (edge.name === imageSrc) {
         const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
-        return <GatsbyImage image={image} className="projects__item-img" />;
+        return (
+          <GatsbyImage
+            image={image}
+            className="projects__item-img"
+            alt={edge.name}
+            key={edge.name}
+          />
+        );
       } else {
         return null;
       }

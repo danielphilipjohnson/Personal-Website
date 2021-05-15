@@ -4,7 +4,7 @@ import "./projects.css";
 function Projects({ filteredProjects }) {
   const ProjectCards = () => {
     return filteredProjects.map((project) => {
-      return <ProjectCard project={project} />;
+      return <ProjectCard project={project} key={project.title} />;
     });
   };
 
