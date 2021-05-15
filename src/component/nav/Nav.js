@@ -38,11 +38,11 @@ function Nav({ location }) {
   }
 
   return (
-    <nav className="nav" role="navigation" aria-labelledby="nav1">
+    <nav className="nav">
       <div className="container nav-content">
         <ul className="nav-links">
           <li>
-            <span role="img" aria-labelledby="dark mode">
+            <span role="img" aria-label="dark mode">
               🌕
             </span>
           </li>
