@@ -1,5 +1,8 @@
 module.exports = [
-  "gatsby-plugin-sass",
+  {
+    resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+  },
+  "gatsby-plugin-image",
   "gatsby-plugin-sharp",
   "gatsby-plugin-react-helmet",
   "gatsby-plugin-offline",
@@ -89,32 +92,22 @@ module.exports = [
       ],
     },
   },
-
-  // {
-  //   resolve: `gatsby-source-filesystem`,
-  //   options: {
-  //     name: `src`,
-  //     path: `${__dirname}/src/`,
-  //   },
-  // },
-
+  {
+    resolve: "gatsby-plugin-robots-txt",
+    options: {
+      host: "https://danielphilipjohnson.com/",
+      sitemap: "https://danielphilipjohnson.com/sitemap.xml",
+      policy: [{ userAgent: "*", allow: "/" }],
+    },
+  },
+  `gatsby-plugin-advanced-sitemap`,
   {
     resolve: "gatsby-source-filesystem",
     options: {
       name: "images",
-      path: "./src/images/",
-    },
-    __key: "images",
-  },
-
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `markdown-pages`,
-      path: `./src/markdown/about`,
+      path: `./src/images/`,
     },
   },
-  "gatsby-plugin-mdx",
   "gatsby-transformer-sharp",
   {
     resolve: "gatsby-source-filesystem",
@@ -123,12 +116,5 @@ module.exports = [
       path: "./src/pages/",
     },
     __key: "pages",
-  },
-
-  {
-    resolve: "gatsby-plugin-static-folders",
-    options: {
-      folders: ["/images"],
-    },
   },
 ];

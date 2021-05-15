@@ -1,0 +1,93 @@
+.img-bg {
+  filter: brightness(0.35);
+  object-fit: cover;
+  width: 100% !important;
+}
+
+.home {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.home-cta {
+  text-align: center;
+  font-style: italic;
+}
+
+.home-cta a {
+  padding: 0.7rem;
+}
+
+.social-icons {
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  font-size: 1.05rem;
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .home-cta {
+    font-size: 0.95rem;
+  }
+
+  .social-icons a {
+    font-size: 1.55rem;
+  }
+}
+
+.btn-outline.light {
+  font-size: 0.85rem;
+}
+
+.badge-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.badge-container .badge-content {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .badge-container {
+    flex-direction: row;
+  }
+  .badge-container .badge-content {
+    margin-bottom: 0;
+  }
+}
+
+.badge {
+  padding: 0.75rem 0.95rem;
+  background-color: #a1a5e438;
+  border: 1px solid #d1d0cd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.badge span {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.badge a {
+  font-weight: 600;
+  color: rgb(55, 53, 47);
+  margin-left: 0.5rem;
+}
+
+/* might be able to remove */
+.badge__text {
+  margin-right: 0.75rem;
+  font-size: 1rem;
+}
+.badge img {
+  margin-right: 0.5rem;
+}

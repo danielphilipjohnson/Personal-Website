@@ -1,76 +1,67 @@
-.home-services {
-  background-color: #fff;
-  color: #333;
-  padding: 0rem 0 1rem 0;
-}
-
-.home-services .process {
+.process {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 1.5rem;
 }
 
-.home-services .process h3 {
+.process {
+  padding-top: 1rem;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.service__header {
   color: rgb(51, 51, 51);
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
-.home-services .process p {
+.service__text {
   font-size: 0.95rem;
-  color: #37352f;
 }
-.service {
-  display: flex;
-  margin-bottom: 1rem;
-}
-.service div {
+
+.service__container {
   padding: 0 1rem;
 }
 
-.home-services .process {
-  padding-top: 1rem;
-}
-.home-services .process .process-icon {
+.process-icon {
   background: linear-gradient(90deg, #e947ea 0%, #8f3aa1 35%, #34aeb9 100%);
   border-radius: 50%;
   margin-bottom: 0.75rem;
   padding: 1rem;
-  width: 2.95rem;
-  height: 2.95rem;
+  /* due to font awesome having a default */
+  width: 4rem !important;
+  height: 4rem !important;
   line-height: 70px;
   position: relative;
   color: #fff;
-  transition: all 1s;
 }
-.home-services .process-icon:hover {
-  background: #9b3cab;
+
+.process-icon:hover {
   background: linear-gradient(to bottom left, #0000a3, #40b1df);
-  width: 6.75rem;
-  height: 6.75rem;
-  line-height: 90px;
-}
-.home-services .process-icon:hover .process-step {
-  background: #333;
-  color: #fff;
 }
 
 @media (min-width: 800px) {
-  .home-services .process {
+  .process {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1200px) {
-  .home-services .process {
+  .process {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
+/* 
+future removal
 .section-title {
   font-size: 2rem;
   display: block;
   padding-bottom: 0.5rem;
   font-weight: 100;
   text-transform: uppercase;
-}
+} */

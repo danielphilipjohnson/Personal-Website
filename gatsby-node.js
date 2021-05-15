@@ -13,7 +13,6 @@ exports.createPages = async ({ graphql, actions }) => {
               path
               imageSrc
               type
-              description
               codepenLink
               githubLink
               projectLink
@@ -23,11 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 goals
                 lessonsLearned
                 mobileView
-                toolUsed {
-                  name
-                  src
-                  about
-                }
+                toolLogos
                 process
                 tabletView
               }
@@ -45,7 +40,7 @@ exports.createPages = async ({ graphql, actions }) => {
         // send the data
         createPage({
           path: post.path,
-          component: path.resolve(`./src/templates/work.js`),
+          component: path.resolve(`./src/templates/WorkProject/work.js`),
           context: {
             slug: post.path,
             post: post,
