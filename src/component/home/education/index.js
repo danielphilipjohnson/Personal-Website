@@ -90,7 +90,7 @@ function Education() {
 
       <h2 className="text-purple skill-heading">
         {" "}
-        <span role="img" aria-labelledby="icon of courses">
+        <span role="img" aria-label="icon of courses">
           📜
         </span>{" "}
         Courses
