@@ -17,7 +17,7 @@ function WorkExperience() {
       </div>
       <ul className="work-experience">
         <li className="job-current">
-          <h5 className="job-title">
+          <h3 className="job-title">
             React Developer{" "}
             <a
               className="text-purple"
@@ -27,7 +27,7 @@ function WorkExperience() {
             >
               @CodeCareer.io
             </a>
-          </h5>
+          </h3>
           <em className="text-highlight">
             Startup that assists junior developers finding jobs via a job board.
           </em>
@@ -142,7 +142,7 @@ function WorkExperience() {
         </li>
 
         <li className="job-current">
-          <h5 className="job-title">
+          <h3 className="job-title">
             Cleaner{" "}
             <a
               className="text-purple"
@@ -152,7 +152,7 @@ function WorkExperience() {
             >
               @City Facilities Management
             </a>
-          </h5>
+          </h3>
           <div className="job-meta">
             <span>June 2019 — Present</span>
           </div>

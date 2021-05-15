@@ -2,19 +2,28 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
 import PDF from "../../../../downloads/Daniel_Philip_Johnson_Front_End_Engineer.pdf";
-import banner from "../../../images/linkedinBanner.png";
+// import banner from "../../../images/linkedinBanner.png";
 
 function AboutCard() {
   return (
     <div className="about-info">
       <div className="profile-card">
         <div className="profile-card-head">
-          <img
+          <StaticImage
+            className="card-head-bg"
+            src="../../../images/linkedinBanner.png"
+            alt="Daniel johnson"
+            placeholder="none"
+            width={2000}
+            height={496}
+            formats={["auto", "avif", "webp", "png"]}
+          />
+          {/* <img
             className="card-head-bg"
             src={banner}
             alt="cover of daniel philip johnson"
             height="400px"
-          />
+          /> */}
         </div>
 
         <div className="container">
@@ -30,9 +39,9 @@ function AboutCard() {
           />
 
           <div className="profile-card-body">
-            <h2 className="profile-name">
+            <h1 className="profile-name">
               Daniel <span className="profile-middle-name">Philip</span> Johnson
-            </h2>
+            </h1>
 
             <div className="profile-card-body-item">
               <img

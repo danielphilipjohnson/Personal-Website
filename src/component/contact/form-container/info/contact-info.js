@@ -6,7 +6,7 @@ function ContactInfo() {
   return (
     <div className="contact">
       <p className="contact__title">Contact Information</p>
-      <div className="contact__info" id="from">
+      <div className="contact__info">
         <img
           src="https://img.icons8.com/ios/250/000000/marker.png"
           alt="my working location"
@@ -17,7 +17,7 @@ function ContactInfo() {
           Truro, Cornwall, United Kingdom
         </address>
       </div>
-      <div className="contact__info" id="phone">
+      <div className="contact__info">
         <img
           src="https://img.icons8.com/ios/250/000000/linkedin.png"
           alt="my linkedin"
@@ -27,7 +27,7 @@ function ContactInfo() {
         <span className="contact__info-item">danielphilipjohnson</span>
       </div>
 
-      <div className="contact__info" id="email">
+      <div className="contact__info">
         <img
           src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"
           alt="my email"

@@ -17,6 +17,7 @@ function Icons() {
             href="https://github.com/danielphilipjohnson"
             target="_blank"
             rel="noreferrer"
+            aria-label="github"
           >
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
@@ -24,6 +25,7 @@ function Icons() {
             href="https://twitter.com/danielp_johnson"
             target="_blank"
             rel="noreferrer"
+            aria-label="twitter"
           >
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
@@ -31,6 +33,7 @@ function Icons() {
             href="https://www.linkedin.com/in/daniel-philip-johnson/"
             target="_blank"
             rel="noreferrer"
+            aria-label="linkedin"
           >
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
@@ -38,6 +41,7 @@ function Icons() {
             href="https://codepen.io/danielphilipjohnson/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Codepen"
           >
             <FontAwesomeIcon icon={faCodepen} size="2x" />
           </a>
@@ -45,6 +49,7 @@ function Icons() {
             href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
             target="_blank"
             rel="noreferrer"
+            aria-label="StackOverflow"
           >
             <FontAwesomeIcon icon={faStackOverflow} size="2x" />
           </a>

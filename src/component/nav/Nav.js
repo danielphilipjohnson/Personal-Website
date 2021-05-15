@@ -38,11 +38,11 @@ function Nav({ location }) {
   }
 
   return (
-    <nav className="nav" role="navigation" aria-labelledby="nav1">
+    <nav className="nav">
       <div className="container nav-content">
         <ul className="nav-links">
           <li>
-            <span role="img" aria-labelledby="dark mode">
+            <span role="img" aria-label="dark mode">
               🌕
             </span>
           </li>
@@ -51,7 +51,7 @@ function Nav({ location }) {
         <ul className="nav-links">
           {allNavRoutes.map((route) => {
             return (
-              <li>
+              <li key={route.link}>
                 <Link to={route.link} className="nav-link">
                   {route.text}
                 </Link>

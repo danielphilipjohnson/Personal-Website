@@ -66,7 +66,7 @@ function Work({ location, data, pageContext }) {
             <span
               className="profile-card-image profile-emoji mb-2"
               role="img"
-              aria-labelledby="project icon"
+              aria-label="project icon"
             >
               🖥️
             </span>
@@ -75,7 +75,7 @@ function Work({ location, data, pageContext }) {
 
             <div className="project-tools">
               <div className="project-tools__stats">
-                <h3 className="project-tools__header">Built with </h3>
+                <h2 className="project-tools__header">Built with </h2>
                 <Badges badges={toolLogos} />
               </div>
             </div>
@@ -85,6 +85,7 @@ function Work({ location, data, pageContext }) {
                 src="https://img.icons8.com/ios/250/000000/application-window.png"
                 alt=""
                 width="25"
+                height="25"
               />
               <a className="" href={codepenLink}>
                 To view project click here

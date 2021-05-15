@@ -35,7 +35,7 @@ function Education() {
       </div>
       <ul className="work-experience">
         <li className="job-current ">
-          <h5 className="job-title">
+          <h3 className="job-title">
             BSc Psychology{" "}
             <a
               className="text-purple"
@@ -45,7 +45,7 @@ function Education() {
             >
               @University of Plymouth
             </a>
-          </h5>
+          </h3>
 
           <ul className="job-description">
             <li className="job-description__list">
@@ -90,7 +90,7 @@ function Education() {
 
       <h2 className="text-purple skill-heading">
         {" "}
-        <span role="img" aria-labelledby="icon of courses">
+        <span role="img" aria-label="icon of courses">
           📜
         </span>{" "}
         Courses

@@ -8,7 +8,7 @@ function Tools() {
       <header>
         <h2 className="text-purple skill-heading">
           {" "}
-          <span role="img" aria-labelledby="tools">
+          <span role="img" aria-label="tools">
             🧰
           </span>{" "}
           Tools
