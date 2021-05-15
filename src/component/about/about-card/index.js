@@ -2,7 +2,6 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
 import PDF from "../../../../downloads/Daniel_Philip_Johnson_Front_End_Engineer.pdf";
-// import banner from "../../../images/linkedinBanner.png";
 
 function AboutCard() {
   return (
@@ -18,12 +17,6 @@ function AboutCard() {
             height={496}
             formats={["auto", "avif", "webp", "png"]}
           />
-          {/* <img
-            className="card-head-bg"
-            src={banner}
-            alt="cover of daniel philip johnson"
-            height="400px"
-          /> */}
         </div>
 
         <div className="container">

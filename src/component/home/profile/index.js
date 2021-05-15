@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import PDF from "../../../../downloads/Daniel_Philip_Johnson_CV.pdf";
+import PDF from "../../../../downloads/Daniel_Philip_Johnson_Front_End_Engineer.pdf";
 
 import "./profile.css";
 

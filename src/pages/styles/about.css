@@ -45,6 +45,7 @@
 .profile-card-body-item p,
 .profile-card-body-item address {
   margin-left: 0.5rem;
+  font-style: normal;
 }
 
 .profile-card-body-item:last-child {
