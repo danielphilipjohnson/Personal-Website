@@ -117,8 +117,8 @@ function Profile() {
               <span role="img" aria-label="go here">
                 👉{" "}
               </span>
-              If you want to know about me click
-              <Link to="about"> here</Link>
+              If you want to know
+              <Link to="about">about me</Link>
             </div>
           </div>
         </blockquote>
