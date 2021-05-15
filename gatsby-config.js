@@ -1,5 +1,4 @@
 const projects = require("./gatsbyConfig/projects");
-const about = require("./gatsbyConfig/siteMetadata/about");
 const education = require("./gatsbyConfig/siteMetadata/education");
 
 const plugins = require("./gatsbyConfig/plugins");
@@ -94,7 +93,6 @@ module.exports = {
     education,
     projectTypes: ["All", "Js", "Responsive", "Angular", "Material"],
     projects: projects,
-    about: about,
   },
   plugins: plugins,
 };

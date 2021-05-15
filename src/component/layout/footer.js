@@ -41,11 +41,11 @@ function Footer({ location }) {
                 </li>
 
                 <li className="footer__inner-item">
-                  <a href="https://www.danielphilipjohnson.com/">Blogs</a>
+                  <a href="https://www.danielphilipjohnson.blog/">Blogs</a>
                 </li>
-                <li className="footer__inner-item">
+                {/* <li className="footer__inner-item">
                   <Link to={`/archives/`}>Archives</Link>
-                </li>
+                </li> */}
                 <li className="footer__inner-item">
                   <Link to={`/sitemap-pages.xml`}>Sitemap</Link>
                 </li>
@@ -191,15 +191,6 @@ function Footer({ location }) {
                   #Gatsby.js
                 </a>
                 and
-                <a
-                  className="mx-1 footer__inner-list"
-                  href="https://tailwindcss.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: "#94c85a" }}
-                >
-                  #TailwindCSS
-                </a>
               </p>
               <p className="author">
                 by {"  "}
