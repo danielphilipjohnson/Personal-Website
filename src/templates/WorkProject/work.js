@@ -85,6 +85,7 @@ function Work({ location, data, pageContext }) {
                 src="https://img.icons8.com/ios/250/000000/application-window.png"
                 alt=""
                 width="25"
+                height="25"
               />
               <a className="" href={codepenLink}>
                 To view project click here
