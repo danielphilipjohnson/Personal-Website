@@ -5,13 +5,15 @@ import "./biography.css";
 function Biography() {
   return (
     <div className="bio container">
-      <h2 className="bio-name-heading-2 text-purple skill-heading">
-        Mission Statement:
-      </h2>
-      <h4 className="bio-mission-heading">
-        Mission driven react developer with a passion to create apps that allows
-        you to express your ideas.
-      </h4>
+      <header>
+        <h2 className="bio-name-heading-2 text-purple skill-heading">
+          Mission Statement:
+        </h2>
+        <h3 className="bio-mission-heading">
+          Mission driven react developer with a passion to create apps that
+          allows you to express your ideas.
+        </h3>
+      </header>
 
       <p className="bio-content">
         Enthusiastic programmer looking to expand his skills with the right

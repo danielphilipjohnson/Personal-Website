@@ -30,9 +30,9 @@ function AboutCard() {
           />
 
           <div className="profile-card-body">
-            <h2 className="profile-name">
+            <h1 className="profile-name">
               Daniel <span className="profile-middle-name">Philip</span> Johnson
-            </h2>
+            </h1>
 
             <div className="profile-card-body-item">
               <img
