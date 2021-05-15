@@ -19,7 +19,7 @@ const HomeContainer = () => {
           className="img-bg"
           src="../../images/showcase1.jpg"
           alt="showcase"
-          placeholder="none"
+          placeholder="dominantColor"
           layout="fixed"
           height={590}
           formats={["auto", "avif", "webp", "png"]}
