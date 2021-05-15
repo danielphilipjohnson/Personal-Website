@@ -18,7 +18,7 @@ function services() {
     <section id="home-services" className="home-services container">
       <h2 className="text-purple skill-heading">
         {" "}
-        <span role="img" aria-labelledby="icon of offer">
+        <span role="img" aria-label="icon of offer">
           💼
         </span>
         What I offer
