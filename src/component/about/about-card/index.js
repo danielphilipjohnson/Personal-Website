@@ -9,12 +9,21 @@ function AboutCard() {
     <div className="about-info">
       <div className="profile-card">
         <div className="profile-card-head">
-          <img
+          <StaticImage
+            className="card-head-bg"
+            src="../../../images/linkedinBanner.png"
+            alt="Daniel johnson"
+            placeholder="none"
+            width={2000}
+            height={496}
+            formats={["auto", "avif", "webp", "png"]}
+          />
+          {/* <img
             className="card-head-bg"
             src={banner}
             alt="cover of daniel philip johnson"
             height="400px"
-          />
+          /> */}
         </div>
 
         <div className="container">
