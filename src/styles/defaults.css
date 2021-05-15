@@ -66,6 +66,9 @@ a {
   color: #292929;
   text-decoration: none;
 }
+main {
+  margin-bottom: 1rem;
+}
 
 .skill-heading {
   font-weight: 600;
