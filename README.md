@@ -23,6 +23,8 @@
 
 This is a [Gatsby](https://www.gatsbyjs.org)-powered site where I detail my experience, education and show my projects. 💜
 
+[![product-screenshots][product-screenshot]][product-screenshot]
+
 ## Future Features
 
 - Update text
