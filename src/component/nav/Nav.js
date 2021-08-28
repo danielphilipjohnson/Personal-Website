@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-
 import "./nav.css";
 
 function Nav({ location }) {
@@ -38,13 +37,14 @@ function Nav({ location }) {
   }
 
   return (
-    <nav className="nav">
+    <nav className="nav dark:bg-black">
       <div className="container nav-content">
         <ul className="nav-links">
           <li>
             <span role="img" aria-label="dark mode">
               🌕
             </span>
+            
           </li>
           <DisplayHome />
         </ul>

@@ -8,6 +8,7 @@ module.exports = [
   "gatsby-plugin-offline",
   `gatsby-plugin-fontawesome-css`,
   `gatsby-transformer-remark`,
+  `gatsby-plugin-postcss`,
   {
     resolve: "gatsby-plugin-manifest",
     options: {

@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./tools.css";
 import { StaticImage } from "gatsby-plugin-image";
 
 function Tools() {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <section className="container">
       <header>
-        <h2 className="text-purple skill-heading">
+        <h2 className="text-2xl font-extrabold text-purple skill-heading">
           {" "}
           <span role="img" aria-label="tools">
             🧰
@@ -38,6 +40,28 @@ function Tools() {
             </p>
           </div>
         </div>
+
+        <div className="specialize">
+          <div className="img-container">
+            <StaticImage
+              src="../../../images/about-logos/python.png"
+              alt="i use Python"
+              placeholder="none"
+              layout="fixed"
+              width={70}
+              height={70}
+              formats={["auto", "avif", "webp", "png"]}
+            />
+          </div>
+          <div>
+            <h3 className="specialize__header">Python</h3>
+            <p className="specialize__paragraph">
+              With over 3 years experience using Python. Used for automation,
+              API's with flask, django and fastAPI.
+            </p>
+          </div>
+        </div>
+
         <div className="specialize">
           <div className="img-container">
             <StaticImage
@@ -45,8 +69,8 @@ function Tools() {
               alt="react"
               placeholder="none"
               layout="fixed"
-              width={70}
-              height={70}
+              width={80}
+              height={80}
               formats={["auto", "avif", "webp", "png"]}
             />
           </div>
@@ -55,16 +79,37 @@ function Tools() {
             <h3 className="specialize__header">React</h3>
             <p className="specialize__paragraph">
               2 years experience building various React projects from a Markdown
-              Previewer, Drum Machine and amazon clone. As well as 6 months
-              experience working as a React developer for a startup.
+              Previewer, Drum Machine and amazon clone.
             </p>
           </div>
         </div>
+
         <div className="specialize">
           <div className="img-container">
             <StaticImage
-              src="../../../images/about-logos/Redux.png"
-              alt="redux"
+              src="../../../images/about-logos/nuxt.png"
+              alt="nuxt"
+              placeholder="none"
+              layout="fixed"
+              width={90}
+              height={80}
+              formats={["auto", "avif", "webp", "png"]}
+            />
+          </div>
+          <div>
+            <h3 className="specialize__header">Nuxt</h3>
+            <p className="specialize__paragraph">
+              After changing from a react developer I jumped into vue and Nuxt
+              projects. I'm enjoying every minute of it.
+            </p>
+          </div>
+        </div>
+
+        <div className="specialize">
+          <div className="img-container">
+            <StaticImage
+              src="../../../images/about-logos/wordpress.png"
+              alt="wordpress"
               placeholder="none"
               layout="fixed"
               width={70}
@@ -72,15 +117,59 @@ function Tools() {
               formats={["auto", "avif", "webp", "png"]}
             />
           </div>
-
           <div>
-            <h3 className="specialize__header">Redux</h3>
+            <h3 className="specialize__header">Wordpress</h3>
             <p className="specialize__paragraph">
-              When using React, Redux is my go to state manager which is paired
-              with redux thunk and reselect
+              Experience building wordpress websites with custom acf
             </p>
           </div>
         </div>
+
+        <div className="specialize">
+          <div className="img-container">
+            <StaticImage
+              src="../../../images/about-logos/django-rest.png"
+              alt="django-rest"
+              placeholder="none"
+              layout="fixed"
+              width={70}
+              height={70}
+              formats={["auto", "avif", "webp", "png"]}
+            />
+          </div>
+          <div>
+            <h3 className="specialize__header">Django Rest</h3>
+            <p className="specialize__paragraph">
+              For making nice small API's, I use the django rest framework. It's
+              easy to switch out the databases.
+            </p>
+          </div>
+        </div>
+
+       
+
+        {showMore && (
+          <>
+           <div className="specialize">
+          <div className="img-container">
+            <StaticImage
+              src="../../../images/about-logos/postgres.png"
+              alt="postgres"
+              placeholder="none"
+              layout="fixed"
+              width={70}
+              height={70}
+              formats={["auto", "avif", "webp", "png"]}
+            />
+          </div>
+          <div>
+            <h3 className="specialize__header">Postgres</h3>
+            <p className="specialize__paragraph">
+              When the project requires working with database I use Postgres.
+            </p>
+          </div>
+        </div>
+
         <div className="specialize">
           <div className="img-container">
             <StaticImage
@@ -93,7 +182,6 @@ function Tools() {
               formats={["auto", "avif", "webp", "png"]}
             />
           </div>
-
           <div>
             <h3 className="specialize__header">GraphQL</h3>
             <p className="specialize__paragraph">
@@ -103,7 +191,62 @@ function Tools() {
             </p>
           </div>
         </div>
+
+        <div className="specialize">
+          <div className="img-container">
+            <StaticImage
+              src="../../../images/about-logos/docker.png"
+              alt="docker"
+              placeholder="none"
+              layout="fixed"
+              width={85}
+              height={60}
+              formats={["auto", "avif", "webp", "png"]}
+            />
+          </div>
+          <div>
+            <h3 className="specialize__header">Docker</h3>
+            <p className="specialize__paragraph">
+              Started to level up my skill in devops. To further my career and
+              support the senior developer.
+            </p>
+          </div>
+        </div>
+
+        <div className="specialize">
+          <div className="img-container">
+            <StaticImage
+              src="../../../images/about-logos/kubernetes.png"
+              alt="wordpress"
+              placeholder="none"
+              layout="fixed"
+              width={70}
+              height={70}
+              formats={["auto", "avif", "webp", "png"]}
+            />
+          </div>
+          <div>
+            <h3 className="specialize__header">Kubernetes</h3>
+            <p className="specialize__paragraph">
+              As part of leveling up my devop skills, i've deployed pods onto my
+              raspberry pi's to play with scaling.
+            </p>
+          </div>
+        </div>
+
+
+          </>
+        )}
+        
       </div>
+      {!showMore && (
+          <button
+            className="show-more text-center mb-8"
+            onClick={() => setShowMore(true)}
+          >
+            Show More
+          </button>
+        )}
     </section>
   );
 }

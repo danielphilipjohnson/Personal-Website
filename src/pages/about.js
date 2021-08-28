@@ -11,6 +11,7 @@ import QuickBio from "../component/about/quick-bio";
 import ValuesAndMissions from "../component/about/values-Missions";
 import OutsideProgramming from "../component/about/outside-programming";
 
+
 import Future from "../component/about/future";
 
 import "./styles/about.css";
@@ -22,9 +23,13 @@ const About = ({ location }) => {
 
       <div className="about top-banner">
         <AboutCard />
+        {/* <TechnologiesUsed /> */}
+        
         <Bio />
-        <TechnologiesUsed />
+        
+   
         <QuickBio />
+        
         <ValuesAndMissions />
         <OutsideProgramming />
         <Future />

@@ -14,31 +14,31 @@
   color: #fff;
 }
 
-.home-cta {
+/* .home-cta {
   text-align: center;
   font-style: italic;
 }
 
 .home-cta a {
   padding: 0.7rem;
-}
+} */
 
-.social-icons {
+/* .social-icons {
   margin-bottom: 1rem;
 }
 
 .social-icons a {
   font-size: 1.05rem;
   color: #fff;
-}
+} */
 @media screen and (min-width: 768px) {
-  .home-cta {
+  /* .home-cta {
     font-size: 0.95rem;
-  }
+  } */
 
-  .social-icons a {
+  /* .social-icons a {
     font-size: 1.55rem;
-  }
+  } */
 }
 
 .btn-outline.light {

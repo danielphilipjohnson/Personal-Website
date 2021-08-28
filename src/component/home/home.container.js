@@ -6,7 +6,7 @@ import SocialIcons from "./social-icons";
 import Profile from "./profile";
 import WorkExperience from "./work-experience";
 import Tools from "./tools";
-
+import Repo from "./repo";
 import Education from "./education";
 
 import Services from "./services";
@@ -25,7 +25,7 @@ const HomeContainer = () => {
           formats={["auto", "avif", "webp", "png"]}
         />
         <div className="relative">
-          <h1 className="lg-heading text-center">
+          <h1 className="text-4xl lg:text-5xl font-bold mb-4 text-center">
             Daniel
             <span id="secondary" className="text-secondary">
               {" "}
@@ -35,18 +35,17 @@ const HomeContainer = () => {
           </h1>
 
           <div id="icons" className="icons home-cta">
-            <h2 className="sm-heading">
-              Front End Engineer at CodeCareer.io who specialises with React |
-              Javascript | Tailwind | Bootstrap 4 | SASS
+            <h2 className="text-center sm-heading">
+               Full-Stack Engineer at Hiyield who specialises with Vue | Nuxt | Javascript | Python | Django | Tailwind | Docker | Kubernetes
             </h2>
 
             <SocialIcons />
 
-            <div className="btn-group">
-              <Link className="btn-outline light" to="/work/">
+            <div className="flex justify-center">
+              <Link className="border border-white text-white mr-4 py-2 px-3 bg-primary text-sm font-bold hover:opacity-75" to="/work/">
                 View my work
               </Link>
-              <Link className="btn-outline light" to="/contact/">
+              <Link className="border border-white text-white py-2 px-4 bg-primary-dark text-sm font-bold hover:opacity-75" to="/contact/">
                 Contact
               </Link>
             </div>
@@ -56,8 +55,9 @@ const HomeContainer = () => {
 
       <Profile />
       <WorkExperience />
-      <Tools />
+      <Repo />
       <Services />
+      <Tools />
       <Education />
     </>
   );

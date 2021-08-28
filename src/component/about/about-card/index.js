@@ -15,7 +15,7 @@ function AboutCard() {
             placeholder="none"
             width={2000}
             height={496}
-            formats={["auto", "avif", "webp", "png"]}
+            formats={["auto", "png"]}
           />
         </div>
 
@@ -47,8 +47,8 @@ function AboutCard() {
             </div>
 
             <p className="description">
-              React Developer for CodeCareer. My goal is to help others get
-              their first programming job. Lets talk: #reactjs #js #css
+              Junior Full-stack developer for hiyield. My personal goal is to help others get
+              their first programming job and work my way towards becoming a senior.
             </p>
 
             <div className="profile-card-body-item">
@@ -82,7 +82,7 @@ function AboutCard() {
               <p>daniel-philip-johnson@gmail.com</p>
             </div>
 
-            <div className="profile-card-body-item">
+            {/* <div className="profile-card-body-item">
               <img
                 src="https://img.icons8.com/ios/250/000000/business.png"
                 alt="Availability icon"
@@ -91,7 +91,7 @@ function AboutCard() {
               />
 
               <p>Availability: Available</p>
-            </div>
+            </div> */}
 
             <div className="badge bb">
               <img
