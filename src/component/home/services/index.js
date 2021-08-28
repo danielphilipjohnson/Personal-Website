@@ -16,21 +16,19 @@ import "./services.css";
 function services() {
   return (
     <section id="home-services" className="home-services container">
-      <h2 className="text-purple skill-heading">
-        {" "}
+      <h2 className="text-2xl font-extrabold text-purple skill-heading">
+        {"  "}
         <span role="img" aria-label="icon of offer">
-          💼
+       💼  {"  "} 
         </span>
-        What I offer
+        {"  "}  What I offer
       </h2>
 
       <div className="process">
         <div className="service">
-          <FontAwesomeIcon
-            icon={faPencilAlt}
-            size="4x"
-            className="process-icon"
-          />
+          <div className="text-xl">
+            <FontAwesomeIcon icon={faPencilAlt} className="text-primary" />
+          </div>
           <div className="service__container">
             <h3 className="service__header">Technical Writing</h3>
             <p className="service__text">
@@ -40,34 +38,35 @@ function services() {
           </div>
         </div>
         <div className="service">
-          <FontAwesomeIcon icon={faCode} size="4x" className="process-icon" />
+          <div className="text-xl">
+            <FontAwesomeIcon icon={faCode} className="text-primary" />
+          </div>
           <div className="service__container">
             <h3 className="service__header">Writing Code</h3>
             <p className="service__text">
               Need help adding to your a codebase or a open source project, I
-              can use Javascript, React and Angular. feel free to contact me.
+              can use Javascript, React and Nuxt. feel free to contact me.
             </p>
           </div>
         </div>
 
         <div className="service">
-          <FontAwesomeIcon icon={faBook} size="4x" className="process-icon" />
+          <div className="text-xl">
+            <FontAwesomeIcon icon={faBook} className="text-primary" />
+          </div>
           <div className="service__container">
             <h3 className="service__header">Writing books and documentation</h3>
             <p className="service__text">
-              Currently writing a book about Tailwind CSS as well as a Book
-              about using GatsbyJS. If you need someone to review your book
-              contact me.
+              Currently writing a book about Tailwind CSS and JavaScript blog content.
+            
             </p>
           </div>
         </div>
 
         <div className="service">
-          <FontAwesomeIcon
-            icon={faLaptopCode}
-            size="4x"
-            className="process-icon"
-          />
+          <div className="text-xl">
+            <FontAwesomeIcon icon={faLaptopCode} className="text-primary" />
+          </div>
           <div className="service__container">
             <h3 className="service__header">Web Applications</h3>
             <p className="service__text">
@@ -77,11 +76,9 @@ function services() {
           </div>
         </div>
         <div className="service">
-          <FontAwesomeIcon
-            icon={faObjectUngroup}
-            size="4x"
-            className="process-icon"
-          />
+          <div className="text-xl">
+            <FontAwesomeIcon icon={faObjectUngroup} className="text-primary" />
+          </div>
           <div className="service__container">
             <h3 className="service__header">Responsive Design</h3>
             <p className="service__text">
@@ -91,7 +88,9 @@ function services() {
           </div>
         </div>
         <div className="service">
-          <FontAwesomeIcon icon={faHammer} size="4x" className="process-icon" />
+          <div className="text-xl">
+            <FontAwesomeIcon icon={faHammer} className="text-primary" />
+          </div>
           <div className="service__container">
             <h3 className="service__header">Code Refactoring</h3>
             <p className="service__text">

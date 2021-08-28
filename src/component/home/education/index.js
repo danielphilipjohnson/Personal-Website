@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { StaticImage } from "gatsby-plugin-image";
+
 import { useStaticQuery, graphql } from "gatsby";
-import chooseEducationImage from "../util";
+import chooseEducationImage from "./utils";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
@@ -24,38 +26,50 @@ function Education() {
 
   return (
     <div id="education" className="container container-narrow">
-      <h2 className="text-purple skill-heading">
+      <h2 className="text-2xl font-extrabold text-purple skill-heading">
         <span role="img" aria-label="graduation">
           🎓
         </span>{" "}
         Education
       </h2>
-      <div className="job-meta">
-        <span>May 2014</span>
-      </div>
-      <ul className="work-experience">
-        <li className="job-current ">
-          <h3 className="job-title">
-            BSc Psychology{" "}
-            <a
-              className="text-purple"
-              href="https://www.plymouth.ac.uk/courses/undergraduate/bsc-psychology"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @University of Plymouth
-            </a>
-          </h3>
 
-          <ul className="job-description">
-            <li className="job-description__list">
+      <ul className="work-experience">
+        <li className="job-current">
+          <div className="flex items-center mb-3">
+            <StaticImage
+              src="../../../images/course-logos/plymouth.png"
+              alt="hiyield"
+              className="border-2 border-highlight"
+              placeholder="none"
+              layout="fixed"
+              width={72}
+              height={72}
+              formats={["auto", "avif", "webp", "png"]}
+            />
+            <header className="ml-4 leading-normal">
+              <h3 className="text-lg font-extrabold">BSc Psychology </h3>
+              <h4 className="font-bold">
+                <a
+                  className="text-purple"
+                  href="https://www.plymouth.ac.uk/courses/undergraduate/bsc-psychology"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @University of Plymouth
+                </a>
+              </h4>
+              <h5 className="font-italic">May 2014</h5>
+            </header>
+          </div>
+          <ul className="job-description mb-4">
+            <li className="mb-2">
               In this course I studied the following topics Individual
               Differences, human development, Social, Developmental, Cognition,
               and Biological Psychology. I chose the following four current
               topics:
             </li>
-            <li className="job-description__list">
-              <span className="text-highlight">
+            <li className="mb-2">
+              <span className="phrase-highlight">
                 <strong>Neurobiology and crime:</strong>
               </span>
               <p>
@@ -64,18 +78,17 @@ function Education() {
               </p>
             </li>
 
-            <li className="job-description__list">
-              <span className="text-highlight">
+            <li className="mb-2">
+              <span className="phrase-highlight">
                 <strong>Neuroscience:</strong>
               </span>
-
               <p>
                 The role of mental imagery and mental health. The embodied brain
                 and memory
               </p>
             </li>
             <li className="job-description__list">
-              <span className="text-highlight">
+              <span className="phrase-highlight">
                 <strong>Mental disorders and Pharmaceuticalogy:</strong>
               </span>
 
@@ -88,7 +101,7 @@ function Education() {
         </li>
       </ul>
 
-      <h2 className="text-purple skill-heading">
+      <h2 className="text-2xl font-extrabold text-purple skill-heading">
         {" "}
         <span role="img" aria-label="icon of courses">
           📜

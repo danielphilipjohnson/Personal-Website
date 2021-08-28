@@ -4,7 +4,6 @@ const education = require("./gatsbyConfig/siteMetadata/education");
 const plugins = require("./gatsbyConfig/plugins");
 
 module.exports = {
-,
   siteMetadata: {
     title: `Daniel Philip Johnson`,
     titleTemplate: "React Developer · %s",
@@ -13,7 +12,7 @@ module.exports = {
     image: "images/banner.png",
     twitterUsername: "@danielp_johnson",
     author: `Daniel Philip Johnson`,
-    description: `Front-End Engineer for CodeCareer who specialises in React developer, graphql, Node, express and MongoDB.`,
+    description: `Full-Stack Engineer at Hiyield who specialises with Vue | Nuxt | Javascript | Python | Django | Tailwind | Bootstrap 4 | SASS`,
     keywords:
       "Front-End Engineer, Front-End Engineer, english, UK, London, web development, reactjs, nodejs, graphql",
     twitterImage: "images/bannertagline.png",

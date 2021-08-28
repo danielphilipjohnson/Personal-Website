@@ -5,8 +5,8 @@ import "./contact-info.css";
 function ContactInfo() {
   return (
     <div className="contact">
-      <p className="contact__title">Contact Information</p>
-      <div className="contact__info">
+      <p className="text-xl mb-3 font-bold">Contact Information</p>
+      <div className="flex items-center mb-2">
         <img
           src="https://img.icons8.com/ios/250/000000/marker.png"
           alt="my working location"
@@ -17,7 +17,7 @@ function ContactInfo() {
           Truro, Cornwall, United Kingdom
         </address>
       </div>
-      <div className="contact__info">
+      <div className="flex items-center mb-2">
         <img
           src="https://img.icons8.com/ios/250/000000/linkedin.png"
           alt="my linkedin"
@@ -27,7 +27,7 @@ function ContactInfo() {
         <span className="contact__info-item">danielphilipjohnson</span>
       </div>
 
-      <div className="contact__info">
+      <div className="flex items-center">
         <img
           src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"
           alt="my email"
