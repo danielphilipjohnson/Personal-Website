@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 
 const GetBadgeLogo = (name) => {
+  
   const cleanedName = name.toLowerCase();
   const { allFile } = useStaticQuery(siteQuery);
 
@@ -19,6 +20,8 @@ const GetBadgeLogo = (name) => {
   const ImageBadges = () => {
     return allFile.nodes.map((edge) => {
       const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
+      console.log(cleanedName);
+      console.log(edge.name);
       if (edge.name === cleanedName) {
         return (
           <GatsbyImage

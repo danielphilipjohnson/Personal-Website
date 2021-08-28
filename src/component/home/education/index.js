@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
 import { useStaticQuery, graphql } from "gatsby";
-import chooseEducationImage from "./utils";
+import chooseEducationImage from "../../home/util";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
