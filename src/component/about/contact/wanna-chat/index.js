@@ -8,7 +8,7 @@ function WannaChat() {
       <h2 className="text-xl font-bold mb-2 pb-4 border-b border-grey">
         ☕ Wanna Chat?
       </h2>
-      <ul className="space-y-4 list-disc ml-8 text-sm">
+      <ul className="space-y-4 list-disc ml-8">
         <li>
           @ me on <a href="https://twitter.com/danielp_johnson">Twitter</a>{" "}
           about any of the following topics! 💬

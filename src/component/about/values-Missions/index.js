@@ -9,27 +9,15 @@ function ValuesAndMissions() {
       iconLabel={"trophy"}
       title={"My values and mission"}
     >
-      <div className="flex flex-col md:flex-row mb-8">
-        <div className="lg:w-1/4 pr-8">
-          <StaticImage
-            className="pr-4"
-            src="../../../images/about-photos/pictureofme.jpeg"
-            alt="Daniel johnson"
-            placeholder="none"
-            width={500}
-            height={500}
-            layout="fullWidth"
-            formats={["auto", "png"]}
-          />
-        </div>
-        <div className="lg:w-3/4 bio-content">
-          <p className="bio-content">
+      <div className="flex flex-col md:flex-row">
+        <section className="w-full xl:w-3/4 xl:mr-8">
+          <p className="mb-2">
             I always try to leave the world a better place than yesterday. I try
             to give advice related to programming and personal. I always try 99%
             of the time to help the best I can. If I don't know the answer. I
             will try my hardest to find the answer or find another person that
             can help you. I keep almost all my code 99.9% opensource for others
-            to look at and use on{" "}
+            to look at and use on
             <a
               className="bio-link"
               href="https://github.com/danielphilipjohnson"
@@ -56,7 +44,23 @@ function ValuesAndMissions() {
             hope we can all make educational content more accessible to those
             who desire to program can do it.{" "}
           </p>
-        </div>
+        </section>
+        <section className="w-full md:w-2/4 xl:w-1/4 pr-8">
+          <figure>
+            <StaticImage
+              className="pr-4 object-fit"
+              src="../../../images/about-photos/profile1.jpeg"
+              alt="Daniel johnson"
+              placeholder="none"
+              width={500}
+              height={560}
+              formats={["auto", "png"]}
+            />
+            <figcaption className="text-center py-2 text-xs text-gray mb-12 xl:mb-2">
+              My first day as a FullStack engineer
+            </figcaption>
+          </figure>
+        </section>
       </div>
     </Layout>
   );

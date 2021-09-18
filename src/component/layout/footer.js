@@ -23,9 +23,9 @@ function Footer({ location }) {
     <>
       <footer className="bg-gradient-to-r from-blue-700 to-purple-800 text-white w-full">
         <div className="px-8">
-          <div className="flex md:flex-row justify-between py-10 md:pt-16">
+          <div className="flex flex-col md:flex-row justify-between py-10 md:pt-16">
             <div className="md:w-1/3 order-last md:order-first">
-              <h2 className="mr-8 uppercase font-bold border-b-2 mb-4">
+              <h2 className="mr-8 uppercase font-bold border-b-2 mb-2">
                 Internal links
               </h2>
               <ul className="footer__inner-list">
@@ -42,9 +42,6 @@ function Footer({ location }) {
                   <Link to={`/work/`}>Work</Link>
                 </li>
 
-                <li className="footer__inner-item">
-                  <a href="https://www.danielphilipjohnson.blog/">Blogs</a>
-                </li>
                 {/* <li className="footer__inner-item">
                   <Link to={`/archives/`}>Archives</Link>
                 </li> */}
@@ -57,42 +54,58 @@ function Footer({ location }) {
                 ©2020-2021 Developed by Daniel Philip Johnson
               </p>
             </div>
-            <div className="md:w-1/3">
-              <h2 className="uppercase font-bold border-b-2 mb-4 mr-8">
+            <div className="md:w-1/3 mb-8">
+              <h2 className="uppercase font-bold border-b-2 mb-2 mr-8">
                 External Links
               </h2>
               <ul>
                 <li className="my-2">
-                  <Link to={`/blogs/`} className="text-white">
-                    Blogs
-                  </Link>
+                  <a
+                    href="https://danielphilipjohnson.blog/"
+                    className="text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Personal Blogs
+                  </a>
                 </li>
                 <li className="my-2">
-                  <Link to={`/categories/`} className="text-white">
+                  <a
+                    href="https://danielphilipjohnson.blog/categories/"
+                    className="text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Blog Categories
-                  </Link>
+                  </a>
                 </li>
+
                 <li className="my-2">
                   <a
-                    href="https://www.danielphilipjohnson.com/work/"
+                    href="https://www.danielphilipjohnson.me/"
                     className="text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Projects
+                    Hashnode
                   </a>
                 </li>
                 <li className="my-2">
                   <a
-                    href="https://www.danielphilipjohnson.com/contact/"
+                    href="https://dev.to/danielphilipjohnson"
                     className="text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Contact Me
+                    dev.to
                   </a>
                 </li>
+                {/* move to about me site
                 <li className="my-2" className="text-white">
                   <Link to={`/about/`} className="text-white">
                     About Me
                   </Link>
-                </li>
+                </li> */}
                 <li className="my-2">
                   <Link to={`/archives/`} className="text-white">
                     Archives
@@ -107,7 +120,7 @@ function Footer({ location }) {
             </div>
 
             <div className="flex flex-col md:w-1/3 justify-between mb-8">
-              <h2 className="uppercase font-bold border-b-2">
+              <h2 className="uppercase font-bold border-b-2 mb-2">
                 Developer links
               </h2>
               <nav className="mb-4">

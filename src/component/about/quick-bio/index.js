@@ -11,21 +11,26 @@ function QuickBio() {
       iconLabel={"trophy"}
       title={"My Developer Journey"}
     >
-      <div className="flex flex-col md:flex-row mb-8">
-        <div className="lg:w-1/4 pr-8">
-          <StaticImage
-            className="pr-4"
-            src="../../../images/about-photos/bluemeaniesfromouterspace.jpg"
-            alt="Daniel johnson"
-            placeholder="none"
-            layout="constrained"
-            width={500}
-            height={500}
-            formats={["auto", "png"]}
-          />
+      <section className="flex flex-col md:flex-row mb-8">
+        <div className="w-full md:w-3/12 lg:w-1/4 pr-8">
+          <figure>
+            <StaticImage
+              className="pr-4 object-fit"
+              src="../../../images/about-photos/child.jpg"
+              alt="Daniel johnson at 4 years old playing in the garden"
+              placeholder="blurred"
+              layout="constrained"
+              width={520}
+              height={480}
+              formats={["auto", "png"]}
+            />
+            <figcaption className="text-center py-2 text-xs text-gray">
+              4 year old Daniel Johnson playing in the garden
+            </figcaption>
+          </figure>
         </div>
 
-        <p className="lg:w-3/4 bio-content">
+        <div className="w-full md:w-9/12 lg:w-3/4">
           <b>When did I discover programming:</b> Well, when I was a young
           child, my mother, in her spare time would copy code from a manual to
           make games run on the
@@ -44,22 +49,26 @@ function QuickBio() {
           >
             Blue Meanies from Outer Space
           </a>
-          . It was so exciting to see it running, however, not so for my mom.
-          She claimed all that time for a space invaders clone.
-          <div className="mb-4 flex items-center bg-badge p-3 rounded border border-grey">
+          <p className="mb-4">
+            . It was so exciting to see it running, however, not so for my mom.
+            She claimed all that time for a space invaders clone.
+          </p>
+          <div className="w-full xl:w-max xl:mb-4 flex items-center bg-badge p-3 rounded border border-grey">
             <div className="badge">
               <span role="img" aria-label="go here">
                 👉{" "}
               </span>
               If you want to know more about me:{" "}
-              <Link to="my-story">Read my full story</Link>
+              <Link className="font-bold" to="my-story">
+                Read my story
+              </Link>
             </div>
           </div>
-        </p>
-      </div>
+        </div>
+      </section>
 
       <div className="flex flex-col md:flex-row mb-8">
-        <p className="lg:w-3/4 bio-content">
+        <section className="w-full md:w-9/12 xl:w-3/4 mb-4">
           Span a few years to one year before I started college. I needed to buy
           a PC to submit my assignments. So during the summer of 2008, I worked
           so hard cleaning hotels with my mother. I now had enough money to buy
@@ -166,20 +175,24 @@ function QuickBio() {
           </a>
           to plot and analysis data. Now I found my calling with web development
           and love every moment I get using JavaScript and react.js
-        </p>
+        </section>
 
-        <div className="lg:w-1/4 lg:pl-8">
-          <StaticImage
-            className="pr-4"
-            src="../../../images/about-photos/ubuntu-9-10.jpg"
-            alt="Daniel johnson"
-            placeholder="none"
-            width={300}
-            height={300}
-            layout="fullWidth"
-            formats={["auto", "png"]}
-          />
-        </div>
+        <section className="w-full md:w-3/12 xl:w-1/4 md:pl-4 xl:pl-8">
+          <figure>
+            <StaticImage
+              className="pr-4"
+              src="../../../images/about-photos/me-in-st-ives.jpg"
+              alt="Daniel johnson"
+              placeholder="none"
+              width={600}
+              height={400}
+              formats={["auto", "png"]}
+            />
+            <figcaption className="text-center py-2 text-xs text-gray">
+              Moving to Cornwall
+            </figcaption>
+          </figure>
+        </section>
       </div>
     </Layout>
   );

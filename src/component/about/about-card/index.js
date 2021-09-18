@@ -32,12 +32,12 @@ function AboutCard() {
           />
 
           <div className="profile-card-body">
-            <h1 className="text-4xl font-bold pt-14 pb-8 mb-4 border-b border-grey">
-              Daniel <span className="profile-middle-name">Philip</span> Johnson
+            <h1 className="text-3xl md:text-4xl font-bold pt-8 pb-2 mb-3 border-b border-grey">
+              Daniel <span className="text-secondary">Philip</span> Johnson
             </h1>
             {/* make into a link to backlink it */}
-            <div className="flex justify-between">
-              <header className="mb-3">
+            <div className="grid lg:grid-cols-2 gap-4 justify-between mb-3">
+              <header>
                 <h2 className="text-2xl font-bold mb-1">
                   Full-stack developer
                 </h2>
@@ -45,17 +45,19 @@ function AboutCard() {
                   👨‍💻 I work remote 🏠 in Cornwall
                 </h3>
               </header>
-              <div className="flex items-center bg-badge h-8 p-6 rounded border border-grey">
-                <img
-                  src="https://img.icons8.com/ios/25/000000/resume.png"
-                  alt="resume icon"
-                  width="25"
-                  height="25"
-                  className="mr-2"
-                />
-                <a className="" href={PDF} download>
-                  Version PDF
-                </a>
+              <div className="w-full flex lg:justify-end mb-3">
+                <div className="w-max flex items-center bg-badge h-8 px-3 py-4 rounded border border-grey">
+                  <img
+                    src="https://img.icons8.com/ios/20/000000/resume.png"
+                    alt="resume icon"
+                    width="20"
+                    height="20"
+                    className="mr-2"
+                  />
+                  <a className="text-sm" href={PDF} download>
+                    Version PDF
+                  </a>
+                </div>
               </div>
             </div>
 
