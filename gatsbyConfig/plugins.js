@@ -1,7 +1,7 @@
 module.exports = [
-  {
-    resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
-  },
+  // {
+  //   resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+  // },
   "gatsby-plugin-image",
   "gatsby-plugin-sharp",
   "gatsby-plugin-react-helmet",

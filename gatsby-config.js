@@ -7,16 +7,16 @@ module.exports = {
   siteMetadata: {
     title: `Daniel Philip Johnson`,
     titleTemplate: "React Developer · %s",
-    url: "http://danielphilipjohnson.me/",
-    siteUrl: `https://danielphilipjohnson.com/`,
-    image: "images/banner.png",
+    url: "http://danielphilipjohnson.com",
+    siteUrl: `https://danielphilipjohnson.com`,
+    image: "/images/linkedinBanner.png",
     twitterUsername: "@danielp_johnson",
     author: `Daniel Philip Johnson`,
     description: `Full-Stack Engineer at Hiyield who specialises with Vue | Nuxt | Javascript | Python | Django | Tailwind | Bootstrap 4 | SASS`,
-    keywords:
-      "Front-End Engineer, Front-End Engineer, english, UK, London, web development, reactjs, nodejs, graphql",
-    twitterImage: "images/bannertagline.png",
-    facebookImage: "images/banner.png",
+    defaultKeywords:
+      "Full-Stack Engineer, Full-Stack  Engineer, english, UK, Cornwall, London, web development, vue, nuxt, next, reactjs, nodejs, graphql",
+    twitterImage: "/images/linkedinBanner.png",
+    facebookImage: "/images/linkedinBanner.png",
     profileImage:
       "https://pbs.twprojectTypesimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png",
     tagline: `Front End Engineer at CodeCareer.io who specialises with React |

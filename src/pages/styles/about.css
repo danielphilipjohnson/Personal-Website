@@ -9,13 +9,6 @@
   color: rgb(79, 79, 79);
   line-height: 1.58;
   letter-spacing: -0.028px;
-  font-size: 1.05rem;
-}
-
-@media (min-width: 768px) {
-  .bio {
-    font-size: 1.05rem;
-  }
 }
 
 .profile-card-image {

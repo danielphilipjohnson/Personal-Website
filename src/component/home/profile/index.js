@@ -29,8 +29,8 @@ function Profile() {
             in Cornwall
           </p>
         </div>
-        <div className="badge m-2">
-          <span role="img" aria-label="my resume">
+        <div className="w-max bg-badge rounded px-3 py-3 mt-4">
+          <span className="mr-2" role="img" aria-label="my resume">
             📝
           </span>
           <a href={PDF} download>

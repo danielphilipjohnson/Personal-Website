@@ -8,14 +8,14 @@ export default function Layout({
   children,
 }) {
   return (
-    <section className="bio container" aria-label={sectionLabel}>
-      <h2 className="bio-section-header">
+    <article className="container" aria-label={sectionLabel}>
+      <h2 className="text-2xl font-bold mb-4 pb-4 border-b border-grey">
         <span role="img" aria-label={iconLabel}>
           {icon}
         </span>{" "}
         {title}
       </h2>
       <div>{children}</div>
-    </section>
+    </article>
   );
 }

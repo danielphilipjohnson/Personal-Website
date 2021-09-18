@@ -32,12 +32,7 @@
 .text-secondary {
   color: #94c85a;
 }
-.flex {
-  display: flex;
-}
-.flex-col {
-  flex-direction: column;
-}
+
 .row {
   display: flex;
   flex-direction: row;
