@@ -4,12 +4,6 @@ import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faStackOverflow,
-  faDev,
-  faHackerrank,
-  faCodepen,
-  faFreeCodeCamp,
-  faGithub,
   faLinkedin,
   faTwitter,
   faYoutube,

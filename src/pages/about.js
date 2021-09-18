@@ -16,9 +16,14 @@ import FormalEducation from "../component/about/formal-education";
 import "./styles/about.css";
 
 const About = ({ location }) => {
+  const description =
+    "My name is Daniel Philip Johnson. I'm a FullStack Developer who loves Vue, Nuxt and Tailwind. My current goal is to become a senior Engineer";
+  const title = "About me: Daniel Philip Johnson";
+  const keywords =
+    "Full-Stack Engineer, Full-Stack  Engineer, english, UK, Cornwall, London, web development, vue, nuxt, next, reactjs, nodejs, graphql";
   return (
     <Layout location={location.pathname}>
-      <Seo />
+      <Seo description={description} title={title} keywords={keywords} />
       <div className="about top-banner">
         <AboutCard />
         {/* <TechnologiesUsed /> */}
