@@ -11,6 +11,8 @@ function ProjectCard({ project }) {
 
   const ProjectImage = () => {
     return allFile.nodes.map((edge) => {
+      console.log(edge.name);
+      console.log(imageSrc);
       if (edge.name === imageSrc) {
         const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
         return (
