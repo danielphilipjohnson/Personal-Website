@@ -1,23 +1,22 @@
 const projects = require("./gatsbyConfig/projects");
-const about = require("./gatsbyConfig/siteMetadata/about");
 const education = require("./gatsbyConfig/siteMetadata/education");
 
 const plugins = require("./gatsbyConfig/plugins");
 
 module.exports = {
-  // flags: { PRESERVE_WEBPACK_CACHE: true, FAST_REFRESH: true },
   siteMetadata: {
     title: `Daniel Philip Johnson`,
     titleTemplate: "React Developer · %s",
-    url: "http://danielphilipjohnson.me/",
-    image: "images/banner.png",
+    url: "http://danielphilipjohnson.com",
+    siteUrl: `https://danielphilipjohnson.com`,
+    image: "/images/linkedinBanner.png",
     twitterUsername: "@danielp_johnson",
     author: `Daniel Philip Johnson`,
-    description: `Front-End Engineer for CodeCareer who specialises in React developer, graphql, Node, express and MongoDB.`,
-    keywords:
-      "Front-End Engineer, Front-End Engineer, english, UK, London, web development, reactjs, nodejs, graphql",
-    twitterImage: "images/bannertagline.png",
-    facebookImage: "images/banner.png",
+    description: `Full-Stack Engineer at Hiyield who specialises with Vue | Nuxt | Javascript | Python | Django | Tailwind | Bootstrap 4 | SASS`,
+    defaultKeywords:
+      "Full-Stack Engineer, Full-Stack  Engineer, english, UK, Cornwall, London, web development, vue, nuxt, next, reactjs, nodejs, graphql",
+    twitterImage: "/images/linkedinBanner.png",
+    facebookImage: "/images/linkedinBanner.png",
     profileImage:
       "https://pbs.twprojectTypesimg.com/profile_images/1339602638111830020/k0dGL2Ye_400x400.png",
     tagline: `Front End Engineer at CodeCareer.io who specialises with React |
@@ -50,23 +49,6 @@ module.exports = {
         this for almost a year.`,
       },
     ],
-    biography: {
-      statement: `Mission driven react developer with a passion to create apps that
-      allows you to express your ideas.`,
-      missionStatement: ` Enthusiastic programmer looking to expand his skills with the right
-      front-end react developer position. I have a Theoretical knowledge of
-      the fundamentals HTML, CSS and JS. I specialise in react development,
-      graphql, redux, redux thunk and reselect. I'm seeking to further
-      develop my front end skills and be part of a team that can accelerate
-      my development.`,
-      subStatement: `I started with web development during my years at univeristy. I made
-      websites and 2D games as a hobby. In my 3rd year I was responsible for
-      creating programs for neuroscience lab projects. Recently I started to
-      pursue web development as a career because it is something I enjoy. I
-      enrolled with coursera and completed courses, im currently updating my
-      freecodecamp projects and improving my skills with Udemy courses.`,
-      focuses: ["Accessibility", `React`, `Performance`, `Responsibility`],
-    },
     socials: [
       {
         link: "https://github.com/danielphilipjohnson",
@@ -107,7 +89,6 @@ module.exports = {
     education,
     projectTypes: ["All", "Js", "Responsive", "Angular", "Material"],
     projects: projects,
-    about: about,
   },
   plugins: plugins,
 };

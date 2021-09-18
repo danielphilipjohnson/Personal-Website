@@ -52,14 +52,15 @@
 }
 .btn-outline {
   padding: 0.75rem 0.95rem;
-  background-color: #a1a5e438;
+  background-color: #383d61;
 
   transition: all 0.5s ease-out;
 }
 .btn-outline.btn-projects {
   border: 1px solid #d1d0cd;
   border-radius: 5px;
-  /* min-width: 150px; */
+  background-color: #a1a5e438;
+
   display: flex;
   justify-content: space-between;
 
@@ -81,7 +82,12 @@
 }
 
 .btn-outline:hover {
-  background-color: #a1a5e4e7;
+  background-color: #7f84cce7;
+}
+
+.btn-projects:hover {
+  background-color: #5056a7e7;
+  color: #fff;
 }
 .btn-outline p {
   margin-left: 0.75rem;
@@ -90,6 +96,10 @@
 .btn-outline.active {
   background-color: #a1a5e4e7;
   color: #000;
+}
+.btn-projects.active {
+  background-color: #5056a7e7;
+  color: #fff;
 }
 
 .btn-outline.light {

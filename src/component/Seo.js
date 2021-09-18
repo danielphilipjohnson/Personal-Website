@@ -4,11 +4,13 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, title, image, article }) {
+function SEO({ description, lang, keywords, meta, title, image, article }) {
   const { pathname } = useLocation();
+  console.log(pathname);
   const { site } = useStaticQuery(query);
   const {
     defaultTitle,
+    defaultKeywords,
     titleTemplate,
     defaultDescription,
     siteUrl,
@@ -18,6 +20,7 @@ function SEO({ description, lang, meta, title, image, article }) {
 
   const seo = {
     title: title || defaultTitle,
+    keywords: keywords || defaultKeywords,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
@@ -34,6 +37,10 @@ function SEO({ description, lang, meta, title, image, article }) {
         {
           name: `description`,
           content: seo.description,
+        },
+        {
+          name: "keywords",
+          content: seo.keywords,
         },
         {
           name: "image",
@@ -114,7 +121,7 @@ const query = graphql`
         defaultDescription: description
         facebookImage
         defaultImage: image
-        keywords
+        defaultKeywords
         profileImage
         titleTemplate
         defaultTitle: title

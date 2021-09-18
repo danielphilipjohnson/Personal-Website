@@ -1,130 +1,169 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
-import PDF from "../../../../downloads/Daniel_Philip_Johnson_CV.pdf";
+import PDF from "../../../../downloads/Daniel_Philip_Johnson_Front_End_Engineer.pdf";
 
 import "./profile.css";
 
 function Profile() {
+  const [showMore, setShowMore] = useState(false);
+
   return (
-    <section className="profile">
-      <div className="container">
-        <h2 className="text-purple skill-heading">
-          <span role="img" aria-label="Daniel Johnson">
-            🙋‍♂️
-          </span>{" "}
-          About me
-        </h2>
-        <div className="banner mb-4">
-          <div className="left">
-            <span className="heading-2">
-              Hi{" "}
-              <span role="img" aria-label="happy to meet you">
-                👋{" "}
-              </span>
-              I am Daniel✨
+    <section className="container mb-8">
+      <div className="py-8 border-b border-highlight badge-container mb-4">
+        <div className="badge-content">
+          <span className="text-3xl">
+            Hi{" "}
+            <span role="img" aria-label="happy to meet you">
+              👋{" "}
             </span>
-            <p>
-              <span role="img" aria-label="As a front end engineer">
-                👨‍💻{" "}
-              </span>
-              I work remote{" "}
-              <span role="img" aria-label="from my house">
-                🏠
-              </span>{" "}
-              in Cornwall
-            </p>
-          </div>
-          <div className="right">
-            <span role="img" aria-label="my resume">
-              📝
+            I am Daniel✨
+          </span>
+          <p className="pt-2 text-xl">
+            <span role="img" aria-label="As a front end engineer">
+              👨‍💻{" "}
             </span>
-            <a href={PDF} download>
-              Resume PDF
-            </a>
-          </div>
+            I work remote{" "}
+            <span role="img" aria-label="from my house">
+              🏠
+            </span>{" "}
+            in Cornwall
+          </p>
         </div>
+        <div className="w-max bg-badge rounded px-3 py-3 mt-4">
+          <span className="mr-2" role="img" aria-label="my resume">
+            📝
+          </span>
+          <a href={PDF} download>
+            Resume PDF
+          </a>
+        </div>
+      </div>
 
-        <div className="profile-text">
-          <blockquote>
-            <p>
-              I am a
-              <span className="text-highlight">
-                <strong>Front-End Engineer</strong>
-              </span>
-              with more than
-              <span className="text-highlight">
-                <strong>2+ years experience</strong>
-              </span>
-              building responsive and accessible web-applications and 6 months
-              experience in the startup world working remotely with
-              <a href="https://codecareer.teachable.com/">
-                <span className="text-highlight">
-                  <strong>codecareer.io</strong>
-                </span>
-              </a>
-              .
-            </p>
+      <div>
+        <blockquote>
+          <p className="leading-loose mb-2">
+            I am a
+            <span className="phrase-highlight">
+              <strong>Full-Stack Engineer</strong>
+            </span>
+            with more than
+            <span className="phrase-highlight">
+              <strong>2+ years</strong>
+            </span>
+            of coding experience who is embarking on a journey to become a
+            <span className="phrase-highlight">
+              <strong>senior engineer</strong>
+            </span>
+            with
+            <span className="phrase-highlight">
+              <strong>hiyield</strong>
+            </span>
+            . I am in my second developer role rocking the
+            <span className="phrase-highlight">
+              <strong>startup</strong>
+            </span>
+            scene and continue to enjoy building
+            <span className="phrase-highlight">
+              <strong>rapid greenfield projects</strong>
+            </span>
+            to help clients get their vision to market first.
+          </p>
 
-            <p>
-              I primarly build front end views with the{" "}
-              <span className="text-highlight">
-                <strong>React</strong>
-              </span>{" "}
-              framework and use both{" "}
-              <span className="text-highlight">
-                <strong>Next.js</strong>
-              </span>{" "}
-              and
-              <span className="text-highlight">
-                <strong>Gatsby</strong>
-              </span>
-              . For styling I use
-              <span className="text-highlight">
-                <strong>TailwindCSS</strong>
-              </span>
-              , vanilla
-              <span className="text-highlight">
-                <strong>CSS</strong>
-              </span>{" "}
-              and on occassion
-              <span className="text-highlight">
-                <strong>Sass</strong>
-              </span>
-              for legacy projects. I dabble with some backend issues such as
-              MongoDB and mongoose schemas.
-            </p>
-            <p>
-              My responsibilities, include{" "}
-              <span className="text-highlight">
-                <strong>maintaining</strong>
-              </span>{" "}
-              a job board hiring system for junior developers. Currently, I am{" "}
-              <span className="text-highlight">
-                <strong>refactoring</strong>
-              </span>{" "}
-              the codebase and{" "}
-              <span className="text-highlight">
-                <strong>optimizing</strong>
-              </span>{" "}
-              load times.
-            </p>
-            <p>
-              In my spare time, I am writing a TailwindCSS for a publisher as
-              well as writing a about using Gatsby.js. I also contribute to open
-              source projects. and I am about to start a blog series and data
-              structures.
-            </p>
-            <div className="banner">
-              <div className="right">
-                <span role="img" aria-label="go here">
-                  👉{" "}
+          {showMore && (
+            <>
+              <p className="leading-loose mb-4">
+                As a
+                <span className="phrase-highlight">
+                  <strong>Full-Stack Engineer</strong>
                 </span>
-                If you want to know about me click
-                <Link to="about"> here</Link>
+                I get to use a lot of languages ranging from
+                <span className="phrase-highlight">
+                  <strong>Python</strong>
+                </span>
+                ,
+                <span className="phrase-highlight">
+                  <strong>Django</strong>
+                </span>
+                ,
+                <span className="phrase-highlight">
+                  <strong>JavaScript</strong>
+                </span>
+                and
+                <span className="phrase-highlight">
+                  <strong>Typescript</strong>
+                </span>
+                . I have worked on projects that have used ASP.net ,
+                django-rest,
+                <span className="phrase-highlight">
+                  <strong>express</strong>
+                </span>
+                and
+                <span className="phrase-highlight">
+                  <strong>WordPress</strong>
+                </span>
+                . I have created front end applications with
+                <span className="phrase-highlight">
+                  <strong>React</strong>
+                </span>
+                ,Next, gatsby ,
+                <span className="phrase-highlight">
+                  <strong>vue</strong>
+                </span>
+                and
+                <span className="phrase-highlight">
+                  <strong>nuxt</strong>
+                </span>
+                and for styling I use
+                <span className="phrase-highlight">
+                  <strong>Tailwind</strong>
+                </span>
+                and
+                <span className="phrase-highlight">
+                  <strong>Bootstrap</strong>
+                </span>
+                . I have experience with various state management
+                <span className="phrase-highlight">
+                  <strong>Vuex</strong>
+                </span>
+                , redux, redux-thunks, select, sagas and
+                <span className="phrase-highlight">
+                  <strong>GraphQL</strong>
+                </span>
+                . For creating websites with content management systems I use
+                WordPress (PHP) and
+                <span className="phrase-highlight">
+                  <strong>Prismic</strong>
+                </span>
+                .
+              </p>
+
+              <p className="leading-loose mb-4">
+                In my spare time, I am building some libraries for vue.js and
+                improving my next skills. I’m planning on releasing YouTube
+              </p>
+
+              <div className="badge-container">
+                <div className="badge">
+                  <span role="img" aria-label="go here">
+                    👉{" "}
+                  </span>
+                  If you want to know
+                  <Link to="about">about me</Link>
+                </div>
               </div>
-            </div>
-          </blockquote>
-        </div>
+            </>
+          )}
+        </blockquote>
+        {!showMore && (
+          <div className="flex justify-end w-full">
+            <button
+              className="border py-1 px-3 bg-highlight text-sm font-bold"
+              onClick={() => setShowMore(true)}
+            >
+              Read More
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

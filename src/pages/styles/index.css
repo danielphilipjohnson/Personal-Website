@@ -1,0 +1,46 @@
+.img-bg {
+  filter: brightness(0.35);
+  object-fit: cover;
+  width: 100% !important;
+}
+
+.home {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* .home-cta {
+  text-align: center;
+  font-style: italic;
+}
+
+.home-cta a {
+  padding: 0.7rem;
+} */
+
+/* .social-icons {
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  font-size: 1.05rem;
+  color: #fff;
+} */
+@media screen and (min-width: 768px) {
+  /* .home-cta {
+    font-size: 0.95rem;
+  } */
+
+  /* .social-icons a {
+    font-size: 1.55rem;
+  } */
+}
+
+.btn-outline.light {
+  font-size: 0.85rem;
+}

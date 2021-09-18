@@ -1,57 +1,56 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+# My personal Site - danielphilipjohnson.com
+
+# [![Daniel Philip Johnson header](https://raw.githubusercontent.com/danielphilipjohnson/danielphilipjohnson/master/banner/banner.png)](https://danielphilipjohnson.github.io/)
+
+<p align='center'>
+<a class="header-badge" target="_blank" href="https://twitter.com/danielp_johnson">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/danielp_johnson?style=social">
+  </a>
+  
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/daniel-philip-johnson/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9acbbaa5-0a95-41ed-b851-5d58939ca39c/deploy-status)](https://app.netlify.com/sites/happy-swirles-7479bb/deploys)
 
-refactor: pages folder should have a folder called styling
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
+This is a [Gatsby](https://www.gatsbyjs.org)-powered site where I detail my experience, education and show my projects. 💜
 
+[![product-screenshots][product-screenshot]][product-screenshot]
 
+## Future Features
 
-## todo
-resolves image issues and speed up with https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-image/
+- Update text
+- Read more for education
+- Update homepage tools
+- project icons update
+- add blog cards to homepage
+- add github card for homepage
+- Dark Mode
 
-## 🚀 Quick start
+## Contact
 
-1.  **Create a Gatsby site.**
+Daniel Philip Johnson - [@danielp_johnson](https://twitter.com/danielp_johnson) - daniel-philip-johnson@outlook.com
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Project Link: [https://github.com/danielphilipjohnson/Personal-Website](https://github.com/danielphilipjohnson/Personal-Website)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+[contributors-shield]: https://img.shields.io/github/contributors/danielphilipjohnson/Personal-Website.svg?style=for-the-badge
+[contributors-url]: https://github.com/danielphilipjohnson/Personal-Website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/danielphilipjohnson/Front-End-Development-Path.svg?style=for-the-badge
+[forks-url]: https://github.com/danielphilipjohnson/Personal-Website/network/members
+[stars-shield]: https://img.shields.io/github/stars/danielphilipjohnson/Personal-Website.svg?style=for-the-badge
+[stars-url]: https://github.com/danielphilipjohnson/Personal-Website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/danielphilipjohnson/Personal-Website.svg?style=for-the-badge
+[issues-url]: https://github.com/danielphilipjohnson/Personal-Website/issues
+[license-shield]: https://img.shields.io/github/license/danielphilipjohnson/Personal-Website.svg?style=for-the-badge
+[license-url]: https://github.com/danielphilipjohnson/Personal-Website/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/danielphilipjohnson
+[product-screenshot]: images/screenshot.png
