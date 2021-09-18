@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     title: `Daniel Philip Johnson`,
     titleTemplate: "React Developer · %s",
-    url: "http://danielphilipjohnson.me/",
+    url: "http://danielphilipjohnson.com/",
     siteUrl: `https://danielphilipjohnson.com/`,
     image: "images/banner.png",
     twitterUsername: "@danielp_johnson",

@@ -25,7 +25,7 @@ function Education() {
   };
 
   return (
-    <div id="education" className="container container-narrow">
+    <div id="education" className="container container-narrow mb-16">
       <h2 className="text-2xl font-extrabold text-purple skill-heading">
         <span role="img" aria-label="graduation">
           🎓

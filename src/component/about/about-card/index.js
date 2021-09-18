@@ -32,77 +32,56 @@ function AboutCard() {
           />
 
           <div className="profile-card-body">
-            <h1 className="profile-name">
+            <h1 className="text-4xl font-bold pt-14 pb-8 mb-4 border-b border-grey">
               Daniel <span className="profile-middle-name">Philip</span> Johnson
             </h1>
-
-            <div className="profile-card-body-item">
-              <img
-                src="https://img.icons8.com/ios/250/000000/twitter.png"
-                alt="twitter icon"
-                width="25"
-                height="25"
-              />
-              <p>@danielp_johnson</p>
+            {/* make into a link to backlink it */}
+            <div className="flex justify-between">
+              <header className="mb-3">
+                <h2 className="text-2xl font-bold mb-1">
+                  Full-stack developer
+                </h2>
+                <h3 className="text-sm text-light-gray">
+                  👨‍💻 I work remote 🏠 in Cornwall
+                </h3>
+              </header>
+              <div className="flex items-center bg-badge h-8 p-6 rounded border border-grey">
+                <img
+                  src="https://img.icons8.com/ios/25/000000/resume.png"
+                  alt="resume icon"
+                  width="25"
+                  height="25"
+                  className="mr-2"
+                />
+                <a className="" href={PDF} download>
+                  Version PDF
+                </a>
+              </div>
             </div>
 
-            <p className="description">
-              Junior Full-stack developer for hiyield. My personal goal is to help others get
-              their first programming job and work my way towards becoming a senior.
+            <p className="mb-4">
+              My personal goal is to help others get their first programming job
+              and work my way towards becoming a senior.
             </p>
-
-            <div className="profile-card-body-item">
-              <img
-                src="https://img.icons8.com/ios/250/000000/marker.png"
-                alt="marker icon"
-                width="25"
-                height="25"
-              />
-              <address>Cornwall, United Kingdom</address>
-            </div>
-
-            <div className="profile-card-body-item">
-              <img
-                src="https://img.icons8.com/ios/250/000000/linkedin.png"
-                alt="linkedin icon"
-                width="25"
-                height="25"
-              />
-
-              <p>danielphilipjohnson</p>
-            </div>
-
-            <div className="profile-card-body-item">
-              <img
-                src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"
-                alt="mail icon"
-                width="25"
-                height="25"
-              />
-              <p>daniel-philip-johnson@gmail.com</p>
-            </div>
-
-            {/* <div className="profile-card-body-item">
-              <img
-                src="https://img.icons8.com/ios/250/000000/business.png"
-                alt="Availability icon"
-                width="25"
-                height="25"
-              />
-
-              <p>Availability: Available</p>
-            </div> */}
-
-            <div className="badge bb">
-              <img
-                src="https://img.icons8.com/ios/250/000000/resume.png"
-                alt="resume icon"
-                width="25"
-                height="25"
-              />
-              <a className="bio-link" href={PDF} download>
-                Version PDF
-              </a>
+            <ul className="space-y-3 list-disc ml-8 mb-8">
+              <li>😄 Pronouns: Him, he, they</li>
+              <li> 📌 Cornwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿</li>
+              <li> 🎓 Bsc Psychology | University of Plymouth 🏫 </li>
+              <li>🥼 Psychologist turned React developer 🖥️</li>
+              <li>🖥️ I’m currently using Kubuntu 20.04 and Manjaro 20.0.3</li>
+              <li>🔭 In my spare time I build linux from scratch</li>
+            </ul>
+            <div className="mb-8 flex items-center bg-badge p-6 rounded border border-grey">
+              <p className="text-sm leading-7">
+                ⚡ <span className="font-bold">Fun fact:</span> I started
+                programming with Basic on Commodore 64 (CBM 64) but never owned
+                a pc until Windows Vista in 2008 😑. My desktop 🖥️ was Packard
+                Bell iMedia x2414 with an enormous amount of Ram totalling 2GB.
+                It did not take too long for me to consider my options and use
+                Ubuntu 9.04 (Jaunty Jackalope). From, there I have used Linux
+                ever since and yes, I use KDE for my GUI "you know what they say
+                old habits die hard."
+              </p>
             </div>
           </div>
         </div>

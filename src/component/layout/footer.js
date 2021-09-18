@@ -21,11 +21,13 @@ import "./footer.css";
 function Footer({ location }) {
   return (
     <>
-      <footer className="footer bg-gradient-to-r">
-        <div className="container">
-          <div className="footer__inner">
-            <div className="footer__box">
-              <h2 className="footer__inner-title">Internal links</h2>
+      <footer className="bg-gradient-to-r from-blue-700 to-purple-800 text-white w-full">
+        <div className="px-8">
+          <div className="flex md:flex-row justify-between py-10 md:pt-16">
+            <div className="md:w-1/3 order-last md:order-first">
+              <h2 className="mr-8 uppercase font-bold border-b-2 mb-4">
+                Internal links
+              </h2>
               <ul className="footer__inner-list">
                 <li className="footer__inner-item">
                   <Link to={`/`}>Home</Link>
@@ -50,75 +52,69 @@ function Footer({ location }) {
                   <Link to={`/sitemap-pages.xml`}>Sitemap</Link>
                 </li>
               </ul>
+
               <p className="mt-4">
                 ©2020-2021 Developed by Daniel Philip Johnson
               </p>
             </div>
-            <div className="footer__box">
-              <h2 className="footer__inner-title">Social links</h2>
-              <ul className="flex footer__inner-list">
-                <li className="footer__social-item">
+            <div className="md:w-1/3">
+              <h2 className="uppercase font-bold border-b-2 mb-4 mr-8">
+                External Links
+              </h2>
+              <ul>
+                <li className="my-2">
+                  <Link to={`/blogs/`} className="text-white">
+                    Blogs
+                  </Link>
+                </li>
+                <li className="my-2">
+                  <Link to={`/categories/`} className="text-white">
+                    Blog Categories
+                  </Link>
+                </li>
+                <li className="my-2">
                   <a
-                    className="footer__inner-list"
-                    href="https://www.linkedin.com/in/daniel-philip-johnson/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="linkedin"
+                    href="https://www.danielphilipjohnson.com/work/"
+                    className="text-white"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    Projects
                   </a>
                 </li>
-                <li className="footer__social-item">
+                <li className="my-2">
                   <a
-                    className="footer__inner-list"
-                    href="https://twitter.com/danielp_johnson"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="twitter"
+                    href="https://www.danielphilipjohnson.com/contact/"
+                    className="text-white"
                   >
-                    <FontAwesomeIcon icon={faTwitter} />
+                    Contact Me
                   </a>
                 </li>
-                <li className="footer__social-item">
-                  <a
-                    className="footer__inner-list"
-                    href="https://www.instagram.com/danielphilipjohnson/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="instagram"
-                  >
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </a>
+                <li className="my-2" className="text-white">
+                  <Link to={`/about/`} className="text-white">
+                    About Me
+                  </Link>
                 </li>
-                <li className="footer__social-item">
-                  <a
-                    href="https://www.youtube.com/c/DanielPhilipJohnson/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="youtube"
-                  >
-                    <FontAwesomeIcon icon={faYoutube} />
-                  </a>
+                <li className="my-2">
+                  <Link to={`/archives/`} className="text-white">
+                    Archives
+                  </Link>
                 </li>
-                <li className="footer__social-item">
-                  <a
-                    href="https://github.com/danielphilipjohnson"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="source code"
-                  >
-                    <FontAwesomeIcon icon={faCode} />
-                  </a>
+                <li className="my-2">
+                  <Link to={`/sitemap-pages.xml`} className="text-white">
+                    Sitemap
+                  </Link>
                 </li>
               </ul>
             </div>
 
-            <div className="flex flex-col footer__box">
-              <nav>
-                <h2 className="footer__inner-title">Developer links</h2>
-                <ul className="flex footer__inner-list">
-                  <li className="footer__social-item">
+            <div className="flex flex-col md:w-1/3 justify-between mb-8">
+              <h2 className="uppercase font-bold border-b-2">
+                Developer links
+              </h2>
+              <nav className="mb-4">
+                <ul className="flex">
+                  <li className="mb-2 mr-4 text-3xl">
                     <a
+                      className="text-white"
                       href="https://dev.to/danielphilipjohnson"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -127,8 +123,9 @@ function Footer({ location }) {
                       <FontAwesomeIcon icon={faDev} />
                     </a>
                   </li>
-                  <li className="footer__social-item">
+                  <li className="mb-2 mr-4 text-3xl">
                     <a
+                      className="text-white"
                       href="https://www.hackerrank.com/daniel_p_johnson"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -137,8 +134,9 @@ function Footer({ location }) {
                       <FontAwesomeIcon icon={faHackerrank} />
                     </a>
                   </li>
-                  <li className="footer__social-item">
+                  <li className="mb-2 mr-4 text-3xl">
                     <a
+                      className="text-white"
                       href="https://codepen.io/danielphilipjohnson"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -147,8 +145,9 @@ function Footer({ location }) {
                       <FontAwesomeIcon icon={faCodepen} />
                     </a>
                   </li>
-                  <li className="footer__social-item">
+                  <li className="mb-2 mr-4 text-3xl">
                     <a
+                      className="text-white"
                       href="https://stackoverflow.com/users/13921677/daniel-philip-johnson"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -157,8 +156,9 @@ function Footer({ location }) {
                       <FontAwesomeIcon icon={faStackOverflow} />
                     </a>
                   </li>
-                  <li className="footer__social-item">
+                  <li className="mb-2 mr-4 text-3xl">
                     <a
+                      className="text-white"
                       href="https://www.freecodecamp.org/daniel-philip-johnson"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -167,8 +167,9 @@ function Footer({ location }) {
                       <FontAwesomeIcon icon={faFreeCodeCamp} />
                     </a>
                   </li>
-                  <li className="footer__social-item">
+                  <li className="mb-2 mr-4 text-3xl">
                     <a
+                      className="text-white"
                       href="https://github.com/danielphilipjohnson"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -179,10 +180,72 @@ function Footer({ location }) {
                   </li>
                 </ul>
               </nav>
+              <nav className="mb-4">
+                <h2 className="uppercase font-bold border-b-2 mb-2">
+                  Social links
+                </h2>
+                <ul className="flex mb-8">
+                  <li className="mr-4 text-3xl">
+                    <a
+                      className="text-white"
+                      href="https://www.linkedin.com/in/daniel-philip-johnson/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="linkedin"
+                    >
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                  </li>
+                  <li className="mr-4 text-3xl">
+                    <a
+                      className="text-white"
+                      href="https://twitter.com/danielp_johnson"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="twitter"
+                    >
+                      <FontAwesomeIcon icon={faTwitter} />
+                    </a>
+                  </li>
+                  <li className="mr-4 text-3xl">
+                    <a
+                      className="text-white"
+                      href="https://www.instagram.com/danielphilipjohnson/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="instagram"
+                    >
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </a>
+                  </li>
+                  <li className="mr-4 text-3xl">
+                    <a
+                      className="text-white"
+                      href="https://www.youtube.com/c/DanielPhilipJohnson/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="youtube"
+                    >
+                      <FontAwesomeIcon icon={faYoutube} />
+                    </a>
+                  </li>
+                  <li className="mr-4 text-3xl">
+                    <a
+                      className="text-white"
+                      href="https://github.com/danielphilipjohnson"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="source code"
+                    >
+                      <FontAwesomeIcon icon={faCode} />
+                    </a>
+                  </li>
+                </ul>
+              </nav>
               <p>
                 Made with
                 <a
-                  className="mx-1 footer__inner-list"
+                  className="mx-1"
                   href="https://www.gatsbyjs.com/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -191,14 +254,14 @@ function Footer({ location }) {
                   #Gatsby.js
                 </a>
                 and
-              </p>
-              <p className="author">
-                by {"  "}
                 <a
-                  className="author"
-                  href="https://twitter.com/danielp_johnson"
+                  className="mx-1"
+                  href="https://tailwindcss.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#94c85a" }}
                 >
-                  Daniel Philip Johnson
+                  #TailwindCSS
                 </a>
               </p>
             </div>

@@ -10,7 +10,6 @@ body {
   color: #37352f;
   height: 100%;
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
 }
 
 h1,
@@ -40,7 +39,6 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem 1rem 0.2rem;
-  font-size: 1.05rem;
 }
 
 @media screen and (min-width: 768px) {
