@@ -22,7 +22,7 @@ function Footer({ location }) {
   return (
     <>
       <footer className="bg-gradient-to-r from-blue-700 to-purple-800 text-white w-full">
-        <div className="px-8">
+        <div className="container px-8">
           <div className="flex flex-col md:flex-row justify-between py-10 md:pt-16">
             <div className="md:w-1/3 order-last md:order-first">
               <h2 className="mr-8 uppercase font-bold border-b-2 mb-2">

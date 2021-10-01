@@ -25,7 +25,7 @@ const HomeContainer = () => {
           height={590}
           formats={["auto", "avif", "webp", "png"]}
         />
-        <div className="relative">
+        <div className="absolute">
           <h1 className="text-4xl lg:text-5xl font-bold mb-4 text-center">
             Daniel
             <span id="secondary" className="text-secondary">

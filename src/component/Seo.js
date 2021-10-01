@@ -6,7 +6,6 @@ import { useStaticQuery, graphql } from "gatsby";
 
 function SEO({ description, lang, keywords, meta, title, image, article }) {
   const { pathname } = useLocation();
-  console.log(pathname);
   const { site } = useStaticQuery(query);
   const {
     defaultTitle,

@@ -11,10 +11,9 @@ function ProjectCard({ project }) {
 
   const ProjectImage = () => {
     return allFile.nodes.map((edge) => {
-      console.log(edge.name);
-      console.log(imageSrc);
       if (edge.name === imageSrc) {
         const image = getImage(edge.childrenImageSharp[0].gatsbyImageData);
+
         return (
           <GatsbyImage
             image={image}
@@ -30,14 +29,16 @@ function ProjectCard({ project }) {
   };
 
   return (
-    <Link to={`${"/" + path}`} key={title}>
-      <div className="projects__item" key={imageSrc}>
+    <div
+      className="projects__item border-grey border rounded mb-12"
+      key={imageSrc}
+    >
+      <Link to={`${"/" + path}`} key={title}>
         <TopBar title={title} />
-
         <ProjectImage />
-        <Overlay badges={badges} />
-      </div>
-    </Link>
+      </Link>
+      <Overlay badges={badges} />
+    </div>
   );
 }
 
@@ -52,8 +53,8 @@ const siteQuery = graphql`
         name
         childrenImageSharp {
           gatsbyImageData(
-            width: 550
-            height: 270
+            width: 1280
+            height: 550
             placeholder: BLURRED
             formats: [AUTO, WEBP, AVIF]
           )

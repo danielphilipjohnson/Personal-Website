@@ -10,24 +10,20 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-const LetsConnect = ({ location }) => {
+const LetsConnect = ({ header, paragraph, url, linkText }) => {
   return (
     <section className="bio border-t border-grey" aria-label={"Lets connect"}>
       <div className="container pt-16 pb-16">
         <div className=" text-center">
-          <h1 className="text-2xl font-bold mb-2">
-            Want to learn more? Lets connect!
-          </h1>
-          <p className="text-xl mb-12">
-            I’d love to chat about new opportunities or anything design related!
-          </p>
+          <h1 className="text-2xl font-bold mb-2">{header}</h1>
+          <p className="text-xl mb-12">{paragraph}</p>
           <Link
-            to="contact"
+            to={url}
             className="bg-purple-500 font-bold text-white rounded tracking-wide
           px-24 py-4 my-12"
           >
             {" "}
-            Contact
+            {linkText}
           </Link>
 
           <div>
