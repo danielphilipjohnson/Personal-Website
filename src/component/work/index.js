@@ -1,54 +1,60 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import BtnGroup from "./btns";
+import { StaticImage } from "gatsby-plugin-image";
 
-import Projects from "./projects";
-
+import Example from "./projects/allProjects";
+import LetsConnect from "../shared/letsConnect";
 function WorkContainer() {
   const { site } = useStaticQuery(siteQuery);
-
+  const types = ["responsive", "material", "js"];
   const allProjects = site.siteMetadata.projects;
-  const [filteredProjects, setFilteredProjects] = useState([]);
-  const [activeType, setActiveType] = useState("responsive");
-
-  const getTypeOfProjects = (type) => {
-    setActiveType(type);
-    if (type === "all") {
-      setFilteredProjects(allProjects);
-    } else {
-      setFilteredProjects(
-        allProjects.filter((project) => {
-          return project.type === type;
-        })
-      );
-    }
-  };
-
-  useEffect(() => {
-    setFilteredProjects(allProjects);
-  }, [allProjects]);
 
   return (
-    <section id="work" className="container">
-      <h1 className="text-purple page-heading lg-heading">Projects</h1>
-      <div className="badge badge__text mb-1">
-        <span className="badge__text" role="img" aria-label="my resume">
-          ⚡
-        </span>
-        <span>
-          On this page you will see a list of my personal projects I have built
-          and each will explain what I have learned and what tools I used.
-        </span>
+    <section id="work">
+      <div className="image-banner">
+        <StaticImage
+          className="card-head-bg"
+          src="../../../images/hero/desktop.jpeg"
+          alt="Daniel johnson"
+          placeholder="none"
+          width={2000}
+          height={496}
+          formats={["auto", "png"]}
+        />
+
+        <div className="container project">
+          <span
+            className="profile-card-image profile-emoji mb-2"
+            role="img"
+            aria-label="project icon"
+          >
+            🖥️
+          </span>
+        </div>
+      </div>
+      <div className="container mb-8">
+        <h1 className="text-purple page-heading lg-heading border-b border-grey">
+          Projects
+        </h1>
+        <div className="mb-8 flex items-center bg-badge p-3 rounded border border-grey">
+          <p className="text-sm leading-7">
+            ⚡ <span className="font-bold"> Personal projects </span>
+            <span className="block">
+              On this page you will see a list of my personal projects I have
+              built and tools I have used.
+            </span>
+          </p>
+        </div>
+
+        <Example types={types} projects={allProjects} />
       </div>
 
-      <h2 className="text-purple skill-heading">
-        <span role="img" aria-label="Daniel Johnson">
-          🙋‍♂️
-        </span>{" "}
-        List of projects
-      </h2>
-      <BtnGroup getTypeOfProjects={getTypeOfProjects} activeType={activeType} />
-      <Projects filteredProjects={filteredProjects} />
+      <LetsConnect
+        header="Have a digital product you want built. Lets connect!"
+        paragraph="I’d love to chat about new opportunities or your product idea!"
+        url="/connect"
+        linkText="Contact"
+      />
     </section>
   );
 }

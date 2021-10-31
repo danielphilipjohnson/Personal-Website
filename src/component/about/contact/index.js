@@ -15,7 +15,7 @@ function Contact() {
           <p className="text-sm leading-7">
             <span className="mr-4"> 👉</span>
             If you want to talk with me you can contact me
-            <Link className="ml-1 text-primary font-bold" to="contact">
+            <Link className="ml-1 text-primary font-bold" to="/contact">
               here
             </Link>
           </p>
