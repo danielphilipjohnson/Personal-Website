@@ -1,18 +1,37 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 import Example from "./projects/allProjects";
 import LetsConnect from "../shared/letsConnect";
 function WorkContainer() {
   const { site } = useStaticQuery(siteQuery);
   const types = ["responsive", "material", "js"];
-
-  //angular
-  // later and react tailwind
   const allProjects = site.siteMetadata.projects;
 
   return (
     <section id="work">
+      <div className="image-banner">
+        <StaticImage
+          className="card-head-bg"
+          src="../../../images/hero/desktop.jpeg"
+          alt="Daniel johnson"
+          placeholder="none"
+          width={2000}
+          height={496}
+          formats={["auto", "png"]}
+        />
+
+        <div className="container project">
+          <span
+            className="profile-card-image profile-emoji mb-2"
+            role="img"
+            aria-label="project icon"
+          >
+            🖥️
+          </span>
+        </div>
+      </div>
       <div className="container mb-8">
         <h1 className="text-purple page-heading lg-heading border-b border-grey">
           Projects

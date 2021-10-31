@@ -5,6 +5,7 @@ function allProjects({ types, projects }) {
   const getProjectsByTypes = (allProjects, type) => {
     return allProjects.filter((project) => {
       if (project.type === type) return project;
+      return null;
     });
   };
   return (

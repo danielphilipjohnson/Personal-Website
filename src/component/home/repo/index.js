@@ -12,17 +12,23 @@ function Repo() {
         Github Repositories:
       </h2>
       <div className="">
-        <div className="flex flex-wrap md:flex-nowrap justify-between pb-4">
-          <div className="md:w-1/2 repo md:mr-4">
-            <a href="https://github.com/danielphilipjohnson/Front-End-Development-Path">
-              <div className="repo__header flex items-center">
-                <FontAwesomeIcon icon={faBook} className="text-primary mr-4" />
-                <p>Front-End-Development-Path</p>
+        <div className="grid lg:grid-cols-2 gap-4 justify-between pb-4">
+          <div className="repo max-w-md">
+            <a className="flex flex-col justify-between h-full" href="https://github.com/danielphilipjohnson/Front-End-Development-Path">
+              <div>
+                <div className="repo__header flex items-center">
+                  <FontAwesomeIcon
+                    icon={faBook}
+                    className="text-primary mr-4"
+                  />
+                  <p>Front-End-Development-Path</p>
+                </div>
+                <p className="repo__text">
+                  A portfolio of front-end franmeworks I have used. From react,
+                  angular and vue to bootstrap to tailwind.
+                </p>
               </div>
-              <p className="repo__text">
-                A portfolio of front-end franmeworks I have used. From react,
-                angular and vue to bootstrap to tailwind.
-              </p>
+
               <div className="repo__footer">
                 <FontAwesomeIcon icon={faGithub} />
                 <span>
@@ -32,8 +38,8 @@ function Repo() {
             </a>
           </div>
 
-          <div className="md:w-1/2 repo">
-            <a href="https://github.com/danielphilipjohnson/Computer-Science">
+          <div className="repo max-w-md">
+            <a className="flex flex-col justify-between h-full" href="https://github.com/danielphilipjohnson/Computer-Science">
               <div className="repo__header flex items-center">
                 <FontAwesomeIcon icon={faBook} className="text-primary mr-4" />
                 <p>Computer-Science</p>
@@ -51,9 +57,9 @@ function Repo() {
             </a>
           </div>
         </div>
-        <button className="border py-1 px-3 bg-highlight text-xs font-extrabold float-right text-right mb-4 uppercase">
+        <a className="border py-1 px-3 bg-highlight text-xs font-extrabold float-right text-right mb-4 uppercase" href="https://github.com/danielphilipjohnson/" >
           Go to github
-        </button>
+        </a>
       </div>
     </section>
   );

@@ -1,9 +1,7 @@
 import React from "react";
-import Badges from "../../../../shared/badgeLogos";
-
 import "./overlay.css";
 
-function Overlay({ badges }) {
+function Overlay() {
   return (
     <div className="overlay p-1">
       <div className="overlay__content">

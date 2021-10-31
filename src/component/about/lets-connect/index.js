@@ -15,9 +15,9 @@ const LetsConnect = ({ location }) => {
     <section className="bio border-t border-grey" aria-label={"Lets connect"}>
       <div className="container pt-16 pb-16">
         <div className=" text-center">
-          <h1 className="text-2xl font-bold mb-2">
+          <h2 className="text-2xl font-bold mb-2">
             Want to learn more? Lets connect!
-          </h1>
+          </h2>
           <p className="text-xl mb-12">
             I’d love to chat about new opportunities or anything design related!
           </p>

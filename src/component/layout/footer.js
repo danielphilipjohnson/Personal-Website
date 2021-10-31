@@ -82,7 +82,7 @@ function Footer({ location }) {
 
                 <li className="my-2">
                   <a
-                    href="https://www.danielphilipjohnson.me/"
+                    href="https://danielphilipjohnson.me/"
                     className="text-white"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -100,12 +100,6 @@ function Footer({ location }) {
                     dev.to
                   </a>
                 </li>
-                {/* move to about me site
-                <li className="my-2" className="text-white">
-                  <Link to={`/about/`} className="text-white">
-                    About Me
-                  </Link>
-                </li> */}
                 <li className="my-2">
                   <Link to={`/archives/`} className="text-white">
                     Archives

@@ -6,7 +6,7 @@ import "./contact.css";
 
 function ContactContainer() {
   return (
-    <section className="contacts">
+    <section className="contacts pb-16">
       <section className="form-card">
         <ImageContainer />
 

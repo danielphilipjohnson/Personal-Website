@@ -143,13 +143,16 @@ function Profile() {
               </p>
 
               <div className="badge-container">
-                <div className="badge">
+              <Link 
+                  to="about">
+                <div className="w-max bg-badge rounded px-3 py-3 mt-4 font-bold">
                   <span role="img" aria-label="go here">
                     👉{" "}
                   </span>
                   If you want to know
-                  <Link to="about">about me</Link>
+                   about me
                 </div>
+                </Link>
               </div>
             </>
           )}
